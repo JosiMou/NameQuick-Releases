@@ -11,7 +11,7 @@
         sparkle:shortVersionString="1.1.30"
         length="9"
         type="application/octet-stream"
-        sparkle:edSignature=""
+        sparkle:edSignature="Running in GitHub Actions, using OpenSSL method..."
       />
     </item>
   </channel>
