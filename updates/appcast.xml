@@ -1,54 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <channel>
-        <title>NameQuick Updates</title>
-        <description>Most recent changes with links to updates.</description>
-        <language>en</language>
-        <item>
-            <title>Version 1.1.28</title>
-            <description>
-                <![CDATA[
-                    <h2>New in NameQuick 1.1.28</h2>
-                    <ul>
-                        <li>Fixed Sparkle update mechanism</li>
-                        <li>Improved app stability</li>
-                        <li>Various bug fixes and performance improvements</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Sun, 16 Mar 2025 12:00:00 +0000</pubDate>
-            <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-v1.1.28.zip"
-                sparkle:version="1.1.28"
-                sparkle:shortVersionString="1.1.28"
-                length="3656333"
-                type="application/octet-stream"
-                sparkle:edSignature="5jAZ13Ghxuj80G9Sea7V02PgqCmdisA8QrfydQ+NTbKmiP/ZVVdQLwFTbE0bB2zVw+kaB1AtRQOd7G4vkZdrCQ=="
-            />
-            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-        </item>
-        <item>
-            <title>Version 1.1.25</title>
-            <description>
-                <![CDATA[
-                    <h2>New in NameQuick 1.1.25</h2>
-                    <ul>
-                        <li>Test version for Sparkle update mechanism</li>
-                        <li>Added some visual improvements</li>
-                        <li>Fixed minor bugs</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Mon, 10 Jun 2024 12:30:00 +0000</pubDate>
-            <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-v1.1.25.zip"
-                sparkle:version="1.1.25"
-                sparkle:shortVersionString="1.1.25"
-                length="3656463"
-                type="application/octet-stream"
-                sparkle:edSignature="pXPZlMWuel7u2KyYsox3oAVTUUGFlPxZuEXhrLJ4ElQhBDokcSh3f02DCQVycgP4Gns7iZPCpYkZKQg1Gbg8BQ=="
-            />
-            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-        </item>
-    </channel>
-</rss> 
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>NameQuick Updates</title>
+    <item>
+      <title>Version v1.1.29</title>
+      <description>Bug fixes and improvements.</description>
+      <enclosure
+        url="https://josiMou.github.io/NameQuick-Releases/updates/NameQuick-vv1.1.29.zip"
+        sparkle:version="v1.1.29"
+        sparkle:shortVersionString="v1.1.29"
+        length="9"
+        type="application/octet-stream"
+        sparkle:edSignature=""
+      />
+    </item>
+  </channel>
+</rss>
