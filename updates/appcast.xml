@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>NameQuick Updates</title>
-    <item>
-      <title>Version v1.1.25</title>
-      <description>Bug fixes and improvements.</description>
-      <enclosure
-        url="https://josiMou.github.io/NameQuick-Releases/updates/NameQuick.zip"
-        sparkle:version="v1.1.25"
-        sparkle:shortVersionString="v1.1.25"
-        length="9"
-        type="application/octet-stream"
-        sparkle:edSignature="VAs2MT010Lv9b3zwmUQasvBHpQ4wZcDxRoLfJ5dZTpo6wdC4o8OWoHShiCdTPmMi96hA/TALVKQtt70EJlRPAA=="
-      />
-    </item>
-  </channel>
-</rss>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>NameQuick Updates</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version v1.1.25</title>
+            <description>
+                <![CDATA[
+                    <h2>New in NameQuick v1.1.25</h2>
+                    <ul>
+                        <li>Test version for Sparkle update mechanism</li>
+                        <li>Added some visual improvements</li>
+                        <li>Fixed minor bugs</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Mon, 10 Jun 2024 12:30:00 +0000</pubDate>
+            <enclosure
+                url="https://github.com/JosiMou/NameQuick/releases/download/v1.1.25/NameQuick.zip"
+                sparkle:version="v1.1.25"
+                sparkle:shortVersionString="v1.1.25"
+                length="0"
+                type="application/octet-stream"
+                sparkle:edSignature="VAs2MT010Lv9b3zwmUQasvBHpQ4wZcDxRoLfJ5dZTpo6wdC4o8OWoHShiCdTPmMi96hA/TALVKQtt70EJlRPAA=="
+            />
+        </item>
+        <item>
+            <title>Version v1.1.24</title>
+            <description>
+                <![CDATA[
+                    <h2>New in NameQuick v1.1.24</h2>
+                    <ul>
+                        <li>Added support for automatic updates via Sparkle</li>
+                        <li>Improved performance and stability</li>
+                        <li>Fixed various bugs</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Mon, 10 Jun 2024 12:00:00 +0000</pubDate>
+            <enclosure
+                url="https://github.com/JosiMou/NameQuick/releases/download/v1.1.24/NameQuick.zip"
+                sparkle:version="v1.1.24"
+                sparkle:shortVersionString="v1.1.24"
+                length="0"
+                type="application/octet-stream"
+                sparkle:edSignature="e5000389c66a2356bcd90e80c89a9860b8171c933e5f41e07e84920f7dd32d39"
+            />
+        </item>
+    </channel>
+</rss> 
