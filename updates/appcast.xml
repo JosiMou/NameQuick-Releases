@@ -3,12 +3,12 @@
   <channel>
     <title>NameQuick Updates</title>
     <item>
-      <title>Version v1.1.29</title>
+      <title>Version 1.1.30</title>
       <description>Bug fixes and improvements.</description>
       <enclosure
-        url="https://josiMou.github.io/NameQuick-Releases/updates/NameQuick-vv1.1.29.zip"
-        sparkle:version="v1.1.29"
-        sparkle:shortVersionString="v1.1.29"
+        url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.30.zip"
+        sparkle:version="1.1.30"
+        sparkle:shortVersionString="1.1.30"
         length="9"
         type="application/octet-stream"
         sparkle:edSignature=""
