@@ -5,21 +5,21 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.1.30</title>
+            <title>Version 1.1.29</title>
             <description>
                 <![CDATA[
-                    <h2>Changes in version 1.1.30</h2>
+                    <h2>Changes in version 1.1.29</h2>
                     <ul>
                         <li>Added Sparkle integration for automatic updates</li>
                         <li>Various bug fixes and improvements</li>
                     </ul>
                 ]]>
             </description>
-            <pubDate>Sun, 16 Mar 2025 13:23:05 +0100</pubDate>
+            <pubDate>Sun, 16 Mar 2025 13:35:16 +0100</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.30.zip"
-                sparkle:version="1.1.30"
-                sparkle:shortVersionString="1.1.30"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.29.zip"
+                sparkle:version="1.1.29"
+                sparkle:shortVersionString="1.1.29"
                 length="3656333"
                 type="application/octet-stream"
                 sparkle:edSignature="UoR/o5RRedUX7mrWNgJ4eSUeGiizBdqJ9agdz68A6NHybN3BXaHKJJFe/2abS302x4WyPcypsy2gzki35mf9Ag=="
