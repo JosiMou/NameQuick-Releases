@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>NameQuick Updates</title>
-    <item>
-      <title>Version 1.1.30</title>
-      <description>Bug fixes and improvements.</description>
-      <enclosure
-        url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.30.zip"
-        sparkle:version="1.1.30"
-        sparkle:shortVersionString="1.1.30"
-        length="9"
-        type="application/octet-stream"
-        sparkle:edSignature=""
-      />
-    </item>
-  </channel>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>NameQuick Updates</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.1.30</title>
+            <description>
+                <![CDATA[
+                    <h2>Changes in version 1.1.30</h2>
+                    <ul>
+                        <li>Added Sparkle integration for automatic updates</li>
+                        <li>Various bug fixes and improvements</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Sun, 16 Mar 2025 13:23:05 +0100</pubDate>
+            <enclosure
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.30.zip"
+                sparkle:version="1.1.30"
+                sparkle:shortVersionString="1.1.30"
+                length="3656333"
+                type="application/octet-stream"
+                sparkle:edSignature="UoR/o5RRedUX7mrWNgJ4eSUeGiizBdqJ9agdz68A6NHybN3BXaHKJJFe/2abS302x4WyPcypsy2gzki35mf9Ag=="
+            />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>
+    </channel>
 </rss>
