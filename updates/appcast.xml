@@ -3,6 +3,23 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.1.13</title>
+            <pubDate>Sun, 16 Mar 2025 18:20:24 +0100</pubDate>
+            <sparkle:version>v1.1.13</sparkle:version>
+            <sparkle:shortVersionString>v1.1.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.1.13</h2>
+<ul>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.13.zip" length="3656331" type="application/octet-stream" sparkle:edSignature="yYHCKX1jK5Wxm9FVrALZ8s7U2vDDdA92tnjEbbu2yn/AoYAKOfmSz1E7D5M72LR7B6lAGIUlfiIw96IXHjxgCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuickv1.1.13-v1.1.12.delta" sparkle:deltaFrom="v1.1.12" length="1526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864640" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="tsHyfP9uaJM/rggJcMdD33ae1/vIhNPNlRF04QoLl5/RPjqZ89PjWPeH8x7ebSVW7GDwNmmbSW6vJxBhiRipCg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuickv1.1.13-v1.1.11.delta" sparkle:deltaFrom="v1.1.11" length="1526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864640" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="XmXoaHCqC1p2jfFESy9dqgK+HAXrbpCzmr7Vn0QxVdXROmUyp81kRjgP5GzU3un0uSArAZ5l221rBsaLBFnCBg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuickv1.1.13-v1.1.10.delta" sparkle:deltaFrom="v1.1.10" length="1526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864640" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="rrZLBYb2c8F10PBmW3K4K7tpnb7vCgmNB6HGODFNzdzmAKhUujtlwjaV6/P1snhZCiMlWiuqGzZTAi/bho35Aw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>v1.1.12</title>
             <pubDate>Sun, 16 Mar 2025 18:13:44 +0100</pubDate>
             <sparkle:version>v1.1.12</sparkle:version>
@@ -32,19 +49,6 @@
             <sparkle:deltas>
                 <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuickv1.1.11-v1.1.10.delta" sparkle:deltaFrom="v1.1.10" length="1522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864640" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="NjUu1zo+ycY57PziZYJ/+SIxFEhnHv58Nqkkx5cLCF2LNDDM6Uf7YEClFZPY5CEO8xcg9hn2QAo4uZNZpFR5BQ=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>v1.1.10</title>
-            <pubDate>Sun, 16 Mar 2025 17:49:52 +0100</pubDate>
-            <sparkle:version>v1.1.10</sparkle:version>
-            <sparkle:shortVersionString>v1.1.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Version 1.1.10</h2>
-<ul>
-  <li>Bug fixes and improvements</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.10.zip" length="3656296" type="application/octet-stream" sparkle:edSignature="aZrX2QEhM7oUOtJKNT1NUm6tu5flEjeb2uz7jDyRH06TJipkrQ3rus52kIN1N13Yn79CUUAzk0DlEJsNyHgPAg=="/>
         </item>
     </channel>
 </rss>
