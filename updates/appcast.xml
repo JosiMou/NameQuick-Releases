@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>NameQuick Updates</title>
+    <item>
+      <title>Version v1.1.2</title>
+      <description>Bug fixes and improvements.</description>
+      <enclosure
+        url="https://josiMou.github.io/NameQuick-Releases/updates/NameQuick.zip"
+        sparkle:version="v1.1.2"
+        sparkle:shortVersionString="v1.1.2"
+        length="3656311"
+        type="application/octet-stream"
+        sparkle:edSignature="VAs2MT010Lv9b3zwmUQasvBHpQ4wZcDxRoLfJ5dZTpo6wdC4o8OWoHShiCdTPmMi96hA/TALVKQtt70EJlRPAA=="
+      />
+    </item>
+  </channel>
+</rss>
