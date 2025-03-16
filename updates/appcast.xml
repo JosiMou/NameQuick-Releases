@@ -3,15 +3,15 @@
   <channel>
     <title>NameQuick Updates</title>
     <item>
-      <title>Version v1.1.8</title>
+      <title>Version v1.1.9</title>
       <description>Bug fixes and improvements.</description>
       <enclosure
-        url="https://josiMou.github.io/NameQuick-Releases/updates/NameQuick.zip"
-        sparkle:version="v1.1.8"
-        sparkle:shortVersionString="v1.1.8"
+        url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick.zip"
+        sparkle:version="v1.1.9"
+        sparkle:shortVersionString="v1.1.9"
         length="2611"
         type="application/octet-stream"
-        sparkle:edSignature="0FA7JWK42FZVwREEgIUfpheQSWyX++21qunJvsigeCxq/lc0wBvSOtMVuk5oZDt+LlU29gnc+N+KaPxkF+UZCw== length=2611"
+        sparkle:edSignature="vq+5clRHT1AymdfCQfJLSM00KXmqZjbMtkv4qV+ba6Lzjir0p6+4ecarLaVfweWUDSLWpw2pLvHKPWmNsYa8Ag=="
       />
     </item>
   </channel>
