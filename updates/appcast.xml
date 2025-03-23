@@ -3,6 +3,19 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.1.25</title>
+            <pubDate>Sun, 23 Mar 2025 22:43:59 +0100</pubDate>
+            <sparkle:version>v1.1.25</sparkle:version>
+            <sparkle:shortVersionString>v1.1.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.1.25</h2>
+<ul>
+<li> Added Restart modal</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.25.zip" length="3700883" type="application/octet-stream" sparkle:edSignature="3AfzBkXVBXy78RvuWLUJlt9/Uk0JVX3bSI5qbitKLlhZ6GCxBEBBTYbsAjFqRsJByzNqaiovAHtt8A2ee6HUDw=="/>
+        </item>
+        <item>
             <title>v1.1.24</title>
             <pubDate>Sun, 23 Mar 2025 22:21:03 +0100</pubDate>
             <sparkle:version>v1.1.24</sparkle:version>
@@ -25,18 +38,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.23.zip" length="3698480" type="application/octet-stream" sparkle:edSignature="swAsefOvsmqfFY/Bv/jRnQ+xCnxRBc1jBoeu5WcDbQHxc/mJODjf0dpWCfKkcfhU9sxf8gUxiiZZ+cXTmH0IAw=="/>
-        </item>
-        <item>
-            <title>v1.1.21</title>
-            <pubDate>Sun, 23 Mar 2025 21:57:17 +0100</pubDate>
-            <sparkle:version>v1.1.21</sparkle:version>
-            <sparkle:shortVersionString>v1.1.21</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Version v1.1.21</h2>
-<ul>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.21.zip" length="3696819" type="application/octet-stream" sparkle:edSignature="mX8MW9ky87LW+QB1qzozKOtgfK0p5/kqOv+LlGuvQzlxSiEeULAxHBNANirM447G11uwpe+0bAaCzsTWqC15Aw=="/>
         </item>
         <item>
             <title>v1.1.14</title>
