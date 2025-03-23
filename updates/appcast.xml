@@ -3,6 +3,18 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.1.21</title>
+            <pubDate>Sun, 23 Mar 2025 21:57:17 +0100</pubDate>
+            <sparkle:version>v1.1.21</sparkle:version>
+            <sparkle:shortVersionString>v1.1.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.1.21</h2>
+<ul>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.21.zip" length="3696819" type="application/octet-stream" sparkle:edSignature="mX8MW9ky87LW+QB1qzozKOtgfK0p5/kqOv+LlGuvQzlxSiEeULAxHBNANirM447G11uwpe+0bAaCzsTWqC15Aw=="/>
+        </item>
+        <item>
             <title>v1.1.20</title>
             <pubDate>Sun, 23 Mar 2025 21:45:01 +0100</pubDate>
             <sparkle:version>v1.1.20</sparkle:version>
@@ -25,19 +37,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.18.zip" length="3696499" type="application/octet-stream" sparkle:edSignature="2OtQZJa7UVXoqKtw2sGafsIBifkc3xfi4kOkVvY2KJYcBtCj8nxGXoiCt0/iVnBnJU++tL28FtxZ5l7GsH/GDQ=="/>
-        </item>
-        <item>
-            <title>v1.1.17</title>
-            <pubDate>Sun, 23 Mar 2025 21:02:07 +0100</pubDate>
-            <sparkle:version>v1.1.17</sparkle:version>
-            <sparkle:shortVersionString>v1.1.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Version v1.1.17</h2>
-<ul>
-<li> Fixed notifications settings crash</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.17.zip" length="3696411" type="application/octet-stream" sparkle:edSignature="EcvbFBphC8hsSMVFu+qa6I8inrR8sp6qzOU88n3b/3jMAZ8AhPrGsZzYH8ZJo7F0LDqh/bKmQw3I/C5gdButBQ=="/>
         </item>
         <item>
             <title>v1.1.14</title>
