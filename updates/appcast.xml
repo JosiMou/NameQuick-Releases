@@ -3,6 +3,18 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.1.18</title>
+            <pubDate>Sun, 23 Mar 2025 21:18:38 +0100</pubDate>
+            <sparkle:version>v1.1.18</sparkle:version>
+            <sparkle:shortVersionString>v1.1.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.1.18</h2>
+<ul>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.18.zip" length="3696499" type="application/octet-stream" sparkle:edSignature="2OtQZJa7UVXoqKtw2sGafsIBifkc3xfi4kOkVvY2KJYcBtCj8nxGXoiCt0/iVnBnJU++tL28FtxZ5l7GsH/GDQ=="/>
+        </item>
+        <item>
             <title>v1.1.17</title>
             <pubDate>Sun, 23 Mar 2025 21:02:07 +0100</pubDate>
             <sparkle:version>v1.1.17</sparkle:version>
@@ -26,18 +38,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.16.zip" length="3695403" type="application/octet-stream" sparkle:edSignature="T9E5DAuLEexK4w2xh8oG2xP+tpttUGZB26281BQ9G2vfNXoPnPXiCYtty4IUFBhzn+5Cv4MVrucNfUowaLkyBQ=="/>
-        </item>
-        <item>
-            <title>v1.1.15</title>
-            <pubDate>Mon, 17 Mar 2025 23:05:53 +0100</pubDate>
-            <sparkle:version>v1.1.15</sparkle:version>
-            <sparkle:shortVersionString>v1.1.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Version v1.1.15</h2>
-<ul>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.15.zip" length="3695539" type="application/octet-stream" sparkle:edSignature="do/139V9YCDhNjV5H1dJ08JyLoD6AcFA/QCt77MuGrPHmzUc527R/8LRi86012oZhdcx4jTRZTdQGx7dTyi0Aw=="/>
         </item>
         <item>
             <title>v1.1.14</title>
