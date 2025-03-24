@@ -3,6 +3,28 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.1.31</title>
+            <pubDate>Mon, 24 Mar 2025 21:34:39 +0100</pubDate>
+            <sparkle:version>v1.1.31</sparkle:version>
+            <sparkle:shortVersionString>v1.1.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.1.31</h2>
+<ul>
+<li> Robust tracking implemented for file rename operations, preventing duplicates.</li>
+<li> Fixed build errors due to type inference issues in FileUtilities.</li>
+<li> Enhanced temporary file handling by supporting hidden directories (.NameQuickTmp).</li>
+<li> Optimized event filtering to exclude temporary directory events.</li>
+<li> Added 15-second TTL tracking system for renames.</li>
+<li> Improved coordination between ScreenshotViewModel and WatchFolderManager.</li>
+<li> Enhanced event handling to ignore temporary files.</li>
+<li> Explicit type annotations added to queue sync operations.</li>
+<li> Fixed hidden directory handling on macOS.</li>
+<li> Improved temporary resource cleanup.</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.31.zip" length="3715845" type="application/octet-stream" sparkle:edSignature="NzqAEuC6voFn05Iy4fg56+6RkFxRmHG+UPDkeX6IyAWbURdGRzIrWEZH5A0qg8aVd48ufZxByGhFEdeNe9u6Cg=="/>
+        </item>
+        <item>
             <title>v1.1.29</title>
             <pubDate>Mon, 24 Mar 2025 10:31:00 +0100</pubDate>
             <sparkle:version>v1.1.29</sparkle:version>
@@ -25,19 +47,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.28.zip" length="3702989" type="application/octet-stream" sparkle:edSignature="BjDGXpEDFF6uh8pC2Dix0myTVZissniReH6MEYdRzZvjVxECH15l+iR/LmtZ6oVD38F8yDLdNjYeVQCeeCkzAA=="/>
-        </item>
-        <item>
-            <title>v1.1.26</title>
-            <pubDate>Sun, 23 Mar 2025 22:50:05 +0100</pubDate>
-            <sparkle:version>v1.1.26</sparkle:version>
-            <sparkle:shortVersionString>v1.1.26</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Version v1.1.26</h2>
-<ul>
-<li> Fix: Close settings before we relaunch, so that it does not block relaunch function.</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.26.zip" length="3702392" type="application/octet-stream" sparkle:edSignature="e9pAgY5M+rMA4b43slYtFt7lnlSyZ9N162S9HQy7IktLiS3HLbEqU1rBOpZCB8HANmfFZWD4HW3coVPqD/YIDA=="/>
         </item>
         <item>
             <title>v1.1.14</title>
