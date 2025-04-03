@@ -3,6 +3,18 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.1.35</title>
+            <pubDate>Thu, 03 Apr 2025 10:59:04 +0200</pubDate>
+            <sparkle:version>v1.1.35</sparkle:version>
+            <sparkle:shortVersionString>v1.1.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.1.35</h2>
+<ul>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.35.zip" length="3727440" type="application/octet-stream" sparkle:edSignature="thRxL2Sy/Pm5Am0e0JFBz8y1Fets8DEowdGh1BBPRZWtCs6g8ydMYzmmE1x0fpqXJBOlD41cEI2cCKHtF3OOCA=="/>
+        </item>
+        <item>
             <title>v1.1.33</title>
             <pubDate>Sun, 30 Mar 2025 12:22:09 +0200</pubDate>
             <sparkle:version>v1.1.33</sparkle:version>
@@ -25,28 +37,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.32.zip" length="3708310" type="application/octet-stream" sparkle:edSignature="mCIgJFIafCZOhP+W7OWWn4pXof++SvyTHdXty+lrA/tt+mbLIo3qPoS0m0VIDslFyw6gXEOo7jtBNNX+67P0Dw=="/>
-        </item>
-        <item>
-            <title>v1.1.31</title>
-            <pubDate>Mon, 24 Mar 2025 21:34:39 +0100</pubDate>
-            <sparkle:version>v1.1.31</sparkle:version>
-            <sparkle:shortVersionString>v1.1.31</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Version v1.1.31</h2>
-<ul>
-<li> Robust tracking implemented for file rename operations, preventing duplicates.</li>
-<li> Fixed build errors due to type inference issues in FileUtilities.</li>
-<li> Enhanced temporary file handling by supporting hidden directories (.NameQuickTmp).</li>
-<li> Optimized event filtering to exclude temporary directory events.</li>
-<li> Added 15-second TTL tracking system for renames.</li>
-<li> Improved coordination between ScreenshotViewModel and WatchFolderManager.</li>
-<li> Enhanced event handling to ignore temporary files.</li>
-<li> Explicit type annotations added to queue sync operations.</li>
-<li> Fixed hidden directory handling on macOS.</li>
-<li> Improved temporary resource cleanup.</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.31.zip" length="3715845" type="application/octet-stream" sparkle:edSignature="NzqAEuC6voFn05Iy4fg56+6RkFxRmHG+UPDkeX6IyAWbURdGRzIrWEZH5A0qg8aVd48ufZxByGhFEdeNe9u6Cg=="/>
         </item>
         <item>
             <title>v1.1.14</title>
