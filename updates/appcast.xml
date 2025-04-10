@@ -3,6 +3,20 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.1.39</title>
+            <pubDate>Thu, 10 Apr 2025 20:37:44 +0200</pubDate>
+            <sparkle:version>v1.1.39</sparkle:version>
+            <sparkle:shortVersionString>v1.1.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.1.39</h2>
+<ul>
+<li> 🎨 Redesigned settings UI for better usability</li>
+<li> 🛡️ Security improvements (credentials need to be re-entered)</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.39.zip" length="4001791" type="application/octet-stream" sparkle:edSignature="U78srzNrXa6xptOrBDdZJgBelMTtYcWCumpUPof4T67fB3rjp3NJy4EsNqN5gED4s0HQQ2osKfHFogUtjGZIDg=="/>
+        </item>
+        <item>
             <title>v1.1.38</title>
             <pubDate>Thu, 10 Apr 2025 20:35:11 +0200</pubDate>
             <sparkle:version>v1.1.38</sparkle:version>
@@ -40,20 +54,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.37.zip" length="3779443" type="application/octet-stream" sparkle:edSignature="tnRmgjHeTtnMOLP0nN/xGWfXH3PdaCtudMgZC4yhQtPPXvbLiQxVnUZAc2DoZfAJJgEmBrjgcL4/h9Hc8cLxBg=="/>
-        </item>
-        <item>
-            <title>v1.1.36</title>
-            <pubDate>Thu, 03 Apr 2025 17:08:56 +0200</pubDate>
-            <sparkle:version>v1.1.36</sparkle:version>
-            <sparkle:shortVersionString>v1.1.36</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Version v1.1.36</h2>
-<ul>
-<li> Updated OpenAI integration to use the new /v1/chat/completions response endpoint.  </li>
-<li> This change enables PDF processing through the updated endpoint as well.  </li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.36.zip" length="3728255" type="application/octet-stream" sparkle:edSignature="7kJB2VDPHUzW8nj2bw6f8IlZ5AnPzZpTXAk9nX5mvibp0gAvK9oq5ZWh0rSInij5uTQWuBnL4rVcgHdMGhq5Bw=="/>
         </item>
         <item>
             <title>v1.1.14</title>
