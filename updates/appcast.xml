@@ -10,12 +10,11 @@
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>Version v1.1.38</h2>
 <ul>
-<li> License Key</li>
-<li> OpenAI API Key (if configured)</li>
-<li> Google Gemini API Key (if configured)</li>
+<li> 🎨 Redesigned settings UI for better usability</li>
+<li> 🛡️ Security improvements (credentials need to be re-entered)</li>
 </ul>
 ]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.38.zip" length="4001754" type="application/octet-stream" sparkle:edSignature="WEniBGzCySRwbN5+15l4Oe4023YEltb8kcv02qVgjV8Y4PpArfbso479baDx4vvEjYLS0Yw7pb0ALBlasuAACw=="/>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.38.zip" length="4001754" type="application/octet-stream" sparkle:edSignature="N7jDJaJNL2zqUID2uvQ7h5zhtu0Mi7aOsCrqY+G2dqCTCaXMiZBCUrH3+bAItZIzjpmHsaxoyrrtpDcILIDoCw=="/>
         </item>
         <item>
             <title>v1.1.37</title>
