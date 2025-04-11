@@ -3,6 +3,18 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.1.40</title>
+            <pubDate>Fri, 11 Apr 2025 18:16:02 +0200</pubDate>
+            <sparkle:version>v1.1.40</sparkle:version>
+            <sparkle:shortVersionString>v1.1.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.1.40</h2>
+<ul>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.40.zip" length="4059050" type="application/octet-stream" sparkle:edSignature="4wlM8wmMTiFEkLVY4UUDFVDbRV0tUtGvmNV0ar+qkH4wHzJVeG0GFQboIe3PIm4KphLlmvEVdPGxi9vl+qEyBQ=="/>
+        </item>
+        <item>
             <title>v1.1.39</title>
             <pubDate>Thu, 10 Apr 2025 20:37:44 +0200</pubDate>
             <sparkle:version>v1.1.39</sparkle:version>
@@ -29,31 +41,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.38.zip" length="4001754" type="application/octet-stream" sparkle:edSignature="N7jDJaJNL2zqUID2uvQ7h5zhtu0Mi7aOsCrqY+G2dqCTCaXMiZBCUrH3+bAItZIzjpmHsaxoyrrtpDcILIDoCw=="/>
-        </item>
-        <item>
-            <title>v1.1.37</title>
-            <pubDate>Sat, 05 Apr 2025 09:56:11 +0200</pubDate>
-            <sparkle:version>v1.1.37</sparkle:version>
-            <sparkle:shortVersionString>v1.1.37</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Version v1.1.37</h2>
-<ul>
-<li> Improved memory efficiency across the application</li>
-  * Reduced thumbnail resolution from 512px to 256px for better memory usage while maintaining quality</li>
-  * Optimized high-resolution image caching with moderate limits (150MB for full images, 60MB for thumbnails) </li>
-  * Eliminated redundant intermediate-quality image creation during loading</li>
-  * Added memory pressure monitoring to automatically clear caches when needed</li>
-<li> Fixed image selection sync issue where selecting an image sometimes displayed a different image in the preview pane</li>
-<li> Enhanced image loading process to better handle selection changes</li>
-<li> Added proper ID tracking and verification throughout the image loading process</li>
-<li> Improved synchronization between thumbnail list and detail view</li>
-<li> Optimized image scaling algorithms to preserve quality while reducing memory footprint</li>
-<li> Enhanced caching strategy with prioritized loading of frequently accessed images</li>
-<li> Added verification of image IDs before loading to prevent incorrect image display</li>
-<li> Implemented graceful timeout handling for slow-loading images</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.37.zip" length="3779443" type="application/octet-stream" sparkle:edSignature="tnRmgjHeTtnMOLP0nN/xGWfXH3PdaCtudMgZC4yhQtPPXvbLiQxVnUZAc2DoZfAJJgEmBrjgcL4/h9Hc8cLxBg=="/>
         </item>
         <item>
             <title>v1.1.14</title>
