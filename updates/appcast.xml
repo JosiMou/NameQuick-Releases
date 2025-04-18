@@ -3,6 +3,19 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.1.60</title>
+            <pubDate>Fri, 18 Apr 2025 18:30:00 +0200</pubDate>
+            <sparkle:version>v1.1.60</sparkle:version>
+            <sparkle:shortVersionString>v1.1.60</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.1.60</h2>
+<ul>
+<li>Various improvements and bug fixes</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.60.zip" length="4239744" type="application/octet-stream" sparkle:edSignature="UHEs7XFwuMGc7i1yJxYp/vlAw3li7VLMKIlax5W7hESM2/sbVs7OHdM7tTPYUv9SreUBldo/9juhp3ClKIA5Bg=="/>
+        </item>
+        <item>
             <title>v1.1.40</title>
             <pubDate>Fri, 11 Apr 2025 18:16:02 +0200</pubDate>
             <sparkle:version>v1.1.40</sparkle:version>
@@ -27,20 +40,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.39.zip" length="4001791" type="application/octet-stream" sparkle:edSignature="U78srzNrXa6xptOrBDdZJgBelMTtYcWCumpUPof4T67fB3rjp3NJy4EsNqN5gED4s0HQQ2osKfHFogUtjGZIDg=="/>
-        </item>
-        <item>
-            <title>v1.1.38</title>
-            <pubDate>Thu, 10 Apr 2025 20:35:11 +0200</pubDate>
-            <sparkle:version>v1.1.38</sparkle:version>
-            <sparkle:shortVersionString>v1.1.38</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Version v1.1.38</h2>
-<ul>
-<li> 🎨 Redesigned settings UI for better usability</li>
-<li> 🛡️ Security improvements (credentials need to be re-entered)</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.38.zip" length="4001754" type="application/octet-stream" sparkle:edSignature="N7jDJaJNL2zqUID2uvQ7h5zhtu0Mi7aOsCrqY+G2dqCTCaXMiZBCUrH3+bAItZIzjpmHsaxoyrrtpDcILIDoCw=="/>
         </item>
         <item>
             <title>v1.1.14</title>
