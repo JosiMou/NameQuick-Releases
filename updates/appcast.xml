@@ -3,6 +3,19 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.1.70</title>
+            <pubDate>Sat, 19 Apr 2025 00:32:57 +0200</pubDate>
+            <sparkle:version>v1.1.70</sparkle:version>
+            <sparkle:shortVersionString>v1.1.70</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.1.70</h2>
+<ul>
+<li>Various improvements and bug fixes</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.70.zip" length="4239743" type="application/octet-stream" sparkle:edSignature="Pfz01PP23H3v/eAf0Cu1c1pAKRcEewNlBqnYtIhYC1UeWBXF0cVYMpoieGIjh9LoMY7y/AdA81EBoULv12bWCA=="/>
+        </item>
+        <item>
             <title>v1.1.60</title>
             <pubDate>Fri, 18 Apr 2025 18:30:00 +0200</pubDate>
             <sparkle:version>v1.1.60</sparkle:version>
@@ -26,20 +39,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.40.zip" length="4059050" type="application/octet-stream" sparkle:edSignature="4wlM8wmMTiFEkLVY4UUDFVDbRV0tUtGvmNV0ar+qkH4wHzJVeG0GFQboIe3PIm4KphLlmvEVdPGxi9vl+qEyBQ=="/>
-        </item>
-        <item>
-            <title>v1.1.39</title>
-            <pubDate>Thu, 10 Apr 2025 20:37:44 +0200</pubDate>
-            <sparkle:version>v1.1.39</sparkle:version>
-            <sparkle:shortVersionString>v1.1.39</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Version v1.1.39</h2>
-<ul>
-<li> 🎨 Redesigned settings UI for better usability</li>
-<li> 🛡️ Security improvements (credentials need to be re-entered)</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.39.zip" length="4001791" type="application/octet-stream" sparkle:edSignature="U78srzNrXa6xptOrBDdZJgBelMTtYcWCumpUPof4T67fB3rjp3NJy4EsNqN5gED4s0HQQ2osKfHFogUtjGZIDg=="/>
         </item>
         <item>
             <title>v1.1.14</title>
