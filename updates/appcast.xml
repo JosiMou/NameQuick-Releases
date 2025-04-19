@@ -44,6 +44,9 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.14.zip" length="3680956" type="application/octet-stream" sparkle:edSignature="z6bJzVP4I/H42N0sJVJzIcpFv6FDW0rtmZAyu/3DTAsjckAxyvkZsS9lN631UarFiH/+BuetmIVDKaFlSOTEBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuickv1.1.14-v1.1.8.delta" sparkle:deltaFrom="v1.1.8" length="688958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864832" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="wzaIuLHSJvYpOzVhXsgx34CEbzlf8TZ75lyz8uv4FFfmjsFl9fqrVGN1AgtIql5vQVfke1T0fXQOtW7zVok9BQ=="/>
+            </sparkle:deltas>
         </item>
     </channel>
 </rss>
