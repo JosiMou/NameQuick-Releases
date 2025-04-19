@@ -3,6 +3,7 @@
     <channel>
         <title>NameQuick</title>
         <item>
+<<<<<<< HEAD
             <title>v1.3.20</title>
             <pubDate>Sat, 19 Apr 2025 15:45:29 +0200</pubDate>
             <sparkle:version>v1.3.20</sparkle:version>
@@ -58,3 +59,27 @@
         </item>
     </channel>
 </rss>
+=======
+            <title>Version 1.6.10</title>
+            <description>
+                <![CDATA[
+                    <h2>Changes in version 1.6.10</h2>
+                    <ul>
+                        <li>Latest updates and improvements</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Sat, 19 Apr 2025 20:35:16 +0200</pubDate>
+            <enclosure
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.6.10.zip"
+                sparkle:version="1.6.10"
+                sparkle:shortVersionString="1.6.10"
+                length="4630665"
+                type="application/octet-stream"
+                sparkle:edSignature="0yf6T3irYXNIxIDaEQQzw6ZUhN5P4BzjQ5SsGSBI6FUAiqxEDgagcErcsGncRq3j3Ag1RcuMbVwSIl2E6ckcDw=="
+            />
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+        </item>
+    </channel>
+</rss>
+>>>>>>> fba9c9d (v1.6.10)
