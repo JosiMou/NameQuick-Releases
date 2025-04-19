@@ -3,6 +3,19 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.3.10</title>
+            <pubDate>Sat, 19 Apr 2025 15:33:10 +0200</pubDate>
+            <sparkle:version>v1.3.10</sparkle:version>
+            <sparkle:shortVersionString>v1.3.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.3.10</h2>
+<ul>
+<li>Various improvements and bug fixes</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.3.10.zip" length="4229776" type="application/octet-stream" sparkle:edSignature="xYZsEJTZGw/LlhJy0MoGwbiWKMU02hryBi3Sk0RkTQgE1hryReBQxFATQL2PvZ8o2ZbblJCZIeoQjrJFUcUfAg=="/>
+        </item>
+        <item>
             <title>v1.2.10</title>
             <pubDate>Sat, 19 Apr 2025 15:24:59 +0200</pubDate>
             <sparkle:version>v1.2.10</sparkle:version>
@@ -27,19 +40,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.97.zip" length="4296909" type="application/octet-stream" sparkle:edSignature="GVi+RxUB0hw3w7dmJrtl4uCHQIRfvU2x8PT6H510l0bJWsa3MmtD6K9Faut9qqCyZ33xD7Ss9L14OXmvPwghCQ=="/>
-        </item>
-        <item>
-            <title>v1.1.96</title>
-            <pubDate>Sat, 19 Apr 2025 14:30:48 +0200</pubDate>
-            <sparkle:version>v1.1.96</sparkle:version>
-            <sparkle:shortVersionString>v1.1.96</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Version v1.1.96</h2>
-<ul>
-<li>Various improvements and bug fixes</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.96.zip" length="4296880" type="application/octet-stream" sparkle:edSignature="CQndvXh0Bb/gqzibWLOfzILDUdS/sMNJuD8VPPl6pdU1dWS1AEaK8dq/LiAombo6BP2wjtrCRocdWrS5/UdWDA=="/>
         </item>
         <item>
             <title>v1.1.14</title>
