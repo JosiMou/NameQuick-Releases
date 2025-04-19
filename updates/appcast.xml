@@ -3,6 +3,19 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>v1.1.79</title>
+            <pubDate>Sat, 19 Apr 2025 12:51:17 +0200</pubDate>
+            <sparkle:version>v1.1.79</sparkle:version>
+            <sparkle:shortVersionString>v1.1.79</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version v1.1.79</h2>
+<ul>
+<li>Various improvements and bug fixes</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.79.zip" length="4291420" type="application/octet-stream" sparkle:edSignature="/WBZCHjdqjdVuUWcI2iJK/d/AL4uuJpf3zHTDbU4bndyzOMnGZByDBYbarTC1M28mNCy7MW40sCq5SySHWYvBQ=="/>
+        </item>
+        <item>
             <title>v1.1.74</title>
             <pubDate>Sat, 19 Apr 2025 08:51:35 +0200</pubDate>
             <sparkle:version>v1.1.74</sparkle:version>
@@ -19,15 +32,6 @@
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:releaseNotesLink>https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.73.html</sparkle:releaseNotesLink>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.73.zip" length="4239745" type="application/octet-stream" sparkle:edSignature="/aznq1ueqP3oxpz2XtqjSZO/UPjWxxijE9oQ6r8/EbU58jusqmZ6MnjKiNKkCe4FW7LePY3FdYxt2NwXdhNtAg=="/>
-        </item>
-        <item>
-            <title>v1.1.72</title>
-            <pubDate>Sat, 19 Apr 2025 08:41:29 +0200</pubDate>
-            <sparkle:version>v1.1.72</sparkle:version>
-            <sparkle:shortVersionString>v1.1.72</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.72.html</sparkle:releaseNotesLink>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.1.72.zip" length="4239744" type="application/octet-stream" sparkle:edSignature="Aij0/1EZDMdqyeBhmVLZvF9fiUw7jiGu6NMgOmHxET2dKFyhSdC9VUnfDscscyiMl7IGnEdKMhf3XZMtYslfCA=="/>
         </item>
         <item>
             <title>v1.1.14</title>
