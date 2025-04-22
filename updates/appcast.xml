@@ -9,19 +9,27 @@
             <description>
                 <![CDATA[
                     <h2>Changes in version 1.8.11</h2>
-                    <ul>
-                        <li>Latest updates and improvements</li>
-                    </ul>
+                    <h1 id="v1.8.11">v1.8.11</h1>
+<h2 id="features">Features</h2>
+<ul>
+<li>Launch at Startup: NameQuick can now automatically launch at login,
+ensuring it starts monitoring folders &amp; processing files immediately
+at launch of your system.</li>
+</ul>
+<h2 id="fixes">Fixes</h2>
+<ul>
+<li>No fixes in this release.</li>
+</ul>
                 ]]>
             </description>
-            <pubDate>Tue, 22 Apr 2025 21:46:58 +0200</pubDate>
+            <pubDate>Tue, 22 Apr 2025 21:51:06 +0200</pubDate>
             <enclosure
                 url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.11.zip"
                 sparkle:version="6"
                 sparkle:shortVersionString="1.8.11"
-                length="4863718"
+                length="4863726"
                 type="application/octet-stream"
-                sparkle:edSignature="Z7i5PzIcwuej0iSouuyXoFJC5Ch+Ivpctn09HEPLH9Jq3EKu/4xKJjz+zD78e6ix7RHlUy06nfFeBYOQ5KNYAg=="
+                sparkle:edSignature="LAypg5lgJOgghzOp/Ju2Xpk/Dz6HCVcdWBL64HV8fV3GufYnoObh+tBBKQSnlmzHdBrd9y+3ifGyUvxOXfVGCg=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
