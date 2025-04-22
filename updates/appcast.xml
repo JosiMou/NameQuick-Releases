@@ -14,14 +14,14 @@
                     </ul>
                 ]]>
             </description>
-            <pubDate>Tue, 22 Apr 2025 21:29:15 +0200</pubDate>
+            <pubDate>Tue, 22 Apr 2025 21:41:58 +0200</pubDate>
             <enclosure
                 url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.11.zip"
-                sparkle:version="1.8.11"
+                sparkle:version=""
                 sparkle:shortVersionString="1.8.11"
-                length="4863789"
+                length="4863762"
                 type="application/octet-stream"
-                sparkle:edSignature="8eUNB5ZCwkXAkOhd6NreDrqMAaCrdIywy6kDdnPKPsO79GfDOQeqWf83nTahTvWARAtOUznPVATzCWBUFPOSAg=="
+                sparkle:edSignature="zLOfwhRorOW6ZS0Q+SLckWvF0E6UH30SgWXBp2tYcYrUtsTywAsbvJcwgmBNE0D2NgliBWcKjjrF7ma6tMqcCQ=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
