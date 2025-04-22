@@ -21,14 +21,14 @@ at launch of your system.</li>
 </ul>
                 ]]>
             </description>
-            <pubDate>Tue, 22 Apr 2025 22:05:15 +0200</pubDate>
+            <pubDate>Tue, 22 Apr 2025 22:30:11 +0200</pubDate>
             <enclosure
                 url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.11.dmg"
                 sparkle:version="6"
                 sparkle:shortVersionString="1.8.11"
-                length="4914915"
+                length="4914931"
                 type="application/octet-stream"
-                sparkle:edSignature="sparkle:edSignature="OMtyv2aS3t7UNurAbO4sds20F6QAFvFwOD4ODqJ3juNc7vjhix9kZSQQ7fbCnf8jKcj25i1GYGFDk/PyUohFBw==" length="4914915""
+                sparkle:edSignature="Nepp/1wEs0dLn2GY5vnr+6BytgIMbif6M3k+R3wjZE5moTZg8jGYApADoBTbyPuM9atHh91Xp34on0nACHvODA=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
