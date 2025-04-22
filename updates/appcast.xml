@@ -8,7 +8,6 @@
             <title>Version 1.8.11</title>
             <description>
                 <![CDATA[
-                    <h2>Changes in version 1.8.11</h2>
                     <h1 id="v1.8.11">v1.8.11</h1>
 <h2 id="features">Features</h2>
 <ul>
@@ -22,14 +21,14 @@ at launch of your system.</li>
 </ul>
                 ]]>
             </description>
-            <pubDate>Tue, 22 Apr 2025 21:51:06 +0200</pubDate>
+            <pubDate>Tue, 22 Apr 2025 22:05:15 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.11.zip"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.11.dmg"
                 sparkle:version="6"
                 sparkle:shortVersionString="1.8.11"
-                length="4863726"
+                length="4914915"
                 type="application/octet-stream"
-                sparkle:edSignature="LAypg5lgJOgghzOp/Ju2Xpk/Dz6HCVcdWBL64HV8fV3GufYnoObh+tBBKQSnlmzHdBrd9y+3ifGyUvxOXfVGCg=="
+                sparkle:edSignature="sparkle:edSignature="OMtyv2aS3t7UNurAbO4sds20F6QAFvFwOD4ODqJ3juNc7vjhix9kZSQQ7fbCnf8jKcj25i1GYGFDk/PyUohFBw==" length="4914915""
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
