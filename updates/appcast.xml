@@ -5,23 +5,23 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.8.10</title>
+            <title>Version 1.8.11</title>
             <description>
                 <![CDATA[
-                    <h2>Changes in version 1.8.10</h2>
+                    <h2>Changes in version 1.8.11</h2>
                     <ul>
                         <li>Latest updates and improvements</li>
                     </ul>
                 ]]>
             </description>
-            <pubDate>Mon, 21 Apr 2025 17:14:02 +0200</pubDate>
+            <pubDate>Tue, 22 Apr 2025 21:29:15 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.10.zip"
-                sparkle:version="1.8.10"
-                sparkle:shortVersionString="1.8.10"
-                length="4790003"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.11.zip"
+                sparkle:version="1.8.11"
+                sparkle:shortVersionString="1.8.11"
+                length="4863789"
                 type="application/octet-stream"
-                sparkle:edSignature="vCACskLKoQlfW57cEv5UPejNQr0vbvL/+I7y4QeAJQreT6VevjL/2Enf/uZmunSHIWzn8liKDDm+DzL2gn6qAw=="
+                sparkle:edSignature="8eUNB5ZCwkXAkOhd6NreDrqMAaCrdIywy6kDdnPKPsO79GfDOQeqWf83nTahTvWARAtOUznPVATzCWBUFPOSAg=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
