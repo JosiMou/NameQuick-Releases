@@ -5,30 +5,41 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.8.11</title>
+            <title>Version 1.8.12</title>
             <description>
                 <![CDATA[
-                    <h1 id="v1.8.11">v1.8.11</h1>
+                    <h1 id="v1.8.12">v1.8.12</h1>
 <h2 id="features">Features</h2>
 <ul>
-<li>Launch at Startup: NameQuick can now automatically launch at login,
-ensuring it starts monitoring folders &amp; processing files immediately
-at launch of your system.</li>
-</ul>
-<h2 id="fixes">Fixes</h2>
+<li>Consolidated app settings into more intuitive categories for easier
+navigation.</li>
+<li>Renamed the “Pattern Extraction” feature to “Templates” for improved
+clarity.
 <ul>
-<li>No fixes in this release.</li>
+<li>Templates let you describe key information you want to extract
+(e.g., “Invoice Date”, “Company Name”) and automatically rename files
+based on that content.</li>
+</ul></li>
+<li>Improved overall performance and reliability.</li>
+<li>Removed the “Reload” button — the app now seamlessly detects new
+files and file changes, keeping the UI in sync with Finder in real
+time.</li>
+<li>Other small stylistic improvements.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fixed a JSON object error when using Templates with OpenAI.</li>
 </ul>
                 ]]>
             </description>
-            <pubDate>Tue, 22 Apr 2025 22:30:11 +0200</pubDate>
+            <pubDate>Tue, 29 Apr 2025 17:07:14 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.11.dmg"
-                sparkle:version="6"
-                sparkle:shortVersionString="1.8.11"
-                length="4914931"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.12.dmg"
+                sparkle:version="10"
+                sparkle:shortVersionString="1.8.12"
+                length="4868439"
                 type="application/octet-stream"
-                sparkle:edSignature="Nepp/1wEs0dLn2GY5vnr+6BytgIMbif6M3k+R3wjZE5moTZg8jGYApADoBTbyPuM9atHh91Xp34on0nACHvODA=="
+                sparkle:edSignature="P4baEsfTW6Wk8O9u7ehS1KN65KM0uj/yUPATlyhYpjVjXpeVhXsmdiwls2yfGVCED6QVWkdXA5DgkiSa2H4PCw=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
