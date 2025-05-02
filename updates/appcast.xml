@@ -5,41 +5,29 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.8.13</title>
+            <title>Version 1.8.14</title>
             <description>
                 <![CDATA[
-                    <h1 id="v1.8.13">v1.8.13</h1>
-<h2 id="features">Features</h2>
+                    <h1 id="v1.8.14">v1.8.14</h1>
+<h2 id="hotfix">Hotfix</h2>
 <ul>
-<li>Consolidated app settings into more intuitive categories for easier
-navigation.</li>
-<li>Renamed the “Pattern Extraction” feature to “Templates” for improved
-clarity.
-<ul>
-<li>Templates let you describe key information you want to extract
-(e.g., “Invoice Date”, “Company Name”) and automatically rename files
-based on that content.</li>
-</ul></li>
-<li>Improved overall performance and reliability.</li>
-<li>Removed the “Reload” button — the app now seamlessly detects new
-files and file changes, keeping the UI in sync with Finder in real
-time.</li>
-<li>Other small stylistic improvements.</li>
-</ul>
-<h2 id="bug-fixes">Bug Fixes</h2>
-<ul>
-<li>Fixed a JSON object error when using Templates with OpenAI.</li>
+<li>Improved Ollama Integration: Fixed an issue where the app wouldn’t
+immediately detect a running Ollama server or available models on
+launch. The connection status and model list should now update
+automatically without requiring a manual refresh. NameQuick will also
+now intelligently select an available Ollama model if your previously
+selected one isn’t found.</li>
 </ul>
                 ]]>
             </description>
-            <pubDate>Tue, 29 Apr 2025 21:52:31 +0200</pubDate>
+            <pubDate>Fri, 02 May 2025 10:00:07 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.13.dmg"
-                sparkle:version="11"
-                sparkle:shortVersionString="1.8.13"
-                length="4867588"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.14.dmg"
+                sparkle:version="12"
+                sparkle:shortVersionString="1.8.14"
+                length="4878138"
                 type="application/octet-stream"
-                sparkle:edSignature="0jCzMZHCUqsFJz6WTa2tuVjJak0fTsBZkP3Bl4zfqnqnTnjluUCEAGFDd47k7dPH2EyHolGTGAjZpU9KiZ4cCg=="
+                sparkle:edSignature="fGwT9v5TcgQFJYLw+VdAudGP8fFXJu02qis+hkFz8+xLvX5g07D9nNXsv1pH920/gTYnEx5iQEKHFDSkDZllDw=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
