@@ -5,29 +5,26 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.8.14</title>
+            <title>Version 1.8.15</title>
             <description>
                 <![CDATA[
-                    <h1 id="v1.8.14">v1.8.14</h1>
-<h2 id="hotfix">Hotfix</h2>
+                    <h1 id="v1.8.15">v1.8.15</h1>
+<h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Improved Ollama Integration: Fixed an issue where the app wouldn’t
-immediately detect a running Ollama server or available models on
-launch. The connection status and model list should now update
-automatically without requiring a manual refresh. NameQuick will also
-now intelligently select an available Ollama model if your previously
-selected one isn’t found.</li>
+<li>Fixed an issue where the AI Output Language setting in General
+settings would always reset to English on app launch; your chosen
+language is now correctly saved and restored.</li>
 </ul>
                 ]]>
             </description>
-            <pubDate>Fri, 02 May 2025 10:00:07 +0200</pubDate>
+            <pubDate>Sun, 04 May 2025 14:22:59 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.14.dmg"
-                sparkle:version="12"
-                sparkle:shortVersionString="1.8.14"
-                length="4878138"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.15.dmg"
+                sparkle:version="15"
+                sparkle:shortVersionString="1.8.15"
+                length="4916277"
                 type="application/octet-stream"
-                sparkle:edSignature="fGwT9v5TcgQFJYLw+VdAudGP8fFXJu02qis+hkFz8+xLvX5g07D9nNXsv1pH920/gTYnEx5iQEKHFDSkDZllDw=="
+                sparkle:edSignature="ydqYJYln6+2KoVa0ioiP8sOAtmoWI+dVvfz64rRsiK2VpbILME1PiTYW6sF3tidU7yd5P65iOqR8hESF0NvXCg=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
