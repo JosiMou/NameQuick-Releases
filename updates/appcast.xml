@@ -5,26 +5,27 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.8.15</title>
+            <title>Version 1.8.16</title>
             <description>
                 <![CDATA[
-                    <h1 id="v1.8.15">v1.8.15</h1>
+                    <h1 id="v1.8.16">v1.8.16</h1>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Fixed an issue where the AI Output Language setting in General
-settings would always reset to English on app launch; your chosen
-language is now correctly saved and restored.</li>
+<li>Fixed an issue where newly added images were auto-processed
+regardless of the toggle setting; processing now only occurs when the
+toggle is enabled.</li>
+<li>Fixed dynamic pattern extraction for Gemini.</li>
 </ul>
                 ]]>
             </description>
-            <pubDate>Sun, 04 May 2025 14:22:59 +0200</pubDate>
+            <pubDate>Mon, 05 May 2025 13:31:26 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.15.dmg"
-                sparkle:version="15"
-                sparkle:shortVersionString="1.8.15"
-                length="4916277"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.16.dmg"
+                sparkle:version="17"
+                sparkle:shortVersionString="1.8.16"
+                length="4920693"
                 type="application/octet-stream"
-                sparkle:edSignature="ydqYJYln6+2KoVa0ioiP8sOAtmoWI+dVvfz64rRsiK2VpbILME1PiTYW6sF3tidU7yd5P65iOqR8hESF0NvXCg=="
+                sparkle:edSignature="aZJSAYnIbBUC4dxQq/ujyJ6crQ9LPj9gfxRI8mfUPvcu89inL7hkqqtxLr0+jI19STnu1LZtqqDt+jK8vTAeDg=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
