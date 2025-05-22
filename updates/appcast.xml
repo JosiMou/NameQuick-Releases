@@ -5,73 +5,22 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.8.17</title>
+            <title>Version 1.9.0</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.8.17">NameQuick v1.8.17</h1>
-<h2 id="new-features">🚀 New Features</h2>
-<ul>
-<li><strong>Unified Drag &amp; Drop</strong>: Drag files anywhere into
-NameQuick to process them instantly. Your settings are saved for next
-time.</li>
-<li><strong>Managed Folders</strong>: Dragging a folder onto NameQuick
-automatically sets it as a Managed Folder. New folders are disabled by
-default, and “Watched Folders” are now clearly called “Managed
-Folders”.</li>
-<li><strong>AI Transcription</strong>: Audio transcription is now
-supported via Whisper (OpenAI).</li>
-<li><strong>Document Conversion</strong>: Rich-text (.rtf) documents are
-automatically converted to plain text for AI-based renaming.</li>
-<li><strong>More File Types</strong>: NameQuick now supports BMP, HEIF,
-WebP, MP3, WAV, FLAC, MP4, AVI, MOV, MD, HTML, JS, XML, and RTF
-files.</li>
-<li><strong>Confirmation Notifications</strong>: New non-blocking
-toast-style banners keep you informed without interruptions.</li>
-<li><strong>AI Model Selection</strong>: Improved model selection
-interface for Gemini and OpenAI. Select your preferred AI model per file
-type with smart fallback options and an automatic mode.</li>
-</ul>
-<h2 id="improvements">✨ Improvements</h2>
-<ul>
-<li><strong>UI Enhancements</strong>:
-<ul>
-<li>Search bar relocated to sidebar for easier access</li>
-<li>Consistent menu button styles throughout</li>
-<li>Clearer, more helpful error messages</li>
-</ul></li>
-<li><strong>Better Settings</strong>:
-<ul>
-<li>Settings reorganized into clearer categories with improved help
-text</li>
-<li>Option to toggle subfolder processing on/off</li>
-</ul></li>
-<li><strong>AI Stability</strong>:
-<ul>
-<li>Enhanced handling of API limits and automatic retries for
-timeouts</li>
-</ul></li>
-<li>Improved reliability in processing large files and better error
-feedback overall.</li>
-</ul>
-<h2 id="fixes">🐞 Fixes</h2>
-<ul>
-<li>AI provider no longer resets when both Gemini and OpenAI keys are
-configured.</li>
-<li>Managed Folder handling of renamed files improved.</li>
-<li>Resolved issues causing failed file detection and processing
-errors.</li>
-<li>Fixed RTF conversion failures.</li>
-</ul>
+                    <h1 id="v1.9.0">v1.9.0</h1>
+<h2 id="features">## Features</h2>
+<h2 id="fixes">## Fixes</h2>
                 ]]>
             </description>
-            <pubDate>Mon, 12 May 2025 09:17:40 +0200</pubDate>
+            <pubDate>Thu, 22 May 2025 22:46:37 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.8.17.dmg"
-                sparkle:version="22"
-                sparkle:shortVersionString="1.8.17"
-                length="5244492"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.0.dmg"
+                sparkle:version="49"
+                sparkle:shortVersionString="1.9.0"
+                length="5009824"
                 type="application/octet-stream"
-                sparkle:edSignature="KKP2N8nkn1cpztOh8GvFZ0vkfqMWggpFiA8hZIJy9G+M6ZA53dS5/FyA0C08mDqNssn1vng/xABYrGwIejitBg=="
+                sparkle:edSignature="/xlpMeRgG5uNAEnS0slQctmGeiwVieAvYdH16dMhupAfMZek8KPYMtOEVzuzA6glu+xfBp08mkcw57X1yNv7Bg=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
