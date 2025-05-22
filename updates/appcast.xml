@@ -9,18 +9,180 @@
             <description>
                 <![CDATA[
                     <h1 id="v1.9.0">v1.9.0</h1>
-<h2 id="features">## Features</h2>
-<h2 id="fixes">## Fixes</h2>
+<h2 id="new-features-improvements">New Features &amp; Improvements</h2>
+<ul>
+<li><strong>PDF Analysis with Ollama</strong>
+<ul>
+<li>You can now analyze PDF files using the Ollama AI service. This
+feature is experimental and can be enabled in the settings.</li>
+<li>Supports extracting structured data and rich content from PDFs using
+Ollama, with improved error handling and logging for PDF
+processing.</li>
+<li>Ollama service now supports OCR on rasterized PDF pages for more
+robust structured data extraction.</li>
+</ul></li>
+<li><strong>AI &amp; Gemini Model Support</strong>
+<ul>
+<li>Templates now correctly use your selected Gemini model, not just
+<code>gemini-1.5-pro</code>.</li>
+<li>Added support for analyzing images, PDFs, audio, and video with
+Gemini AI, including resumable uploads and progress tracking for large
+files.</li>
+<li>Introduced <code>GeminiFileUploader</code> and
+<code>GeminiRequestBuilder</code> for more robust Gemini API
+interactions.</li>
+<li>Implemented <code>QuotaErrorType</code> and
+<code>GeminiServiceError</code> for enhanced error diagnosis and user
+feedback.</li>
+<li>Improved error handling and logging for Gemini and Ollama AI
+services.</li>
+<li>New settings for preferred Gemini model and experimental PDF
+processing.</li>
+<li>Extraction prompts now include the selected filename language for
+more accurate multi-language support.</li>
+<li>Added debug logging of the constructed extraction prompts for easier
+troubleshooting.</li>
+</ul></li>
+<li><strong>Licensing &amp; Activation</strong>
+<ul>
+<li>Major improvements to license management: better error messages,
+clearer feedback for activation limits, and more robust offline
+handling.</li>
+<li>New license views and onboarding for Setapp and direct
+licenses.</li>
+<li>Added support for device activation tracking and easier license
+reset/unlinking via <code>LicenseActivationManager</code>.</li>
+<li>Introduced <code>CreditManager</code> for managing subscriber credit
+balances (future functionality).</li>
+<li>Enhanced logging for all license events and errors using a new
+<code>LicenseLogger</code>.</li>
+<li>Added comprehensive test scenarios for robust license
+validation.</li>
+</ul></li>
+<li><strong>Screenshot &amp; File Management</strong>
+<ul>
+<li>New screenshot processing engine with better memory management and
+performance, featuring <code>ScreenshotImageManager</code> for in-memory
+image handling and a <code>MemoryPressureMonitor</code>.</li>
+<li>Added folder watching (<code>FolderWatcher</code>,
+<code>ScreenshotFolderWatcher</code>), batch processing, and improved
+filtering/sorting for screenshots.</li>
+<li>Screenshots now support adding comments.</li>
+<li>Introduced <code>AutoProcessMode</code> and
+<code>AutoProcessRouter</code> to customize handling of newly detected
+files.</li>
+<li>New <code>ScreenshotDataStore</code> for persistent tracking of
+processed screenshot IDs.</li>
+<li>Refactored <code>ScreenshotViewModel</code> to
+<code>ScreenshotProcessingViewModel</code> with expanded capabilities,
+complemented by a new <code>ScreenshotListViewModel</code> for managing
+screenshot lists and filtering.</li>
+<li><code>ScreenshotRenameCoordinator</code> and
+<code>RenameOperationTracker</code> implemented for safer and more
+reliable file renaming operations.</li>
+<li>New metadata panel for screenshots, with direct renaming and AI
+description. Enhanced file naming, token replacement
+(<code>TokenInputView</code>), and pattern extraction logic.</li>
+<li>Quick Look preview integration within the metadata panel for direct
+image previewing.</li>
+<li>Copy path and Reveal in Finder actions for quick file location
+access.</li>
+<li>‘Add Folder…’ option in the toolbar for adding new watch folders
+directly from the filter menu.</li>
+<li>New <code>HQImageView</code> for improved display of high-resolution
+images, including loading indicators.</li>
+<li>Redesigned file management settings:
+<code>PatternExtractionSettingsView</code> renamed to
+<code>TemplatesSettingsView</code>, and a new
+<code>TemplateTestView</code> for easier template creation and
+testing.</li>
+</ul></li>
+<li><strong>Onboarding &amp; Permissions</strong>
+<ul>
+<li>Redesigned onboarding flow for easier setup of Accessibility,
+Notifications, and Full Disk Access permissions, with new dedicated
+views (<code>PermissionRowView</code>,
+<code>AccessibilityStepView</code>, <code>NotificationsStepView</code>,
+<code>FullDiskAccessStepView</code>).</li>
+<li>Clearer permission status and direct links to system settings.</li>
+<li>Added ability to reset the onboarding flow at runtime via the new
+‘Reset Onboarding’ menu option and notification listener.</li>
+</ul></li>
+<li><strong>App Lifecycle &amp; UI</strong>
+<ul>
+<li>Introduced <code>AppLaunchManager</code> for streamlined application
+lifecycle management (launch, activation, termination).</li>
+<li>New <code>MenuBarManager</code> for quick access to settings, main
+window, and context-aware renaming functions.</li>
+<li>New integrated toolbar (<code>IntegratedToolbarView</code>) for
+quick sorting, filtering, and developer actions.</li>
+<li><code>HoverHighlightButtonStyle</code> for improved button
+interactivity.</li>
+<li><code>SelectedPromptEnvironment</code> for consistent prompt
+handling in SwiftUI views.</li>
+<li>New <code>StartupFilesBanner</code> to inform users about new files
+detected since the last session.</li>
+<li>Improved context menus, confirmation banners, and error badges.</li>
+<li>New button styles and appearance mode options (system, light,
+dark).</li>
+</ul></li>
+<li><strong>Settings &amp; Configuration</strong>
+<ul>
+<li>Added an experimental PDF processing toggle in API settings.</li>
+<li><code>SettingsManager</code> now persists more settings to
+<code>UserDefaults</code> and includes methods for managing watch
+folders (add, remove, verify).</li>
+</ul></li>
+<li><strong>Updates &amp; Stability</strong>
+<ul>
+<li>New <code>SparkleHelper</code> and <code>UpdaterCoordinator</code>
+for managing Sparkle updates. <code>SparkleUpdater</code> initialization
+is now lazy.</li>
+<li><code>ProcessingQueue</code> and <code>ProcessingQueueManager</code>
+for better background task management.</li>
+<li><code>QueueReporter</code> for improved diagnostics on background
+processing.</li>
+<li>Enhanced <code>SearchManager</code> with improved logging.</li>
+<li><code>WatchFolderManager</code> now uses
+<code>RenameOperationTracker</code> to prevent duplicate event
+handling.</li>
+<li>Added <code>WatchFolderStore</code> for robust loading/saving of
+watch folder configurations.</li>
+</ul></li>
+<li><strong>Command Line Interface</strong>
+<ul>
+<li>Improved file processing by fetching the explicit process mode on
+the main actor to ensure correct and stable execution.</li>
+</ul></li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fixed: Templates now always use your selected Gemini model.</li>
+<li>Fixed: More reliable license validation and activation, especially
+in offline and edge cases.</li>
+<li>Fixed: Improved error handling and feedback throughout the app.</li>
+<li>Fixed: Various UI glitches and performance issues in screenshot and
+file management have been addressed through extensive refactoring and
+new management systems.</li>
+<li>Fixed: Numerous stability and performance improvements due to
+significant internal refactoring, new testing infrastructure, and
+enhanced logging.</li>
+</ul>
+<p><strong>Note:</strong> This release also includes many internal
+improvements, new tests, and better logging for easier troubleshooting
+and a smoother user experience. Significant code refactoring has been
+undertaken in AI services, Licensing, and Screenshot management for
+improved maintainability and performance.</p>
                 ]]>
             </description>
-            <pubDate>Thu, 22 May 2025 22:46:37 +0200</pubDate>
+            <pubDate>Thu, 22 May 2025 22:49:04 +0200</pubDate>
             <enclosure
                 url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.0.dmg"
                 sparkle:version="49"
                 sparkle:shortVersionString="1.9.0"
-                length="5009824"
+                length="5009855"
                 type="application/octet-stream"
-                sparkle:edSignature="/xlpMeRgG5uNAEnS0slQctmGeiwVieAvYdH16dMhupAfMZek8KPYMtOEVzuzA6glu+xfBp08mkcw57X1yNv7Bg=="
+                sparkle:edSignature="jUZY27+yNAmjN0/P8f+QoWvMizB64jx8PCQthBj0PdWmNNXpEiXM0+2IS5O9yrt41Ic89U/6P6pbETwrl528CQ=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
