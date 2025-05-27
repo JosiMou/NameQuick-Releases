@@ -5,100 +5,24 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.10</title>
+            <title>Version 1.9.11</title>
             <description>
                 <![CDATA[
-                    <h1 id="v1.9.10">v1.9.10</h1>
-<h2 id="whats-new">What’s New</h2>
-<h3 id="redesigned-template-editor">🎨 Redesigned Template Editor</h3>
-<p>I’ve completely overhauled the template creation experience to make
-it more intuitive and powerful:</p>
-<ul>
-<li><strong>Cleaner, card-based layout</strong> - Each section is
-clearly organized in its own card for better visual hierarchy</li>
-<li><strong>Live filename preview</strong> - See exactly how your files
-will be renamed as you build your template</li>
-<li><strong>Smarter field suggestions</strong> - Get intelligent
-suggestions for extraction fields based on your template name (e.g.,
-naming a template “Invoice” suggests fields like “Invoice Date” and
-“Total Amount”)</li>
-<li><strong>Contextual help everywhere</strong> - Helpful tips and
-examples are now available throughout the interface</li>
-</ul>
-<h3 id="advanced-filename-formatting">🔤 Advanced Filename
-Formatting</h3>
-<p>Take full control over how your files are renamed:</p>
-<ul>
-<li><strong>Static prefixes and suffixes</strong> - Add fixed text at
-the beginning or end of every filename (e.g., “RE_” prefix or “_SIGNED”
-suffix)</li>
-<li><strong>Custom separators</strong> - Choose any character to
-separate extracted fields in your filenames</li>
-</ul>
-<h3 id="powerful-text-transformations">🪄 Powerful Text
-Transformations</h3>
-<p>New transformation rules let you clean up extracted text
-automatically:</p>
-<ul>
-<li><strong>Remove unwanted characters</strong> - Strip out punctuation,
-special characters, or formatting</li>
-<li><strong>Normalize text</strong> - Convert “São Paulo” to “Sao
-Paulo”, dates to consistent formats</li>
-<li><strong>Case conversions</strong> - Change to lowercase, uppercase,
-or title case</li>
-<li><strong>Smart replacements</strong> - Replace spaces with hyphens,
-remove leading zeros, and more</li>
-<li><strong>Sequential processing</strong> - Apply multiple
-transformations in order for precise control</li>
-</ul>
-<h3 id="performance-usability-improvements">🚀 Performance &amp;
-Usability Improvements</h3>
-<ul>
-<li><strong>Faster template testing</strong> - The template tester now
-uses your actual file’s content for more accurate results</li>
-<li><strong>Improved validation</strong> - Clear error messages guide
-you when required fields are missing</li>
-<li><strong>Responsive UI</strong> - Smoother interactions and better
-visual feedback throughout</li>
-</ul>
-<h3 id="bug-fixes">🐛 Bug Fixes</h3>
-<ul>
-<li>Fixed sheet resizing issues - dialogs now open at their intended
-size</li>
-<li>Resolved auto-focus behavior that could select all text unexpectedly
-when opening the template editor</li>
-<li>Fixed various UI glitches in the template creation flow</li>
-<li>Improved stability when working with complex transformation
-rules</li>
-</ul>
-<h2 id="tips-for-using-the-new-features">Tips for Using the New
-Features</h2>
-<p><strong>Creating Better Templates:</strong> - Start with a
-descriptive template name - it helps generate relevant field suggestions
-- Use the preview to verify your filename format before saving - Test
-your template with actual files to ensure it extracts the right
-information</p>
-<p><strong>Using Transformations:</strong> - Add transformation rules to
-handle inconsistent data (e.g., different date formats) - Use “Remove
-diacritics” to ensure filenames work across all systems - Apply multiple
-transformations to clean up messy extracted text</p>
-<p><strong>Static Text in Filenames:</strong> - Use prefixes for
-categorization (e.g., “INV_” for invoices, “RPT_” for reports) - Add
-suffixes for status indicators (e.g., “_DRAFT”, “_FINAL”, “_SIGNED”)</p>
-<p>This update makes NameQuick’s template system more powerful while
-keeping it easy to use. Your existing templates will continue to work
-exactly as before, but now you have many more options when creating new
-ones.</p>
+                    <h1 id="namequick-v1.9.11-release-notes">NameQuick v1.9.11 Release
+Notes</h1>
+<h2 id="critical-license-fix">🚨 Critical License Fix</h2>
+<p>This hotfix addresses a critical issue where users could be locked
+out of their valid licenses.</p>
                 ]]>
             </description>
-            <pubDate>Mon, 26 May 2025 14:38:30 +0200</pubDate>
+            <pubDate>Tue, 27 May 2025 21:53:53 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.10.dmg"
-                sparkle:version="50"
-                sparkle:shortVersionString="1.9.10"
-                length="5220741"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.11.dmg"
+                sparkle:version="57"
+                sparkle:shortVersionString="1.9.11"
+                length="5531836"
                 type="application/octet-stream"
-                sparkle:edSignature="SVavBfmYTak7U4jXZg2t5ZlmyL+QCCnH8uZZlIlF880mtGlXaUXt0NOUriim8X6wIM4KmviV3SdIeXCRm4BcBA=="
+                sparkle:edSignature="z/oSZFMkSce4o0UMsP6EMKDSZH3dlVcQs7tQilKg3m7dS7xLz5V+QsSaZ9Ty2Wmd51IxNHKqxnOpv/1ITt02Aw=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
