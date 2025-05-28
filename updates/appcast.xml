@@ -60,14 +60,14 @@ window</li>
 Turn it on in Settings → General → AI Behavior.</em></p>
                 ]]>
             </description>
-            <pubDate>Wed, 28 May 2025 19:12:19 +0200</pubDate>
+            <pubDate>Wed, 28 May 2025 19:33:05 +0200</pubDate>
             <enclosure
                 url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.12.dmg"
-                sparkle:version="59"
+                sparkle:version="60"
                 sparkle:shortVersionString="1.9.12"
-                length="5862631"
+                length="5862848"
                 type="application/octet-stream"
-                sparkle:edSignature="uumuxrXktP8QOI9Z7AS1R6wjxkWpofsGjY+Uwqp8tjncIBx2f9RPrUXo7MVlNdnedoQMNpJVcGmPzdQm8RonBw=="
+                sparkle:edSignature="CimQJ3SwbnsJDejEDRWITQJbzT0IwvQh4Td8zHXgFNKjPjoKGUGtuWGKGrTicFQAoFaplYZf3viNL86KYYitAw=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
