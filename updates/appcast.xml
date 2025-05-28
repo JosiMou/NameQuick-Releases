@@ -5,24 +5,69 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.11</title>
+            <title>Version 1.9.12</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.11-release-notes">NameQuick v1.9.11 Release
-Notes</h1>
-<h2 id="critical-license-fix">🚨 Critical License Fix</h2>
-<p>This hotfix addresses a critical issue where users could be locked
-out of their valid licenses.</p>
+                    <h1 id="namequick-v1.9.12">NameQuick v1.9.12</h1>
+<h2 id="whats-new">What’s New</h2>
+<h3 id="faster-processing">⚡ Faster Processing</h3>
+<p>NameQuick now processes multiple files at once, making batch
+operations <strong>2-5x faster</strong>. The app automatically adjusts
+speed based on your AI provider to prevent hitting rate limits.</p>
+<h3 id="unified-menu-bar">📊 Unified Menu Bar</h3>
+<p>We’ve consolidated the menu bar into a single, smarter icon that
+shows: - Live processing progress - Queue status with file count -
+Recent files with success indicators - Quick access to pause/resume
+controls</p>
+<h3 id="smarter-performance">🎯 Smarter Performance</h3>
+<ul>
+<li><strong>Intelligent Caching</strong>: Recently processed files are
+cached for instant results</li>
+<li><strong>Pre-loading</strong>: Files load in the background while
+others process</li>
+<li><strong>Memory Management</strong>: Automatic optimization to keep
+your Mac running smoothly</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<h3 id="ui-enhancements">UI Enhancements</h3>
+<ul>
+<li>New processing status icon that animates during operations</li>
+<li>Cleaner menu bar without duplicate icons</li>
+<li>Raycast-inspired micro-interactions throughout the app</li>
+<li>Smoother hover states and transitions</li>
+</ul>
+<h3 id="settings">Settings</h3>
+<ul>
+<li>New “Enable Parallel Processing” toggle in Settings → General</li>
+<li>Better organized AI provider settings</li>
+<li>Clearer error messages for rate limits</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fixed menu bar showing duplicate icons</li>
+<li>Resolved processing queue race conditions</li>
+<li>Corrected various UI responsiveness issues</li>
+<li>Fixed compilation errors with Swift concurrency</li>
+</ul>
+<h2 id="tips">Tips</h2>
+<ul>
+<li>Enable parallel processing in Settings for maximum speed</li>
+<li>The new menu bar icon shows live progress—no need to open the main
+window</li>
+<li>Cached results make re-processing the same files nearly instant</li>
+</ul>
+<p><em>Note: Parallel processing is off by default for existing users.
+Turn it on in Settings → General → AI Behavior.</em></p>
                 ]]>
             </description>
-            <pubDate>Tue, 27 May 2025 21:53:53 +0200</pubDate>
+            <pubDate>Wed, 28 May 2025 19:12:19 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.11.dmg"
-                sparkle:version="57"
-                sparkle:shortVersionString="1.9.11"
-                length="5531836"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.12.dmg"
+                sparkle:version="59"
+                sparkle:shortVersionString="1.9.12"
+                length="5862631"
                 type="application/octet-stream"
-                sparkle:edSignature="z/oSZFMkSce4o0UMsP6EMKDSZH3dlVcQs7tQilKg3m7dS7xLz5V+QsSaZ9Ty2Wmd51IxNHKqxnOpv/1ITt02Aw=="
+                sparkle:edSignature="uumuxrXktP8QOI9Z7AS1R6wjxkWpofsGjY+Uwqp8tjncIBx2f9RPrUXo7MVlNdnedoQMNpJVcGmPzdQm8RonBw=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
