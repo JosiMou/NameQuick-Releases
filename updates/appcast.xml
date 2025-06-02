@@ -5,69 +5,121 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.12</title>
+            <title>Version 1.9.13</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.12">NameQuick v1.9.12</h1>
-<h2 id="whats-new">What’s New</h2>
-<h3 id="faster-processing">⚡ Faster Processing</h3>
-<p>NameQuick now processes multiple files at once, making batch
-operations <strong>2-5x faster</strong>. The app automatically adjusts
-speed based on your AI provider to prevent hitting rate limits.</p>
-<h3 id="unified-menu-bar">📊 Unified Menu Bar</h3>
-<p>We’ve consolidated the menu bar into a single, smarter icon that
-shows: - Live processing progress - Queue status with file count -
-Recent files with success indicators - Quick access to pause/resume
-controls</p>
-<h3 id="smarter-performance">🎯 Smarter Performance</h3>
+                    <h1 id="namequick-v1.9.13-release-notes">NameQuick v1.9.13 Release
+Notes</h1>
+<h2 id="enhanced-filename-formatting">🎯 Enhanced Filename
+Formatting</h2>
+<h3 id="improved-separator-handling">Improved Separator Handling</h3>
 <ul>
-<li><strong>Intelligent Caching</strong>: Recently processed files are
-cached for instant results</li>
-<li><strong>Pre-loading</strong>: Files load in the background while
-others process</li>
-<li><strong>Memory Management</strong>: Automatic optimization to keep
-your Mac running smoothly</li>
+<li><strong>Enhanced separator validation</strong> with expanded options
+for better filename formatting</li>
+<li><strong>Smarter AI renaming</strong> that properly combines prefix,
+filename, and suffix with your chosen separators</li>
+<li><strong>Dynamic formatting options</strong> in AI Analysis Settings
+for more control over output</li>
 </ul>
-<h2 id="improvements">Improvements</h2>
-<h3 id="ui-enhancements">UI Enhancements</h3>
+<h3 id="template-management-improvements">Template Management
+Improvements</h3>
 <ul>
-<li>New processing status icon that animates during operations</li>
-<li>Cleaner menu bar without duplicate icons</li>
-<li>Raycast-inspired micro-interactions throughout the app</li>
-<li>Smoother hover states and transitions</li>
+<li><strong>Faster template navigation</strong> - eliminated delays when
+accessing “Manage Templates”</li>
+<li><strong>Enhanced template selector</strong> with improved clarity
+and user experience</li>
+<li><strong>Better validation</strong> for template components and
+separator choices</li>
 </ul>
-<h3 id="settings">Settings</h3>
+<h2 id="ui-experience-improvements">✨ UI &amp; Experience
+Improvements</h2>
+<h3 id="modern-interface-updates">Modern Interface Updates</h3>
 <ul>
-<li>New “Enable Parallel Processing” toggle in Settings → General</li>
-<li>Better organized AI provider settings</li>
-<li>Clearer error messages for rate limits</li>
+<li><strong>Raycast-inspired toolbar</strong> with polished button
+styles for a more modern feel</li>
+<li><strong>Animated feedback buttons</strong> with smooth hover and
+click animations</li>
+<li><strong>Enhanced metadata panel</strong> with improved visual
+feedback and animations</li>
+<li><strong>Improved dropdown displays</strong> with better text
+rendering and consistent widths</li>
 </ul>
-<h2 id="bug-fixes">Bug Fixes</h2>
+<h3 id="navigation-responsiveness">Navigation &amp; Responsiveness</h3>
 <ul>
-<li>Fixed menu bar showing duplicate icons</li>
-<li>Resolved processing queue race conditions</li>
-<li>Corrected various UI responsiveness issues</li>
-<li>Fixed compilation errors with Swift concurrency</li>
+<li><strong>Smoother app startup</strong> - fixed critical race
+conditions that could cause delays or crashes</li>
+<li><strong>Faster settings navigation</strong> - eliminated delays when
+switching between settings panels</li>
+<li><strong>Better button layouts</strong> - reordered action buttons
+for more intuitive interaction</li>
 </ul>
-<h2 id="tips">Tips</h2>
+<h2 id="ai-service-enhancements">🔧 AI Service Enhancements</h2>
+<h3 id="gemini-service-improvements">Gemini Service Improvements</h3>
 <ul>
-<li>Enable parallel processing in Settings for maximum speed</li>
-<li>The new menu bar icon shows live progress—no need to open the main
-window</li>
-<li>Cached results make re-processing the same files nearly instant</li>
+<li><strong>Smart image compression</strong> - automatically optimizes
+large images for faster processing</li>
+<li><strong>File size validation</strong> - prevents processing of files
+that are too large for the AI service</li>
+<li><strong>Enhanced logging</strong> - better error reporting and
+debugging information</li>
 </ul>
-<p><em>Note: Parallel processing is off by default for existing users.
-Turn it on in Settings → General → AI Behavior.</em></p>
+<h3 id="processing-reliability">Processing Reliability</h3>
+<ul>
+<li><strong>Improved watch folder logic</strong> - more reliable file
+detection and processing</li>
+<li><strong>Better error handling</strong> - clearer feedback when
+processing issues occur</li>
+<li><strong>Optimized resource usage</strong> - smarter memory
+management during batch operations</li>
+</ul>
+<h2 id="settings-configuration">🛠️ Settings &amp; Configuration</h2>
+<h3 id="ai-analysis-settings">AI Analysis Settings</h3>
+<ul>
+<li><strong>New filename formatting controls</strong> in File Management
+Settings</li>
+<li><strong>Better separator integration</strong> throughout the AI
+prompt system</li>
+<li><strong>Enhanced help content</strong> for better user guidance
+across all settings</li>
+</ul>
+<h3 id="user-interface-polish">User Interface Polish</h3>
+<ul>
+<li><strong>Consistent component styling</strong> across all settings
+panels</li>
+<li><strong>Improved field layouts</strong> for better organization and
+clarity</li>
+<li><strong>Enhanced validation feedback</strong> for all input
+fields</li>
+</ul>
+<h2 id="bug-fixes">🐛 Bug Fixes</h2>
+<h3 id="critical-stability">Critical Stability</h3>
+<ul>
+<li>Fixed startup modal race conditions that could cause app
+instability</li>
+<li>Resolved SwiftUI state violations during app launch</li>
+<li>Improved atomic state management for better reliability</li>
+</ul>
+<h3 id="ui-responsiveness">UI Responsiveness</h3>
+<ul>
+<li>Fixed AI provider dropdown width inconsistencies</li>
+<li>Resolved navigation delays in template management</li>
+<li>Enhanced button interaction feedback timing</li>
+</ul>
+<hr />
+<p>This release focuses on making NameQuick more reliable, responsive,
+and user-friendly. The enhanced filename formatting system gives you
+better control over how your files are renamed, while the UI
+improvements make the app feel more polished and professional.</p>
                 ]]>
             </description>
-            <pubDate>Wed, 28 May 2025 19:33:05 +0200</pubDate>
+            <pubDate>Mon, 02 Jun 2025 11:17:25 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.12.dmg"
-                sparkle:version="60"
-                sparkle:shortVersionString="1.9.12"
-                length="5862848"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.13.dmg"
+                sparkle:version="62"
+                sparkle:shortVersionString="1.9.13"
+                length="6107150"
                 type="application/octet-stream"
-                sparkle:edSignature="CimQJ3SwbnsJDejEDRWITQJbzT0IwvQh4Td8zHXgFNKjPjoKGUGtuWGKGrTicFQAoFaplYZf3viNL86KYYitAw=="
+                sparkle:edSignature="3JrB7JaqygjKoFSjJmTJB31uNNuCmN3xvefZUGpOxg5SPbQ/Jih8yvS7MuVy99NWMU54aoalJURIo0N/L1SwDA=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
