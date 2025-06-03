@@ -5,121 +5,126 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.13</title>
+            <title>Version 1.9.14</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.13-release-notes">NameQuick v1.9.13 Release
+                    <h1 id="namequick-v1.9.14-release-notes">NameQuick v1.9.14 Release
 Notes</h1>
-<h2 id="enhanced-filename-formatting">🎯 Enhanced Filename
-Formatting</h2>
-<h3 id="improved-separator-handling">Improved Separator Handling</h3>
+<h2 id="major-performance-boost">⚡ Major Performance Boost</h2>
+<h3 id="lightning-fast-image-loading">Lightning-Fast Image Loading</h3>
 <ul>
-<li><strong>Enhanced separator validation</strong> with expanded options
-for better filename formatting</li>
-<li><strong>Smarter AI renaming</strong> that properly combines prefix,
-filename, and suffix with your chosen separators</li>
-<li><strong>Dynamic formatting options</strong> in AI Analysis Settings
-for more control over output</li>
+<li><strong>Instant previews</strong> - Images appear immediately and
+get sharper as they load, no more waiting</li>
+<li><strong>Smart loading</strong> - Only loads full quality when
+needed, saving time and memory</li>
+<li><strong>No more blank screens</strong> - See your images right away
+instead of staring at loading spinners</li>
+<li><strong>Seamless browsing</strong> - Navigate through images without
+delays or stuttering</li>
 </ul>
-<h3 id="template-management-improvements">Template Management
-Improvements</h3>
+<h3 id="smoother-overall-experience">Smoother Overall Experience</h3>
 <ul>
-<li><strong>Faster template navigation</strong> - eliminated delays when
-accessing “Manage Templates”</li>
-<li><strong>Enhanced template selector</strong> with improved clarity
-and user experience</li>
-<li><strong>Better validation</strong> for template components and
-separator choices</li>
+<li><strong>Faster app performance</strong> - Everything feels more
+responsive, especially with large folders</li>
+<li><strong>Better memory usage</strong> - Uses less RAM so your Mac
+stays fast while processing files</li>
+<li><strong>Smarter processing</strong> - Automatically adjusts to your
+Mac’s capabilities for optimal speed</li>
+<li><strong>Instant cancellation</strong> - Stop operations immediately
+when you need to</li>
 </ul>
-<h2 id="ui-experience-improvements">✨ UI &amp; Experience
-Improvements</h2>
-<h3 id="modern-interface-updates">Modern Interface Updates</h3>
+<h2 id="visual-improvements">🎨 Visual Improvements</h2>
+<h3 id="polished-animations">Polished Animations</h3>
 <ul>
-<li><strong>Raycast-inspired toolbar</strong> with polished button
-styles for a more modern feel</li>
-<li><strong>Animated feedback buttons</strong> with smooth hover and
-click animations</li>
-<li><strong>Enhanced metadata panel</strong> with improved visual
-feedback and animations</li>
-<li><strong>Improved dropdown displays</strong> with better text
-rendering and consistent widths</li>
+<li><strong>Fixed notification animations</strong> - Success and error
+messages now slide out smoothly instead of disappearing instantly</li>
+<li><strong>Smoother transitions</strong> - Image quality improvements
+happen seamlessly as you browse</li>
+<li><strong>No more freezing</strong> - Interface stays responsive even
+during heavy file processing</li>
 </ul>
-<h3 id="navigation-responsiveness">Navigation &amp; Responsiveness</h3>
+<h3 id="better-responsiveness">Better Responsiveness</h3>
 <ul>
-<li><strong>Smoother app startup</strong> - fixed critical race
-conditions that could cause delays or crashes</li>
-<li><strong>Faster settings navigation</strong> - eliminated delays when
-switching between settings panels</li>
-<li><strong>Better button layouts</strong> - reordered action buttons
-for more intuitive interaction</li>
+<li><strong>Smooth scrolling</strong> - Browse through large image
+collections without lag</li>
+<li><strong>Quick folder loading</strong> - Opening folders with
+hundreds of files is now much faster</li>
+<li><strong>Instant previews</strong> - See images immediately when
+switching between files</li>
 </ul>
-<h2 id="ai-service-enhancements">🔧 AI Service Enhancements</h2>
-<h3 id="gemini-service-improvements">Gemini Service Improvements</h3>
+<h2 id="what-youll-notice">🚀 What You’ll Notice</h2>
+<h3 id="faster-everything">Faster Everything</h3>
 <ul>
-<li><strong>Smart image compression</strong> - automatically optimizes
-large images for faster processing</li>
-<li><strong>File size validation</strong> - prevents processing of files
-that are too large for the AI service</li>
-<li><strong>Enhanced logging</strong> - better error reporting and
-debugging information</li>
+<li><strong>3x faster image loading</strong> - Large photos and
+screenshots appear much quicker</li>
+<li><strong>Smoother batch processing</strong> - Rename hundreds of
+files without the app slowing down</li>
+<li><strong>Less waiting</strong> - Operations that used to take time
+now happen almost instantly</li>
 </ul>
-<h3 id="processing-reliability">Processing Reliability</h3>
+<h3 id="more-reliable">More Reliable</h3>
 <ul>
-<li><strong>Improved watch folder logic</strong> - more reliable file
-detection and processing</li>
-<li><strong>Better error handling</strong> - clearer feedback when
-processing issues occur</li>
-<li><strong>Optimized resource usage</strong> - smarter memory
-management during batch operations</li>
+<li><strong>Better memory management</strong> - App uses significantly
+less RAM, especially with large files</li>
+<li><strong>Smarter about resources</strong> - Automatically backs off
+when your Mac is busy with other tasks</li>
+<li><strong>No more getting stuck</strong> - Operations complete
+reliably and you can always cancel if needed</li>
 </ul>
-<h2 id="settings-configuration">🛠️ Settings &amp; Configuration</h2>
-<h3 id="ai-analysis-settings">AI Analysis Settings</h3>
+<h2 id="behind-the-scenes">🛠️ Behind the Scenes</h2>
+<h3 id="intelligent-optimization">Intelligent Optimization</h3>
 <ul>
-<li><strong>New filename formatting controls</strong> in File Management
-Settings</li>
-<li><strong>Better separator integration</strong> throughout the AI
-prompt system</li>
-<li><strong>Enhanced help content</strong> for better user guidance
-across all settings</li>
+<li><strong>Adapts to your Mac</strong> - Performance automatically
+adjusts based on your system’s current load</li>
+<li><strong>Prevents duplicate work</strong> - No more processing the
+same file multiple times by accident</li>
+<li><strong>Memory-friendly</strong> - Automatically frees up memory
+when your Mac needs it for other apps</li>
 </ul>
-<h3 id="user-interface-polish">User Interface Polish</h3>
+<h3 id="better-file-handling">Better File Handling</h3>
 <ul>
-<li><strong>Consistent component styling</strong> across all settings
-panels</li>
-<li><strong>Improved field layouts</strong> for better organization and
-clarity</li>
-<li><strong>Enhanced validation feedback</strong> for all input
-fields</li>
+<li><strong>Smarter image caching</strong> - Keeps frequently used
+images ready while clearing old ones</li>
+<li><strong>Faster file operations</strong> - Reading and processing
+files is significantly more efficient</li>
+<li><strong>Improved error handling</strong> - Better recovery when
+something goes wrong</li>
 </ul>
 <h2 id="bug-fixes">🐛 Bug Fixes</h2>
-<h3 id="critical-stability">Critical Stability</h3>
+<h3 id="visual-polish">Visual Polish</h3>
 <ul>
-<li>Fixed startup modal race conditions that could cause app
-instability</li>
-<li>Resolved SwiftUI state violations during app launch</li>
-<li>Improved atomic state management for better reliability</li>
+<li>Fixed notification dismissal animations that were instant instead of
+smooth</li>
+<li>Improved timing of visual feedback throughout the app</li>
+<li>Enhanced consistency of animations and transitions</li>
 </ul>
-<h3 id="ui-responsiveness">UI Responsiveness</h3>
+<h3 id="performance-reliability">Performance &amp; Reliability</h3>
 <ul>
-<li>Fixed AI provider dropdown width inconsistencies</li>
-<li>Resolved navigation delays in template management</li>
-<li>Enhanced button interaction feedback timing</li>
+<li>Resolved issues where the app could slow down during large batch
+operations</li>
+<li>Fixed memory usage growing unnecessarily over time</li>
+<li>Improved handling of very large image files</li>
 </ul>
 <hr />
-<p>This release focuses on making NameQuick more reliable, responsive,
-and user-friendly. The enhanced filename formatting system gives you
-better control over how your files are renamed, while the UI
-improvements make the app feel more polished and professional.</p>
+<p>This update makes NameQuick significantly faster and more responsive.
+You’ll especially notice the improvements when working with large
+folders, high-resolution images, or during batch processing operations.
+The app now adapts intelligently to your Mac’s performance, ensuring a
+smooth experience whether you’re on a MacBook Air or Mac Studio.</p>
+<p><strong>What you’ll experience:</strong> - Much faster image loading
+and browsing - Smoother performance with large folders - Better memory
+usage and system responsiveness - More polished animations and visual
+feedback</p>
                 ]]>
             </description>
-            <pubDate>Mon, 02 Jun 2025 11:17:25 +0200</pubDate>
+            <pubDate>Tue, 03 Jun 2025 09:56:58 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.13.dmg"
-                sparkle:version="62"
-                sparkle:shortVersionString="1.9.13"
-                length="6107150"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.14.dmg"
+                sparkle:version="65"
+                sparkle:shortVersionString="1.9.14"
+                length="6185343"
                 type="application/octet-stream"
-                sparkle:edSignature="3JrB7JaqygjKoFSjJmTJB31uNNuCmN3xvefZUGpOxg5SPbQ/Jih8yvS7MuVy99NWMU54aoalJURIo0N/L1SwDA=="
+                sparkle:edSignature="K7+S7bj3bkE9HHcSzJb0id18ZO2+6PYulc0oNh62890rMk6HGfK3RL60hee0ljdhfRmqBqfRtrooQ7REwA2pAg=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
