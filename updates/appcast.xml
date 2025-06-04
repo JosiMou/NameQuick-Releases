@@ -5,126 +5,27 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.14</title>
+            <title>Version 1.9.15</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.14-release-notes">NameQuick v1.9.14 Release
+                    <h1 id="namequick-v1.9.15-release-notes">NameQuick v1.9.15 Release
 Notes</h1>
-<h2 id="major-performance-boost">⚡ Major Performance Boost</h2>
-<h3 id="lightning-fast-image-loading">Lightning-Fast Image Loading</h3>
-<ul>
-<li><strong>Instant previews</strong> - Images appear immediately and
-get sharper as they load, no more waiting</li>
-<li><strong>Smart loading</strong> - Only loads full quality when
-needed, saving time and memory</li>
-<li><strong>No more blank screens</strong> - See your images right away
-instead of staring at loading spinners</li>
-<li><strong>Seamless browsing</strong> - Navigate through images without
-delays or stuttering</li>
-</ul>
-<h3 id="smoother-overall-experience">Smoother Overall Experience</h3>
-<ul>
-<li><strong>Faster app performance</strong> - Everything feels more
-responsive, especially with large folders</li>
-<li><strong>Better memory usage</strong> - Uses less RAM so your Mac
-stays fast while processing files</li>
-<li><strong>Smarter processing</strong> - Automatically adjusts to your
-Mac’s capabilities for optimal speed</li>
-<li><strong>Instant cancellation</strong> - Stop operations immediately
-when you need to</li>
-</ul>
-<h2 id="visual-improvements">🎨 Visual Improvements</h2>
-<h3 id="polished-animations">Polished Animations</h3>
-<ul>
-<li><strong>Fixed notification animations</strong> - Success and error
-messages now slide out smoothly instead of disappearing instantly</li>
-<li><strong>Smoother transitions</strong> - Image quality improvements
-happen seamlessly as you browse</li>
-<li><strong>No more freezing</strong> - Interface stays responsive even
-during heavy file processing</li>
-</ul>
-<h3 id="better-responsiveness">Better Responsiveness</h3>
-<ul>
-<li><strong>Smooth scrolling</strong> - Browse through large image
-collections without lag</li>
-<li><strong>Quick folder loading</strong> - Opening folders with
-hundreds of files is now much faster</li>
-<li><strong>Instant previews</strong> - See images immediately when
-switching between files</li>
-</ul>
-<h2 id="what-youll-notice">🚀 What You’ll Notice</h2>
-<h3 id="faster-everything">Faster Everything</h3>
-<ul>
-<li><strong>3x faster image loading</strong> - Large photos and
-screenshots appear much quicker</li>
-<li><strong>Smoother batch processing</strong> - Rename hundreds of
-files without the app slowing down</li>
-<li><strong>Less waiting</strong> - Operations that used to take time
-now happen almost instantly</li>
-</ul>
-<h3 id="more-reliable">More Reliable</h3>
-<ul>
-<li><strong>Better memory management</strong> - App uses significantly
-less RAM, especially with large files</li>
-<li><strong>Smarter about resources</strong> - Automatically backs off
-when your Mac is busy with other tasks</li>
-<li><strong>No more getting stuck</strong> - Operations complete
-reliably and you can always cancel if needed</li>
-</ul>
-<h2 id="behind-the-scenes">🛠️ Behind the Scenes</h2>
-<h3 id="intelligent-optimization">Intelligent Optimization</h3>
-<ul>
-<li><strong>Adapts to your Mac</strong> - Performance automatically
-adjusts based on your system’s current load</li>
-<li><strong>Prevents duplicate work</strong> - No more processing the
-same file multiple times by accident</li>
-<li><strong>Memory-friendly</strong> - Automatically frees up memory
-when your Mac needs it for other apps</li>
-</ul>
-<h3 id="better-file-handling">Better File Handling</h3>
-<ul>
-<li><strong>Smarter image caching</strong> - Keeps frequently used
-images ready while clearing old ones</li>
-<li><strong>Faster file operations</strong> - Reading and processing
-files is significantly more efficient</li>
-<li><strong>Improved error handling</strong> - Better recovery when
-something goes wrong</li>
-</ul>
-<h2 id="bug-fixes">🐛 Bug Fixes</h2>
-<h3 id="visual-polish">Visual Polish</h3>
-<ul>
-<li>Fixed notification dismissal animations that were instant instead of
-smooth</li>
-<li>Improved timing of visual feedback throughout the app</li>
-<li>Enhanced consistency of animations and transitions</li>
-</ul>
-<h3 id="performance-reliability">Performance &amp; Reliability</h3>
-<ul>
-<li>Resolved issues where the app could slow down during large batch
-operations</li>
-<li>Fixed memory usage growing unnecessarily over time</li>
-<li>Improved handling of very large image files</li>
-</ul>
-<hr />
-<p>This update makes NameQuick significantly faster and more responsive.
-You’ll especially notice the improvements when working with large
-folders, high-resolution images, or during batch processing operations.
-The app now adapts intelligently to your Mac’s performance, ensuring a
-smooth experience whether you’re on a MacBook Air or Mac Studio.</p>
-<p><strong>What you’ll experience:</strong> - Much faster image loading
-and browsing - Smoother performance with large folders - Better memory
-usage and system responsiveness - More polished animations and visual
-feedback</p>
+<h2 id="critical-fixes">🔧 Critical Fixes</h2>
+<p><strong>Fixed folder monitoring</strong> - NameQuick now properly
+detects new screenshots and files again.</p>
+<p><strong>Fixed Smart Description prefix/suffix</strong> - The prefix
+and suffix feature now works automatically when you enter any
+values.</p>
                 ]]>
             </description>
-            <pubDate>Tue, 03 Jun 2025 09:56:58 +0200</pubDate>
+            <pubDate>Wed, 04 Jun 2025 11:26:16 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.14.dmg"
-                sparkle:version="65"
-                sparkle:shortVersionString="1.9.14"
-                length="6185343"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.15.dmg"
+                sparkle:version="67"
+                sparkle:shortVersionString="1.9.15"
+                length="6193219"
                 type="application/octet-stream"
-                sparkle:edSignature="K7+S7bj3bkE9HHcSzJb0id18ZO2+6PYulc0oNh62890rMk6HGfK3RL60hee0ljdhfRmqBqfRtrooQ7REwA2pAg=="
+                sparkle:edSignature="LRluL2kJpDeRRJw2kYAjudeMYUlbkOmYY2ymXltTiBNqX3XWis9eG/LpmCWXFMQt4HEpNeUMFj7OqYd7qBvqCA=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
