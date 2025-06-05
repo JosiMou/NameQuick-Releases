@@ -5,25 +5,46 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.16</title>
+            <title>Version 1.9.17</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.16-release-notes">NameQuick v1.9.16 Release
+                    <h1 id="namequick-v1.9.17-release-notes">NameQuick v1.9.17 Release
 Notes</h1>
-<h2 id="bug-fixes">🔧 Bug Fixes</h2>
-<p><strong>Fixed Smart Description prefix/suffix not working</strong> -
-Prefix and suffix now work automatically when you enter values in
-Settings → AI Analysis → Smart Description.</p>
+<h2 id="major-fix">🎯 Major Fix</h2>
+<p><strong>Fixed Templates not working on auto folder
+monitoring</strong> - Templates now process files automatically when
+they’re added to monitored folders. Previously, templates only worked
+when triggered manually but would default to Smart Description for
+auto-detected files.</p>
+<h2 id="improvements">🔧 Improvements</h2>
+<p><strong>Enhanced Ollama (Local AI) support</strong> - Better
+experience when using local AI models: - Fixed UI flickering when
+switching between models - Improved detection of vision-capable models
+(now correctly identifies llava:13b and other vision models) - Clearer
+guidance about which models support images - Model list now updates
+reliably when you install or remove models</p>
+<p><strong>Cleaner AI settings interface</strong> - Removed duplicate
+status messages and redundant information for a cleaner, more focused
+settings experience.</p>
+<p><strong>Consistent email support</strong> - Updated all support
+contact references to use support@namequick.cc for consistent
+communication.</p>
+<hr />
+<p>This release fixes a critical issue where users configured templates
+for their managed folders but new files were being processed with Smart
+Description instead. Auto-processing now correctly respects your
+template configurations. It also significantly improves the experience
+for users running local AI models with Ollama.</p>
                 ]]>
             </description>
-            <pubDate>Thu, 05 Jun 2025 14:47:21 +0200</pubDate>
+            <pubDate>Thu, 05 Jun 2025 23:24:46 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.16.dmg"
-                sparkle:version="70"
-                sparkle:shortVersionString="1.9.16"
-                length="6158712"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.17.dmg"
+                sparkle:version="71"
+                sparkle:shortVersionString="1.9.17"
+                length="6172608"
                 type="application/octet-stream"
-                sparkle:edSignature="mwwqKF2cRQSXZ25TYW4NRfYLSQBHBtktuyfRLFuwSTjPfv0IfbP/sycDvCsTa2V/ld6Z1FQOW+4z9fzCAx39Bw=="
+                sparkle:edSignature="rn9q8niwa7you3Zx6I471Ks+mgUMx6g1qXZQ0GMR1gWtPiQUPhTtDAcu85gej3vlY4RpJEs0pZKl2lMtmdvUAg=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
