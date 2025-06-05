@@ -5,27 +5,25 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.15</title>
+            <title>Version 1.9.16</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.15-release-notes">NameQuick v1.9.15 Release
+                    <h1 id="namequick-v1.9.16-release-notes">NameQuick v1.9.16 Release
 Notes</h1>
-<h2 id="critical-fixes">🔧 Critical Fixes</h2>
-<p><strong>Fixed folder monitoring</strong> - NameQuick now properly
-detects new screenshots and files again.</p>
-<p><strong>Fixed Smart Description prefix/suffix</strong> - The prefix
-and suffix feature now works automatically when you enter any
-values.</p>
+<h2 id="bug-fixes">🔧 Bug Fixes</h2>
+<p><strong>Fixed Smart Description prefix/suffix not working</strong> -
+Prefix and suffix now work automatically when you enter values in
+Settings → AI Analysis → Smart Description.</p>
                 ]]>
             </description>
-            <pubDate>Wed, 04 Jun 2025 11:26:16 +0200</pubDate>
+            <pubDate>Thu, 05 Jun 2025 14:47:21 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.15.dmg"
-                sparkle:version="67"
-                sparkle:shortVersionString="1.9.15"
-                length="6193219"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.16.dmg"
+                sparkle:version="70"
+                sparkle:shortVersionString="1.9.16"
+                length="6158712"
                 type="application/octet-stream"
-                sparkle:edSignature="LRluL2kJpDeRRJw2kYAjudeMYUlbkOmYY2ymXltTiBNqX3XWis9eG/LpmCWXFMQt4HEpNeUMFj7OqYd7qBvqCA=="
+                sparkle:edSignature="mwwqKF2cRQSXZ25TYW4NRfYLSQBHBtktuyfRLFuwSTjPfv0IfbP/sycDvCsTa2V/ld6Z1FQOW+4z9fzCAx39Bw=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
