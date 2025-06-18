@@ -5,34 +5,72 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.18</title>
+            <title>Version 1.9.20</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.18-release-notes">NameQuick v1.9.18 Release
+                    <h1 id="namequick-v1.9.20-release-notes">NameQuick v1.9.20 Release
 Notes</h1>
-<h2 id="bug-fixes">🔧 Bug Fixes</h2>
-<p><strong>Fixed template prefix/suffix not persisting</strong> - When
-you edit an existing template, the prefix and suffix fields now show the
-actual values from when the template was created and persist across app
-sessions. No more losing your settings when you reopen the app.</p>
-<p><strong>Fixed transformation rules not persisting</strong> - Template
-transformation rules (like “convert to lowercase” or “replace spaces
-with hyphens”) now save properly and persist across app sessions instead
-of disappearing when you reopen the app.</p>
-<hr />
-<p>This release fixes two annoying template editing issues: losing your
-prefix/suffix settings and transformation rules breaking when making
-changes to templates.</p>
+<h2 id="uiux-improvements">🎨 UI/UX Improvements</h2>
+<p><strong>Streamlined Settings</strong> - Reduced from 9+ tabs to just
+5 focused sections. Everything is now exactly where you’d expect it to
+be, making configuration faster and more intuitive.</p>
+<p><strong>Visual Processing Indicators</strong> - New animated badges
+and status chips show exactly what’s happening with your files.
+Color-coded mode indicators make it clear whether you’re using Smart
+Rename or Template processing.</p>
+<p><strong>Cleaner, More Professional Look</strong> - Every element has
+been refined with a modern design system. The interface feels more
+polished and consistent throughout.</p>
+<p><strong>Better Information Architecture</strong> - Completely
+reorganized how features are presented. The app now guides you naturally
+from selecting files to choosing processing methods to seeing
+results.</p>
+<h2 id="performance-reliability">⚡ Performance &amp; Reliability</h2>
+<p><strong>More Reliable AI Processing</strong> - If one AI service is
+down, NameQuick automatically switches to another. Temporary glitches
+are handled gracefully with smart retries.</p>
+<p><strong>Improved Large File Handling</strong> - Smart sampling
+technology processes large documents more efficiently while maintaining
+accuracy.</p>
+<h2 id="under-the-hood">🔧 Under the Hood</h2>
+<p><strong>Faster and More Responsive</strong> - Rebuilt with modern
+Swift concurrency for better performance. File processing is noticeably
+snappier.</p>
+<p><strong>Rock-Solid Stability</strong> - Extensive testing ensures
+this release is our most reliable yet. We’ve squashed numerous edge-case
+bugs.</p>
+<h2 id="bug-fixes">🐛 Bug Fixes</h2>
+<ul>
+<li>Fixed missing processing indicators on file thumbnails</li>
+<li>Resolved settings navigation issues that made some options hard to
+find</li>
+<li>Fixed license unlinking functionality now accessible from Settings
+&gt; About</li>
+<li>Corrected API integration issues causing authentication
+failures</li>
+<li>Fixed file permissions not being properly respected during
+processing</li>
+<li>Resolved memory leaks during batch processing operations</li>
+</ul>
+<h2 id="notes">📝 Notes</h2>
+<p>This is a major architectural update that sets the foundation for
+exciting features coming in 2025. While maintaining full compatibility
+with existing workflows, we’ve made NameQuick more reliable, more
+intuitive, and ready for the future.</p>
+<p><strong>Important for existing users</strong>: Your settings and
+templates are preserved, though you may notice they’ve been reorganized
+for better clarity. All your existing licenses and API keys continue to
+work exactly as before.</p>
                 ]]>
             </description>
-            <pubDate>Thu, 12 Jun 2025 09:53:37 +0200</pubDate>
+            <pubDate>Wed, 18 Jun 2025 20:09:52 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.18.dmg"
-                sparkle:version="72"
-                sparkle:shortVersionString="1.9.18"
-                length="6181520"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.20.dmg"
+                sparkle:version="74"
+                sparkle:shortVersionString="1.9.20"
+                length="7564752"
                 type="application/octet-stream"
-                sparkle:edSignature="ZbanSBK2tAW5F2sDlQx1bwigGFWYnhYKjVN07GhIBZz/6pUMV3xay1maZpmw7J8MMF9Ee/0vaD1EtPNwsxmtDw=="
+                sparkle:edSignature="3rFnV7jUFLJN5rMF3L7nVbhS6wmVp3XXiXysADv/4P0+zLHpko7CFpeTQLPpjBdwVJVnrd6dkHbQAfFED/2mAQ=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
