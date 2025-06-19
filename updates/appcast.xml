@@ -5,72 +5,121 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.20</title>
+            <title>Version 1.9.21</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.20-release-notes">NameQuick v1.9.20 Release
+                    <h1 id="namequick-v1.9.21-release-notes">NameQuick v1.9.21 Release
 Notes</h1>
-<h2 id="uiux-improvements">🎨 UI/UX Improvements</h2>
-<p><strong>Streamlined Settings</strong> - Reduced from 9+ tabs to just
-5 focused sections. Everything is now exactly where you’d expect it to
-be, making configuration faster and more intuitive.</p>
-<p><strong>Visual Processing Indicators</strong> - New animated badges
-and status chips show exactly what’s happening with your files.
-Color-coded mode indicators make it clear whether you’re using Smart
-Rename or Template processing.</p>
-<p><strong>Cleaner, More Professional Look</strong> - Every element has
-been refined with a modern design system. The interface feels more
-polished and consistent throughout.</p>
-<p><strong>Better Information Architecture</strong> - Completely
-reorganized how features are presented. The app now guides you naturally
-from selecting files to choosing processing methods to seeing
-results.</p>
-<h2 id="performance-reliability">⚡ Performance &amp; Reliability</h2>
-<p><strong>More Reliable AI Processing</strong> - If one AI service is
-down, NameQuick automatically switches to another. Temporary glitches
-are handled gracefully with smart retries.</p>
-<p><strong>Improved Large File Handling</strong> - Smart sampling
-technology processes large documents more efficiently while maintaining
-accuracy.</p>
-<h2 id="under-the-hood">🔧 Under the Hood</h2>
-<p><strong>Faster and More Responsive</strong> - Rebuilt with modern
-Swift concurrency for better performance. File processing is noticeably
-snappier.</p>
-<p><strong>Rock-Solid Stability</strong> - Extensive testing ensures
-this release is our most reliable yet. We’ve squashed numerous edge-case
-bugs.</p>
-<h2 id="bug-fixes">🐛 Bug Fixes</h2>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<h3 id="template-transformation-rules">Template Transformation
+Rules</h3>
 <ul>
-<li>Fixed missing processing indicators on file thumbnails</li>
-<li>Resolved settings navigation issues that made some options hard to
-find</li>
-<li>Fixed license unlinking functionality now accessible from Settings
-&gt; About</li>
-<li>Corrected API integration issues causing authentication
-failures</li>
-<li>Fixed file permissions not being properly respected during
-processing</li>
-<li>Resolved memory leaks during batch processing operations</li>
+<li><strong>Fixed: Only first transformation rule was being
+applied</strong> - When you added multiple transformation rules to a
+template (like “Convert to lowercase” and “Replace spaces with dashes”),
+only the first rule would work. Now all rules are applied in the order
+you specified.</li>
+<li><strong>Fixed: Template save button not responding</strong> - The
+save button would sometimes become unresponsive when editing templates
+with transformation rules. This has been resolved with improved state
+management.</li>
+<li><strong>Fixed: UI refresh issues when editing transformation
+rules</strong> - The template editor now properly updates when adding or
+modifying post-processing rules, ensuring a smooth editing
+experience.</li>
 </ul>
-<h2 id="notes">📝 Notes</h2>
-<p>This is a major architectural update that sets the foundation for
-exciting features coming in 2025. While maintaining full compatibility
-with existing workflows, we’ve made NameQuick more reliable, more
-intuitive, and ready for the future.</p>
-<p><strong>Important for existing users</strong>: Your settings and
-templates are preserved, though you may notice they’ve been reorganized
-for better clarity. All your existing licenses and API keys continue to
-work exactly as before.</p>
+<h3 id="file-renaming-issues">File Renaming Issues</h3>
+<ul>
+<li><strong>Fixed: Files wouldn’t rename when only changing letter
+case</strong> - Previously, renaming “Invoice.PDF” to “invoice.pdf”
+would fail silently. This has been fixed - case-only renames now work
+properly.</li>
+<li><strong>Fixed: Some renamed files weren’t actually changing on
+disk</strong> - In certain situations, NameQuick would show a file as
+renamed but the actual file wouldn’t change. This has been
+resolved.</li>
+</ul>
+<h3 id="ai-provider-improvements">AI Provider Improvements</h3>
+<ul>
+<li><strong>Fixed: Template processing reliability</strong> - Resolved
+issues where templates would sometimes fail to generate the expected
+filename format, particularly with Gemini and OpenAI providers.</li>
+<li><strong>Improved: Gemini error messages</strong> - HTTP 400 errors
+from Gemini now provide specific, actionable guidance:
+<ul>
+<li>Schema validation errors suggest simplifying template fields</li>
+<li>API key errors direct users to verify their credentials</li>
+<li>Quota errors point to Google Cloud Console for usage details</li>
+<li>File format errors suggest trying different files</li>
+</ul></li>
+</ul>
+<h3 id="ollama-integration">Ollama Integration</h3>
+<ul>
+<li><strong>New: Structured outputs support</strong> - Implemented
+Ollama’s structured outputs feature for improved reliability:
+<ul>
+<li>All models running Ollama v0.5+ now support JSON schema-based
+outputs</li>
+<li>LLaVA models (including llava:7b) and moondream use structured
+outputs by default</li>
+<li>Automatic fallback to enhanced JSON prompts for older models</li>
+</ul></li>
+<li><strong>Enhanced: Date extraction reliability</strong> - Improved
+date detection with comprehensive format examples:
+<ul>
+<li>Now recognizes ISO dates (2025-06-19), US/EU formats (06/19/2025,
+19/06/2025)</li>
+<li>Handles written dates (June 19, 2025), partial dates (June
+2025)</li>
+<li>Better detection of date indicators like “Invoice Date:”, “Due
+Date:”, etc.</li>
+<li>Clear instructions to return empty strings instead of “null” or
+“N/A” when dates aren’t found</li>
+</ul></li>
+<li><strong>New: Model quality indicators</strong> - Added visual
+guidance for model selection:
+<ul>
+<li>Star icon (green) for recommended models with high extraction
+accuracy</li>
+<li>Checkmark (blue) for models with good performance</li>
+<li>Warning triangle (orange) for models that may have accuracy
+issues</li>
+<li>Helps users choose appropriate models for their extraction
+needs</li>
+</ul></li>
+<li><strong>Fixed: Ollama timeout issues</strong> - Increased timeouts
+to prevent failures with slower models:
+<ul>
+<li>Request timeout increased from 60 seconds to 5 minutes</li>
+<li>Processing timeout for Ollama increased to match</li>
+<li>Prevents “The request timed out” errors when using models like
+moonshot</li>
+</ul></li>
+</ul>
+<h2 id="technical-improvements">Technical Improvements</h2>
+<ul>
+<li>Refined animation handling in transformation editor for better
+performance</li>
+<li>Enhanced state synchronization between view models and UI
+components</li>
+<li>More robust error parsing and user-friendly error messages</li>
+<li>Implemented Ollama’s GBNF grammar-based structured outputs for all
+compatible models</li>
+</ul>
+<hr />
+<p><em>Thank you for your patience as we improve NameQuick! If you
+encounter any issues, please report them at
+support@namequick.cc</em></p>
                 ]]>
             </description>
-            <pubDate>Wed, 18 Jun 2025 20:09:52 +0200</pubDate>
+            <pubDate>Thu, 19 Jun 2025 14:13:26 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.20.dmg"
-                sparkle:version="74"
-                sparkle:shortVersionString="1.9.20"
-                length="7564752"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.21.dmg"
+                sparkle:version="76"
+                sparkle:shortVersionString="1.9.21"
+                length="7616443"
                 type="application/octet-stream"
-                sparkle:edSignature="3rFnV7jUFLJN5rMF3L7nVbhS6wmVp3XXiXysADv/4P0+zLHpko7CFpeTQLPpjBdwVJVnrd6dkHbQAfFED/2mAQ=="
+                sparkle:edSignature="859AmuJS5++Fg0RmHoubLLCws5TLqUCFffAoxT13NMk3xRRKkrtOly1ayyorHC5rEol3E4+0/y0RlzEYge0FAg=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
