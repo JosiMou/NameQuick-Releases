@@ -5,121 +5,22 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.21</title>
+            <title>Version 1.9.22</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.21-release-notes">NameQuick v1.9.21 Release
-Notes</h1>
-<h2 id="bug-fixes">Bug Fixes</h2>
-<h3 id="template-transformation-rules">Template Transformation
-Rules</h3>
-<ul>
-<li><strong>Fixed: Only first transformation rule was being
-applied</strong> - When you added multiple transformation rules to a
-template (like “Convert to lowercase” and “Replace spaces with dashes”),
-only the first rule would work. Now all rules are applied in the order
-you specified.</li>
-<li><strong>Fixed: Template save button not responding</strong> - The
-save button would sometimes become unresponsive when editing templates
-with transformation rules. This has been resolved with improved state
-management.</li>
-<li><strong>Fixed: UI refresh issues when editing transformation
-rules</strong> - The template editor now properly updates when adding or
-modifying post-processing rules, ensuring a smooth editing
-experience.</li>
-</ul>
-<h3 id="file-renaming-issues">File Renaming Issues</h3>
-<ul>
-<li><strong>Fixed: Files wouldn’t rename when only changing letter
-case</strong> - Previously, renaming “Invoice.PDF” to “invoice.pdf”
-would fail silently. This has been fixed - case-only renames now work
-properly.</li>
-<li><strong>Fixed: Some renamed files weren’t actually changing on
-disk</strong> - In certain situations, NameQuick would show a file as
-renamed but the actual file wouldn’t change. This has been
-resolved.</li>
-</ul>
-<h3 id="ai-provider-improvements">AI Provider Improvements</h3>
-<ul>
-<li><strong>Fixed: Template processing reliability</strong> - Resolved
-issues where templates would sometimes fail to generate the expected
-filename format, particularly with Gemini and OpenAI providers.</li>
-<li><strong>Improved: Gemini error messages</strong> - HTTP 400 errors
-from Gemini now provide specific, actionable guidance:
-<ul>
-<li>Schema validation errors suggest simplifying template fields</li>
-<li>API key errors direct users to verify their credentials</li>
-<li>Quota errors point to Google Cloud Console for usage details</li>
-<li>File format errors suggest trying different files</li>
-</ul></li>
-</ul>
-<h3 id="ollama-integration">Ollama Integration</h3>
-<ul>
-<li><strong>New: Structured outputs support</strong> - Implemented
-Ollama’s structured outputs feature for improved reliability:
-<ul>
-<li>All models running Ollama v0.5+ now support JSON schema-based
-outputs</li>
-<li>LLaVA models (including llava:7b) and moondream use structured
-outputs by default</li>
-<li>Automatic fallback to enhanced JSON prompts for older models</li>
-</ul></li>
-<li><strong>Enhanced: Date extraction reliability</strong> - Improved
-date detection with comprehensive format examples:
-<ul>
-<li>Now recognizes ISO dates (2025-06-19), US/EU formats (06/19/2025,
-19/06/2025)</li>
-<li>Handles written dates (June 19, 2025), partial dates (June
-2025)</li>
-<li>Better detection of date indicators like “Invoice Date:”, “Due
-Date:”, etc.</li>
-<li>Clear instructions to return empty strings instead of “null” or
-“N/A” when dates aren’t found</li>
-</ul></li>
-<li><strong>New: Model quality indicators</strong> - Added visual
-guidance for model selection:
-<ul>
-<li>Star icon (green) for recommended models with high extraction
-accuracy</li>
-<li>Checkmark (blue) for models with good performance</li>
-<li>Warning triangle (orange) for models that may have accuracy
-issues</li>
-<li>Helps users choose appropriate models for their extraction
-needs</li>
-</ul></li>
-<li><strong>Fixed: Ollama timeout issues</strong> - Increased timeouts
-to prevent failures with slower models:
-<ul>
-<li>Request timeout increased from 60 seconds to 5 minutes</li>
-<li>Processing timeout for Ollama increased to match</li>
-<li>Prevents “The request timed out” errors when using models like
-moonshot</li>
-</ul></li>
-</ul>
-<h2 id="technical-improvements">Technical Improvements</h2>
-<ul>
-<li>Refined animation handling in transformation editor for better
-performance</li>
-<li>Enhanced state synchronization between view models and UI
-components</li>
-<li>More robust error parsing and user-friendly error messages</li>
-<li>Implemented Ollama’s GBNF grammar-based structured outputs for all
-compatible models</li>
-</ul>
-<hr />
-<p><em>Thank you for your patience as we improve NameQuick! If you
-encounter any issues, please report them at
-support@namequick.cc</em></p>
+                    <h1 id="v1.9.22">v1.9.22</h1>
+<h2 id="features">## Features</h2>
+<h2 id="fixes">## Fixes</h2>
                 ]]>
             </description>
-            <pubDate>Thu, 19 Jun 2025 14:13:26 +0200</pubDate>
+            <pubDate>Fri, 20 Jun 2025 00:17:43 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.21.dmg"
-                sparkle:version="76"
-                sparkle:shortVersionString="1.9.21"
-                length="7616443"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.22.dmg"
+                sparkle:version="78"
+                sparkle:shortVersionString="1.9.22"
+                length="7631671"
                 type="application/octet-stream"
-                sparkle:edSignature="859AmuJS5++Fg0RmHoubLLCws5TLqUCFffAoxT13NMk3xRRKkrtOly1ayyorHC5rEol3E4+0/y0RlzEYge0FAg=="
+                sparkle:edSignature="sF+OkK6JdNPRBXEomenkBBtlwK+TcoiPcRuMSMJolWhmRiSw0OK+k0Mr3x6Z9qaYPJOaDDU3/UfNMq6U/UnCBA=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
