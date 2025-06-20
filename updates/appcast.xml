@@ -5,42 +5,76 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.23</title>
+            <title>Version 1.9.24</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.23">NameQuick v1.9.23</h1>
-<h2 id="whats-new">What’s New</h2>
-<h3 id="date-placeholders">Date Placeholders</h3>
+                    <h1 id="namequick-v1.9.24-release-notes">NameQuick v1.9.24 Release
+Notes</h1>
+<h2 id="major-improvement-enhanced-ai-prompt-system">🎯 Major
+Improvement: Enhanced AI Prompt System</h2>
+<p>I’ve completely reworked how NameQuick communicates with AI models to
+ensure more reliable and consistent pattern extractions and
+transformations.</p>
+<h2 id="whats-new">✨ What’s New</h2>
+<h3 id="improved-prompt-engineering">Improved Prompt Engineering</h3>
 <ul>
-<li>Add custom date formats to your file names</li>
-<li>Automatically detect dates from file content</li>
-<li>Use creation date, modification date, or extracted dates</li>
+<li><strong>More Reliable Extractions</strong>: The AI now better
+understands your pattern requirements and extracts data more
+consistently</li>
+<li><strong>Better Transformation Handling</strong>: Text
+transformations (uppercase, lowercase, etc.) are now applied more
+reliably</li>
+<li><strong>Enhanced Pattern Compliance</strong>: The system now adheres
+more strictly to your defined patterns, reducing unexpected results</li>
 </ul>
-<h3 id="better-pattern-editor">Better Pattern Editor</h3>
+<h3 id="why-this-matters">Why This Matters</h3>
+<p>Previously, the AI could sometimes misinterpret pattern instructions
+or apply transformations inconsistently. This update significantly
+improves the reliability of pattern-based renaming, making NameQuick
+more predictable and trustworthy for your workflows.</p>
+<h2 id="important-note-for-existing-users">⚠️ Important Note for
+Existing Users</h2>
+<p><strong>Your existing templates may need minor adjustments.</strong>
+While we’ve worked hard to maintain compatibility, the improved prompt
+system may handle some edge cases differently. We recommend:</p>
+<ol type="1">
+<li><strong>Test your existing templates</strong> with a few sample
+files before bulk processing</li>
+<li><strong>Check that extractions are working as expected</strong></li>
+<li><strong>Verify transformations are being applied
+correctly</strong></li>
+<li><strong>Adjust patterns if needed</strong> - most templates will
+work without changes, but some complex patterns may benefit from small
+tweaks</li>
+</ol>
+<h2 id="long-term-benefits">🚀 Long-term Benefits</h2>
+<p>This foundational improvement sets us up for: - More consistent
+results across different AI providers - Better support for complex
+pattern requirements - Reduced need for manual corrections - A more
+stable platform for future enhancements</p>
+<h2 id="tips-for-best-results">💡 Tips for Best Results</h2>
 <ul>
-<li>Improved prefix and suffix support</li>
-<li>Live preview of filename changes</li>
-<li>Organized placeholder categories</li>
-</ul>
-<h2 id="fixes">Fixes</h2>
-<ul>
-<li>Fixed pattern parsing issues</li>
-<li>Resolved placeholder formatting bugs</li>
-<li>Better error handling</li>
+<li>If a template isn’t working as expected, try simplifying complex
+patterns</li>
 </ul>
 <hr />
-<p><em>Make your file naming more powerful with custom date formats and
-improved patterns.</em></p>
+<p><em>This update represents a significant step forward in making
+NameQuick’s AI-powered renaming more reliable and predictable. While it
+may require some adjustment to existing workflows, the long-term
+benefits of improved consistency and reliability make this a worthwhile
+upgrade.</em></p>
+<p><em>Questions or issues? Please reach out at
+support@namequick.cc</em></p>
                 ]]>
             </description>
-            <pubDate>Fri, 20 Jun 2025 12:52:55 +0200</pubDate>
+            <pubDate>Sat, 21 Jun 2025 00:24:19 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.23.dmg"
-                sparkle:version="79"
-                sparkle:shortVersionString="1.9.23"
-                length="7746650"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.24.dmg"
+                sparkle:version="81"
+                sparkle:shortVersionString="1.9.24"
+                length="7764577"
                 type="application/octet-stream"
-                sparkle:edSignature="Q4yS/3hD8ZYayfAZbg2yeDpkeRPxnM4wwnWO8Z/x03/PZl/N/PjCUdLFn+ZOtJcFCu2aUgEgT+ohfOJW4cefCw=="
+                sparkle:edSignature="d3bjjZMUbyANmVNtNeTiP0kCt8yKOVUoYZoi98N3teMVqYhfgSIGEB11AE2ttWzNxh7i+gGjP5TYSA1/XETcBw=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
