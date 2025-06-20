@@ -5,22 +5,42 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.22</title>
+            <title>Version 1.9.23</title>
             <description>
                 <![CDATA[
-                    <h1 id="v1.9.22">v1.9.22</h1>
-<h2 id="features">## Features</h2>
-<h2 id="fixes">## Fixes</h2>
+                    <h1 id="namequick-v1.9.23">NameQuick v1.9.23</h1>
+<h2 id="whats-new">What’s New</h2>
+<h3 id="date-placeholders">Date Placeholders</h3>
+<ul>
+<li>Add custom date formats to your file names</li>
+<li>Automatically detect dates from file content</li>
+<li>Use creation date, modification date, or extracted dates</li>
+</ul>
+<h3 id="better-pattern-editor">Better Pattern Editor</h3>
+<ul>
+<li>Improved prefix and suffix support</li>
+<li>Live preview of filename changes</li>
+<li>Organized placeholder categories</li>
+</ul>
+<h2 id="fixes">Fixes</h2>
+<ul>
+<li>Fixed pattern parsing issues</li>
+<li>Resolved placeholder formatting bugs</li>
+<li>Better error handling</li>
+</ul>
+<hr />
+<p><em>Make your file naming more powerful with custom date formats and
+improved patterns.</em></p>
                 ]]>
             </description>
-            <pubDate>Fri, 20 Jun 2025 00:17:43 +0200</pubDate>
+            <pubDate>Fri, 20 Jun 2025 12:52:55 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.22.dmg"
-                sparkle:version="78"
-                sparkle:shortVersionString="1.9.22"
-                length="7631671"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.23.dmg"
+                sparkle:version="79"
+                sparkle:shortVersionString="1.9.23"
+                length="7746650"
                 type="application/octet-stream"
-                sparkle:edSignature="sF+OkK6JdNPRBXEomenkBBtlwK+TcoiPcRuMSMJolWhmRiSw0OK+k0Mr3x6Z9qaYPJOaDDU3/UfNMq6U/UnCBA=="
+                sparkle:edSignature="Q4yS/3hD8ZYayfAZbg2yeDpkeRPxnM4wwnWO8Z/x03/PZl/N/PjCUdLFn+ZOtJcFCu2aUgEgT+ohfOJW4cefCw=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
