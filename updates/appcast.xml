@@ -51,14 +51,14 @@ mechanisms • Better separation of concerns in processing pipeline •
 Enhanced logging with structured token usage data</p>
                 ]]>
             </description>
-            <pubDate>Mon, 23 Jun 2025 23:28:39 +0200</pubDate>
+            <pubDate>Tue, 24 Jun 2025 00:09:02 +0200</pubDate>
             <enclosure
                 url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.26.dmg"
-                sparkle:version="86"
+                sparkle:version="88"
                 sparkle:shortVersionString="1.9.26"
-                length="8002984"
+                length="7997433"
                 type="application/octet-stream"
-                sparkle:edSignature="iXGcvpqDSw7gfjmm3z4wBzbzt8MVr9Fn1on/XSMLlxpk6fvV4sm8oCIXws6+aOKjp5QGWIOo/nceCFduchiuDg=="
+                sparkle:edSignature="O2yvnqqFwUlNuaDJ//5iePzMWE38heEKBvJcNH29AaOLNZjufj2t+37C81yt5DGc+eykOTCqL/JL0mWtEtdQCQ=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
