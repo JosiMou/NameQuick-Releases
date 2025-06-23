@@ -5,36 +5,60 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.25</title>
+            <title>Version 1.9.26</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.25">NameQuick v1.9.25</h1>
-<h2 id="whats-fixed">What’s Fixed</h2>
-<h3 id="openai-api-key-validation">OpenAI API Key Validation</h3>
-<p>Fixed an issue where OpenAI API keys would fail to validate in the
-app, even though they were working correctly. The validation process now
-works reliably, even on slower internet connections.</p>
+                    <h1 id="namequick-v1.9.26">NameQuick v1.9.26</h1>
+<h2 id="pro-tip">Pro Tip</h2>
+<p>💡 <strong>Speed up file processing</strong>: Deactivate meta
+description generation in settings when not needed. This can
+significantly reduce processing time and token usage, especially for
+large batches of files. Only enable it when you specifically need
+detailed metadata extraction.</p>
+<h2 id="whats-new">What’s New</h2>
+<h3 id="byok-token-usage-dashboard">BYOK Token Usage Dashboard</h3>
+<p>Track your API token consumption and costs with a new comprehensive
+dashboard for Bring Your Own Keys users: • Real-time token usage
+tracking across OpenAI, Gemini, and Ollama • Detailed cost breakdowns by
+model and operation type • Historical usage charts with
+daily/weekly/monthly views • Export usage data for expense tracking</p>
+<h3 id="enhanced-ai-model-support">Enhanced AI Model Support</h3>
+<p>• Added 5 new Gemini models including stable 2.5 Pro and Flash
+versions • Expanded Gemini catalog from 8 to 13 models total • Better
+model recommendations based on file type and tier preference</p>
 <h2 id="whats-improved">What’s Improved</h2>
-<h3 id="better-reliability-for-byok-users">Better Reliability for BYOK
-Users</h3>
-<p>• API key validation now works on all network conditions, including
-slow or unstable connections • Large file uploads are more reliable with
-improved timeout handling • All AI providers (OpenAI, Gemini) now have
-consistent behavior</p>
-<h3 id="performance-enhancements">Performance Enhancements</h3>
-<p>• Faster API key validation by removing unnecessary retry attempts •
-More efficient code structure for better app performance • Improved
-error messages to help diagnose any issues</p>
+<h3 id="better-byok-experience">Better BYOK Experience</h3>
+<p>• Real-time token usage tracking with accurate cost estimates •
+Enhanced API key validation that works on all network conditions •
+Redesigned model selector interfaces for OpenAI and Gemini • New shared
+components for consistent API key handling • Automatic model filtering
+based on API key availability</p>
+<h3 id="performance-reliability">Performance &amp; Reliability</h3>
+<p>• Parallel processing coordinator for 2-3x faster batch operations •
+Intelligent retry logic with exponential backoff • Circuit breaker
+pattern to prevent API overload • Configurable timeouts for better
+control • Image compression for reduced token usage on uploads •
+Processing metrics tracking for performance monitoring</p>
+<h3 id="user-interface-enhancements">User Interface Enhancements</h3>
+<p>• Improved transformation editor with better placeholder handling •
+Enhanced pattern testing with real-time preview • Better error messages
+with actionable recovery options • Streamlined window management and
+lifecycle handling • New Raycast-style tabs for settings navigation</p>
+<h3 id="developer-experience">Developer Experience</h3>
+<p>• Comprehensive async/await test suite updates • Strategy pattern for
+flexible processing workflows • Centralized error handling with recovery
+mechanisms • Better separation of concerns in processing pipeline •
+Enhanced logging with structured token usage data</p>
                 ]]>
             </description>
-            <pubDate>Sat, 21 Jun 2025 12:02:59 +0200</pubDate>
+            <pubDate>Mon, 23 Jun 2025 23:28:39 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.25.dmg"
-                sparkle:version="84"
-                sparkle:shortVersionString="1.9.25"
-                length="7762818"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.26.dmg"
+                sparkle:version="86"
+                sparkle:shortVersionString="1.9.26"
+                length="8002984"
                 type="application/octet-stream"
-                sparkle:edSignature="oUdI9IhkDVGrVVJzMhRqDZz2lN2nPzUslcD7zVaHC+cP0mO87sYKYg0tMblyI/qm7e/3mqk0QjTIt3meTBiYAw=="
+                sparkle:edSignature="iXGcvpqDSw7gfjmm3z4wBzbzt8MVr9Fn1on/XSMLlxpk6fvV4sm8oCIXws6+aOKjp5QGWIOo/nceCFduchiuDg=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
