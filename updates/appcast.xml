@@ -5,16 +5,22 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.26</title>
+            <title>Version 1.9.27</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.26">NameQuick v1.9.26</h1>
+                    <h1 id="namequick-v1.9.27">NameQuick v1.9.27</h1>
 <h2 id="pro-tip">Pro Tip</h2>
 <p>💡 <strong>Speed up file processing</strong>: Deactivate meta
 description generation in settings when not needed. This can
 significantly reduce processing time and token usage, especially for
 large batches of files. Only enable it when you specifically need
 detailed metadata extraction.</p>
+<h2 id="whats-fixed">What’s Fixed</h2>
+<h3 id="no-more-repeated-permission-prompts">No More Repeated Permission
+Prompts</h3>
+<p>Finally fixed that annoying issue where macOS kept asking for
+keychain permission every 15-30 minutes! NameQuick now runs quietly in
+the background without interrupting your workflow.</p>
 <h2 id="whats-new">What’s New</h2>
 <h3 id="byok-token-usage-dashboard">BYOK Token Usage Dashboard</h3>
 <p>Track your API token consumption and costs with a new comprehensive
@@ -30,35 +36,28 @@ model recommendations based on file type and tier preference</p>
 <h3 id="better-byok-experience">Better BYOK Experience</h3>
 <p>• Real-time token usage tracking with accurate cost estimates •
 Enhanced API key validation that works on all network conditions •
-Redesigned model selector interfaces for OpenAI and Gemini • New shared
-components for consistent API key handling • Automatic model filtering
-based on API key availability</p>
-<h3 id="performance-reliability">Performance &amp; Reliability</h3>
-<p>• Parallel processing coordinator for 2-3x faster batch operations •
-Intelligent retry logic with exponential backoff • Circuit breaker
-pattern to prevent API overload • Configurable timeouts for better
-control • Image compression for reduced token usage on uploads •
-Processing metrics tracking for performance monitoring</p>
-<h3 id="user-interface-enhancements">User Interface Enhancements</h3>
+Redesigned model selector interfaces for OpenAI and Gemini • Automatic
+model filtering based on API key availability</p>
+<h3 id="faster-more-reliable">Faster &amp; More Reliable</h3>
+<p>• 2-3x faster batch processing with parallel operations • Smarter
+retry logic that handles API limits gracefully • Reduced token usage
+through automatic image compression • Better performance when switching
+between apps</p>
+<h3 id="smoother-user-experience">Smoother User Experience</h3>
 <p>• Improved transformation editor with better placeholder handling •
-Enhanced pattern testing with real-time preview • Better error messages
-with actionable recovery options • Streamlined window management and
-lifecycle handling • New Raycast-style tabs for settings navigation</p>
-<h3 id="developer-experience">Developer Experience</h3>
-<p>• Comprehensive async/await test suite updates • Strategy pattern for
-flexible processing workflows • Centralized error handling with recovery
-mechanisms • Better separation of concerns in processing pipeline •
-Enhanced logging with structured token usage data</p>
+Enhanced pattern testing with real-time preview • Clearer error messages
+that tell you exactly what to do • More responsive interface with
+streamlined window management</p>
                 ]]>
             </description>
-            <pubDate>Tue, 24 Jun 2025 00:09:02 +0200</pubDate>
+            <pubDate>Tue, 24 Jun 2025 16:19:06 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.26.dmg"
-                sparkle:version="88"
-                sparkle:shortVersionString="1.9.26"
-                length="7997433"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.27.dmg"
+                sparkle:version="96"
+                sparkle:shortVersionString="1.9.27"
+                length="9092653"
                 type="application/octet-stream"
-                sparkle:edSignature="O2yvnqqFwUlNuaDJ//5iePzMWE38heEKBvJcNH29AaOLNZjufj2t+37C81yt5DGc+eykOTCqL/JL0mWtEtdQCQ=="
+                sparkle:edSignature="yb/ntr9HVMXuwm2J0cTtcOqxv+93e/at3ceSiSaFPnitfwuSfL0JekS1T9AVXEKjgC/nwgetI+ws7+oiuhzWAg=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
