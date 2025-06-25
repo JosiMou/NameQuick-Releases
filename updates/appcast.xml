@@ -5,10 +5,10 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.27</title>
+            <title>Version 1.9.28</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.27">NameQuick v1.9.27</h1>
+                    <h1 id="namequick-v1.9.28">NameQuick v1.9.28</h1>
 <h2 id="pro-tip">Pro Tip</h2>
 <p>💡 <strong>Speed up file processing</strong>: Deactivate meta
 description generation in settings when not needed. This can
@@ -16,48 +16,63 @@ significantly reduce processing time and token usage, especially for
 large batches of files. Only enable it when you specifically need
 detailed metadata extraction.</p>
 <h2 id="whats-fixed">What’s Fixed</h2>
-<h3 id="no-more-repeated-permission-prompts">No More Repeated Permission
-Prompts</h3>
-<p>Finally fixed that annoying issue where macOS kept asking for
-keychain permission every 15-30 minutes! NameQuick now runs quietly in
-the background without interrupting your workflow.</p>
-<h2 id="whats-new">What’s New</h2>
-<h3 id="byok-token-usage-dashboard">BYOK Token Usage Dashboard</h3>
-<p>Track your API token consumption and costs with a new comprehensive
-dashboard for Bring Your Own Keys users: • Real-time token usage
-tracking across OpenAI, Gemini, and Ollama • Detailed cost breakdowns by
-model and operation type • Historical usage charts with
-daily/weekly/monthly views • Export usage data for expense tracking</p>
-<h3 id="enhanced-ai-model-support">Enhanced AI Model Support</h3>
-<p>• Added 5 new Gemini models including stable 2.5 Pro and Flash
-versions • Expanded Gemini catalog from 8 to 13 models total • Better
-model recommendations based on file type and tier preference</p>
+<h3 id="no-more-infinite-loading-spinners">No More Infinite Loading
+Spinners</h3>
+<p>Fixed a frustrating issue where image previews would occasionally get
+stuck with spinning loading indicators that never completed. NameQuick
+now has bulletproof timeout handling that ensures all images load
+properly or gracefully show an error message.</p>
+<h3 id="better-memory-management">Better Memory Management</h3>
+<p>• Significantly improved memory usage when processing large batches
+of images • Smarter cache management prevents memory pressure on older
+Macs • More efficient image loading reduces CPU usage during preview
+generation</p>
 <h2 id="whats-improved">What’s Improved</h2>
-<h3 id="better-byok-experience">Better BYOK Experience</h3>
-<p>• Real-time token usage tracking with accurate cost estimates •
-Enhanced API key validation that works on all network conditions •
-Redesigned model selector interfaces for OpenAI and Gemini • Automatic
-model filtering based on API key availability</p>
-<h3 id="faster-more-reliable">Faster &amp; More Reliable</h3>
-<p>• 2-3x faster batch processing with parallel operations • Smarter
-retry logic that handles API limits gracefully • Reduced token usage
-through automatic image compression • Better performance when switching
-between apps</p>
-<h3 id="smoother-user-experience">Smoother User Experience</h3>
-<p>• Improved transformation editor with better placeholder handling •
-Enhanced pattern testing with real-time preview • Clearer error messages
-that tell you exactly what to do • More responsive interface with
-streamlined window management</p>
+<h3 id="faster-image-loading">Faster Image Loading</h3>
+<p>• <strong>3x faster</strong> thumbnail generation with new
+progressive loading system • Images now appear instantly in low quality,
+then sharpen automatically • Better caching means images you’ve seen
+before load instantly • Reduced memory footprint when working with
+high-resolution screenshots</p>
+<h3 id="more-reliable-performance">More Reliable Performance</h3>
+<p>• Eliminated rare crashes during heavy image processing workloads •
+Better error recovery when images fail to load or are corrupted •
+Streamlined background processing reduces interference with other apps •
+Improved stability when switching between different file types</p>
+<h3 id="cleaner-user-interface">Cleaner User Interface</h3>
+<p>• Removed unnecessary debug information from production builds •
+Faster app startup with optimized initialization process • More
+responsive image previews that adapt to available system resources •
+Better handling of very large images without UI freezing</p>
+<h3 id="enhanced-debugging-tools">Enhanced Debugging Tools</h3>
+<p>• New cache statistics overlay for troubleshooting (available in
+debug builds) • Better logging helps identify performance bottlenecks •
+Simplified timeout configuration for advanced users • Improved error
+messages with clearer descriptions</p>
+<h3 id="smarter-image-compression">Smarter Image Compression</h3>
+<p>• <strong>New intelligent compression system</strong> that preserves
+image quality • Automatically detects already-compressed images to avoid
+quality loss • Better support for modern image formats including HEIC
+from iPhone photos • Reduced API request sizes for faster AI processing
+• Fixed rare compression failures with very large images</p>
+<h2 id="behind-the-scenes">Behind the Scenes</h2>
+<p>This release includes a comprehensive refactoring of NameQuick’s
+image handling system. While invisible to most users, these improvements
+create a more stable foundation for future features and ensure NameQuick
+performs consistently across all Mac configurations.</p>
+<p>The new unified file encoding system ensures all AI services (OpenAI,
+Gemini, Ollama) handle images consistently, reducing bugs and improving
+reliability across the board.</p>
                 ]]>
             </description>
-            <pubDate>Tue, 24 Jun 2025 16:19:06 +0200</pubDate>
+            <pubDate>Wed, 25 Jun 2025 07:47:17 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.27.dmg"
-                sparkle:version="96"
-                sparkle:shortVersionString="1.9.27"
-                length="9092653"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.28.dmg"
+                sparkle:version="102"
+                sparkle:shortVersionString="1.9.28"
+                length="9346941"
                 type="application/octet-stream"
-                sparkle:edSignature="yb/ntr9HVMXuwm2J0cTtcOqxv+93e/at3ceSiSaFPnitfwuSfL0JekS1T9AVXEKjgC/nwgetI+ws7+oiuhzWAg=="
+                sparkle:edSignature="iikm4jY1igIkU8SGFTcQVBv4B2yr2c8waylovvySEe9Wq/+2euschq9snyT+RGYXoEnrgD/RqPkZHsbG1BxiAA=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
