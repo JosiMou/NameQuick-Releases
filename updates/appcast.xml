@@ -5,74 +5,57 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.28</title>
+            <title>Version 1.9.29</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.28">NameQuick v1.9.28</h1>
-<h2 id="pro-tip">Pro Tip</h2>
-<p>💡 <strong>Speed up file processing</strong>: Deactivate meta
-description generation in settings when not needed. This can
-significantly reduce processing time and token usage, especially for
-large batches of files. Only enable it when you specifically need
-detailed metadata extraction.</p>
+                    <h1 id="namequick-v1.9.29">NameQuick v1.9.29</h1>
+<h2 id="whats-new">What’s New</h2>
+<h3 id="more-reliable-templates">More Reliable Templates</h3>
+<p>Templates now work consistently every time. We’ve fixed the issues
+that caused unpredictable results, so you can trust your saved templates
+to produce the same output regardless of file type or AI model.</p>
+<h3 id="better-cost-tracking-for-byok-users">Better Cost Tracking for
+BYOK Users</h3>
+<p>• See detailed breakdowns of input and output token costs • Real-time
+cost estimates that match your actual usage • Improved logging to help
+you understand and optimize API costs</p>
 <h2 id="whats-fixed">What’s Fixed</h2>
-<h3 id="no-more-infinite-loading-spinners">No More Infinite Loading
-Spinners</h3>
-<p>Fixed a frustrating issue where image previews would occasionally get
-stuck with spinning loading indicators that never completed. NameQuick
-now has bulletproof timeout handling that ensures all images load
-properly or gracefully show an error message.</p>
-<h3 id="better-memory-management">Better Memory Management</h3>
-<p>• Significantly improved memory usage when processing large batches
-of images • Smarter cache management prevents memory pressure on older
-Macs • More efficient image loading reduces CPU usage during preview
-generation</p>
-<h2 id="whats-improved">What’s Improved</h2>
-<h3 id="faster-image-loading">Faster Image Loading</h3>
-<p>• <strong>3x faster</strong> thumbnail generation with new
-progressive loading system • Images now appear instantly in low quality,
-then sharpen automatically • Better caching means images you’ve seen
-before load instantly • Reduced memory footprint when working with
-high-resolution screenshots</p>
-<h3 id="more-reliable-performance">More Reliable Performance</h3>
-<p>• Eliminated rare crashes during heavy image processing workloads •
-Better error recovery when images fail to load or are corrupted •
-Streamlined background processing reduces interference with other apps •
-Improved stability when switching between different file types</p>
-<h3 id="cleaner-user-interface">Cleaner User Interface</h3>
-<p>• Removed unnecessary debug information from production builds •
-Faster app startup with optimized initialization process • More
-responsive image previews that adapt to available system resources •
-Better handling of very large images without UI freezing</p>
-<h3 id="enhanced-debugging-tools">Enhanced Debugging Tools</h3>
-<p>• New cache statistics overlay for troubleshooting (available in
-debug builds) • Better logging helps identify performance bottlenecks •
-Simplified timeout configuration for advanced users • Improved error
-messages with clearer descriptions</p>
-<h3 id="smarter-image-compression">Smarter Image Compression</h3>
-<p>• <strong>New intelligent compression system</strong> that preserves
-image quality • Automatically detects already-compressed images to avoid
-quality loss • Better support for modern image formats including HEIC
-from iPhone photos • Reduced API request sizes for faster AI processing
-• Fixed rare compression failures with very large images</p>
-<h2 id="behind-the-scenes">Behind the Scenes</h2>
-<p>This release includes a comprehensive refactoring of NameQuick’s
-image handling system. While invisible to most users, these improvements
-create a more stable foundation for future features and ensure NameQuick
-performs consistently across all Mac configurations.</p>
-<p>The new unified file encoding system ensures all AI services (OpenAI,
-Gemini, Ollama) handle images consistently, reducing bugs and improving
-reliability across the board.</p>
+<h3 id="separator-selection-works-properly">Separator Selection Works
+Properly</h3>
+<p>The space separator now works correctly. Previously, selecting space
+would incorrectly switch to underscore. All separator options (space,
+period, hyphen, underscore) now function as expected.</p>
+<h3 id="accurate-token-usage-tracking">Accurate Token Usage
+Tracking</h3>
+<p>Fixed an issue where token usage was being counted twice. Your usage
+statistics now show accurate numbers.</p>
+<h3 id="improved-ai-response-handling">Improved AI Response
+Handling</h3>
+<p>• Removed outdated features that were causing inconsistent results •
+Better parsing of AI responses for more reliable filename generation •
+Enhanced error handling when AI models return unexpected formats</p>
+<h2 id="performance-improvements">Performance Improvements</h2>
+<h3 id="faster-file-processing">Faster File Processing</h3>
+<p>• More efficient handling of large files and images • Reduced token
+usage while maintaining quality • Better memory management during batch
+operations</p>
+<h3 id="more-stable-ai-services">More Stable AI Services</h3>
+<p>• Improved error handling across all AI providers (OpenAI, Gemini,
+Ollama) • Better retry logic for temporary API failures • Enhanced
+logging for easier troubleshooting</p>
+<hr />
+<p>This update focuses on reliability and consistency across the board.
+Your workflows should be more predictable and efficient.</p>
                 ]]>
             </description>
-            <pubDate>Wed, 25 Jun 2025 07:47:17 +0200</pubDate>
+            <pubDate>Tue, 01 Jul 2025 12:56:50 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.28.dmg"
-                sparkle:version="102"
-                sparkle:shortVersionString="1.9.28"
-                length="9346941"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.29.dmg"
+                sparkle:version="124"
+                sparkle:shortVersionString="1.9.29"
+                length="8572815"
                 type="application/octet-stream"
-                sparkle:edSignature="iikm4jY1igIkU8SGFTcQVBv4B2yr2c8waylovvySEe9Wq/+2euschq9snyT+RGYXoEnrgD/RqPkZHsbG1BxiAA=="
+                sparkle:edSignature="+CpS+k6XLJwaAn1ugwonIAuTkB3jtsyi0DPSXTdb3+MoGmco3mTkwtKdwQRpBLL33WywdFeauPcNoWh/LzPeDA=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
