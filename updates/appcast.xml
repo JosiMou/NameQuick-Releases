@@ -11,9 +11,8 @@
                     <h1 id="namequick-v1.9.29">NameQuick v1.9.29</h1>
 <h2 id="whats-new">What’s New</h2>
 <h3 id="more-reliable-templates">More Reliable Templates</h3>
-<p>Templates now work consistently every time. We’ve fixed the issues
-that caused unpredictable results, so you can trust your saved templates
-to produce the same output regardless of file type or AI model.</p>
+<p>Templates should work more reliably and produce consistent
+output.</p>
 <h3 id="better-cost-tracking-for-byok-users">Better Cost Tracking for
 BYOK Users</h3>
 <p>• See detailed breakdowns of input and output token costs • Real-time
@@ -48,14 +47,14 @@ logging for easier troubleshooting</p>
 Your workflows should be more predictable and efficient.</p>
                 ]]>
             </description>
-            <pubDate>Tue, 01 Jul 2025 12:56:50 +0200</pubDate>
+            <pubDate>Tue, 01 Jul 2025 13:00:08 +0200</pubDate>
             <enclosure
                 url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.29.dmg"
                 sparkle:version="124"
                 sparkle:shortVersionString="1.9.29"
-                length="8572815"
+                length="8572804"
                 type="application/octet-stream"
-                sparkle:edSignature="+CpS+k6XLJwaAn1ugwonIAuTkB3jtsyi0DPSXTdb3+MoGmco3mTkwtKdwQRpBLL33WywdFeauPcNoWh/LzPeDA=="
+                sparkle:edSignature="FDUhA8yA7icy3BmOTMu9C02VNxsTwnye5zoANMWYbbzxIQJo/S6oBKefv96Qiw029new/KSnYYS74dqIZCosDQ=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
