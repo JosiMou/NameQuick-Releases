@@ -5,56 +5,47 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.29</title>
+            <title>Version 1.9.30</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.29">NameQuick v1.9.29</h1>
-<h2 id="whats-new">What’s New</h2>
-<h3 id="more-reliable-templates">More Reliable Templates</h3>
-<p>Templates should work more reliably and produce consistent
-output.</p>
-<h3 id="better-cost-tracking-for-byok-users">Better Cost Tracking for
-BYOK Users</h3>
-<p>• See detailed breakdowns of input and output token costs • Real-time
-cost estimates that match your actual usage • Improved logging to help
-you understand and optimize API costs</p>
-<h2 id="whats-fixed">What’s Fixed</h2>
-<h3 id="separator-selection-works-properly">Separator Selection Works
-Properly</h3>
-<p>The space separator now works correctly. Previously, selecting space
-would incorrectly switch to underscore. All separator options (space,
-period, hyphen, underscore) now function as expected.</p>
-<h3 id="accurate-token-usage-tracking">Accurate Token Usage
-Tracking</h3>
-<p>Fixed an issue where token usage was being counted twice. Your usage
-statistics now show accurate numbers.</p>
-<h3 id="improved-ai-response-handling">Improved AI Response
-Handling</h3>
-<p>• Removed outdated features that were causing inconsistent results •
-Better parsing of AI responses for more reliable filename generation •
-Enhanced error handling when AI models return unexpected formats</p>
-<h2 id="performance-improvements">Performance Improvements</h2>
-<h3 id="faster-file-processing">Faster File Processing</h3>
-<p>• More efficient handling of large files and images • Reduced token
-usage while maintaining quality • Better memory management during batch
-operations</p>
-<h3 id="more-stable-ai-services">More Stable AI Services</h3>
-<p>• Improved error handling across all AI providers (OpenAI, Gemini,
-Ollama) • Better retry logic for temporary API failures • Enhanced
-logging for easier troubleshooting</p>
-<hr />
-<p>This update focuses on reliability and consistency across the board.
-Your workflows should be more predictable and efficient.</p>
+                    <h1 id="namequick-v1.9.30-release-notes">NameQuick v1.9.30 Release
+Notes</h1>
+<h2 id="performance-update">Performance Update</h2>
+<p>This update focuses on making NameQuick faster and more efficient.
+The app can now handle large number of files easily.</p>
+<h3 id="whats-changed">What’s Changed</h3>
+<p><strong>Files Loading</strong> - Files load faster when you open the
+app - Scrolling is smoother, especially with lots of files - The app
+remembers which folders you use most and loads those first</p>
+<p><strong>Search</strong> - Search is noticeably faster - Results show
+up without delay - Works better with partial matches and typos</p>
+<p><strong>Memory Usage</strong> - Uses less RAM - Doesn’t slow down
+other apps as much - Handles large files collections better</p>
+<p><strong>General Speed</strong> - App starts up faster - Everything
+responds quicker when you click - Less waiting around for things to
+happen</p>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>Fixed slowdowns that happened after using the app for a while</li>
+<li>Fixed crashes with very large file collections</li>
+<li>Better recovery when something goes wrong</li>
+</ul>
+<h3 id="whats-next">What’s Next</h3>
+<p>This is the first step in the performance improvement journey. The
+next update will include: - More performance enhancements - UI
+improvements to make the app more intuitive and easier to use - Better
+visual feedback for all operations</p>
+<p>If you notice any issues with this update, please let me know.</p>
                 ]]>
             </description>
-            <pubDate>Tue, 01 Jul 2025 13:00:08 +0200</pubDate>
+            <pubDate>Sun, 20 Jul 2025 12:51:21 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.29.dmg"
-                sparkle:version="124"
-                sparkle:shortVersionString="1.9.29"
-                length="8572804"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.30.dmg"
+                sparkle:version="127"
+                sparkle:shortVersionString="1.9.30"
+                length="10618333"
                 type="application/octet-stream"
-                sparkle:edSignature="FDUhA8yA7icy3BmOTMu9C02VNxsTwnye5zoANMWYbbzxIQJo/S6oBKefv96Qiw029new/KSnYYS74dqIZCosDQ=="
+                sparkle:edSignature="jxuHGbf94u23uT9if2hR7XjI1DpEgkwHv9Of3Rg4kx1W+PR23XfwXtdrSkcBZ/CS4HZYmfyskZet1K/dlszBBw=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
