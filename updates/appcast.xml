@@ -5,47 +5,62 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.9.30</title>
+            <title>Version 2.0.0</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v1.9.30-release-notes">NameQuick v1.9.30 Release
-Notes</h1>
-<h2 id="performance-update">Performance Update</h2>
-<p>This update focuses on making NameQuick faster and more efficient.
-The app can now handle large number of files easily.</p>
-<h3 id="whats-changed">What’s Changed</h3>
-<p><strong>Files Loading</strong> - Files load faster when you open the
-app - Scrolling is smoother, especially with lots of files - The app
-remembers which folders you use most and loads those first</p>
-<p><strong>Search</strong> - Search is noticeably faster - Results show
-up without delay - Works better with partial matches and typos</p>
-<p><strong>Memory Usage</strong> - Uses less RAM - Doesn’t slow down
-other apps as much - Handles large files collections better</p>
-<p><strong>General Speed</strong> - App starts up faster - Everything
-responds quicker when you click - Less waiting around for things to
-happen</p>
-<h3 id="bug-fixes">Bug Fixes</h3>
+                    <h1 id="namequick-v2.0.0">NameQuick v2.0.0</h1>
+<p>This one’s big. I rebuilt a lot of NameQuick so it feels simpler,
+steadier, and more predictable. You should notice it right away.</p>
+<h2 id="whats-new">What’s New</h2>
 <ul>
-<li>Fixed slowdowns that happened after using the app for a while</li>
-<li>Fixed crashes with very large file collections</li>
-<li>Better recovery when something goes wrong</li>
+<li>UI that gets out of your way: clearer navigation, fewer clicks,
+smarter defaults.</li>
+<li>Results you can trust: better validation and error handling means
+fewer hiccups and do‑overs.</li>
+<li>Stays smooth under load: long sessions are calmer with fewer
+surprises.</li>
+<li>Subscription customers should see a significant boost in reliability
+and consistency in the template feature.</li>
+<li>BYOK + GPT‑5: if you bring your own key, the model picker now
+includes GPT‑5 and a new “Reasoning Effort” dropdown. Start low, then
+bump it up to balance speed, cost, and quality.</li>
 </ul>
-<h3 id="whats-next">What’s Next</h3>
-<p>This is the first step in the performance improvement journey. The
-next update will include: - More performance enhancements - UI
-improvements to make the app more intuitive and easier to use - Better
-visual feedback for all operations</p>
-<p>If you notice any issues with this update, please let me know.</p>
+<h2 id="templates">Templates</h2>
+<ul>
+<li>More breathing room and an editor that’s easier to set up.</li>
+<li>Iterating is faster, and outputs are more consistent.</li>
+<li>I’ll keep polishing this area - expect steady improvements.</li>
+</ul>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<ul>
+<li>With the heavy lift done, I can ship faster, smaller updates.</li>
+<li>Public roadmap is back: vote or suggest ideas at
+https://namequick.featurebase.app/roadmap</li>
+<li>I’m also investing in better reliability for local models (they’re
+tight on typical hardware, so this will land in steps).</li>
+</ul>
+<h2 id="feedback">Feedback</h2>
+<ul>
+<li>Easiest path: email support from Settings → About (add “Feedback” to
+the subject).</li>
+<li>Helpful details: your NameQuick version, macOS version, what you
+expected vs. what happened, and a small sample template/output if you
+can.</li>
+</ul>
+<h2 id="thank-you">Thank You</h2>
+<p>Thanks for sticking with me through this one. Your patience and
+feedback made 2.0 possible.</p>
+<p>— Josef</p>
                 ]]>
             </description>
-            <pubDate>Sun, 20 Jul 2025 12:51:21 +0200</pubDate>
+            <pubDate>Wed, 20 Aug 2025 12:09:14 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-1.9.30.dmg"
-                sparkle:version="127"
-                sparkle:shortVersionString="1.9.30"
-                length="10618333"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.0.dmg"
+                sparkle:version="132"
+                sparkle:shortVersionString="2.0.0"
+                length="13738677"
                 type="application/octet-stream"
-                sparkle:edSignature="jxuHGbf94u23uT9if2hR7XjI1DpEgkwHv9Of3Rg4kx1W+PR23XfwXtdrSkcBZ/CS4HZYmfyskZet1K/dlszBBw=="
+                sparkle:edSignature="LGMYxrh656/Rll1N67TrLyKakqsRuhddVZMb/2mhcok0OmzM+YB1ikuiUSDnSDOh9mz5rwJECZsLBHJTAFB2Ag=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
