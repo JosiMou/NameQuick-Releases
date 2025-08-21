@@ -5,37 +5,62 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 2.0.10</title>
+            <title>Version 2.0.11</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v2.0.10">NameQuick v2.0.10</h1>
-<p>This update makes drag &amp; drop more predictable, keeps progress in
-sync, and cuts down on notification noise.</p>
-<h2 id="highlights">Highlights</h2>
+                    <h1 id="namequick-v2.0.11">NameQuick v2.0.11</h1>
+<p>This update focuses on making file processing more reliable,
+especially for downloaded files and larger batches.</p>
+<h2 id="new">New</h2>
 <ul>
-<li>New drag &amp; drop overlay UI that provides you with appropriate
-visual feedback.</li>
-<li>Drag &amp; drop reprocesses files you’ve used before. If you drop
-something you already processed, it runs again without extra steps.</li>
-<li>Clearer progress during long batches. Progress stays accurate and
-steady.</li>
-<li>Fewer duplicate notifications. ## Fixes</li>
-<li>Dragging previously processed files no longer shows “0/N processed”.
-They now run as expected.</li>
-<li>Addressed occasional UI mismatches during fast, multi‑file
-operations.</li>
+<li>Cancel Processing (new): stop the current run instantly without
+creating errors.
+<ul>
+<li>What happens: the active file stops; all queued files clear; no
+error pop‑ups.</li>
+<li>Safe to retry: cancelled files aren’t marked failed — just run again
+when ready.</li>
+<li>Where to find it: toolbar (X), menu bar (Cancel All), batch window
+(Cancel All).</li>
+</ul></li>
 </ul>
+<h2 id="whats-fixed">What’s Fixed</h2>
+<ul>
+<li>Files you download now get processed more consistently. No more
+wondering if that screenshot or document will show up.</li>
+<li>Better handling when you drag &amp; drop files that are already in
+your library. They get reprocessed without confusion.</li>
+<li>Improved stability during busy periods when lots of files are being
+discovered at once.</li>
+<li>File monitoring is more precise, catching changes that were
+sometimes missed before.</li>
+<li>Issues button now reliably opens the Issues HUD again, so you can
+review and clear errors directly.</li>
+</ul>
+<h2 id="under-the-hood">Under the Hood</h2>
+<ul>
+<li>Enhanced the way NameQuick tracks files through the processing
+pipeline.</li>
+<li>Better coordination between different parts of the app when handling
+file batches.</li>
+<li>More reliable database operations, especially during high-volume
+imports.</li>
+<li>Smarter duplicate detection to avoid unnecessary work.</li>
+</ul>
+<p>This should make NameQuick feel more predictable, especially if you
+work with lots of files or frequently download content that needs
+processing.</p>
 <p>— Josef</p>
                 ]]>
             </description>
-            <pubDate>Thu, 21 Aug 2025 10:55:16 +0200</pubDate>
+            <pubDate>Thu, 21 Aug 2025 23:35:06 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.10.dmg"
-                sparkle:version="133"
-                sparkle:shortVersionString="2.0.10"
-                length="13854020"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.11.dmg"
+                sparkle:version="135"
+                sparkle:shortVersionString="2.0.11"
+                length="13597072"
                 type="application/octet-stream"
-                sparkle:edSignature="GT8nuqUtrqj2ARRKhqivr7FPCv03xGrBonkao1N/HmtuydUEz1PSFWg6yRtjMjFJlnK2onTpghTqDptUbYzoDg=="
+                sparkle:edSignature="03Mf+Fdz5vaMzVPYSwosXL8VStr0OAa9C42r0fI19AA5gGnX7A5wH5YCAyeEBRe0Shih4pfJZ1c13zPOFTtMBQ=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
