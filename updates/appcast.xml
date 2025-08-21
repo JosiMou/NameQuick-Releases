@@ -5,62 +5,37 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 2.0.0</title>
+            <title>Version 2.0.10</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v2.0.0">NameQuick v2.0.0</h1>
-<p>This one’s big. I rebuilt a lot of NameQuick so it feels simpler,
-steadier, and more predictable. You should notice it right away.</p>
-<h2 id="whats-new">What’s New</h2>
+                    <h1 id="namequick-v2.0.10">NameQuick v2.0.10</h1>
+<p>This update makes drag &amp; drop more predictable, keeps progress in
+sync, and cuts down on notification noise.</p>
+<h2 id="highlights">Highlights</h2>
 <ul>
-<li>UI that gets out of your way: clearer navigation, fewer clicks,
-smarter defaults.</li>
-<li>Results you can trust: better validation and error handling means
-fewer hiccups and do‑overs.</li>
-<li>Stays smooth under load: long sessions are calmer with fewer
-surprises.</li>
-<li>Subscription customers should see a significant boost in reliability
-and consistency in the template feature.</li>
-<li>BYOK + GPT‑5: if you bring your own key, the model picker now
-includes GPT‑5 and a new “Reasoning Effort” dropdown. Start low, then
-bump it up to balance speed, cost, and quality.</li>
+<li>New drag &amp; drop overlay UI that provides you with appropriate
+visual feedback.</li>
+<li>Drag &amp; drop reprocesses files you’ve used before. If you drop
+something you already processed, it runs again without extra steps.</li>
+<li>Clearer progress during long batches. Progress stays accurate and
+steady.</li>
+<li>Fewer duplicate notifications. ## Fixes</li>
+<li>Dragging previously processed files no longer shows “0/N processed”.
+They now run as expected.</li>
+<li>Addressed occasional UI mismatches during fast, multi‑file
+operations.</li>
 </ul>
-<h2 id="templates">Templates</h2>
-<ul>
-<li>More breathing room and an editor that’s easier to set up.</li>
-<li>Iterating is faster, and outputs are more consistent.</li>
-<li>I’ll keep polishing this area - expect steady improvements.</li>
-</ul>
-<h2 id="looking-ahead">Looking Ahead</h2>
-<ul>
-<li>With the heavy lift done, I can ship faster, smaller updates.</li>
-<li>Public roadmap is back: vote or suggest ideas at
-https://namequick.featurebase.app/roadmap</li>
-<li>I’m also investing in better reliability for local models (they’re
-tight on typical hardware, so this will land in steps).</li>
-</ul>
-<h2 id="feedback">Feedback</h2>
-<ul>
-<li>Easiest path: email support from Settings → About (add “Feedback” to
-the subject).</li>
-<li>Helpful details: your NameQuick version, macOS version, what you
-expected vs. what happened, and a small sample template/output if you
-can.</li>
-</ul>
-<h2 id="thank-you">Thank You</h2>
-<p>Thanks for sticking with me through this one. Your patience and
-feedback made 2.0 possible.</p>
 <p>— Josef</p>
                 ]]>
             </description>
-            <pubDate>Wed, 20 Aug 2025 12:09:14 +0200</pubDate>
+            <pubDate>Thu, 21 Aug 2025 10:55:16 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.0.dmg"
-                sparkle:version="132"
-                sparkle:shortVersionString="2.0.0"
-                length="13738677"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.10.dmg"
+                sparkle:version="133"
+                sparkle:shortVersionString="2.0.10"
+                length="13854020"
                 type="application/octet-stream"
-                sparkle:edSignature="LGMYxrh656/Rll1N67TrLyKakqsRuhddVZMb/2mhcok0OmzM+YB1ikuiUSDnSDOh9mz5rwJECZsLBHJTAFB2Ag=="
+                sparkle:edSignature="GT8nuqUtrqj2ARRKhqivr7FPCv03xGrBonkao1N/HmtuydUEz1PSFWg6yRtjMjFJlnK2onTpghTqDptUbYzoDg=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
