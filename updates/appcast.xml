@@ -5,62 +5,63 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 2.0.11</title>
+            <title>Version 2.0.12</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v2.0.11">NameQuick v2.0.11</h1>
-<p>This update focuses on making file processing more reliable,
-especially for downloaded files and larger batches.</p>
+                    <h1 id="namequick-v2.0.12">NameQuick v2.0.12</h1>
+<p>This release adds per‑folder filters, a cleaner menu bar with richer
+history, and sturdier processing.</p>
+<h2 id="highlights">Highlights</h2>
+<ul>
+<li>Folder Filters for auto‑processing per watch folder</li>
+<li>Streamlined menu bar with thumbnails and full‑width actions</li>
+<li>More resilient processing and clearer feedback</li>
+</ul>
 <h2 id="new">New</h2>
 <ul>
-<li>Cancel Processing (new): stop the current run instantly without
-creating errors.
+<li>Folder Filters: include rules per watch folder (Starts with, Ends
+with, Contains, Wildcard, RegExp). Combine with Any/All,
+case‑insensitive. Configure via the folder’s hover toolbar (filter
+icon). Applies to auto‑processing only.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
 <ul>
-<li>What happens: the active file stops; all queued files clear; no
-error pop‑ups.</li>
-<li>Safe to retry: cancelled files aren’t marked failed — just run again
-when ready.</li>
-<li>Where to find it: toolbar (X), menu bar (Cancel All), batch window
-(Cancel All).</li>
+<li>Menu bar
+<ul>
+<li>Removed processing/queue block; focused on actions + “Recent
+Files”.</li>
+<li>Added footer items: “See All History…” and “Clear History…” (with
+confirmation).</li>
+<li>Recent rows: image thumbnails, subtle success/failure overlay, hover
+actions (Show in Finder, Copy names, Remove).</li>
+<li>“See All History…” activates the app and navigates to
+Processed.</li>
+<li>Single‑window behavior with <code>openWindow(id: "main")</code>
+avoids duplicates and reopens after close.</li>
 </ul></li>
 </ul>
-<h2 id="whats-fixed">What’s Fixed</h2>
+<h2 id="fixes">Fixes</h2>
 <ul>
-<li>Files you download now get processed more consistently. No more
-wondering if that screenshot or document will show up.</li>
-<li>Better handling when you drag &amp; drop files that are already in
-your library. They get reprocessed without confusion.</li>
-<li>Improved stability during busy periods when lots of files are being
-discovered at once.</li>
-<li>File monitoring is more precise, catching changes that were
-sometimes missed before.</li>
-<li>Issues button now reliably opens the Issues HUD again, so you can
-review and clear errors directly.</li>
+<li>Single‑file runs: removed brief “Queued” flicker; success HUD
+restored.</li>
+<li>Batch processing: continues when individual files fail with clearer
+error details.</li>
+<li>Notifications/queue: reduced duplicates and improved cleanup under
+load.</li>
+<li>Folder access validation: stronger checks and clearer permission
+errors.</li>
 </ul>
-<h2 id="under-the-hood">Under the Hood</h2>
-<ul>
-<li>Enhanced the way NameQuick tracks files through the processing
-pipeline.</li>
-<li>Better coordination between different parts of the app when handling
-file batches.</li>
-<li>More reliable database operations, especially during high-volume
-imports.</li>
-<li>Smarter duplicate detection to avoid unnecessary work.</li>
-</ul>
-<p>This should make NameQuick feel more predictable, especially if you
-work with lots of files or frequently download content that needs
-processing.</p>
 <p>— Josef</p>
                 ]]>
             </description>
-            <pubDate>Thu, 21 Aug 2025 23:35:06 +0200</pubDate>
+            <pubDate>Mon, 25 Aug 2025 09:57:14 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.11.dmg"
-                sparkle:version="135"
-                sparkle:shortVersionString="2.0.11"
-                length="13597072"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.12.dmg"
+                sparkle:version="137"
+                sparkle:shortVersionString="2.0.12"
+                length="13767411"
                 type="application/octet-stream"
-                sparkle:edSignature="03Mf+Fdz5vaMzVPYSwosXL8VStr0OAa9C42r0fI19AA5gGnX7A5wH5YCAyeEBRe0Shih4pfJZ1c13zPOFTtMBQ=="
+                sparkle:edSignature="j5KxB9H+ShSQMVo3hU7LasRPBNMRC1axHIHVzOhq/zpEucF9GOMY6TD2coR3KBOFMu9YYaPEmjO3QfJmgsUSCA=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
