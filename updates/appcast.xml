@@ -54,14 +54,14 @@ lengths.</li>
 </ul>
                 ]]>
             </description>
-            <pubDate>Wed, 27 Aug 2025 15:06:30 +0200</pubDate>
+            <pubDate>Wed, 27 Aug 2025 15:12:33 +0200</pubDate>
             <enclosure
                 url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.14.dmg"
                 sparkle:version="137"
                 sparkle:shortVersionString="2.0.14"
-                length="13850518"
+                length="13850466"
                 type="application/octet-stream"
-                sparkle:edSignature="WnMeYEORRS5hw9DrC7JS8TxJjDl9nH+5BcIjOCtwhy4bU6SMnWFQsN1INH0vFxbB5xuj97hmGfiDSNa2ATVnDA=="
+                sparkle:edSignature="4USU/C7yTZCOBc//mfS3JF2ujdgoGtraS0HVGcAjwlNFsiflg4eWGkDb7DNH/8++RKQJIkgrshGEmdqvoo6XCQ=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
