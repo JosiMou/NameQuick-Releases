@@ -5,63 +5,63 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 2.0.12</title>
+            <title>Version 2.0.14</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v2.0.12">NameQuick v2.0.12</h1>
-<p>This release adds per‑folder filters, a cleaner menu bar with richer
-history, and sturdier processing.</p>
+                    <h1 id="namequick-v2.0.14">NameQuick v2.0.14</h1>
+<p>This release adds a redesigned templates grid with quick create and
+inline edits, plus layout polish and stability fixes.</p>
 <h2 id="highlights">Highlights</h2>
 <ul>
-<li>Folder Filters for auto‑processing per watch folder</li>
-<li>Streamlined menu bar with thumbnails and full‑width actions</li>
-<li>More resilient processing and clearer feedback</li>
+<li>Watch folders: Instant delete sync from Finder with immediate list
+update.</li>
+<li>Adds a redesigned templates grid with a dedicated “New Template”
+card.</li>
+<li>Enables inline renaming directly on template cards.</li>
+<li>Shows key fields at a glance; extra fields open in a popover.</li>
+<li>Improves grid stability for consistent card sizes.</li>
+<li>Extraction and post-processing fields: Uninterrupted typing — no
+more focus loss after the first character.</li>
 </ul>
 <h2 id="new">New</h2>
 <ul>
-<li>Folder Filters: include rules per watch folder (Starts with, Ends
-with, Contains, Wildcard, RegExp). Combine with Any/All,
-case‑insensitive. Configure via the folder’s hover toolbar (filter
-icon). Applies to auto‑processing only.</li>
+<li>Templates grid: Browse templates in a clean, responsive grid
+(Templates tab).</li>
+<li>“New Template” card: Create a template from the first slot.</li>
+<li>Inline renaming: Double‑click a card title to rename.</li>
+<li>Field chips: View key fields; open a popover for the full list.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li>Menu bar
+<li>Template cards
 <ul>
-<li>Removed processing/queue block; focused on actions + “Recent
-Files”.</li>
-<li>Added footer items: “See All History…” and “Clear History…” (with
-confirmation).</li>
-<li>Recent rows: image thumbnails, subtle success/failure overlay, hover
-actions (Show in Finder, Copy names, Remove).</li>
-<li>“See All History…” activates the app and navigates to
-Processed.</li>
-<li>Single‑window behavior with <code>openWindow(id: "main")</code>
-avoids duplicates and reopens after close.</li>
+<li>Standardizes sizing for consistent rows.</li>
+<li>Refines hover states and centers “New Template” content.</li>
+<li>Moves actions to an overflow menu while keeping right‑click.</li>
+</ul></li>
+<li>Template editor
+<ul>
+<li>Clarifies sections for extraction, formatting, and transforms.</li>
+<li>Adds contextual help popovers for quick guidance.</li>
 </ul></li>
 </ul>
 <h2 id="fixes">Fixes</h2>
 <ul>
-<li>Single‑file runs: removed brief “Queued” flicker; success HUD
-restored.</li>
-<li>Batch processing: continues when individual files fail with clearer
-error details.</li>
-<li>Notifications/queue: reduced duplicates and improved cleanup under
-load.</li>
-<li>Folder access validation: stronger checks and clearer permission
-errors.</li>
+<li>Prevents grid reflow caused by varying description or field
+lengths.</li>
+<li>Keeps chip row height consistent for better alignment.</li>
+<li>Maintains centered layout on the “New Template” card.</li>
 </ul>
-<p>— Josef</p>
                 ]]>
             </description>
-            <pubDate>Mon, 25 Aug 2025 09:57:14 +0200</pubDate>
+            <pubDate>Wed, 27 Aug 2025 15:06:30 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.12.dmg"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.14.dmg"
                 sparkle:version="137"
-                sparkle:shortVersionString="2.0.12"
-                length="13767411"
+                sparkle:shortVersionString="2.0.14"
+                length="13850518"
                 type="application/octet-stream"
-                sparkle:edSignature="j5KxB9H+ShSQMVo3hU7LasRPBNMRC1axHIHVzOhq/zpEucF9GOMY6TD2coR3KBOFMu9YYaPEmjO3QfJmgsUSCA=="
+                sparkle:edSignature="WnMeYEORRS5hw9DrC7JS8TxJjDl9nH+5BcIjOCtwhy4bU6SMnWFQsN1INH0vFxbB5xuj97hmGfiDSNa2ATVnDA=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
