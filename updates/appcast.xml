@@ -5,10 +5,10 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 2.0.14</title>
+            <title>Version 2.0.13</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v2.0.14">NameQuick v2.0.14</h1>
+                    <h1 id="namequick-v2.0.13">NameQuick v2.0.13</h1>
 <p>This release adds a redesigned templates grid with quick create and
 inline edits, plus layout polish and stability fixes.</p>
 <h2 id="highlights">Highlights</h2>
@@ -54,14 +54,14 @@ lengths.</li>
 </ul>
                 ]]>
             </description>
-            <pubDate>Wed, 27 Aug 2025 15:12:33 +0200</pubDate>
+            <pubDate>Wed, 27 Aug 2025 15:32:05 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.14.dmg"
-                sparkle:version="137"
-                sparkle:shortVersionString="2.0.14"
-                length="13850466"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.13.dmg"
+                sparkle:version="138"
+                sparkle:shortVersionString="2.0.13"
+                length="13851043"
                 type="application/octet-stream"
-                sparkle:edSignature="4USU/C7yTZCOBc//mfS3JF2ujdgoGtraS0HVGcAjwlNFsiflg4eWGkDb7DNH/8++RKQJIkgrshGEmdqvoo6XCQ=="
+                sparkle:edSignature="VFVcuz1wGlvnYukjHIF9dOcm5P/PKOeIMFVsRWU76DmzZFR0zNtWkdxNMe1Se6ewvSGQ97OZalkEr5O1OMTuAQ=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
