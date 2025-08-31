@@ -5,63 +5,63 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 2.0.13</title>
+            <title>Version 2.0.14</title>
             <description>
                 <![CDATA[
-                    <h1 id="namequick-v2.0.13">NameQuick v2.0.13</h1>
-<p>This release adds a redesigned templates grid with quick create and
-inline edits, plus layout polish and stability fixes.</p>
+                    <h1 id="namequick-v2.0.14">NameQuick v2.0.14</h1>
+<p>This one focuses on smooth, reliable background processing and better
+document support — plus a new option for BYOK folks: <strong>Claude
+(Anthropic)</strong>.</p>
 <h2 id="highlights">Highlights</h2>
 <ul>
-<li>Watch folders: Instant delete sync from Finder with immediate list
-update.</li>
-<li>Adds a redesigned templates grid with a dedicated “New Template”
-card.</li>
-<li>Enables inline renaming directly on template cards.</li>
-<li>Shows key fields at a glance; extra fields open in a popover.</li>
-<li>Improves grid stability for consistent card sizes.</li>
-<li>Extraction and post-processing fields: Uninterrupted typing — no
-more focus loss after the first character.</li>
+<li>New: You can now rename <strong>Word, PowerPoint, and Excel files
+(DOCX, PPTX, XLSX)</strong>.</li>
+<li>BYOK: <strong>Claude (Anthropic)</strong> joins the lineup with
+native PDF + image analysis and explicit model selection.</li>
 </ul>
 <h2 id="new">New</h2>
 <ul>
-<li>Templates grid: Browse templates in a clean, responsive grid
-(Templates tab).</li>
-<li>“New Template” card: Create a template from the first slot.</li>
-<li>Inline renaming: Double‑click a card title to rename.</li>
-<li>Field chips: View key fields; open a popover for the full list.</li>
+<li>Word (.docx): Smart, clean names for your documents — fast previews
+included.</li>
+<li>PowerPoint (.pptx): Uses slide text to suggest clear context-aware
+names.</li>
+<li>Excel (.xlsx, .xlsm): Concise, informative names for your
+spreadsheets.</li>
+<li>Quiet background mode: Keep NameQuick tucked away — it keeps
+watching your folders and renaming files.</li>
+<li>BYOK: Added Claude (Anthropic) as a provider — native PDF support
+via Messages API, image analysis, explicit model selection, key
+validation, and per‑item cost shown in recent history.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li>Template cards
-<ul>
-<li>Standardizes sizing for consistent rows.</li>
-<li>Refines hover states and centers “New Template” content.</li>
-<li>Moves actions to an overflow menu while keeping right‑click.</li>
-</ul></li>
-<li>Template editor
-<ul>
-<li>Clarifies sections for extraction, formatting, and transforms.</li>
-<li>Adds contextual help popovers for quick guidance.</li>
-</ul></li>
+<li>Folder recovery: If your Mac sleeps or a drive disconnects,
+NameQuick resumes and catches up automatically.</li>
+<li>Startup experience: Files already in your watch folders appear
+instantly. Only new or changed files auto‑process (based on your
+settings).</li>
+<li>UI: Cleaner, calmer loading indicator in the grid.</li>
 </ul>
 <h2 id="fixes">Fixes</h2>
 <ul>
-<li>Prevents grid reflow caused by varying description or field
-lengths.</li>
-<li>Keeps chip row height consistent for better alignment.</li>
-<li>Maintains centered layout on the “New Template” card.</li>
+<li>Automatic processing could pause for some folders.</li>
+<li>Files added later to a watched folder now process as expected.</li>
+<li>PPTX files were sometimes flagged as unsupported — they now work
+consistently.</li>
 </ul>
+<p>Thanks for using NameQuick and for all the feedback — it helps a
+ton.</p>
+<p>— Josef</p>
                 ]]>
             </description>
-            <pubDate>Wed, 27 Aug 2025 15:32:05 +0200</pubDate>
+            <pubDate>Sun, 31 Aug 2025 18:49:07 +0200</pubDate>
             <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.13.dmg"
-                sparkle:version="138"
-                sparkle:shortVersionString="2.0.13"
-                length="13851043"
+                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.14.dmg"
+                sparkle:version="141"
+                sparkle:shortVersionString="2.0.14"
+                length="14869726"
                 type="application/octet-stream"
-                sparkle:edSignature="VFVcuz1wGlvnYukjHIF9dOcm5P/PKOeIMFVsRWU76DmzZFR0zNtWkdxNMe1Se6ewvSGQ97OZalkEr5O1OMTuAQ=="
+                sparkle:edSignature="5emcVuLSwSE4G09+u9inwnS8giqdYZK7l16TruiPtl43SePJ2+ynahjWBO3cjLHZ0InRFcao8+hs6riFaMqCBQ=="
             />
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
         </item>
