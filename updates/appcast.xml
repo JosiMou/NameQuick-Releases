@@ -1,14 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>NameQuick Updates</title>
-        <description>Most recent changes with links to updates.</description>
-        <language>en</language>
+        <title>NameQuick</title>
         <item>
-            <title>Version 2.0.14</title>
-            <description>
-                <![CDATA[
-                    <h1 id="namequick-v2.0.14">NameQuick v2.0.14</h1>
+            <title>2.0.15</title>
+            <pubDate>Mon, 01 Sep 2025 18:41:07 +0200</pubDate>
+            <sparkle:version>143</sparkle:version>
+            <sparkle:shortVersionString>2.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h1 id="namequick-v2.0.15">NameQuick v2.0.15</h1>
+<p>This release makes Templates rock‑solid with Claude, fixes an OpenAI
+schema edge case, and keeps spreadsheets fast and stable.</p>
+<h2 id="highlights">Highlights</h2>
+<ul>
+<li>Templates (Claude): Reliable structured output with consistent
+results.</li>
+<li>OpenAI schema: Fixes rare “type: None” error in structured
+output.</li>
+<li>Spreadsheets: Stable memory + faster previews for large XLSX
+files.</li>
+<li>Error messages: Clearer, provider‑specific guidance.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li>Templates (Claude)
+<ul>
+<li>Uses Claude Tools with an input schema to return clean JSON (no
+chatty responses).</li>
+<li>Normalizes template field keys under the hood for tool
+compatibility; your template labels are unchanged.</li>
+</ul></li>
+<li>Spreadsheet handling
+<ul>
+<li>Size‑aware parsing and smarter sampling keep memory bounded on large
+workbooks.</li>
+<li>Faster, steadier previews for DOCX/PPTX/XLSX.</li>
+</ul></li>
+<li>Error messages
+<ul>
+<li>Clearer document guidance and provider‑specific mapping (no generic
+attributions).</li>
+<li>Unified wording for unsupported actions; suggests the next best
+path.</li>
+</ul></li>
+</ul>
+<h2 id="fixes">Fixes</h2>
+<ul>
+<li>Templates (Claude): Resolves “response_format: Extra inputs are not
+permitted” by switching to Tools.</li>
+<li>OpenAI: Fixes rare structured‑output error (“schema must be type:
+object, got None”).</li>
+<li>Office previews: Prevents spikes from embedded thumbnails; steadier
+memory.</li>
+<li>Spreadsheet parsing: Resolves a leak in XLSX handling and aborts
+cleanly on extraction failures with clear guidance.</li>
+</ul>
+<p>Thanks for using NameQuick and for all the feedback — it helps a
+ton.</p>
+<p>— Josef</p>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.15.dmg" length="14953893" type="application/octet-stream" sparkle:edSignature="kqoRLAop7RTHxnuLucHszrOtwii901PbcwMTftCGXtNXmLeB1b4tgzChEDaNlswz+pU9qFO9ksmVaEWNWd/8DQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick143-141.delta" sparkle:deltaFrom="141" length="2996394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="rUT2bH8MmR+JS0c3WAmGZmoZnxnmv9mN2HffslxDe+/JFCjC+v0zIZmJmDFY5KM5A3Lt9F+Sb3Wf198UJ0pKCw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick143-138.delta" sparkle:deltaFrom="138" length="4225834" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="kvUaLVPNDx5kbmAB4wcqzyXedxzDlzL4n1z1YEkwhnP1AXi0QBdy24BpOoqIl4g87N3LfU2zQ7R1X1o5x7mXCw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick143-137.delta" sparkle:deltaFrom="137" length="4409986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="741RhSjawQghdAr2fBrmC9r/Gl21uOQOObWXKJ+yJryPJCG15NjZmIBxhkQklWA1cbMn6BmltT9Mq+ZvnJ2ZBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.0.14</title>
+            <pubDate>Mon, 01 Sep 2025 18:41:07 +0200</pubDate>
+            <sparkle:version>141</sparkle:version>
+            <sparkle:shortVersionString>2.0.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NameQuick v2.0.14 – Release Notes</title>
+  <style>
+    body { font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.5; color: #111; padding: 24px; max-width: 760px; margin: 0 auto; }
+    h1, h2 { line-height: 1.25; }
+    h1 { font-size: 1.6rem; margin: 0 0 0.5rem; }
+    h2 { font-size: 1.2rem; margin-top: 1.6rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin: 0.25rem 0; }
+    .meta { color: #555; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>NameQuick v2.0.14</h1>
+  <div class="meta">Release notes</div>
+  <h1 id="namequick-v2.0.14">NameQuick v2.0.14</h1>
 <p>This one focuses on smooth, reliable background processing and better
 document support — plus a new option for BYOK folks: <strong>Claude
 (Anthropic)</strong>.</p>
@@ -52,18 +135,18 @@ consistently.</li>
 <p>Thanks for using NameQuick and for all the feedback — it helps a
 ton.</p>
 <p>— Josef</p>
-                ]]>
-            </description>
-            <pubDate>Sun, 31 Aug 2025 18:49:07 +0200</pubDate>
-            <enclosure
-                url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.14.dmg"
-                sparkle:version="141"
-                sparkle:shortVersionString="2.0.14"
-                length="14869726"
-                type="application/octet-stream"
-                sparkle:edSignature="5emcVuLSwSE4G09+u9inwnS8giqdYZK7l16TruiPtl43SePJ2+ynahjWBO3cjLHZ0InRFcao8+hs6riFaMqCBQ=="
-            />
-            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+</body>
+</html>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.14.dmg" length="14869726" type="application/octet-stream" sparkle:edSignature="5emcVuLSwSE4G09+u9inwnS8giqdYZK7l16TruiPtl43SePJ2+ynahjWBO3cjLHZ0InRFcao8+hs6riFaMqCBQ=="/>
+        </item>
+        <item>
+            <title>2.0.13</title>
+            <pubDate>Mon, 01 Sep 2025 18:41:07 +0200</pubDate>
+            <sparkle:version>138</sparkle:version>
+            <sparkle:shortVersionString>2.0.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.13.dmg" length="13851043" type="application/octet-stream" sparkle:edSignature="VFVcuz1wGlvnYukjHIF9dOcm5P/PKOeIMFVsRWU76DmzZFR0zNtWkdxNMe1Se6ewvSGQ97OZalkEr5O1OMTuAQ=="/>
         </item>
     </channel>
 </rss>

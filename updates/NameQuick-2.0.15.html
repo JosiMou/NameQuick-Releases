@@ -1,0 +1,50 @@
+<h1 id="namequick-v2.0.15">NameQuick v2.0.15</h1>
+<p>This release makes Templates rock‑solid with Claude, fixes an OpenAI
+schema edge case, and keeps spreadsheets fast and stable.</p>
+<h2 id="highlights">Highlights</h2>
+<ul>
+<li>Templates (Claude): Reliable structured output with consistent
+results.</li>
+<li>OpenAI schema: Fixes rare “type: None” error in structured
+output.</li>
+<li>Spreadsheets: Stable memory + faster previews for large XLSX
+files.</li>
+<li>Error messages: Clearer, provider‑specific guidance.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li>Templates (Claude)
+<ul>
+<li>Uses Claude Tools with an input schema to return clean JSON (no
+chatty responses).</li>
+<li>Normalizes template field keys under the hood for tool
+compatibility; your template labels are unchanged.</li>
+</ul></li>
+<li>Spreadsheet handling
+<ul>
+<li>Size‑aware parsing and smarter sampling keep memory bounded on large
+workbooks.</li>
+<li>Faster, steadier previews for DOCX/PPTX/XLSX.</li>
+</ul></li>
+<li>Error messages
+<ul>
+<li>Clearer document guidance and provider‑specific mapping (no generic
+attributions).</li>
+<li>Unified wording for unsupported actions; suggests the next best
+path.</li>
+</ul></li>
+</ul>
+<h2 id="fixes">Fixes</h2>
+<ul>
+<li>Templates (Claude): Resolves “response_format: Extra inputs are not
+permitted” by switching to Tools.</li>
+<li>OpenAI: Fixes rare structured‑output error (“schema must be type:
+object, got None”).</li>
+<li>Office previews: Prevents spikes from embedded thumbnails; steadier
+memory.</li>
+<li>Spreadsheet parsing: Resolves a leak in XLSX handling and aborts
+cleanly on extraction failures with clear guidance.</li>
+</ul>
+<p>Thanks for using NameQuick and for all the feedback — it helps a
+ton.</p>
+<p>— Josef</p>
