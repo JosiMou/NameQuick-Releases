@@ -3,8 +3,34 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.16</title>
+            <pubDate>Mon, 01 Sep 2025 21:28:29 +0200</pubDate>
+            <sparkle:version>144</sparkle:version>
+            <sparkle:shortVersionString>2.0.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Quick hotfix to eliminate unexpected macOS Keychain password prompts
+when opening the AI settings.</p>
+<h2 id="highlights">Highlights</h2>
+<ul>
+<li>No more login Keychain prompts when viewing AI settings.</li>
+<li>Smoother settings experience with non‑interactive Keychain
+reads.</li>
+</ul>
+<p>Thanks for the fast reports — this should make settings feel calm
+again.</p>
+<p>— Josef</p>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.16.dmg" length="14941694" type="application/octet-stream" sparkle:edSignature="0jJONlsDqYygkbtvqMFnsWXvLEwwuUNl/BnCQNKio2qbA1sIKHCMGo2Xvu2jHW0uaKO+g+dhXmZy6UTdpZevDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick144-143.delta" sparkle:deltaFrom="143" length="2845274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Fn4roBEJgxsDx+bjYwlPyeR9H81tSrGzI8njcm0FBC8l9VZbvR0h5++s/KVOIejNhvwAW9tcXPtTS7XQ9rNiDQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick144-141.delta" sparkle:deltaFrom="141" length="3026302" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+FzGT9zG05iBlMJ9S635CH+GW3iN7IiBfIJ+/2kJL+a7rSQZJ2Gl3GuoAjigqBo/Lmkct+K28LYbG4VsVC9tDQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick144-138.delta" sparkle:deltaFrom="138" length="4283694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="6w6uO7YqwITdSqdPOY+oaA+LrrxTY7Zz151yz9tfCUA3JlqDSioI9SJDsHZciB078H8aFA9rd4c8Up8w3yD4Bg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick144-137.delta" sparkle:deltaFrom="137" length="4453474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="T8f5wTCetXBDwFOjMwo7re7DjFf7G5X/rbfo//qQqIiNiHkiuL074xVs9suCAJba9DKxp1foh8wMo4MUdie7Dw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.15</title>
-            <pubDate>Mon, 01 Sep 2025 18:41:07 +0200</pubDate>
+            <pubDate>Mon, 01 Sep 2025 21:28:29 +0200</pubDate>
             <sparkle:version>143</sparkle:version>
             <sparkle:shortVersionString>2.0.15</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -60,15 +86,10 @@ ton.</p>
 <p>— Josef</p>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.15.dmg" length="14953893" type="application/octet-stream" sparkle:edSignature="kqoRLAop7RTHxnuLucHszrOtwii901PbcwMTftCGXtNXmLeB1b4tgzChEDaNlswz+pU9qFO9ksmVaEWNWd/8DQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick143-141.delta" sparkle:deltaFrom="141" length="2996394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="rUT2bH8MmR+JS0c3WAmGZmoZnxnmv9mN2HffslxDe+/JFCjC+v0zIZmJmDFY5KM5A3Lt9F+Sb3Wf198UJ0pKCw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick143-138.delta" sparkle:deltaFrom="138" length="4225834" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="kvUaLVPNDx5kbmAB4wcqzyXedxzDlzL4n1z1YEkwhnP1AXi0QBdy24BpOoqIl4g87N3LfU2zQ7R1X1o5x7mXCw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick143-137.delta" sparkle:deltaFrom="137" length="4409986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="741RhSjawQghdAr2fBrmC9r/Gl21uOQOObWXKJ+yJryPJCG15NjZmIBxhkQklWA1cbMn6BmltT9Mq+ZvnJ2ZBg=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.14</title>
-            <pubDate>Mon, 01 Sep 2025 18:41:07 +0200</pubDate>
+            <pubDate>Mon, 01 Sep 2025 21:28:29 +0200</pubDate>
             <sparkle:version>141</sparkle:version>
             <sparkle:shortVersionString>2.0.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -139,14 +160,6 @@ ton.</p>
 </html>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.14.dmg" length="14869726" type="application/octet-stream" sparkle:edSignature="5emcVuLSwSE4G09+u9inwnS8giqdYZK7l16TruiPtl43SePJ2+ynahjWBO3cjLHZ0InRFcao8+hs6riFaMqCBQ=="/>
-        </item>
-        <item>
-            <title>2.0.13</title>
-            <pubDate>Mon, 01 Sep 2025 18:41:07 +0200</pubDate>
-            <sparkle:version>138</sparkle:version>
-            <sparkle:shortVersionString>2.0.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.13.dmg" length="13851043" type="application/octet-stream" sparkle:edSignature="VFVcuz1wGlvnYukjHIF9dOcm5P/PKOeIMFVsRWU76DmzZFR0zNtWkdxNMe1Se6ewvSGQ97OZalkEr5O1OMTuAQ=="/>
         </item>
     </channel>
 </rss>
