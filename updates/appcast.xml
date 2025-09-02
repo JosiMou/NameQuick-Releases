@@ -3,8 +3,34 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.17</title>
+            <pubDate>Wed, 03 Sep 2025 00:14:15 +0200</pubDate>
+            <sparkle:version>146</sparkle:version>
+            <sparkle:shortVersionString>2.0.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h1 id="namequick-v2.0.17-hotfix">NameQuick v2.0.17 (Hotfix)</h1>
+<p>Fixes a login issue affecting subscription customers using email
+aliases with a “+” (plus) sign.</p>
+<h2 id="highlights">Highlights</h2>
+<ul>
+<li>Email login: Addresses like <code>name+tag@domain.com</code> now
+work as expected.</li>
+</ul>
+<p>Thanks to the report that helped me pinpoint this quickly.</p>
+<p>— Josef</p>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.17.dmg" length="14948633" type="application/octet-stream" sparkle:edSignature="XptRER8z1FQiN70TwncuK91bUQjxj9X0YHoEoNgachpmH1ccGovCW8DlF3lW97rRR9cISz9rgL523zGIgtlXAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick146-144.delta" sparkle:deltaFrom="144" length="2798242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="GqgFVWm9M55K7+3+0psVoFPAi6EVReCWqqZJntStZk+N5q3B2xqLjEobDbBSHFsgaB7evrMG9s7tEsVB7+6oAw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick146-143.delta" sparkle:deltaFrom="143" length="2855754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="eEwZd7Drv5MspKa1Knf82UgFtszHNX6jZ379MXHk+k6twDiYh25ourD6FEg8Nr1HlE+iN9lOfQ4Naqzx0nDXCQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick146-141.delta" sparkle:deltaFrom="141" length="3007286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="pVCHWpdhRyPVcggbOtqI9DksBh7Z6tqUaglZo0FtEw3BvyUoZokCmvCNkzYo0yag9Mi4FzdQwlDyzrAbxqQXBQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick146-138.delta" sparkle:deltaFrom="138" length="4241346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="L5544c//ugJtHO4hvUBESe/ybnD0mIk6giQpw0dW1LW1caHKYRktp0qGh3Ss6VfxeaTZPRSQEaxrsmToml4ICw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick146-137.delta" sparkle:deltaFrom="137" length="4418378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="mgntZM6w0ZLsP1efO4fr9N/AVF5NRgdLySlUVwLE6Hp3VpxNYhNcAYBBYoWuMo4fTkEnDSvcig6FKlTsWuvjAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.16</title>
-            <pubDate>Mon, 01 Sep 2025 21:28:29 +0200</pubDate>
+            <pubDate>Wed, 03 Sep 2025 00:14:15 +0200</pubDate>
             <sparkle:version>144</sparkle:version>
             <sparkle:shortVersionString>2.0.16</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -21,16 +47,10 @@ again.</p>
 <p>— Josef</p>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.16.dmg" length="14941694" type="application/octet-stream" sparkle:edSignature="0jJONlsDqYygkbtvqMFnsWXvLEwwuUNl/BnCQNKio2qbA1sIKHCMGo2Xvu2jHW0uaKO+g+dhXmZy6UTdpZevDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick144-143.delta" sparkle:deltaFrom="143" length="2845274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Fn4roBEJgxsDx+bjYwlPyeR9H81tSrGzI8njcm0FBC8l9VZbvR0h5++s/KVOIejNhvwAW9tcXPtTS7XQ9rNiDQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick144-141.delta" sparkle:deltaFrom="141" length="3026302" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+FzGT9zG05iBlMJ9S635CH+GW3iN7IiBfIJ+/2kJL+a7rSQZJ2Gl3GuoAjigqBo/Lmkct+K28LYbG4VsVC9tDQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick144-138.delta" sparkle:deltaFrom="138" length="4283694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="6w6uO7YqwITdSqdPOY+oaA+LrrxTY7Zz151yz9tfCUA3JlqDSioI9SJDsHZciB078H8aFA9rd4c8Up8w3yD4Bg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick144-137.delta" sparkle:deltaFrom="137" length="4453474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="T8f5wTCetXBDwFOjMwo7re7DjFf7G5X/rbfo//qQqIiNiHkiuL074xVs9suCAJba9DKxp1foh8wMo4MUdie7Dw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.15</title>
-            <pubDate>Mon, 01 Sep 2025 21:28:29 +0200</pubDate>
+            <pubDate>Wed, 03 Sep 2025 00:14:15 +0200</pubDate>
             <sparkle:version>143</sparkle:version>
             <sparkle:shortVersionString>2.0.15</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -86,80 +106,6 @@ ton.</p>
 <p>— Josef</p>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.15.dmg" length="14953893" type="application/octet-stream" sparkle:edSignature="kqoRLAop7RTHxnuLucHszrOtwii901PbcwMTftCGXtNXmLeB1b4tgzChEDaNlswz+pU9qFO9ksmVaEWNWd/8DQ=="/>
-        </item>
-        <item>
-            <title>2.0.14</title>
-            <pubDate>Mon, 01 Sep 2025 21:28:29 +0200</pubDate>
-            <sparkle:version>141</sparkle:version>
-            <sparkle:shortVersionString>2.0.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NameQuick v2.0.14 – Release Notes</title>
-  <style>
-    body { font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.5; color: #111; padding: 24px; max-width: 760px; margin: 0 auto; }
-    h1, h2 { line-height: 1.25; }
-    h1 { font-size: 1.6rem; margin: 0 0 0.5rem; }
-    h2 { font-size: 1.2rem; margin-top: 1.6rem; }
-    ul { padding-left: 1.25rem; }
-    li { margin: 0.25rem 0; }
-    .meta { color: #555; margin-bottom: 1rem; }
-  </style>
-</head>
-<body>
-  <h1>NameQuick v2.0.14</h1>
-  <div class="meta">Release notes</div>
-  <h1 id="namequick-v2.0.14">NameQuick v2.0.14</h1>
-<p>This one focuses on smooth, reliable background processing and better
-document support — plus a new option for BYOK folks: <strong>Claude
-(Anthropic)</strong>.</p>
-<h2 id="highlights">Highlights</h2>
-<ul>
-<li>New: You can now rename <strong>Word, PowerPoint, and Excel files
-(DOCX, PPTX, XLSX)</strong>.</li>
-<li>BYOK: <strong>Claude (Anthropic)</strong> joins the lineup with
-native PDF + image analysis and explicit model selection.</li>
-</ul>
-<h2 id="new">New</h2>
-<ul>
-<li>Word (.docx): Smart, clean names for your documents — fast previews
-included.</li>
-<li>PowerPoint (.pptx): Uses slide text to suggest clear context-aware
-names.</li>
-<li>Excel (.xlsx, .xlsm): Concise, informative names for your
-spreadsheets.</li>
-<li>Quiet background mode: Keep NameQuick tucked away — it keeps
-watching your folders and renaming files.</li>
-<li>BYOK: Added Claude (Anthropic) as a provider — native PDF support
-via Messages API, image analysis, explicit model selection, key
-validation, and per‑item cost shown in recent history.</li>
-</ul>
-<h2 id="improvements">Improvements</h2>
-<ul>
-<li>Folder recovery: If your Mac sleeps or a drive disconnects,
-NameQuick resumes and catches up automatically.</li>
-<li>Startup experience: Files already in your watch folders appear
-instantly. Only new or changed files auto‑process (based on your
-settings).</li>
-<li>UI: Cleaner, calmer loading indicator in the grid.</li>
-</ul>
-<h2 id="fixes">Fixes</h2>
-<ul>
-<li>Automatic processing could pause for some folders.</li>
-<li>Files added later to a watched folder now process as expected.</li>
-<li>PPTX files were sometimes flagged as unsupported — they now work
-consistently.</li>
-</ul>
-<p>Thanks for using NameQuick and for all the feedback — it helps a
-ton.</p>
-<p>— Josef</p>
-</body>
-</html>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.14.dmg" length="14869726" type="application/octet-stream" sparkle:edSignature="5emcVuLSwSE4G09+u9inwnS8giqdYZK7l16TruiPtl43SePJ2+ynahjWBO3cjLHZ0InRFcao8+hs6riFaMqCBQ=="/>
         </item>
     </channel>
 </rss>
