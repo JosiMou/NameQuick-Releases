@@ -1,0 +1,31 @@
+<h2 id="v2.0.19-create-your-own-prompts">v2.0.19 — Create Your Own
+Prompts</h2>
+<p><strong>Your naming rules, automated.</strong></p>
+<p>You can now write custom prompts for how you want files renamed. Pick
+one from the toolbar, and NameQuick will use it for every file until you
+change it. They also work with watch folders for automatic renaming.</p>
+<p><strong>Creating a prompt</strong> Settings → AI → Manage Custom
+Prompts. Write your instructions like “date first, then project name”
+and save. It’ll show up in your toolbar dropdown.</p>
+<p><strong>Using prompts</strong> The toolbar dropdown now has three
+sections: Smart Rename, Templates, and Custom Prompts. Pick a custom
+prompt and the Play button uses it. Switch back to Smart Rename
+anytime.</p>
+<p><strong>Auto-rename with watch folders</strong> Click on the Can u →
+Prompt → pick your custom prompt. New files dropped there automatically
+rename using that prompt. The folder chip shows which prompt is
+active.</p>
+<p><strong>How it works:</strong> - Play button: Uses the prompt shown
+in the toolbar - Watch folders: Use their own assigned prompts
+(independent of toolbar) - Templates: Override prompts when selected</p>
+<p>Simple. Your file naming system, running on autopilot.</p>
+<p><strong>Fixes</strong> - Large media drag &amp; drop: Provider‑aware
+limits—Gemini supports up to 500 MB (with a quick confirm at 100–500
+MB); OpenAI audio above 25 MB is blocked with a helpful tip. -
+Templates: Fixed <code>{original}</code> not resolving. File-based
+placeholders now work correctly in template renames
+(<code>{original}</code>, <code>{extension}</code>,
+<code>{parent}</code>, <code>{size}</code>,
+<code>{dimensions}</code>).</p>
+<p><strong>Known bugs</strong> - Drag &amp; drop not processing the same
+file.</p>

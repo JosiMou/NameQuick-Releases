@@ -3,8 +3,55 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.19</title>
+            <pubDate>Tue, 09 Sep 2025 14:57:34 +0200</pubDate>
+            <sparkle:version>160</sparkle:version>
+            <sparkle:shortVersionString>2.0.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2 id="v2.0.19-create-your-own-prompts">v2.0.19 — Create Your Own
+Prompts</h2>
+<p><strong>Your naming rules, automated.</strong></p>
+<p>You can now write custom prompts for how you want files renamed. Pick
+one from the toolbar, and NameQuick will use it for every file until you
+change it. They also work with watch folders for automatic renaming.</p>
+<p><strong>Creating a prompt</strong> Settings → AI → Manage Custom
+Prompts. Write your instructions like “date first, then project name”
+and save. It’ll show up in your toolbar dropdown.</p>
+<p><strong>Using prompts</strong> The toolbar dropdown now has three
+sections: Smart Rename, Templates, and Custom Prompts. Pick a custom
+prompt and the Play button uses it. Switch back to Smart Rename
+anytime.</p>
+<p><strong>Auto-rename with watch folders</strong> Click on the Can u →
+Prompt → pick your custom prompt. New files dropped there automatically
+rename using that prompt. The folder chip shows which prompt is
+active.</p>
+<p><strong>How it works:</strong> - Play button: Uses the prompt shown
+in the toolbar - Watch folders: Use their own assigned prompts
+(independent of toolbar) - Templates: Override prompts when selected</p>
+<p>Simple. Your file naming system, running on autopilot.</p>
+<p><strong>Fixes</strong> - Large media drag &amp; drop: Provider‑aware
+limits—Gemini supports up to 500 MB (with a quick confirm at 100–500
+MB); OpenAI audio above 25 MB is blocked with a helpful tip. -
+Templates: Fixed <code>{original}</code> not resolving. File-based
+placeholders now work correctly in template renames
+(<code>{original}</code>, <code>{extension}</code>,
+<code>{parent}</code>, <code>{size}</code>,
+<code>{dimensions}</code>).</p>
+<p><strong>Known bugs</strong> - Drag &amp; drop not processing the same
+file.</p>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.19.dmg" length="33521678" type="application/octet-stream" sparkle:edSignature="NCtLo6CDEuUDUYBMKgUcKDdAStTnm97GaKcKOldXVlep7NsMba5rdMUfj+caPbNugTSeTTf/BcD92OSqb4aVAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick160-158.delta" sparkle:deltaFrom="158" length="3559590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="3kVIolsYEiIHiPvbDLoddAMaKZXpmZwElRplA0yKpn/9EybEsRIeTpvXz2OYEkcfUH+ARIRDMEWvlTDDeFPfCQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick160-146.delta" sparkle:deltaFrom="146" length="22053962" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="B0s1NUD1Ik4UMHTBkBMSel/C1m9Pt8MDbvjE3XwjJGMI/TKgEDKsLg2e24zi2d2gxJ+YG2OXeffGrSZlxhWEAQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick160-144.delta" sparkle:deltaFrom="144" length="22031218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="1807gAgMk/l/dNVzRzKM+kOQiYVGwzE2gUbeMDXCpLz924jiN4/etb5jcFSHrNE0oJ0FKplepSfCzkkkhRakDw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick160-143.delta" sparkle:deltaFrom="143" length="22017746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="NnF48BgPu2gJkYzQsFfsY6vwENsEMQTdH7SEEYI8i0iLkPaT2uQU/bN4PQ5tzlRzUWIiCYkCd4xrvwukqeQTCA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick160-141.delta" sparkle:deltaFrom="141" length="22180890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="73DQTRfxEeOueC3JdeoUDBPXMuwSeaoAG9qJ+0T3cMUsxMsN3BYwRcejDrj/b0PqmNC6rh+Bq7pjshZvTGawAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.18</title>
-            <pubDate>Mon, 08 Sep 2025 09:00:52 +0200</pubDate>
+            <pubDate>Tue, 09 Sep 2025 14:57:34 +0200</pubDate>
             <sparkle:version>158</sparkle:version>
             <sparkle:shortVersionString>2.0.18</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -26,17 +73,10 @@ to your first rename.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.18.dmg" length="33407793" type="application/octet-stream" sparkle:edSignature="3f7ytf9NB/P+oWnjrqBhGCMtHKMtIrtHok9FlUjSSgsMcsltpbF8JVZzLKHnVkRjbBZDKvT1YEhogydYQ3nWCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick158-146.delta" sparkle:deltaFrom="146" length="21734038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="GGSwCM1NchFAiVUSFGeQuUjHEtmn8KGhUvFWsvq+Y3juvllvWdWoc62GmWPJnqZNWKww8g0+7xpgnenHsKduAQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick158-144.delta" sparkle:deltaFrom="144" length="21704398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="FNaOJkaw+NQ2BO05B554u75kY/kQMe6R9GothgpBqvCECm33Ty/5+GG5ebEQ9RsPmXzQM01/lskuYovHh0sXBQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick158-143.delta" sparkle:deltaFrom="143" length="21746446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="IuxCrRaRc0ncIpAoGu3Xx/AgZQ1HxeSjS7p/7gkud5PRuWsYQpoxmn2ZtX0/vA2XmMiFFavV22KTsEn8TdLuAA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick158-141.delta" sparkle:deltaFrom="141" length="21895426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Dt3akiwxqRa0nI+90SpjjnhMeHT4eX5VrezmP+Qq+N2JDLKuepXyvn4HueXodwyqj3dqJEPeLdO1fR0qOBVvDA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick158-138.delta" sparkle:deltaFrom="138" length="22880470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="kg3q3AVobSIo9ddX3ZA90+VEBvicEYjxmOJiN85Ee1StBOUi0YbnMtRmRQBEu4+NFuBn9VjNXl4K/cb8CCpUBw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.17</title>
-            <pubDate>Mon, 08 Sep 2025 09:00:52 +0200</pubDate>
+            <pubDate>Tue, 09 Sep 2025 14:57:34 +0200</pubDate>
             <sparkle:version>146</sparkle:version>
             <sparkle:shortVersionString>2.0.17</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -52,26 +92,6 @@ work as expected.</li>
 <p>— Josef</p>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.17.dmg" length="14948633" type="application/octet-stream" sparkle:edSignature="XptRER8z1FQiN70TwncuK91bUQjxj9X0YHoEoNgachpmH1ccGovCW8DlF3lW97rRR9cISz9rgL523zGIgtlXAA=="/>
-        </item>
-        <item>
-            <title>2.0.16</title>
-            <pubDate>Mon, 08 Sep 2025 09:00:52 +0200</pubDate>
-            <sparkle:version>144</sparkle:version>
-            <sparkle:shortVersionString>2.0.16</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Quick hotfix to eliminate unexpected macOS Keychain password prompts
-when opening the AI settings.</p>
-<h2 id="highlights">Highlights</h2>
-<ul>
-<li>No more login Keychain prompts when viewing AI settings.</li>
-<li>Smoother settings experience with non‑interactive Keychain
-reads.</li>
-</ul>
-<p>Thanks for the fast reports — this should make settings feel calm
-again.</p>
-<p>— Josef</p>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.16.dmg" length="14941694" type="application/octet-stream" sparkle:edSignature="0jJONlsDqYygkbtvqMFnsWXvLEwwuUNl/BnCQNKio2qbA1sIKHCMGo2Xvu2jHW0uaKO+g+dhXmZy6UTdpZevDQ=="/>
         </item>
     </channel>
 </rss>
