@@ -3,8 +3,27 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.20</title>
+            <pubDate>Fri, 12 Sep 2025 19:19:14 +0200</pubDate>
+            <sparkle:version>162</sparkle:version>
+            <sparkle:shortVersionString>2.0.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h1 id="v2.0.20">v2.0.20</h1>
+<h2 id="features">## Features</h2>
+<h2 id="fixes">## Fixes</h2>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.20.dmg" length="33703531" type="application/octet-stream" sparkle:edSignature="rDfrwoqPY38BNbU7wlShhYMQ7KuduZLaXJpIEaiG0SWBdBx3FkuZI5loWHM7TXmlqCtVQv3WZ+68yxr9JnV8Dg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick162-160.delta" sparkle:deltaFrom="160" length="3653458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="7w6a3kZZKLuP/1TlnBySDlARL4rJSy4AiiZbXL6ppmJq+e6lfAib5dIE75y5lBU/4d6K+s8gCru7gG7x1HeHBg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick162-158.delta" sparkle:deltaFrom="158" length="3853486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ubUfIiycr4dLMkkoQD1oZnZlsbPBJS7mzE1BZopjdKpGYm7t52zcXYteONXu/Z0quSYborLO/Ia5/r/5nBhCAw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick162-146.delta" sparkle:deltaFrom="146" length="22359922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="TWJMYQ2KVcfnwNuminLsy6gBNpt0RWCHdNcsWYu2VIqiOyErie6nKz0SowBZHw5pL5vXm+bV4lgLr6ga2vy9BQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick162-144.delta" sparkle:deltaFrom="144" length="22335382" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="a+oWETwEbe2PDsl2uoA6IvrAt4h4vdCNFTmZTmBjSN+PIR0L0Nfb+qjTUBuSacbyaYeXnAmzI0wWM6OaOb4QDQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick162-143.delta" sparkle:deltaFrom="143" length="22348518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="KgYc5o5SiYIoDxi9O4tDf3N6to2F+2eNDyLQS9b2dF+PIuHxIIp1yne0oXJta+7t9/a7LHLm0CsOJ0dZOTT3DQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.19</title>
-            <pubDate>Tue, 09 Sep 2025 14:57:34 +0200</pubDate>
+            <pubDate>Fri, 12 Sep 2025 19:19:14 +0200</pubDate>
             <sparkle:version>160</sparkle:version>
             <sparkle:shortVersionString>2.0.19</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -41,17 +60,10 @@ placeholders now work correctly in template renames
 file.</p>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.19.dmg" length="33521678" type="application/octet-stream" sparkle:edSignature="NCtLo6CDEuUDUYBMKgUcKDdAStTnm97GaKcKOldXVlep7NsMba5rdMUfj+caPbNugTSeTTf/BcD92OSqb4aVAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick160-158.delta" sparkle:deltaFrom="158" length="3559590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="3kVIolsYEiIHiPvbDLoddAMaKZXpmZwElRplA0yKpn/9EybEsRIeTpvXz2OYEkcfUH+ARIRDMEWvlTDDeFPfCQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick160-146.delta" sparkle:deltaFrom="146" length="22053962" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="B0s1NUD1Ik4UMHTBkBMSel/C1m9Pt8MDbvjE3XwjJGMI/TKgEDKsLg2e24zi2d2gxJ+YG2OXeffGrSZlxhWEAQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick160-144.delta" sparkle:deltaFrom="144" length="22031218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="1807gAgMk/l/dNVzRzKM+kOQiYVGwzE2gUbeMDXCpLz924jiN4/etb5jcFSHrNE0oJ0FKplepSfCzkkkhRakDw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick160-143.delta" sparkle:deltaFrom="143" length="22017746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="NnF48BgPu2gJkYzQsFfsY6vwENsEMQTdH7SEEYI8i0iLkPaT2uQU/bN4PQ5tzlRzUWIiCYkCd4xrvwukqeQTCA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick160-141.delta" sparkle:deltaFrom="141" length="22180890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="73DQTRfxEeOueC3JdeoUDBPXMuwSeaoAG9qJ+0T3cMUsxMsN3BYwRcejDrj/b0PqmNC6rh+Bq7pjshZvTGawAA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.18</title>
-            <pubDate>Tue, 09 Sep 2025 14:57:34 +0200</pubDate>
+            <pubDate>Fri, 12 Sep 2025 19:19:14 +0200</pubDate>
             <sparkle:version>158</sparkle:version>
             <sparkle:shortVersionString>2.0.18</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -73,25 +85,6 @@ to your first rename.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.18.dmg" length="33407793" type="application/octet-stream" sparkle:edSignature="3f7ytf9NB/P+oWnjrqBhGCMtHKMtIrtHok9FlUjSSgsMcsltpbF8JVZzLKHnVkRjbBZDKvT1YEhogydYQ3nWCA=="/>
-        </item>
-        <item>
-            <title>2.0.17</title>
-            <pubDate>Tue, 09 Sep 2025 14:57:34 +0200</pubDate>
-            <sparkle:version>146</sparkle:version>
-            <sparkle:shortVersionString>2.0.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h1 id="namequick-v2.0.17-hotfix">NameQuick v2.0.17 (Hotfix)</h1>
-<p>Fixes a login issue affecting subscription customers using email
-aliases with a “+” (plus) sign.</p>
-<h2 id="highlights">Highlights</h2>
-<ul>
-<li>Email login: Addresses like <code>name+tag@domain.com</code> now
-work as expected.</li>
-</ul>
-<p>Thanks to the report that helped me pinpoint this quickly.</p>
-<p>— Josef</p>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.17.dmg" length="14948633" type="application/octet-stream" sparkle:edSignature="XptRER8z1FQiN70TwncuK91bUQjxj9X0YHoEoNgachpmH1ccGovCW8DlF3lW97rRR9cISz9rgL523zGIgtlXAA=="/>
         </item>
     </channel>
 </rss>
