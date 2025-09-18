@@ -1,0 +1,88 @@
+<h1 id="v2.0.21-move-files-based-on-rules">v2.0.21 – Move files based on
+rules</h1>
+<h2 id="features">Features</h2>
+<h3 id="new-rules-engine---powerful-file-organization-automation">New
+Rules Engine - Powerful File Organization Automation</h3>
+<p>NameQuick now includes a comprehensive rules engine that gives you
+fine-grained control over how files are processed and organized. Create
+custom rules to automatically move files, set metadata, and control
+processing based on rich file analysis—all before or after AI
+processing.</p>
+<h4 id="two-phase-processing-system"><strong>Two-Phase Processing
+System</strong></h4>
+<ul>
+<li><strong>Before Rename</strong>: Rules evaluate files as they enter
+watch folders, perfect for initial routing and organization</li>
+<li><strong>After Rename</strong>: Rules can run again after AI
+completes renaming, allowing you to organize files based on their final
+names</li>
+</ul>
+<h4 id="powerful-actions"><strong>Powerful Actions</strong></h4>
+<p>Rules can perform multiple actions automatically:</p>
+<p><strong>File Organization:</strong> - Move files using smart path
+templates with dynamic placeholders - Example: Move iPhone photos to
+<code>Photos/{camera_make}/{date_taken}/</code></p>
+<p><strong>Finder Metadata:</strong> - Set color labels, Finder
+comments, and tags - Example: Tag invoices with “Finance” and set red
+color label</p>
+<p><strong>Date Management:</strong> - Set custom creation/modification
+dates - Useful for organizing scanned documents by actual document
+date</p>
+<p><strong>Template Routing (folder‑based):</strong> - Configure a watch
+folder to always use a specific AI template - Note: Rules‑based
+“auto‑choose template” is not enabled in this release</p>
+<h4 id="smart-path-templates"><strong>Smart Path Templates</strong></h4>
+<p>Create dynamic destination paths using powerful placeholders:</p>
+<ul>
+<li><code>{original}</code> - Original filename without extension</li>
+<li><code>{date_taken}</code> - EXIF date taken or creation date</li>
+<li><code>{camera_make}</code> / <code>{camera_model}</code> - Camera
+information</li>
+<li><code>{year}</code>, <code>{month}</code>, <code>{day}</code> -
+Current date components</li>
+<li><code>{parent}</code> - Source folder name</li>
+<li><code>{width}</code> / <code>{height}</code> - Image/video
+dimensions</li>
+</ul>
+<p><strong>Example:</strong>
+<code>Photos/{camera_make}/{year}/{month}-{day}/{original}.{extension}</code></p>
+<p>Notes and safety: - Moves require selecting a base destination folder
+(security‑scoped bookmark) - Only relative subpaths are allowed;
+<code>..</code> and absolute paths are rejected - Collisions are handled
+automatically; use <code>{counter}</code> to force numbering - Trailing
+<code>/</code> keeps the original filename (e.g.,
+<code>{date_taken}/</code> → appends source name)</p>
+<h4 id="real-world-use-cases"><strong>Real-World Use Cases</strong></h4>
+<p><strong>Photo Organization:</strong></p>
+<pre><code>If: Camera make contains &quot;iPhone&quot; AND has GPS data
+Then: Move to &quot;Photos/iPhone/{date_taken}/&quot; AND tag &quot;Personal&quot;</code></pre>
+<p><strong>Document Organization:</strong></p>
+<pre><code>If: Filename contains &quot;invoice&quot; AND extension is &quot;pdf&quot;
+Then: Move to &quot;Finance/Invoices/{year}/{month}/&quot; AND set red color label</code></pre>
+<p><strong>Screenshot Management:</strong></p>
+<pre><code>If: Filename contains &quot;Screenshot&quot; AND width &gt; 1920
+Then: Move to &quot;Screenshots/High-Res/{date}/&quot; AND tag &quot;Design&quot;</code></pre>
+<h4 id="enhanced-rules-editor"><strong>Enhanced Rules
+Editor</strong></h4>
+<p>The Rules tab in Settings now provides: - Intuitive predicate builder
+with smart suggestions - Phase filtering to manage before/after
+processing rules separately - Quick rule summaries showing conditions
+and actions - Schema-aware import/export for sharing rule configurations
+- Real-time validation and error checking - New “Subpath Template” field
+with inline validation - Clickable help popovers for Move to, Subpath
+Template, Finder tags/comment/color, and File dates</p>
+<p>This new rules engine transforms NameQuick from a simple file
+processor into a sophisticated document management system that can
+handle complex organizational workflows automatically.</p>
+<h2 id="fixes">Fixes</h2>
+<ul>
+<li>Added regression coverage around rules import/export to catch
+malformed content or media predicates before they ship.</li>
+<li>Resolved BYOK OpenAI audio failures by mapping the new GPT-4o
+transcription models, so <code>.wav/.mp3</code> jobs no longer 404 when
+calling <code>/v1/audio/transcriptions</code>, and now run a two-step
+flow (transcribe → rename) to feed the transcript into your selected
+model.</li>
+<li>Restored Smart Rename’s custom prompt handoff for drag/drop, menu
+commands, and watch folders after the batch pipeline migration.</li>
+</ul>
