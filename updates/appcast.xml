@@ -3,8 +3,77 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.22</title>
+            <pubDate>Mon, 22 Sep 2025 21:48:55 +0200</pubDate>
+            <sparkle:version>164</sparkle:version>
+            <sparkle:shortVersionString>2.0.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2 id="v2.0.22-fresh-ui-for-macos-tahoe">v2.0.22 — Fresh UI for macOS
+Tahoe</h2>
+<h3 id="whats-new">What’s New</h3>
+<ul>
+<li><strong>Redesigned for macOS Tahoe</strong> – Beautiful new user
+interface optimized for Apple’s latest macOS, with modern visual
+refinements throughout the app.</li>
+<li><strong>Vector artists rejoice</strong> – Drop in AI, SVG, or EPS
+files and NameQuick will import, preview, and rename them just like your
+photos.</li>
+<li><strong>Templates that feel native</strong> – The Templates screen
+now looks and behaves like Finder. Quick actions sit right where you
+expect them, and the pencil button jumps straight into editing.</li>
+</ul>
+<h3 id="bug-fixes-improvements">Bug Fixes &amp; Improvements</h3>
+<ul>
+<li><strong>Memory leak fixed</strong> – Eliminated a critical memory
+leak that could cause crashes during extended use—the app now runs
+reliably for hours without issues.</li>
+<li><strong>Remembers your style</strong> – Fixed persistence
+issues—separators, prompts, and other preferences now properly stick
+between sessions.</li>
+<li><strong>Brackets now allowed</strong> – Fixed filename
+sanitization—you can now use bracket characters in generated filenames
+without them being stripped out.</li>
+<li><strong>Custom prompts persist</strong> – Fixed custom prompt
+overrides not being saved—your selected prompts are now properly
+restored when you restart the app.</li>
+<li><strong>Clearer UI controls</strong> – Added visible Done button and
+Cancel/Save buttons to the custom prompt manager—no more relying on the
+Escape key to close dialogs.</li>
+<li><strong>Visible dialog buttons</strong> – Fixed invisible button
+issue—all confirmation dialogs now show clear Cancel and action buttons
+(like the cache-clear dialog).</li>
+<li><strong>Instant template edits</strong> – Fixed template editing
+behavior—tap the pencil to open the editor, and rename from the context
+menu when you really mean it.</li>
+<li><strong>Automatic upgrades</strong> – Fixed watch folder
+compatibility—existing watch folders pick up vector support
+automatically without extra setup.</li>
+<li><strong>Stability improvements</strong> – Squashed numerous bugs
+affecting app stability and performance.</li>
+<li><strong>UI polish</strong> – Fixed various interface glitches and
+visual inconsistencies throughout the app.</li>
+</ul>
+<h3 id="why-youll-love-it">Why You’ll Love It</h3>
+<ul>
+<li>Broader format support means fewer workflow detours.</li>
+<li>Smarter AI helps you finish renaming faster.</li>
+<li>A more native interface keeps everything familiar and simple.</li>
+<li>Built‑in safeguards protect your large creative files without any
+extra effort.</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.22.dmg" length="33928792" type="application/octet-stream" sparkle:edSignature="wSX+qKc4sqInMnQq6+aRvtAHPX5lIOMCQ2tOXp4iYHV/ugvWvK8aIuoRnQeHVbHPcrmQhQBJWGNOM5krYnx4Dw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick164-163.delta" sparkle:deltaFrom="163" length="7438698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="l0VMbL7Ea5ZDu6i02sA1JZnLo0BGubARUhd3xKTKr7jkomvQe2050dNOMiTtzENN5xTgORmFbkK1zi/2XtK5Ag=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick164-162.delta" sparkle:deltaFrom="162" length="7761618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="2NloUyatuUYBOJ5G8z+EgVs7qjzrub5li4GOxhhbKotk/yOpNWA39SWQTZFRZdb98xRtdLansGLtU9iN+lwrDg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick164-160.delta" sparkle:deltaFrom="160" length="7897774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="teKB6tGv9ck18tfExe7Rp+PQCsOe6N6CYePPoD9l0KFCC1/QzO12dk19zkPTBP/b8BVfMlSR+zY3jHpFJySrDA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick164-158.delta" sparkle:deltaFrom="158" length="7921914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="JkAkyQrTdp1gp4rzVJCFyC6lKpj0fxuZFf6WEokq474QgjCDQiLcjVAyabgHIzVUbrrd0Z/Bmpxydf+qKQ1mDA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick164-146.delta" sparkle:deltaFrom="146" length="25684914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Bgh5zqOmwz/oawXJa5lCG+lgrFvFYk50jS8z3jaocwRYayvHUgMRcFghLJs3B4AsQE57tWel5Fnrirq6y0fiCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.21</title>
-            <pubDate>Thu, 18 Sep 2025 18:03:22 +0200</pubDate>
+            <pubDate>Mon, 22 Sep 2025 21:48:55 +0200</pubDate>
             <sparkle:version>163</sparkle:version>
             <sparkle:shortVersionString>2.0.21</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -98,17 +167,10 @@ commands, and watch folders after the batch pipeline migration.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.21.dmg" length="34424109" type="application/octet-stream" sparkle:edSignature="HfuY3tnMY5orRe9U8Q93yxxyL2PCD45rQ17tWGvASe7h0Viy6NkBOMMdN9E6D6YseSr5YVmsohMri1TGDkxeDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick163-162.delta" sparkle:deltaFrom="162" length="4473106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="kKCu5+PfYZTX1FYQSFy5JEVC+jkpwEFbrTqJRcRRLD1WjUlqYRBAxmcq2Ep6AGusk26kira62j4a6EflPohPCg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick163-160.delta" sparkle:deltaFrom="160" length="4879666" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="AyzGbkgdP7mYT+o0h/0G+HE8nFJddQC6WqCBKM9fGnszKe4nZUJQccnHT3soFV9bJNBApiFkaLbR+oOEwtAUCg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick163-158.delta" sparkle:deltaFrom="158" length="5085882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="p2P3kbeM9uVX9GnNHPPdZOatp0Pgv9A9P2s0aYlbRcdGFq/hr5nKtIJGgtrvAJ32D0nqApzaxD6pt/KxsS41CA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick163-146.delta" sparkle:deltaFrom="146" length="23313054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="MyB27UC1QSMqEWueByH8plA/eMCtaPT83S8O4c8MxN4//RfAx9mHFcgOchXNS+HhmsxbhedkUiJVgLyJ+dhjAg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick163-144.delta" sparkle:deltaFrom="144" length="23320434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="n0Ab8TTGKbesGdALdGMW9//ViS1U2OMIY4ITE2t4/JU2VYFSGrwU2iBf7TN8v2GEQHxfAxhWGEAN3mFd2ts6Dw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.20</title>
-            <pubDate>Thu, 18 Sep 2025 18:03:22 +0200</pubDate>
+            <pubDate>Mon, 22 Sep 2025 21:48:55 +0200</pubDate>
             <sparkle:version>162</sparkle:version>
             <sparkle:shortVersionString>2.0.20</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -117,46 +179,6 @@ commands, and watch folders after the batch pipeline migration.</li>
 <h2 id="fixes">## Fixes</h2>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.20.dmg" length="33703531" type="application/octet-stream" sparkle:edSignature="rDfrwoqPY38BNbU7wlShhYMQ7KuduZLaXJpIEaiG0SWBdBx3FkuZI5loWHM7TXmlqCtVQv3WZ+68yxr9JnV8Dg=="/>
-        </item>
-        <item>
-            <title>2.0.19</title>
-            <pubDate>Thu, 18 Sep 2025 18:03:22 +0200</pubDate>
-            <sparkle:version>160</sparkle:version>
-            <sparkle:shortVersionString>2.0.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2 id="v2.0.19-create-your-own-prompts">v2.0.19 — Create Your Own
-Prompts</h2>
-<p><strong>Your naming rules, automated.</strong></p>
-<p>You can now write custom prompts for how you want files renamed. Pick
-one from the toolbar, and NameQuick will use it for every file until you
-change it. They also work with watch folders for automatic renaming.</p>
-<p><strong>Creating a prompt</strong> Settings → AI → Manage Custom
-Prompts. Write your instructions like “date first, then project name”
-and save. It’ll show up in your toolbar dropdown.</p>
-<p><strong>Using prompts</strong> The toolbar dropdown now has three
-sections: Smart Rename, Templates, and Custom Prompts. Pick a custom
-prompt and the Play button uses it. Switch back to Smart Rename
-anytime.</p>
-<p><strong>Auto-rename with watch folders</strong> Click on the Can u →
-Prompt → pick your custom prompt. New files dropped there automatically
-rename using that prompt. The folder chip shows which prompt is
-active.</p>
-<p><strong>How it works:</strong> - Play button: Uses the prompt shown
-in the toolbar - Watch folders: Use their own assigned prompts
-(independent of toolbar) - Templates: Override prompts when selected</p>
-<p>Simple. Your file naming system, running on autopilot.</p>
-<p><strong>Fixes</strong> - Large media drag &amp; drop: Provider‑aware
-limits—Gemini supports up to 500 MB (with a quick confirm at 100–500
-MB); OpenAI audio above 25 MB is blocked with a helpful tip. -
-Templates: Fixed <code>{original}</code> not resolving. File-based
-placeholders now work correctly in template renames
-(<code>{original}</code>, <code>{extension}</code>,
-<code>{parent}</code>, <code>{size}</code>,
-<code>{dimensions}</code>).</p>
-<p><strong>Known bugs</strong> - Drag &amp; drop not processing the same
-file.</p>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.19.dmg" length="33521678" type="application/octet-stream" sparkle:edSignature="NCtLo6CDEuUDUYBMKgUcKDdAStTnm97GaKcKOldXVlep7NsMba5rdMUfj+caPbNugTSeTTf/BcD92OSqb4aVAA=="/>
         </item>
     </channel>
 </rss>
