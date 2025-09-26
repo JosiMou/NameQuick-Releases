@@ -4,7 +4,7 @@
         <title>NameQuick</title>
         <item>
             <title>2.0.23</title>
-            <pubDate>Fri, 26 Sep 2025 12:12:40 +0200</pubDate>
+            <pubDate>Fri, 26 Sep 2025 12:24:35 +0200</pubDate>
             <sparkle:version>168</sparkle:version>
             <sparkle:shortVersionString>2.0.23</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -28,18 +28,18 @@ license. Once you unlink your license, it stays unlinked until you
 choose to activate it again.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.23.dmg" length="34025049" type="application/octet-stream" sparkle:edSignature="9X+AH9NTT1cclQcUfHyKtCWNEX8y613NTjx8RiTxpijf4cK1GFAiVHAg4fsGs6Pz4oNqcJQih+V/y7NkR9CvDg=="/>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.23.dmg" length="34025046" type="application/octet-stream" sparkle:edSignature="c0UmFP+1qrngnc+QJt8c0/eNilOlolKdQo0741/bwC7RRra7vpT8l+bhgDF3FnDuAY39hQYedLom+3TQeOeQAQ=="/>
             <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-164.delta" sparkle:deltaFrom="164" length="2230218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="4Xw74FLCKYL3mrAFTSaUVD2OEgxZ94I3aoG2U1a/oEwQxZKC5fNmY6Mx7QaLhNenZwnfIVCTX67tY76x5H79CQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-163.delta" sparkle:deltaFrom="163" length="7560818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="smCVeUAmq6OgX3Poni7GJytTBPflugnXKUzoZjBrQosdQeWGKiQVLDX51dG3exYntJhbT/XkFwleFds8MbYcBg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-162.delta" sparkle:deltaFrom="162" length="7879954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="QE/6DxWINdsUZuQFsCCZmLxoPBbsjW0Cm/heb4dtcE30r1EZYhJ0zYHgdXo2WVUSn3sX1LZXjmq/riLgC7SWDQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-160.delta" sparkle:deltaFrom="160" length="8014386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="yBI2D2Y1YqCxfXsaNgn6McZmdK51z8oV4/o8yywlZDmO5hRneCFIpqUP5anS4edaGO4oSDy8+gA22T11jwmWDQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-158.delta" sparkle:deltaFrom="158" length="8044186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="MsI1tKQG1Qbyo/xEs8TVkk16EV5+eKDHF89BcV9yZteRNmdzLdxo3NKymg4l5bDsks1cFCSeR6Drb7L7a7GABA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-164.delta" sparkle:deltaFrom="164" length="2231006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="lhAacSQtWLuCkNO4dgIoOO+zlMwJUtwA/5yMCdKgN+z2kVgCYyTb6Px8PD5cSrkxxTP2suxAqmJtdS/UP0dnCQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-163.delta" sparkle:deltaFrom="163" length="7563462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="meoeBNQkhD8cThsljOoUjlQc827xw2P7RxTdZoPcsWZZcMwygwGNFhznX5Q+L+9CrzTT6iKGFBgxyk8P21kbBw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-162.delta" sparkle:deltaFrom="162" length="7879954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="h5P4ffAf0TR+zaytdbJXJELKo6/E+ZYtwnAhjxm1VoDWHLJedL5W4o6ZQnWyDKz/NTaPiNx/iLpUPky0cJIcAg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-160.delta" sparkle:deltaFrom="160" length="8015038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="1aVfUC6hGIHvRv1mx5GEgDk8113r2VeD21EdPbhXyct5BVUxipmpjVEcOiRJmog7r3EhDmD7+uwXLdfUZ2UvAA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-158.delta" sparkle:deltaFrom="158" length="8044314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="LeAuAsfAqOddBo9siFfO21dR8mki/v/QDvtKB437PYmoAYkKRkDbYDDSrOQ4DYNxKVT+9+o08muDjJhkbwO2Bw=="/>
             </sparkle:deltas>
         </item>
         <item>
             <title>2.0.22</title>
-            <pubDate>Fri, 26 Sep 2025 12:12:40 +0200</pubDate>
+            <pubDate>Fri, 26 Sep 2025 12:24:35 +0200</pubDate>
             <sparkle:version>164</sparkle:version>
             <sparkle:shortVersionString>2.0.22</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -101,7 +101,7 @@ extra effort.</li>
         </item>
         <item>
             <title>2.0.21</title>
-            <pubDate>Fri, 26 Sep 2025 12:12:40 +0200</pubDate>
+            <pubDate>Fri, 26 Sep 2025 12:24:35 +0200</pubDate>
             <sparkle:version>163</sparkle:version>
             <sparkle:shortVersionString>2.0.21</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
