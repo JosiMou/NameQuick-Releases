@@ -3,8 +3,27 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.24</title>
+            <pubDate>Fri, 26 Sep 2025 14:06:47 +0200</pubDate>
+            <sparkle:version>169</sparkle:version>
+            <sparkle:shortVersionString>2.0.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h1 id="v2.0.24">v2.0.24</h1>
+<h2 id="features">## Features</h2>
+<h2 id="fixes">## Fixes</h2>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.24.dmg" length="34026265" type="application/octet-stream" sparkle:edSignature="Dl5oieh+OPlYoA8N/vyiJaobUoYSzNnJjyUvQvmAlz7DqThbrZt/Fqf9ikVOBzHqINBu5CZFpS/eNJx0c6UsCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick169-168.delta" sparkle:deltaFrom="168" length="1205246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="kw2NNaodVOI5DImqw5LnJsObZEdV2i7QaZ9iXkVEmMyXRiA+o/4lr864ii0DRepv44AmH8FR2zr2PeEP9yU9CQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick169-164.delta" sparkle:deltaFrom="164" length="2244042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="eEW4P9pVnL5BPbbG3fhM6sEJlQVvy/lVz0JvYZ7HRvEL/1I6BB3RJvofCgZTpPS4rXd1nK4028kJ5Ef8gRkpCQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick169-163.delta" sparkle:deltaFrom="163" length="7558738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="LDb2H+4YtOpbfE4MhONK/4mlhxorJWYaGEhFTUj2nocttQ/rrgCSZ13J1RNc92ZzjiqaRBYl4i06PKIiZASKBQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick169-162.delta" sparkle:deltaFrom="162" length="7880402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+6d18l74keTZ8P/GOGeRmFjVrtHMW6+B674VhWQwVpus6Un9JRN8O5hz4YbERjSQFpebfEt9rS6ydF54+fSdDg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick169-160.delta" sparkle:deltaFrom="160" length="8016118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="eTEoaVh29t9I312CCJSFuQ8OJtQd8Hp3KC0/WDhgXtpTfuoecoSM09n8s0SThTeHIEqpHQKjYttRQgePRwHlCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.23</title>
-            <pubDate>Fri, 26 Sep 2025 12:24:35 +0200</pubDate>
+            <pubDate>Fri, 26 Sep 2025 14:06:47 +0200</pubDate>
             <sparkle:version>168</sparkle:version>
             <sparkle:shortVersionString>2.0.23</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -29,17 +48,10 @@ choose to activate it again.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.23.dmg" length="34025046" type="application/octet-stream" sparkle:edSignature="c0UmFP+1qrngnc+QJt8c0/eNilOlolKdQo0741/bwC7RRra7vpT8l+bhgDF3FnDuAY39hQYedLom+3TQeOeQAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-164.delta" sparkle:deltaFrom="164" length="2231006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="lhAacSQtWLuCkNO4dgIoOO+zlMwJUtwA/5yMCdKgN+z2kVgCYyTb6Px8PD5cSrkxxTP2suxAqmJtdS/UP0dnCQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-163.delta" sparkle:deltaFrom="163" length="7563462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="meoeBNQkhD8cThsljOoUjlQc827xw2P7RxTdZoPcsWZZcMwygwGNFhznX5Q+L+9CrzTT6iKGFBgxyk8P21kbBw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-162.delta" sparkle:deltaFrom="162" length="7879954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="h5P4ffAf0TR+zaytdbJXJELKo6/E+ZYtwnAhjxm1VoDWHLJedL5W4o6ZQnWyDKz/NTaPiNx/iLpUPky0cJIcAg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-160.delta" sparkle:deltaFrom="160" length="8015038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="1aVfUC6hGIHvRv1mx5GEgDk8113r2VeD21EdPbhXyct5BVUxipmpjVEcOiRJmog7r3EhDmD7+uwXLdfUZ2UvAA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick168-158.delta" sparkle:deltaFrom="158" length="8044314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="LeAuAsfAqOddBo9siFfO21dR8mki/v/QDvtKB437PYmoAYkKRkDbYDDSrOQ4DYNxKVT+9+o08muDjJhkbwO2Bw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.22</title>
-            <pubDate>Fri, 26 Sep 2025 12:24:35 +0200</pubDate>
+            <pubDate>Fri, 26 Sep 2025 14:06:47 +0200</pubDate>
             <sparkle:version>164</sparkle:version>
             <sparkle:shortVersionString>2.0.22</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -98,103 +110,6 @@ extra effort.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.22.dmg" length="33928792" type="application/octet-stream" sparkle:edSignature="wSX+qKc4sqInMnQq6+aRvtAHPX5lIOMCQ2tOXp4iYHV/ugvWvK8aIuoRnQeHVbHPcrmQhQBJWGNOM5krYnx4Dw=="/>
-        </item>
-        <item>
-            <title>2.0.21</title>
-            <pubDate>Fri, 26 Sep 2025 12:24:35 +0200</pubDate>
-            <sparkle:version>163</sparkle:version>
-            <sparkle:shortVersionString>2.0.21</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h1 id="v2.0.21-move-files-based-on-rules">v2.0.21 – Move files based on
-rules</h1>
-<h2 id="features">Features</h2>
-<h3 id="new-rules-engine---powerful-file-organization-automation">New
-Rules Engine - Powerful File Organization Automation</h3>
-<p>NameQuick now includes a comprehensive rules engine that gives you
-fine-grained control over how files are processed and organized. Create
-custom rules to automatically move files, set metadata, and control
-processing based on rich file analysis—all before or after AI
-processing.</p>
-<h4 id="two-phase-processing-system"><strong>Two-Phase Processing
-System</strong></h4>
-<ul>
-<li><strong>Before Rename</strong>: Rules evaluate files as they enter
-watch folders, perfect for initial routing and organization</li>
-<li><strong>After Rename</strong>: Rules can run again after AI
-completes renaming, allowing you to organize files based on their final
-names</li>
-</ul>
-<h4 id="powerful-actions"><strong>Powerful Actions</strong></h4>
-<p>Rules can perform multiple actions automatically:</p>
-<p><strong>File Organization:</strong> - Move files using smart path
-templates with dynamic placeholders - Example: Move iPhone photos to
-<code>Photos/{camera_make}/{date_taken}/</code></p>
-<p><strong>Finder Metadata:</strong> - Set color labels, Finder
-comments, and tags - Example: Tag invoices with “Finance” and set red
-color label</p>
-<p><strong>Date Management:</strong> - Set custom creation/modification
-dates - Useful for organizing scanned documents by actual document
-date</p>
-<p><strong>Template Routing (folder‑based):</strong> - Configure a watch
-folder to always use a specific AI template - Note: Rules‑based
-“auto‑choose template” is not enabled in this release</p>
-<h4 id="smart-path-templates"><strong>Smart Path Templates</strong></h4>
-<p>Create dynamic destination paths using powerful placeholders:</p>
-<ul>
-<li><code>{original}</code> - Original filename without extension</li>
-<li><code>{date_taken}</code> - EXIF date taken or creation date</li>
-<li><code>{camera_make}</code> / <code>{camera_model}</code> - Camera
-information</li>
-<li><code>{year}</code>, <code>{month}</code>, <code>{day}</code> -
-Current date components</li>
-<li><code>{parent}</code> - Source folder name</li>
-<li><code>{width}</code> / <code>{height}</code> - Image/video
-dimensions</li>
-</ul>
-<p><strong>Example:</strong>
-<code>Photos/{camera_make}/{year}/{month}-{day}/{original}.{extension}</code></p>
-<p>Notes and safety: - Moves require selecting a base destination folder
-(security‑scoped bookmark) - Only relative subpaths are allowed;
-<code>..</code> and absolute paths are rejected - Collisions are handled
-automatically; use <code>{counter}</code> to force numbering - Trailing
-<code>/</code> keeps the original filename (e.g.,
-<code>{date_taken}/</code> → appends source name)</p>
-<h4 id="real-world-use-cases"><strong>Real-World Use Cases</strong></h4>
-<p><strong>Photo Organization:</strong></p>
-<pre><code>If: Camera make contains &quot;iPhone&quot; AND has GPS data
-Then: Move to &quot;Photos/iPhone/{date_taken}/&quot; AND tag &quot;Personal&quot;</code></pre>
-<p><strong>Document Organization:</strong></p>
-<pre><code>If: Filename contains &quot;invoice&quot; AND extension is &quot;pdf&quot;
-Then: Move to &quot;Finance/Invoices/{year}/{month}/&quot; AND set red color label</code></pre>
-<p><strong>Screenshot Management:</strong></p>
-<pre><code>If: Filename contains &quot;Screenshot&quot; AND width &gt; 1920
-Then: Move to &quot;Screenshots/High-Res/{date}/&quot; AND tag &quot;Design&quot;</code></pre>
-<h4 id="enhanced-rules-editor"><strong>Enhanced Rules
-Editor</strong></h4>
-<p>The Rules tab in Settings now provides: - Intuitive predicate builder
-with smart suggestions - Phase filtering to manage before/after
-processing rules separately - Quick rule summaries showing conditions
-and actions - Schema-aware import/export for sharing rule configurations
-- Real-time validation and error checking - New “Subpath Template” field
-with inline validation - Clickable help popovers for Move to, Subpath
-Template, Finder tags/comment/color, and File dates</p>
-<p>This new rules engine transforms NameQuick from a simple file
-processor into a sophisticated document management system that can
-handle complex organizational workflows automatically.</p>
-<h2 id="fixes">Fixes</h2>
-<ul>
-<li>Added regression coverage around rules import/export to catch
-malformed content or media predicates before they ship.</li>
-<li>Resolved BYOK OpenAI audio failures by mapping the new GPT-4o
-transcription models, so <code>.wav/.mp3</code> jobs no longer 404 when
-calling <code>/v1/audio/transcriptions</code>, and now run a two-step
-flow (transcribe → rename) to feed the transcript into your selected
-model.</li>
-<li>Restored Smart Rename’s custom prompt handoff for drag/drop, menu
-commands, and watch folders after the batch pipeline migration.</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.21.dmg" length="34424109" type="application/octet-stream" sparkle:edSignature="HfuY3tnMY5orRe9U8Q93yxxyL2PCD45rQ17tWGvASe7h0Viy6NkBOMMdN9E6D6YseSr5YVmsohMri1TGDkxeDg=="/>
         </item>
     </channel>
 </rss>
