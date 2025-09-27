@@ -3,8 +3,46 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.25</title>
+            <pubDate>Sat, 27 Sep 2025 11:35:24 +0200</pubDate>
+            <sparkle:version>171</sparkle:version>
+            <sparkle:shortVersionString>2.0.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Adaptive menu bar icon</strong> – The menu bar symbol now
+respects light and dark appearances, keeping contrast consistent even
+when the system theme switches mid-session.</li>
+<li><strong>Quickly hide the menu bar icon</strong> – Added a
+<code>Show Menu Bar Icon</code> toggle in Appearance and General
+settings so you can run NameQuick without the status-item when you
+prefer a cleaner menu bar.</li>
+</ul>
+<h2 id="fixes">Fixes</h2>
+<ul>
+<li><strong>Correct vision model command</strong> – Updated the “Add
+Vision Model” action in Settings so it now copies
+<code>ollama run qwen2.5vl:32b</code>, ensuring the suggested Ollama
+command works without manual correction.</li>
+</ul>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>No other changes in this build; this release focuses on menu bar
+polish and one Ollama setup fix.</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.25.dmg" length="34037830" type="application/octet-stream" sparkle:edSignature="s55+R4P6GQCKh5OA+/ZRCGJUbe5aiFyEu+7OTc/+5KY/uzkLzl6nbRrc05uky4V9hkVZm9+f3B2mtePmsb+GBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick171-169.delta" sparkle:deltaFrom="169" length="1555522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="GKdHw9NM5nGe1xbM6jD87i3L//7mXJyjF+eoe+EdfE6RSC++nahAUxyC3ENRX21jaRVU57GnEFvVCjcdE2Q+DA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick171-168.delta" sparkle:deltaFrom="168" length="1595326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="8/MnZ5MjEzJebBrUGuN0GfrIzSCbmRiZhhBWhE4S2dm+3whefiJCLpRAyPIs4cU1GHPRPETUIS2smHdqrgWsBw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick171-164.delta" sparkle:deltaFrom="164" length="2308998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Dzu9LDqfpgvCZes4RohOkU5DipHIco9QmTKWtMWGuN50dllinLgMVqrIt8HSGc01VqXs5koX+m8tl6SOJupIAw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick171-163.delta" sparkle:deltaFrom="163" length="7580682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+eNMXvUjiPTTgJo7oVh8OlFPd+qpUkQrgwCEEJGn8zPO84heS+BlyxV+gyxDF0xrNsK0+S1QAIoTO0xX5JYMBA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick171-162.delta" sparkle:deltaFrom="162" length="7897510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="O7Ld+0/DOFtHBFp98MCyOO9FPJdDx/PvUhT03iQN0HiiOf5roUZfes3uH2KHcs6rwlKvBz05851BHA3Qm77+Cg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.24</title>
-            <pubDate>Fri, 26 Sep 2025 14:06:47 +0200</pubDate>
+            <pubDate>Sat, 27 Sep 2025 11:35:24 +0200</pubDate>
             <sparkle:version>169</sparkle:version>
             <sparkle:shortVersionString>2.0.24</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -13,17 +51,10 @@
 <h2 id="fixes">## Fixes</h2>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.24.dmg" length="34026265" type="application/octet-stream" sparkle:edSignature="Dl5oieh+OPlYoA8N/vyiJaobUoYSzNnJjyUvQvmAlz7DqThbrZt/Fqf9ikVOBzHqINBu5CZFpS/eNJx0c6UsCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick169-168.delta" sparkle:deltaFrom="168" length="1205246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="kw2NNaodVOI5DImqw5LnJsObZEdV2i7QaZ9iXkVEmMyXRiA+o/4lr864ii0DRepv44AmH8FR2zr2PeEP9yU9CQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick169-164.delta" sparkle:deltaFrom="164" length="2244042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="eEW4P9pVnL5BPbbG3fhM6sEJlQVvy/lVz0JvYZ7HRvEL/1I6BB3RJvofCgZTpPS4rXd1nK4028kJ5Ef8gRkpCQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick169-163.delta" sparkle:deltaFrom="163" length="7558738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="LDb2H+4YtOpbfE4MhONK/4mlhxorJWYaGEhFTUj2nocttQ/rrgCSZ13J1RNc92ZzjiqaRBYl4i06PKIiZASKBQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick169-162.delta" sparkle:deltaFrom="162" length="7880402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+6d18l74keTZ8P/GOGeRmFjVrtHMW6+B674VhWQwVpus6Un9JRN8O5hz4YbERjSQFpebfEt9rS6ydF54+fSdDg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick169-160.delta" sparkle:deltaFrom="160" length="8016118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="eTEoaVh29t9I312CCJSFuQ8OJtQd8Hp3KC0/WDhgXtpTfuoecoSM09n8s0SThTeHIEqpHQKjYttRQgePRwHlCQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.23</title>
-            <pubDate>Fri, 26 Sep 2025 14:06:47 +0200</pubDate>
+            <pubDate>Sat, 27 Sep 2025 11:35:24 +0200</pubDate>
             <sparkle:version>168</sparkle:version>
             <sparkle:shortVersionString>2.0.23</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -48,68 +79,6 @@ choose to activate it again.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.23.dmg" length="34025046" type="application/octet-stream" sparkle:edSignature="c0UmFP+1qrngnc+QJt8c0/eNilOlolKdQo0741/bwC7RRra7vpT8l+bhgDF3FnDuAY39hQYedLom+3TQeOeQAQ=="/>
-        </item>
-        <item>
-            <title>2.0.22</title>
-            <pubDate>Fri, 26 Sep 2025 14:06:47 +0200</pubDate>
-            <sparkle:version>164</sparkle:version>
-            <sparkle:shortVersionString>2.0.22</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2 id="v2.0.22-fresh-ui-for-macos-tahoe">v2.0.22 — Fresh UI for macOS
-Tahoe</h2>
-<h3 id="whats-new">What’s New</h3>
-<ul>
-<li><strong>Redesigned for macOS Tahoe</strong> – Beautiful new user
-interface optimized for Apple’s latest macOS, with modern visual
-refinements throughout the app.</li>
-<li><strong>Vector artists rejoice</strong> – Drop in AI, SVG, or EPS
-files and NameQuick will import, preview, and rename them just like your
-photos.</li>
-<li><strong>Templates that feel native</strong> – The Templates screen
-now looks and behaves like Finder. Quick actions sit right where you
-expect them, and the pencil button jumps straight into editing.</li>
-</ul>
-<h3 id="bug-fixes-improvements">Bug Fixes &amp; Improvements</h3>
-<ul>
-<li><strong>Memory leak fixed</strong> – Eliminated a critical memory
-leak that could cause crashes during extended use—the app now runs
-reliably for hours without issues.</li>
-<li><strong>Remembers your style</strong> – Fixed persistence
-issues—separators, prompts, and other preferences now properly stick
-between sessions.</li>
-<li><strong>Brackets now allowed</strong> – Fixed filename
-sanitization—you can now use bracket characters in generated filenames
-without them being stripped out.</li>
-<li><strong>Custom prompts persist</strong> – Fixed custom prompt
-overrides not being saved—your selected prompts are now properly
-restored when you restart the app.</li>
-<li><strong>Clearer UI controls</strong> – Added visible Done button and
-Cancel/Save buttons to the custom prompt manager—no more relying on the
-Escape key to close dialogs.</li>
-<li><strong>Visible dialog buttons</strong> – Fixed invisible button
-issue—all confirmation dialogs now show clear Cancel and action buttons
-(like the cache-clear dialog).</li>
-<li><strong>Instant template edits</strong> – Fixed template editing
-behavior—tap the pencil to open the editor, and rename from the context
-menu when you really mean it.</li>
-<li><strong>Automatic upgrades</strong> – Fixed watch folder
-compatibility—existing watch folders pick up vector support
-automatically without extra setup.</li>
-<li><strong>Stability improvements</strong> – Squashed numerous bugs
-affecting app stability and performance.</li>
-<li><strong>UI polish</strong> – Fixed various interface glitches and
-visual inconsistencies throughout the app.</li>
-</ul>
-<h3 id="why-youll-love-it">Why You’ll Love It</h3>
-<ul>
-<li>Broader format support means fewer workflow detours.</li>
-<li>Smarter AI helps you finish renaming faster.</li>
-<li>A more native interface keeps everything familiar and simple.</li>
-<li>Built‑in safeguards protect your large creative files without any
-extra effort.</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.22.dmg" length="33928792" type="application/octet-stream" sparkle:edSignature="wSX+qKc4sqInMnQq6+aRvtAHPX5lIOMCQ2tOXp4iYHV/ugvWvK8aIuoRnQeHVbHPcrmQhQBJWGNOM5krYnx4Dw=="/>
         </item>
     </channel>
 </rss>
