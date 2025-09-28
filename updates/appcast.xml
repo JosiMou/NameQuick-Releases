@@ -3,8 +3,31 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.27</title>
+            <pubDate>Sun, 28 Sep 2025 09:33:31 +0200</pubDate>
+            <sparkle:version>173</sparkle:version>
+            <sparkle:shortVersionString>2.0.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3 id="whats-improved">What’s Improved</h3>
+<ul>
+<li><strong>Quick actions stay visible even before you select
+files.</strong> The floating process bar no longer disappears when you
+load a batch, making it obvious how to kick off renames and when actions
+are disabled versus ready to run.</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.27.dmg" length="34038053" type="application/octet-stream" sparkle:edSignature="k37mLxoIMjRljSz59TGCJgtx2ckfup4nOWLZbZV7/lBIw7PBaSAbpQgwZWVWLkuie3JMS04hb7M9/w6mU/FmBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick173-172.delta" sparkle:deltaFrom="172" length="1540138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="l6eNEIdmsR5NUSQnBYA2uXH7zodFvNp1izWfqA6Iq0bDymRkXTHgeF2hminB08YoYlrOrhl46SjFx5zLXrMDDg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick173-171.delta" sparkle:deltaFrom="171" length="1704878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="h1bF6Y/JGSDh+9H++VEQ4cxFWgrQGkKYClQOp8727DYQRbL845xU6h2ntnBOSPgaFIlJBikV+GBqUzi1AqMoBQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick173-169.delta" sparkle:deltaFrom="169" length="1853498" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="sTvm0m6l78EZgsq34EVK+7XuwYCjLcOXetJc2cmQj0AxsGT2ZdfiGE6f/jV2+8BAlvY8z0weTWlduZtHYRuDDw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick173-168.delta" sparkle:deltaFrom="168" length="1874482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="xYao0e63DiyprZjHVE5qKaspbpRPzHi+AsBQQWLttJ+QUUWGiL7UCdvbBZEs2gfG+ObWC58Ma1ZnaVclDWF7BQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick173-164.delta" sparkle:deltaFrom="164" length="2365134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="U1tgC67tUT6LDEDtJnTiOnC2MDo5njxhqO70SsqWetF7uOIF75FKzAZsbSECwYpRRlqY1imGaZinJmAHcTMwCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.26</title>
-            <pubDate>Sat, 27 Sep 2025 22:44:01 +0200</pubDate>
+            <pubDate>Sun, 28 Sep 2025 09:33:31 +0200</pubDate>
             <sparkle:version>172</sparkle:version>
             <sparkle:shortVersionString>2.0.26</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -21,17 +44,10 @@ fallback event so support can diagnose it quickly.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.26.dmg" length="34046026" type="application/octet-stream" sparkle:edSignature="ZdWqQSOZ896d+HPQR8i+/ffQnbR76jQtVj97oP1yKDAbRkde9NiiDUgLbsjTB1FugHURWOgJEWClsoxJ6K9dBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick172-171.delta" sparkle:deltaFrom="171" length="1370802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="DwRmF/u+g8v5R+xxAyafWuKiPClSHkomNrIaNP1TAvG73AHL6XHL8J34SQpCLQndbi7l20jtvMZbmReC83fuBg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick172-169.delta" sparkle:deltaFrom="169" length="1738190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="n4jxSbGVj9W1pvZubtDtKbxB5epJvfEUlvJ2IxmMbRwh7KbjUDeVdSKJgYp8MvGv9m7vIYuxZmRVblI0cmznBw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick172-168.delta" sparkle:deltaFrom="168" length="1746074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="JMxCz2vts+Kxkc8TW7qkRiCJdha5gMVlTgHuaCvyjyfGahT6KKDfhNpI5RoDQLXKCI2T4sJenHaWClT2Ym2pAw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick172-164.delta" sparkle:deltaFrom="164" length="2348734" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="n8kJaaUzvtpBmoL909Jce7/Msxi6+OcSh+FFDymUjp068w759vm6brZyvDKS7ypaAnkfpXB2ll2PeR1gyaesDQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick172-163.delta" sparkle:deltaFrom="163" length="7585526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="RdbyrF9hT4lVOSR5ko+y+GRioG8nAmpYhNhkd6o9rHaeRNptUwXc7Ov6PbHSYEna5O0SnNmRTn617gDHX60DBA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.25</title>
-            <pubDate>Sat, 27 Sep 2025 22:44:00 +0200</pubDate>
+            <pubDate>Sun, 28 Sep 2025 09:33:31 +0200</pubDate>
             <sparkle:version>171</sparkle:version>
             <sparkle:shortVersionString>2.0.25</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -59,18 +75,6 @@ polish and one Ollama setup fix.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.25.dmg" length="34037830" type="application/octet-stream" sparkle:edSignature="s55+R4P6GQCKh5OA+/ZRCGJUbe5aiFyEu+7OTc/+5KY/uzkLzl6nbRrc05uky4V9hkVZm9+f3B2mtePmsb+GBw=="/>
-        </item>
-        <item>
-            <title>2.0.24</title>
-            <pubDate>Sat, 27 Sep 2025 22:44:00 +0200</pubDate>
-            <sparkle:version>169</sparkle:version>
-            <sparkle:shortVersionString>2.0.24</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h1 id="v2.0.24">v2.0.24</h1>
-<h2 id="features">## Features</h2>
-<h2 id="fixes">## Fixes</h2>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.24.dmg" length="34026265" type="application/octet-stream" sparkle:edSignature="Dl5oieh+OPlYoA8N/vyiJaobUoYSzNnJjyUvQvmAlz7DqThbrZt/Fqf9ikVOBzHqINBu5CZFpS/eNJx0c6UsCQ=="/>
         </item>
     </channel>
 </rss>
