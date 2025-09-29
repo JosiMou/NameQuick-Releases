@@ -4,8 +4,8 @@
         <title>NameQuick</title>
         <item>
             <title>2.0.27</title>
-            <pubDate>Sun, 28 Sep 2025 09:33:31 +0200</pubDate>
-            <sparkle:version>173</sparkle:version>
+            <pubDate>Mon, 29 Sep 2025 10:23:52 +0200</pubDate>
+            <sparkle:version>179</sparkle:version>
             <sparkle:shortVersionString>2.0.27</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
             <description><![CDATA[<h3 id="whats-improved">What’s Improved</h3>
@@ -16,18 +16,18 @@ load a batch, making it obvious how to kick off renames and when actions
 are disabled versus ready to run.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.27.dmg" length="34038053" type="application/octet-stream" sparkle:edSignature="k37mLxoIMjRljSz59TGCJgtx2ckfup4nOWLZbZV7/lBIw7PBaSAbpQgwZWVWLkuie3JMS04hb7M9/w6mU/FmBg=="/>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.27.dmg" length="34083603" type="application/octet-stream" sparkle:edSignature="4xMXVP/dk/WAe+JbB+lo+Ul6lGaIx1fsCKkBkxHxIF3/uQA7Vw10iy3Vg7So/57r/Fy8U/6uq5a4e9jYmW6uDw=="/>
             <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick173-172.delta" sparkle:deltaFrom="172" length="1540138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="l6eNEIdmsR5NUSQnBYA2uXH7zodFvNp1izWfqA6Iq0bDymRkXTHgeF2hminB08YoYlrOrhl46SjFx5zLXrMDDg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick173-171.delta" sparkle:deltaFrom="171" length="1704878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="h1bF6Y/JGSDh+9H++VEQ4cxFWgrQGkKYClQOp8727DYQRbL845xU6h2ntnBOSPgaFIlJBikV+GBqUzi1AqMoBQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick173-169.delta" sparkle:deltaFrom="169" length="1853498" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="sTvm0m6l78EZgsq34EVK+7XuwYCjLcOXetJc2cmQj0AxsGT2ZdfiGE6f/jV2+8BAlvY8z0weTWlduZtHYRuDDw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick173-168.delta" sparkle:deltaFrom="168" length="1874482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="xYao0e63DiyprZjHVE5qKaspbpRPzHi+AsBQQWLttJ+QUUWGiL7UCdvbBZEs2gfG+ObWC58Ma1ZnaVclDWF7BQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick173-164.delta" sparkle:deltaFrom="164" length="2365134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="U1tgC67tUT6LDEDtJnTiOnC2MDo5njxhqO70SsqWetF7uOIF75FKzAZsbSECwYpRRlqY1imGaZinJmAHcTMwCQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick179-172.delta" sparkle:deltaFrom="172" length="2080626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="eODnfNgmUXbUmiL6cuCYRCfXeR58sOv9xbtrxQYi2HCCwTn56asG/7//nRKrBfuKAENyL0OuVrW0yghcp7YEAQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick179-171.delta" sparkle:deltaFrom="171" length="2118954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="RcWH71I4XPVOBXzXEmMzZJxmx3ZPju22DcJK5O2sv9JDYZVPzZJudyMiCgPdB3ZWAX++AcWIm4/vpiRf9+CDCA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick179-169.delta" sparkle:deltaFrom="169" length="2201526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="1zsTpsiNZ2Ilwxk93K7zVYbb7urIrMOe9Uw6WtzFtWKAk5E940o3eA9p9ryogZaThyf8zLkxDQTGFx2vDV5cDQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick179-168.delta" sparkle:deltaFrom="168" length="2208102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5oFzM1q9VKY7jbASTbgamJQeCmKdM44KAIk8jAotB4sI2mmnqSvOJYf5mpNccq04NiGyrNhQlyoN8dtYN9PDDA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick179-164.delta" sparkle:deltaFrom="164" length="2610738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="9BWSYh9H+U0xmTgp/ct1YJVftYMGg/iunEX4u0sAZgtD0f4dLWHJtMo184VYFdWfqpBnDY6VSd+i2nVuPAVHDw=="/>
             </sparkle:deltas>
         </item>
         <item>
             <title>2.0.26</title>
-            <pubDate>Sun, 28 Sep 2025 09:33:31 +0200</pubDate>
+            <pubDate>Mon, 29 Sep 2025 10:23:52 +0200</pubDate>
             <sparkle:version>172</sparkle:version>
             <sparkle:shortVersionString>2.0.26</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -47,7 +47,7 @@ fallback event so support can diagnose it quickly.</li>
         </item>
         <item>
             <title>2.0.25</title>
-            <pubDate>Sun, 28 Sep 2025 09:33:31 +0200</pubDate>
+            <pubDate>Mon, 29 Sep 2025 10:23:52 +0200</pubDate>
             <sparkle:version>171</sparkle:version>
             <sparkle:shortVersionString>2.0.25</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
