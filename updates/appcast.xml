@@ -3,8 +3,45 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.29</title>
+            <pubDate>Wed, 01 Oct 2025 12:25:11 +0200</pubDate>
+            <sparkle:version>185</sparkle:version>
+            <sparkle:shortVersionString>2.0.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>License activation no longer crashes.</strong> If something
+goes wrong while activating, you’ll just see the warning message.</li>
+<li><strong>Connectivity validation keeps running.</strong> Skipping a
+recent success no longer refreshes the cache, so periodic checks still
+execute and catch environment/token issues.</li>
+</ul>
+<h3 id="performance">Performance</h3>
+<ul>
+<li><strong>Credit balance sync now surfaces instantly on
+launch.</strong> Cached snapshots load immediately while Polar refresh
+runs in the background, eliminating the multi-second stall when
+reopening the app.</li>
+<li><strong>Reduced Polar auth chatter.</strong> Successful connectivity
+checks are cached for 10 minutes so relaunches skip the redundant HEAD
+request that previously blocked credit syncing.</li>
+<li><strong>Faster customer resolution retries.</strong> Background
+refreshes reuse cached IDs and only fan out to Polar when metadata
+changes, trimming cold-start latency.</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.29.dmg" length="34097488" type="application/octet-stream" sparkle:edSignature="m2yBPaH4hYD+SOrdAEh8mlypuJpBtPfszGFdWNg0vp48YIN316HPln+69KQh53tLWQ6Ob5Go9KUs2mDUmLfFDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick185-180.delta" sparkle:deltaFrom="180" length="1655406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="BcGGM5saQVhGI2u1c8FShOtdbe0ZZVo4yXr1fJ5itw8IEA3mtnasXJhRNYRQcWSFdh5RU/HivqEZcdjQdXr5DQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick185-179.delta" sparkle:deltaFrom="179" length="1657950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="OD5Q+S+o8Jpnjff8hvcN3W7ZpdPhcN6bG/MFy5ROtSSwYicY+msjav5QIcZtZg9dLacJuvza/slELru9/sc6AQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick185-172.delta" sparkle:deltaFrom="172" length="2155854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="YbOSBbfAl3Uqp5CZj+nyPmImPPGjExHiwQJsYzTTktOFsMU9lAl11Sv6tXicXEGKzVQ56xdKqdjLkAjsmx1pDw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick185-171.delta" sparkle:deltaFrom="171" length="2189998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="I1eQbx6Uz+gpnrCRYnTJzcy2ERoRotoIDf92d4axngPIIFwTQ+sG8dzvtAYx+H1lsdOUKLS2U46mfVm0oFAdDA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick185-169.delta" sparkle:deltaFrom="169" length="2291794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="SxM1dA6Tz8W5XzJVbptSqZG5wEo2LGHs9ba4DsTw6ANxKBFv25R4Syb5tnaYcYPA08miyXWPJyfLnDn84lISCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.28</title>
-            <pubDate>Mon, 29 Sep 2025 17:30:59 +0200</pubDate>
+            <pubDate>Wed, 01 Oct 2025 12:25:10 +0200</pubDate>
             <sparkle:version>180</sparkle:version>
             <sparkle:shortVersionString>2.0.28</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -19,17 +56,10 @@ app.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.28.dmg" length="34083024" type="application/octet-stream" sparkle:edSignature="zw7q153nlGiEsPha9OmawPR/BOPuJRor+fI7LqZe1lG2mctnkPUtG2IhAVTxCaESurbaobsNzr0R6Yh//fpPAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick180-179.delta" sparkle:deltaFrom="179" length="23082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="hpkdd61IhiAP6chGXfpui0QWnr/HO5Mq/M8ueARor2IXpHgC1SeKu5fwTxWRnL9dPTBdKWntlS+x4EJq6FuwAA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick180-172.delta" sparkle:deltaFrom="172" length="2083854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ZFABeFkSxiPIR8iWA3QLhCG3kaRTSl/7dNZbpxPtyXLz2LkYDoAahZf09SE2ugNaukMmXW7sQVkDmUB5Z4u8Dg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick180-171.delta" sparkle:deltaFrom="171" length="2121674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="UcoZqNOF5nN3AX8oqWBIrPwcAWr4zvG1hRpSufF0QiDVizjPOrLqSzXV7yJdYzEp8rDBrgeZ0hj0Cbuatfa/Aw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick180-169.delta" sparkle:deltaFrom="169" length="2203486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="z1A59LPInLH1sRFtMTIgvOxXaT6ZlbMty5SI4mYd/XZ6HSREOQCokV+63CbPjmGvbp1IoZsMyP7SlEykvkN+BA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick180-168.delta" sparkle:deltaFrom="168" length="2207602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="cB3s2I3MNvC5hEq0IDuHo8WuDleCfVUVdJDeIrJfOf2ETVIjY2HNv3vxmbBIgZY8S0UXGMQmSFF3hmqbSvHAAw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.27</title>
-            <pubDate>Mon, 29 Sep 2025 17:30:59 +0200</pubDate>
+            <pubDate>Wed, 01 Oct 2025 12:25:10 +0200</pubDate>
             <sparkle:version>179</sparkle:version>
             <sparkle:shortVersionString>2.0.27</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -42,26 +72,6 @@ are disabled versus ready to run.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.27.dmg" length="34083603" type="application/octet-stream" sparkle:edSignature="4xMXVP/dk/WAe+JbB+lo+Ul6lGaIx1fsCKkBkxHxIF3/uQA7Vw10iy3Vg7So/57r/Fy8U/6uq5a4e9jYmW6uDw=="/>
-        </item>
-        <item>
-            <title>2.0.26</title>
-            <pubDate>Mon, 29 Sep 2025 17:30:59 +0200</pubDate>
-            <sparkle:version>172</sparkle:version>
-            <sparkle:shortVersionString>2.0.26</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3 id="whats-fixed">What’s Fixed</h3>
-<ul>
-<li><strong>Never fall back to BYOK for managed accounts.</strong> If
-we’re momentarily offline from Polar, NameQuick now keeps your Managed
-AI license active, works from cached access, and automatically returns
-to the managed Gemini service once reconnected.</li>
-<li><strong>Clear warning and logging when service is offline.</strong>
-You’ll see a brief “Managed AI is temporarily offline…” banner if we’re
-working from cached access, and the diagnostics log captures the
-fallback event so support can diagnose it quickly.</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.26.dmg" length="34046026" type="application/octet-stream" sparkle:edSignature="ZdWqQSOZ896d+HPQR8i+/ffQnbR76jQtVj97oP1yKDAbRkde9NiiDUgLbsjTB1FugHURWOgJEWClsoxJ6K9dBg=="/>
         </item>
     </channel>
 </rss>

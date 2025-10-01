@@ -1,0 +1,21 @@
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li><strong>License activation no longer crashes.</strong> If something
+goes wrong while activating, you’ll just see the warning message.</li>
+<li><strong>Connectivity validation keeps running.</strong> Skipping a
+recent success no longer refreshes the cache, so periodic checks still
+execute and catch environment/token issues.</li>
+</ul>
+<h3 id="performance">Performance</h3>
+<ul>
+<li><strong>Credit balance sync now surfaces instantly on
+launch.</strong> Cached snapshots load immediately while Polar refresh
+runs in the background, eliminating the multi-second stall when
+reopening the app.</li>
+<li><strong>Reduced Polar auth chatter.</strong> Successful connectivity
+checks are cached for 10 minutes so relaunches skip the redundant HEAD
+request that previously blocked credit syncing.</li>
+<li><strong>Faster customer resolution retries.</strong> Background
+refreshes reuse cached IDs and only fan out to Polar when metadata
+changes, trimming cold-start latency.</li>
+</ul>
