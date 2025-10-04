@@ -3,8 +3,41 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.31</title>
+            <pubDate>Sat, 04 Oct 2025 15:06:47 +0200</pubDate>
+            <sparkle:version>192</sparkle:version>
+            <sparkle:shortVersionString>2.0.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h1 id="v2.0.31-byok-stability-prompt-manager-refresh">v2.0.31 — BYOK
+Stability &amp; Prompt Manager Refresh</h1>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Claude BYOK pacing</strong> – Batch rename jobs
+automatically throttle requests so you can push more files without
+tripping Anthropic’s burst limits or seeing 429 errors.</li>
+<li><strong>Managed prompt creation</strong> – Fixed a crash that
+occurred when Managed (Plug &amp; Play) subscribers pressed “New
+Prompt.” The add/edit form now opens inline instead of stacking a second
+sheet, so the <code>NSWindowAlreadyHasSheetException</code> path is
+gone.</li>
+<li><strong>Watch folder stability</strong> – Eliminated duplicate
+watch-folder entries that caused <code>_MergeError</code> crashes at
+launch, especially on macOS Sequoia. Saved profiles are cleaned
+automatically and add/remove now handle path variants safely.</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.31.dmg" length="34505035" type="application/octet-stream" sparkle:edSignature="cU51zlzkNHbjnm+juo81+MSJTJbiWBmqx2px2WL+eDY+Sq9kxRAvhVLEQH0XXHU1z7qkXBTiDaIfbgJUlvfJBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick192-185.delta" sparkle:deltaFrom="185" length="2616634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="9gIU/xHLAoIBWsaon7wyimRFFfr5yhgBTH0Z3GpJiz12+GgO0pA64HIRr4gAYgzAF5vq9GQr1/GQJtdfxtAmCA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick192-180.delta" sparkle:deltaFrom="180" length="2768602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5Nwwfo8lnM2FBQXJMAxwFTyQkLeIqCqqofFckayFIDBGNVk5x6fjUndLUH6Qtklrb1XhTC5Pof+IJklc2+t2AA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick192-179.delta" sparkle:deltaFrom="179" length="2773070" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="W1Ns7FVByFV0iU68DlkDUtOgv3QrqomOC1jo2erAoXKwB2v6WPo9cDNVXdfctts1S9Tko834Rl/bR8LBziGnCA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick192-172.delta" sparkle:deltaFrom="172" length="3015526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="sDbXaR3WupGeubhPQI5sZ93NSWPsnYukAnOVb87IFUprM537ajyCrwRc4UaxhQ4vFr21Mwn1Y/8UqMSJLsn7Aw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick192-171.delta" sparkle:deltaFrom="171" length="3034134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="NvI1/ZnMymhgAQxDTB96JWo1vl7cnbp1iKhhNoRtz5nX4vbxY2M0QMEZc++1mCymcQ+WBD/uqzDbHnZ6OtO2AA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.29</title>
-            <pubDate>Wed, 01 Oct 2025 12:25:11 +0200</pubDate>
+            <pubDate>Sat, 04 Oct 2025 15:06:47 +0200</pubDate>
             <sparkle:version>185</sparkle:version>
             <sparkle:shortVersionString>2.0.29</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -31,17 +64,10 @@ changes, trimming cold-start latency.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.29.dmg" length="34097488" type="application/octet-stream" sparkle:edSignature="m2yBPaH4hYD+SOrdAEh8mlypuJpBtPfszGFdWNg0vp48YIN316HPln+69KQh53tLWQ6Ob5Go9KUs2mDUmLfFDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick185-180.delta" sparkle:deltaFrom="180" length="1655406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="BcGGM5saQVhGI2u1c8FShOtdbe0ZZVo4yXr1fJ5itw8IEA3mtnasXJhRNYRQcWSFdh5RU/HivqEZcdjQdXr5DQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick185-179.delta" sparkle:deltaFrom="179" length="1657950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="OD5Q+S+o8Jpnjff8hvcN3W7ZpdPhcN6bG/MFy5ROtSSwYicY+msjav5QIcZtZg9dLacJuvza/slELru9/sc6AQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick185-172.delta" sparkle:deltaFrom="172" length="2155854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="YbOSBbfAl3Uqp5CZj+nyPmImPPGjExHiwQJsYzTTktOFsMU9lAl11Sv6tXicXEGKzVQ56xdKqdjLkAjsmx1pDw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick185-171.delta" sparkle:deltaFrom="171" length="2189998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="I1eQbx6Uz+gpnrCRYnTJzcy2ERoRotoIDf92d4axngPIIFwTQ+sG8dzvtAYx+H1lsdOUKLS2U46mfVm0oFAdDA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick185-169.delta" sparkle:deltaFrom="169" length="2291794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="SxM1dA6Tz8W5XzJVbptSqZG5wEo2LGHs9ba4DsTw6ANxKBFv25R4Syb5tnaYcYPA08miyXWPJyfLnDn84lISCA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.28</title>
-            <pubDate>Wed, 01 Oct 2025 12:25:10 +0200</pubDate>
+            <pubDate>Sat, 04 Oct 2025 15:06:47 +0200</pubDate>
             <sparkle:version>180</sparkle:version>
             <sparkle:shortVersionString>2.0.28</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -56,22 +82,6 @@ app.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.28.dmg" length="34083024" type="application/octet-stream" sparkle:edSignature="zw7q153nlGiEsPha9OmawPR/BOPuJRor+fI7LqZe1lG2mctnkPUtG2IhAVTxCaESurbaobsNzr0R6Yh//fpPAQ=="/>
-        </item>
-        <item>
-            <title>2.0.27</title>
-            <pubDate>Wed, 01 Oct 2025 12:25:10 +0200</pubDate>
-            <sparkle:version>179</sparkle:version>
-            <sparkle:shortVersionString>2.0.27</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3 id="whats-improved">What’s Improved</h3>
-<ul>
-<li><strong>Quick actions stay visible even before you select
-files.</strong> The floating process bar no longer disappears when you
-load a batch, making it obvious how to kick off renames and when actions
-are disabled versus ready to run.</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.27.dmg" length="34083603" type="application/octet-stream" sparkle:edSignature="4xMXVP/dk/WAe+JbB+lo+Ul6lGaIx1fsCKkBkxHxIF3/uQA7Vw10iy3Vg7So/57r/Fy8U/6uq5a4e9jYmW6uDw=="/>
         </item>
     </channel>
 </rss>

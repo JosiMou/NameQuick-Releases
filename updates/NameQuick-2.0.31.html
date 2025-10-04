@@ -1,0 +1,17 @@
+<h1 id="v2.0.31-byok-stability-prompt-manager-refresh">v2.0.31 — BYOK
+Stability &amp; Prompt Manager Refresh</h1>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Claude BYOK pacing</strong> – Batch rename jobs
+automatically throttle requests so you can push more files without
+tripping Anthropic’s burst limits or seeing 429 errors.</li>
+<li><strong>Managed prompt creation</strong> – Fixed a crash that
+occurred when Managed (Plug &amp; Play) subscribers pressed “New
+Prompt.” The add/edit form now opens inline instead of stacking a second
+sheet, so the <code>NSWindowAlreadyHasSheetException</code> path is
+gone.</li>
+<li><strong>Watch folder stability</strong> – Eliminated duplicate
+watch-folder entries that caused <code>_MergeError</code> crashes at
+launch, especially on macOS Sequoia. Saved profiles are cleaned
+automatically and add/remove now handle path variants safely.</li>
+</ul>
