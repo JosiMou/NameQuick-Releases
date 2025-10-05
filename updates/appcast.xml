@@ -3,8 +3,34 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.32</title>
+            <pubDate>Sun, 05 Oct 2025 15:25:25 +0200</pubDate>
+            <sparkle:version>193</sparkle:version>
+            <sparkle:shortVersionString>2.0.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h1 id="namequick-2.0.32">NameQuick 2.0.32</h1>
+<h2 id="fixes">Fixes</h2>
+<h3 id="template-consistency">Template Consistency</h3>
+<ul>
+<li><strong>Drag &amp; Drop and Global Shortcut</strong>: Both
+operations now consistently apply prefixes and suffixes. ### UI Layout
+Improvements</li>
+<li><strong>Settings Window Responsiveness</strong>: Fixed layout
+overflow issues at compact window widths.</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.32.dmg" length="34573666" type="application/octet-stream" sparkle:edSignature="nLD2zZHGTd1XcvkGsAsSHTAcIOWMm3xi/e4sfgFSyfQ0SIdWzYmDjiOGPMJ5C83KWiXf9P9GKWuskOxN0s2eBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick193-192.delta" sparkle:deltaFrom="192" length="2135998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="8gsKRaWx24JjV38bnJw4Dqj3ANqmTgOZaL2iTcxQ8EUW18J7WHzAYy6gmBRR28DMA8r8WD7BF5IaM2c4xbgvCg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick193-185.delta" sparkle:deltaFrom="185" length="2973586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="1y5ZO4MF6iSNZxdXHmCSWAp0/XaX3xH5vydaQgvo5wM6tzG2U6jZbtRmNaT76MeLtT2ThSCBxn8M8TER9S+pBg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick193-180.delta" sparkle:deltaFrom="180" length="3110470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="W7oHNMwofNweyoUYPMv0PMu5qOmdthHSWthn2gq25PkGJSy7i24rse5/h5LkUZBtquvY0RZbY2D8Sp+UtqLLBQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick193-179.delta" sparkle:deltaFrom="179" length="3110214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="18P6I2QJ7GEsaW6JQRxer7GuUPkgnAEOMsms09pTLhGL8Ieh8Ntj0pIxTccCa6eExosuRef/lGnSebFqgsNGCA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick193-172.delta" sparkle:deltaFrom="172" length="3327842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="/5P8GDKglaGbdDk5D1HtP3oyt7zSh/WaMrucfnDOpVptUERgRaAKPoiI9G//BmIKPp3u08gjke4aL5hMn6REBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.31</title>
-            <pubDate>Sat, 04 Oct 2025 15:06:47 +0200</pubDate>
+            <pubDate>Sun, 05 Oct 2025 15:25:24 +0200</pubDate>
             <sparkle:version>192</sparkle:version>
             <sparkle:shortVersionString>2.0.31</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -27,17 +53,10 @@ automatically and add/remove now handle path variants safely.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.31.dmg" length="34505035" type="application/octet-stream" sparkle:edSignature="cU51zlzkNHbjnm+juo81+MSJTJbiWBmqx2px2WL+eDY+Sq9kxRAvhVLEQH0XXHU1z7qkXBTiDaIfbgJUlvfJBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick192-185.delta" sparkle:deltaFrom="185" length="2616634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="9gIU/xHLAoIBWsaon7wyimRFFfr5yhgBTH0Z3GpJiz12+GgO0pA64HIRr4gAYgzAF5vq9GQr1/GQJtdfxtAmCA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick192-180.delta" sparkle:deltaFrom="180" length="2768602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5Nwwfo8lnM2FBQXJMAxwFTyQkLeIqCqqofFckayFIDBGNVk5x6fjUndLUH6Qtklrb1XhTC5Pof+IJklc2+t2AA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick192-179.delta" sparkle:deltaFrom="179" length="2773070" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="W1Ns7FVByFV0iU68DlkDUtOgv3QrqomOC1jo2erAoXKwB2v6WPo9cDNVXdfctts1S9Tko834Rl/bR8LBziGnCA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick192-172.delta" sparkle:deltaFrom="172" length="3015526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="sDbXaR3WupGeubhPQI5sZ93NSWPsnYukAnOVb87IFUprM537ajyCrwRc4UaxhQ4vFr21Mwn1Y/8UqMSJLsn7Aw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick192-171.delta" sparkle:deltaFrom="171" length="3034134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="NvI1/ZnMymhgAQxDTB96JWo1vl7cnbp1iKhhNoRtz5nX4vbxY2M0QMEZc++1mCymcQ+WBD/uqzDbHnZ6OtO2AA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.29</title>
-            <pubDate>Sat, 04 Oct 2025 15:06:47 +0200</pubDate>
+            <pubDate>Sun, 05 Oct 2025 15:25:24 +0200</pubDate>
             <sparkle:version>185</sparkle:version>
             <sparkle:shortVersionString>2.0.29</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -64,24 +83,6 @@ changes, trimming cold-start latency.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.29.dmg" length="34097488" type="application/octet-stream" sparkle:edSignature="m2yBPaH4hYD+SOrdAEh8mlypuJpBtPfszGFdWNg0vp48YIN316HPln+69KQh53tLWQ6Ob5Go9KUs2mDUmLfFDQ=="/>
-        </item>
-        <item>
-            <title>2.0.28</title>
-            <pubDate>Sat, 04 Oct 2025 15:06:47 +0200</pubDate>
-            <sparkle:version>180</sparkle:version>
-            <sparkle:shortVersionString>2.0.28</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3 id="whats-improved">What’s Improved</h3>
-<ul>
-<li><strong>Custom prompts moved to Processing settings.</strong> Find
-“Manage Custom Prompts…” inside Settings → Processing ### Bug Fixes</li>
-<li><strong>Crash on launch eliminated.</strong> The Accessibility
-relaunch prompt now always runs on the main actor, so fresh installs and
-permission changes no longer trip a Swift precondition and terminate the
-app.</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.28.dmg" length="34083024" type="application/octet-stream" sparkle:edSignature="zw7q153nlGiEsPha9OmawPR/BOPuJRor+fI7LqZe1lG2mctnkPUtG2IhAVTxCaESurbaobsNzr0R6Yh//fpPAQ=="/>
         </item>
     </channel>
 </rss>
