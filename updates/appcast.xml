@@ -3,8 +3,34 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.0.42</title>
+            <pubDate>Mon, 10 Nov 2025 11:06:52 +0100</pubDate>
+            <sparkle:version>206</sparkle:version>
+            <sparkle:shortVersionString>2.0.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h1 id="namequick-2.0.42-reliable-renames-on-macos-26.1">NameQuick
+2.0.42 — Reliable renames on macOS 26.1</h1>
+<p>Release date: 2025-11-10</p>
+<p>What’s fixed - Fixed a rare issue where some files couldn’t be opened
+or renamed after using NameQuick on macOS 26.1. - Files renamed with
+NameQuick now behave normally in Finder and other apps.</p>
+<p>Other improvements - Clearer messages if a rename can’t safely
+complete. - Credit counter now refreshes correctly after a renewal.</p>
+<p>Compatibility &amp; notes - Recommended for all users on macOS 26.1.
+- No changes to your data or settings.</p>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.42.dmg" length="37925769" type="application/octet-stream" sparkle:edSignature="usyDEuCD1Hutjo8CngGK8i70fIxGz5w/e9eaBjkrdAQae4bDpLwx1QTaTUjeXVomcFa46GVv2TLjj8O6WUs3Bg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick206-205.delta" sparkle:deltaFrom="205" length="5417346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="IOXglFaomXWdcT712eJUAVcx+Vv20BVMzvPY4n2zZYv/wN/AY75anl/UfOFJUK4mLfERh9jyXd6yO/PQvCb/AQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick206-204.delta" sparkle:deltaFrom="204" length="5421290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="GFr0gCMKCa9b+qJu/qgRYUPID0uwGcE5UxkR8j0NdCcCRHfvv0OOJGT1NOh1vOfwVP8Wf4Pv1LpdtlRxZYL6Dw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick206-203.delta" sparkle:deltaFrom="203" length="5386314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="X3+IpOv31NAa0V6XU6zLEbpDffcMagGyba0/64PQ4dXpZj2A+z1MBBQtleIF3knBxseIHqYKG+JBKtK5BEEmAQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick206-201.delta" sparkle:deltaFrom="201" length="5459358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="tT3obsDLf0xkaHsX8eHedqsgB9Sp0FrH/SjQAoUTTStk+Tia/V7nmNBNOl02hFPYK/WtukCcaZVSA7CXutZbCA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick206-200.delta" sparkle:deltaFrom="200" length="5740182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Rq41xo3IkSfK8C4EPHWv/hZ06E9cQqVZ2gvwiIZawLWT0EGfns+lw7srtfF/jbW8885UNPqkDirFtJCm91AbCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.41</title>
-            <pubDate>Sat, 01 Nov 2025 15:13:23 +0100</pubDate>
+            <pubDate>Mon, 10 Nov 2025 11:06:52 +0100</pubDate>
             <sparkle:version>205</sparkle:version>
             <sparkle:shortVersionString>2.0.41</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -13,17 +39,10 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.41.dmg" length="37625517" type="application/octet-stream" sparkle:edSignature="Rl9X8bsXqoartGtkgQ4gjKqAwxevXsLevoFoE57JKJ8sCrKncywSIBKpviECdkSWp1qWA5Ccxmaf66WmXG0IBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick205-204.delta" sparkle:deltaFrom="204" length="24794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="6P0qdj318BmzTrcAaB9HL3ImC6yNtnNnEzCFCOzZqs2Dk4GDCrxze+LLaRu2+tFsXQqr5dCec+icC/amxsLEDA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick205-203.delta" sparkle:deltaFrom="203" length="1754238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="8JvJ8pI+Wiy51GBwAVNtUKcg2VItpxwLKO8F/hS/ELxptYN7CegVnnAhX09wv9oFZ/ZsljSwZytRibwY8/DLAA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick205-201.delta" sparkle:deltaFrom="201" length="2048794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="DyfVTOiQHvhUC0kuaSklrcTnSnGXnxV6mQppxpkZTgnGXwyQfoRZJMS05fBT4nG2ZUVLx+y3Gqt13JUy4kE7Cg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick205-200.delta" sparkle:deltaFrom="200" length="2386318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="l14P2vy/PGmNykWnC6hW7BJJUOxm7kStv5xiThgfdAjR2dIzZ08IeelKjChXCAQi71aBCxBJCOoyRe05HQyPAQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick205-197.delta" sparkle:deltaFrom="197" length="4321730" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="qp0eG4eHqVHNPshI/PKwM5vR1t4n2hQzb7XtffIrnRB1q1X6j9J780BULZyCOLN3zhnNAREl0qQBLmHv2lOeCw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.40</title>
-            <pubDate>Sat, 01 Nov 2025 15:13:23 +0100</pubDate>
+            <pubDate>Mon, 10 Nov 2025 11:06:52 +0100</pubDate>
             <sparkle:version>204</sparkle:version>
             <sparkle:shortVersionString>2.0.40</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -34,43 +53,6 @@ now opens and stays responsive.</li>
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.40.dmg" length="37625574" type="application/octet-stream" sparkle:edSignature="Z8NRnYXzn+4lcMd06/RkNlJF1EXdnbnx2/Or/zub64JY5FBADZDAOJhev0BwjEV5dkS/3WCayKzGx6uiItLNCA=="/>
-        </item>
-        <item>
-            <title>2.0.39</title>
-            <pubDate>Sat, 01 Nov 2025 15:13:23 +0100</pubDate>
-            <sparkle:version>203</sparkle:version>
-            <sparkle:shortVersionString>2.0.39</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description><![CDATA[<ul>
-<li><p>Smarter duplicate-name handling: when a target filename already
-exists, NameQuick now automatically appends a counter (e.g., ” (2)“) and
-completes the rename, instead of showing a”file already exists” error.
-This keeps your flow uninterrupted and preserves the original
-extension.</p></li>
-<li><p>Gemini model updates (current + compatible): the selector now
-shows the latest 2.5 and 2.0 language models that work with NameQuick’s
-generateContent flow, and removes legacy/unsupported entries.</p>
-<ul>
-<li>Added: Gemini 2.5 Pro, 2.5 Flash, 2.5 Flash‑Lite, 2.5 Flash‑Lite
-(Preview 09‑2025); Gemini 2.0 Flash, 2.0 Flash‑Lite, 2.0 Flash
-(Experimental).</li>
-<li>Removed: Gemini 1.5/1.0 families, Live‑only, and TTS models (not
-compatible with this flow).</li>
-<li>Automatic migration: if you previously selected a removed model
-(e.g., 1.5/1.0, Live preview, old Flash‑Lite preview ID), you’ll switch
-to the closest 2.5 equivalent on launch and in the selector.</li>
-</ul></li>
-<li><p>Friendlier error messages: if a template can’t be satisfied
-(e.g., missing required fields), the message explains what to change
-(relax rules, add examples, or try Smart Rename) instead of a generic
-contract violation.</p></li>
-</ul>
-<p>Notes - “Free/Paid” in the Gemini selector means the model offers a
-free tier but may bill beyond free quota depending on your Google
-account usage. - If you had a 1.5/1.0 model selected, you’ll be moved to
-a 2.5 equivalent automatically.</p>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.39.dmg" length="37648317" type="application/octet-stream" sparkle:edSignature="Cyz398grQ7NekubQrykjtsPz0krunjQK1NY6zVvaxqmVc7316LnApQK/ovykInkOjvUWLxGTv5KGSTzneG7dBQ=="/>
         </item>
     </channel>
 </rss>
