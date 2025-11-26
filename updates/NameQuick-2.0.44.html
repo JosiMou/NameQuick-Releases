@@ -1,0 +1,11 @@
+<p># NameQuick 2.0.44 — Credit balance refresh & improved PDF handling</p>
+<p></p>
+<p>Release date: 2025-11-26</p>
+<p></p>
+<p>What's fixed</p>
+<ul>
+<li>Credits now properly refresh when your subscription billing cycle renews. Previously, some users saw their old credit balance until they logged out and back in.</li>
+<li>Cached credit data is now automatically invalidated when a new billing period begins, ensuring you always see your current balance.</li>
+<li>Large PDFs now process more reliably. Increased internal compression target from 15 MB to 45 MB, allowing high-resolution scanned documents to succeed where they previously failed.</li>
+<li>Oversized PDFs now show a clear error message instead of failing silently. If a PDF exceeds the 50 MB processing limit, you'll see exactly what the problem is and how to fix it.</li>
+</ul>
