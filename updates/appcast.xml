@@ -4,20 +4,50 @@
         <title>NameQuick</title>
         <item>
             <title>2.10.00</title>
-            <pubDate>Tue, 02 Dec 2025 19:14:29 +0100</pubDate>
+            <pubDate>Tue, 02 Dec 2025 19:23:33 +0100</pubDate>
             <sparkle:version>213</sparkle:version>
             <sparkle:shortVersionString>2.10.00</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p># v2.10.00</p>
+            <description><![CDATA[<h2>NameQuick 2.1.0</h2>
 <p></p>
-<h2>Features</h2>
-<p>-</p>
+<p>A fresh start. This release reimagines how you get started with NameQuick and makes the whole experience feel more polished and intuitive.</p>
+<h2>New Onboarding Experience</h2>
 <p></p>
-<h2>Fixes</h2>
-<p>-</p>
+<p>Getting set up is now smoother than ever. A guided flow walks you through choosing how you want to rename files—whether that's AI-powered Smart Rename, structured Templates, or freeform Custom Prompts.</p>
+<p></p>
+<h2>Presets</h2>
+<p></p>
+<p>Templates and Custom Prompts are now unified under Presets, with major upgrades to both:</p>
+<p></p>
+<p>**Templates** got a complete overhaul:</p>
+<ul>
+<li>**Visual pattern builder** with drag-and-drop chips that show exactly how your filename will look</li>
+<li>**Per-field separators** so you can mix dashes, underscores, and spaces however you need</li>
+<li>**Live preview** updates as you build, so you always know what you're getting</li>
+<li>**Test your templates** while building and iterate until they're perfect</li>
+</ul>
+<p></p>
+<p>**Custom Prompts** now have a cleaner, more prominent UI that makes them easier to create and manage. </p>
+<p></p>
+<h2>Smarter Rules</h2>
+<p></p>
+<p>The rules engine is now easier to use and more powerful:</p>
+<ul>
+<li>**Card-based layout** makes it simple to see and manage your rules at a glance</li>
+<li>**Archive and Trash actions** give you more options beyond just moving files</li>
+<li>**Logic operators** let you combine conditions for precise control (AND/OR)</li>
+<li>**Date conditions** for rules that trigger based on when files were created or modified</li>
+</ul>
+<p></p>
+<h2>Refreshed Design</h2>
+<p></p>
+<p>The whole app feels cleaner—modern glass-style buttons, smooth sidebar transitions, and polished drop zones throughout.</p>
+<p></p>
+<p>And much more!! </p>
+<p></p>
 <p></p>
 ]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.00.dmg" length="42970083" type="application/octet-stream" sparkle:edSignature="JdfhV6fk2xZFoeBQxKo+f6J65naaCqmyTDJ3JxIfz+Iltq3bGWIhaZgfkq1thEMwEr1DowOZzGECu8APhI8ZBg=="/>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.00.dmg" length="42970036" type="application/octet-stream" sparkle:edSignature="lCa0+KfniLuyz2lmz8CfADCgILTAwdqHh7LHBuU6t+kRVQtezBbayVM2lJPxmTaXFgNtR2N8HLCF/gTFyhbEAQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick213-212.delta" sparkle:deltaFrom="212" length="8767642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2gkbnQ6wK2H6/b6ljAj8qREUwcJ0eM4og7y01ODOVY3Q+PAxk9u1oRifBsI/TXGw9nEEkto9c9/G27ggFZeTAA=="/>
                 <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick213-210.delta" sparkle:deltaFrom="210" length="8800150" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bFJzse+Qii2aPhLvRIDwxL4wOn4yfWhZNnDNelrm0qaucHyfhKpD/bb8qBWk72yvIV3bgLkR+M9XI3K9I/PbCw=="/>
@@ -28,7 +58,7 @@
         </item>
         <item>
             <title>2.0.47</title>
-            <pubDate>Tue, 02 Dec 2025 19:14:29 +0100</pubDate>
+            <pubDate>Tue, 02 Dec 2025 19:23:33 +0100</pubDate>
             <sparkle:version>212</sparkle:version>
             <sparkle:shortVersionString>2.0.47</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -49,7 +79,7 @@
         </item>
         <item>
             <title>2.0.46</title>
-            <pubDate>Tue, 02 Dec 2025 19:14:29 +0100</pubDate>
+            <pubDate>Tue, 02 Dec 2025 19:23:33 +0100</pubDate>
             <sparkle:version>210</sparkle:version>
             <sparkle:shortVersionString>2.0.46</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -64,7 +94,7 @@
         </item>
         <item>
             <title>2.0.45</title>
-            <pubDate>Tue, 02 Dec 2025 19:14:29 +0100</pubDate>
+            <pubDate>Tue, 02 Dec 2025 19:23:33 +0100</pubDate>
             <sparkle:version>209</sparkle:version>
             <sparkle:shortVersionString>2.0.45</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
