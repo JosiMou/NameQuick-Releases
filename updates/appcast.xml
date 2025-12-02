@@ -3,8 +3,32 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.10.00</title>
+            <pubDate>Tue, 02 Dec 2025 19:14:29 +0100</pubDate>
+            <sparkle:version>213</sparkle:version>
+            <sparkle:shortVersionString>2.10.00</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p># v2.10.00</p>
+<p></p>
+<h2>Features</h2>
+<p>-</p>
+<p></p>
+<h2>Fixes</h2>
+<p>-</p>
+<p></p>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.00.dmg" length="42970083" type="application/octet-stream" sparkle:edSignature="JdfhV6fk2xZFoeBQxKo+f6J65naaCqmyTDJ3JxIfz+Iltq3bGWIhaZgfkq1thEMwEr1DowOZzGECu8APhI8ZBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick213-212.delta" sparkle:deltaFrom="212" length="8767642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2gkbnQ6wK2H6/b6ljAj8qREUwcJ0eM4og7y01ODOVY3Q+PAxk9u1oRifBsI/TXGw9nEEkto9c9/G27ggFZeTAA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick213-210.delta" sparkle:deltaFrom="210" length="8800150" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bFJzse+Qii2aPhLvRIDwxL4wOn4yfWhZNnDNelrm0qaucHyfhKpD/bb8qBWk72yvIV3bgLkR+M9XI3K9I/PbCw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick213-209.delta" sparkle:deltaFrom="209" length="8798662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5Fulj58JY6AKOWqKjXKImgMhKn7gjZymZ6i+F1MeKMow0kFPCdwU9VADtHL9LRXYWyFOBLseqka4zZoglKXjBg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick213-208.delta" sparkle:deltaFrom="208" length="8862030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ArwrS+o8AVpEiMXqANkBOvj/D/NPwaxQh0maxgKMZ7xEJJjgb+1v4ng0iEj1K+vlOzeyRsfmIM4cDcqDed7UAA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick213-207.delta" sparkle:deltaFrom="207" length="9587046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862528" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="cAK9zgrWKMf6F/h2b8p6fUwnWWuBksJLKqH2xrDQYt8IXKg/zaGVtMyfwnIhwjnBRHDtOzzeR1xfY73WpwrOAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.47</title>
-            <pubDate>Sat, 29 Nov 2025 20:11:34 +0100</pubDate>
+            <pubDate>Tue, 02 Dec 2025 19:14:29 +0100</pubDate>
             <sparkle:version>212</sparkle:version>
             <sparkle:shortVersionString>2.0.47</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -25,7 +49,7 @@
         </item>
         <item>
             <title>2.0.46</title>
-            <pubDate>Sat, 29 Nov 2025 20:11:34 +0100</pubDate>
+            <pubDate>Tue, 02 Dec 2025 19:14:29 +0100</pubDate>
             <sparkle:version>210</sparkle:version>
             <sparkle:shortVersionString>2.0.46</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -40,7 +64,7 @@
         </item>
         <item>
             <title>2.0.45</title>
-            <pubDate>Sat, 29 Nov 2025 20:11:34 +0100</pubDate>
+            <pubDate>Tue, 02 Dec 2025 19:14:29 +0100</pubDate>
             <sparkle:version>209</sparkle:version>
             <sparkle:shortVersionString>2.0.45</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
