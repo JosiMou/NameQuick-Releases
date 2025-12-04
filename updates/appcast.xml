@@ -3,8 +3,29 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.10.03</title>
+            <pubDate>Thu, 04 Dec 2025 11:35:14 +0100</pubDate>
+            <sparkle:version>216</sparkle:version>
+            <sparkle:shortVersionString>2.10.03</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Release date: 2025-12-04</p>
+<p></p>
+<ul>
+<li>Fixed an issue where auto-processing with Custom Prompts would ignore document content, resulting in poor rename quality.</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.03.dmg" length="42981449" type="application/octet-stream" sparkle:edSignature="aRLTrwQux/UPMO5elPmBXo1WpY2M9rqNpMxXM+cOyHtj3lJpE0lmULNx76u9rrL0T7w9qzlellMcZ4Chlu5QDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick216-215.delta" sparkle:deltaFrom="215" length="2044846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dkL7IpBegpz1baJHeuQnk0up7Chhj78tIhykf9C/82nIVhVZiIebDjTnKbHMrR5tofZBk1ggzaYz7zDwb/bgCw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick216-214.delta" sparkle:deltaFrom="214" length="2066250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jwOZpVvVQSd312fhdIz/Ibm4OeBXfTO7peoSkOKLG3i5NSmgL/IqAe7vo/CDHFMDd+DYHnTJ1a8OiY9TU5GgDg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick216-213.delta" sparkle:deltaFrom="213" length="2073054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="G5JJVlZsUhTfB6PNCtJotWcjSV6u1CTZ+pCyjhu4ei2X3M5sP5akG+0Ux0es8OEX2GjPRxjNplAlSMJXXvRlCw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick216-212.delta" sparkle:deltaFrom="212" length="8783222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="F7bVRYPHMJUMMc1HNC6OPiStG9HGmttipJzGDPJBzTt5e/5QPjsvOnmm/ioPmd+lMxssLFCLpEJ/SwZf3EkeDg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick216-210.delta" sparkle:deltaFrom="210" length="8806246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cROpNHwWBy5PGztpeMqMaJFNXqjF+zGmtlNyAkGJPhU7kAz7kl0GrQSJAHgBqaIqNHkNJM/lor5CcBSJmvn1Aw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.10.02</title>
-            <pubDate>Wed, 03 Dec 2025 18:52:23 +0100</pubDate>
+            <pubDate>Thu, 04 Dec 2025 11:35:14 +0100</pubDate>
             <sparkle:version>215</sparkle:version>
             <sparkle:shortVersionString>2.10.02</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -15,17 +36,10 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.02.dmg" length="42973807" type="application/octet-stream" sparkle:edSignature="hC92OqRl54b0p6vkwCtizzvTUk7cJUkT1XG4qosPwuR1naU8lH542Mt8128VhmdqBLjSEoPSRPlkhcG7sJ0YAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick215-214.delta" sparkle:deltaFrom="214" length="1550582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iLCH2TMw0biWu1aeWsJIJV8iUEYoWilyCBLTigeHZISyJsdEyqCI96das7falf0TcshEYjyPKWz/UeRXOuEJCA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick215-213.delta" sparkle:deltaFrom="213" length="1587058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dYHfpzTsizNVu1GPHlJ2wu5fqTVIimDDJng5Ta8/dvWUvd7kLwQLJxzqE4seQXlxyYqdNTzDajPhvo1zXTHrAg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick215-212.delta" sparkle:deltaFrom="212" length="8773294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dcR7UxPBBhOstJi6zeBii1HBA4DAwC+8QpFvpThpP21tSeGjru2ATab7XlbnrHVlD2y4WgyndUDgAcWs2i0BAw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick215-210.delta" sparkle:deltaFrom="210" length="8802166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eOdpFNgSX6A9qbb7anXXKa0T9vqAY5nzvPAapmYuiho2E2wK/VYU8NbTBb9vvfKjSsSJ1UmrcBAyP3bLtgk5Dw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick215-209.delta" sparkle:deltaFrom="209" length="8806370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ov1G8eWpeW00CNXV0Re6bTupMhB6hRUop90ehICF2QePaNnoiQOwBZlsUsfyBFjC/VSRtn6ZBmxUg1U67ll3Bw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.10.01</title>
-            <pubDate>Wed, 03 Dec 2025 18:52:23 +0100</pubDate>
+            <pubDate>Thu, 04 Dec 2025 11:35:14 +0100</pubDate>
             <sparkle:version>214</sparkle:version>
             <sparkle:shortVersionString>2.10.01</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -38,55 +52,8 @@
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.01.dmg" length="42970206" type="application/octet-stream" sparkle:edSignature="X3qvuLKhq/L6FXixkbD1cZJVCabQmJw4O9e68mhrUvARydpJ8+qcXT+IE+c6OMJkpVEHpzPzsNzwFTcf/4QtCw=="/>
         </item>
         <item>
-            <title>2.10.00</title>
-            <pubDate>Wed, 03 Dec 2025 18:52:23 +0100</pubDate>
-            <sparkle:version>213</sparkle:version>
-            <sparkle:shortVersionString>2.10.00</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>NameQuick 2.1.0</h2>
-<p></p>
-<p>A fresh start. This release reimagines how you get started with NameQuick and makes the whole experience feel more polished and intuitive.</p>
-<h2>New Onboarding Experience</h2>
-<p></p>
-<p>Getting set up is now smoother than ever. A guided flow walks you through choosing how you want to rename files—whether that's AI-powered Smart Rename, structured Templates, or freeform Custom Prompts.</p>
-<p></p>
-<h2>Presets</h2>
-<p></p>
-<p>Templates and Custom Prompts are now unified under Presets, with major upgrades to both:</p>
-<p></p>
-<p>**Templates** got a complete overhaul:</p>
-<ul>
-<li>**Visual pattern builder** with drag-and-drop chips that show exactly how your filename will look</li>
-<li>**Per-field separators** so you can mix dashes, underscores, and spaces however you need</li>
-<li>**Live preview** updates as you build, so you always know what you're getting</li>
-<li>**Test your templates** while building and iterate until they're perfect</li>
-</ul>
-<p></p>
-<p>**Custom Prompts** now have a cleaner, more prominent UI that makes them easier to create and manage. </p>
-<p></p>
-<h2>Smarter Rules</h2>
-<p></p>
-<p>The rules engine is now easier to use and more powerful:</p>
-<ul>
-<li>**Card-based layout** makes it simple to see and manage your rules at a glance</li>
-<li>**Archive and Trash actions** give you more options beyond just moving files</li>
-<li>**Logic operators** let you combine conditions for precise control (AND/OR)</li>
-<li>**Date conditions** for rules that trigger based on when files were created or modified</li>
-</ul>
-<p></p>
-<h2>Refreshed Design</h2>
-<p></p>
-<p>The whole app feels cleaner—modern glass-style buttons, smooth sidebar transitions, and polished drop zones throughout.</p>
-<p></p>
-<p>And much more!! </p>
-<p></p>
-<p></p>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.00.dmg" length="42970036" type="application/octet-stream" sparkle:edSignature="lCa0+KfniLuyz2lmz8CfADCgILTAwdqHh7LHBuU6t+kRVQtezBbayVM2lJPxmTaXFgNtR2N8HLCF/gTFyhbEAQ=="/>
-        </item>
-        <item>
             <title>2.0.47</title>
-            <pubDate>Wed, 03 Dec 2025 18:52:23 +0100</pubDate>
+            <pubDate>Thu, 04 Dec 2025 11:35:14 +0100</pubDate>
             <sparkle:version>212</sparkle:version>
             <sparkle:shortVersionString>2.0.47</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -107,7 +74,7 @@
         </item>
         <item>
             <title>2.0.46</title>
-            <pubDate>Wed, 03 Dec 2025 18:52:23 +0100</pubDate>
+            <pubDate>Thu, 04 Dec 2025 11:35:14 +0100</pubDate>
             <sparkle:version>210</sparkle:version>
             <sparkle:shortVersionString>2.0.46</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -122,7 +89,7 @@
         </item>
         <item>
             <title>2.0.45</title>
-            <pubDate>Wed, 03 Dec 2025 18:52:23 +0100</pubDate>
+            <pubDate>Thu, 04 Dec 2025 11:35:14 +0100</pubDate>
             <sparkle:version>209</sparkle:version>
             <sparkle:shortVersionString>2.0.45</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
