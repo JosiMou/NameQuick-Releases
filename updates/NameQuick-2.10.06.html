@@ -1,0 +1,7 @@
+<p>Release date: 2025-12-07</p>
+<p></p>
+<ul>
+<li>Fixed custom separators with spaces (like " - ") being stripped down to just the character (e.g., "-"). Filenames now correctly preserve space-surrounded separators for formats like "2024-01-15 - Invoice.pdf".</li>
+<li>Fixed filename patterns dropping custom literal text. Any static words you add (e.g., "Test") now stay in the assembled filename alongside your extracted fields.</li>
+<li>Fixed template testing failures caused by overly strict validation of AI response audit logs. Processing now correctly succeeds when all required fields are extracted.</li>
+</ul>
