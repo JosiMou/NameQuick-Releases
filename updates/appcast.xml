@@ -4,20 +4,16 @@
         <title>NameQuick</title>
         <item>
             <title>2.10.08</title>
-            <pubDate>Tue, 09 Dec 2025 10:58:00 +0100</pubDate>
+            <pubDate>Tue, 09 Dec 2025 11:21:41 +0100</pubDate>
             <sparkle:version>222</sparkle:version>
             <sparkle:shortVersionString>2.10.08</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p># v2.10.08</p>
-<p></p>
-<h2>Features</h2>
-<p>-</p>
-<p></p>
+            <description><![CDATA[<p>Release date: 2025-12-09</p>
 <h2>Fixes</h2>
-<p>-</p>
-<p></p>
+<p>  - Fixed a rare issue where subscription credits could stay “stuck” on a device after your billing period renewed or your plan changed. </p>
+<p>  - Fixed an issue where custom prompts that analyze screenshots or images would sometimes ignore the visual content and only consider text. These prompts now correctly take the image itself into account when generating results.</p>
 ]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.08.dmg" length="43209133" type="application/octet-stream" sparkle:edSignature="fO/N2AOpr6ehh9sxBP5r0E0AwNj+pbTD8g+LvvRbWsPkNix3dWsGoPAEDtIbh6oxppZJg2etSG0XCPOiReBaBA=="/>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.08.dmg" length="43209195" type="application/octet-stream" sparkle:edSignature="Dai2GTTa9AUXlpVsS2na7d047aLYAKu4iDfwtU2hp3VFZTztD+SGaNuygJask/uH+e0bj9/VOL0xKcjQOKiaDA=="/>
             <sparkle:deltas>
                 <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick222-221.delta" sparkle:deltaFrom="221" length="2626226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rwCtiP2z0br/Mx5TAasy4EeK73lMj7wXFI0oU00ElT2ZyhwcYzJ3ggWLHHhEALkSpDBSWQ+zSBcQ6hXVI/tbCA=="/>
                 <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick222-220.delta" sparkle:deltaFrom="220" length="3261002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H0PVsaBXZ24CFwIPujGZGdMJI33gWUnowfzG9ihKF9gWBeV+qg1PJpVs9Ch2qNAPjWe1yQXvDEvmP0z2uB4vBQ=="/>
@@ -28,7 +24,7 @@
         </item>
         <item>
             <title>2.10.07</title>
-            <pubDate>Tue, 09 Dec 2025 10:58:00 +0100</pubDate>
+            <pubDate>Tue, 09 Dec 2025 11:21:41 +0100</pubDate>
             <sparkle:version>221</sparkle:version>
             <sparkle:shortVersionString>2.10.07</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -43,7 +39,7 @@
         </item>
         <item>
             <title>2.10.06</title>
-            <pubDate>Tue, 09 Dec 2025 10:58:00 +0100</pubDate>
+            <pubDate>Tue, 09 Dec 2025 11:21:41 +0100</pubDate>
             <sparkle:version>220</sparkle:version>
             <sparkle:shortVersionString>2.10.06</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -59,7 +55,7 @@
         </item>
         <item>
             <title>2.0.47</title>
-            <pubDate>Tue, 09 Dec 2025 10:58:00 +0100</pubDate>
+            <pubDate>Tue, 09 Dec 2025 11:21:40 +0100</pubDate>
             <sparkle:version>212</sparkle:version>
             <sparkle:shortVersionString>2.0.47</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -80,7 +76,7 @@
         </item>
         <item>
             <title>2.0.46</title>
-            <pubDate>Tue, 09 Dec 2025 10:58:00 +0100</pubDate>
+            <pubDate>Tue, 09 Dec 2025 11:21:40 +0100</pubDate>
             <sparkle:version>210</sparkle:version>
             <sparkle:shortVersionString>2.0.46</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -95,7 +91,7 @@
         </item>
         <item>
             <title>2.0.45</title>
-            <pubDate>Tue, 09 Dec 2025 10:58:00 +0100</pubDate>
+            <pubDate>Tue, 09 Dec 2025 11:21:40 +0100</pubDate>
             <sparkle:version>209</sparkle:version>
             <sparkle:shortVersionString>2.0.45</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
