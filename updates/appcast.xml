@@ -3,8 +3,27 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.10.09</title>
+            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
+            <sparkle:version>223</sparkle:version>
+            <sparkle:shortVersionString>2.10.09</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Release date: 2025-12-13</p>
+<h2>Fixes</h2>
+<p>  - Fixed an issue where template-based renaming could produce generic filenames like `_.pdf` instead of extracting meaningful names from your documents. Templates now reliably capture the fields you've defined.</p>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.09.dmg" length="43222744" type="application/octet-stream" sparkle:edSignature="Ig64Ga4fu/5tRnM2em+NhQltD/tWjaLz9s40xxazQpn9Nd0w6YVz+pUVniZ38nnrzSHYcov8VkwgwV33D2TqCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick223-222.delta" sparkle:deltaFrom="222" length="2393522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Rc+wMkNKC7jUdkw7bWEJqo/qMHFcYRF6RUjb8fxZ+G/swdenVCZjKKidpd4Uh64x69/owwVxrPpdQezxAECxDA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick223-221.delta" sparkle:deltaFrom="221" length="2720238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UGnwJthbk/+s50ugJWo7PnZr2BkXDqxneARqhFGOv72OGnWQEAg0fup6rbrpuxFqG/v+zbQ01O3o4IlcJ9uQAw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick223-220.delta" sparkle:deltaFrom="220" length="3325402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7RDS0uDJ/GZHJrHgPZnq4rjGN3t3nVpWow3R2VIHKTnhOXlBgS8mQ2XBKmMcj1d6mWM/tVInOgKqQe9VnZniDg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick223-219.delta" sparkle:deltaFrom="219" length="3349414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mtE7V9XSts8KDvj5xl8TCQgvjvZhyRjqPIXkVcXNX/esKFRoknBY9+jvxpBRR6YvRZawYGd3RBHWCQ6h4zF/BQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick223-218.delta" sparkle:deltaFrom="218" length="3530182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cqvVEg5IIBfq/XFASlmbv8RpWeGpWXz5Z6nogEYULi1cpUWVO39KJpyy8nScDNhfz8ooeUYH/GfI0u3CYZ/rDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.10.08</title>
-            <pubDate>Tue, 09 Dec 2025 11:21:41 +0100</pubDate>
+            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
             <sparkle:version>222</sparkle:version>
             <sparkle:shortVersionString>2.10.08</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -14,17 +33,10 @@
 <p>  - Fixed an issue where custom prompts that analyze screenshots or images would sometimes ignore the visual content and only consider text. These prompts now correctly take the image itself into account when generating results.</p>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.08.dmg" length="43209195" type="application/octet-stream" sparkle:edSignature="Dai2GTTa9AUXlpVsS2na7d047aLYAKu4iDfwtU2hp3VFZTztD+SGaNuygJask/uH+e0bj9/VOL0xKcjQOKiaDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick222-221.delta" sparkle:deltaFrom="221" length="2626226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rwCtiP2z0br/Mx5TAasy4EeK73lMj7wXFI0oU00ElT2ZyhwcYzJ3ggWLHHhEALkSpDBSWQ+zSBcQ6hXVI/tbCA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick222-220.delta" sparkle:deltaFrom="220" length="3261002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H0PVsaBXZ24CFwIPujGZGdMJI33gWUnowfzG9ihKF9gWBeV+qg1PJpVs9Ch2qNAPjWe1yQXvDEvmP0z2uB4vBQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick222-219.delta" sparkle:deltaFrom="219" length="3320354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9JMOqOONzK39ShzkpMee4Tlx7XNl6hUPj9PiLSVneAoDOZwAyZtG/T7lCVatIe/Nt7ldFmhRFzFaLMRoEW5SDg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick222-218.delta" sparkle:deltaFrom="218" length="3509978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bZ2+L3E/ZxETXK3wk/SrDIwWIj8/U8EYjAS4/O/QGsNfDkaJb6yn2+6E1cMgoW3+64qD/VJWa63W1LVv1dpGAw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick222-216.delta" sparkle:deltaFrom="216" length="3677974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="28qWr35LhiyAirgouAVGTMCfvRZT7VGfAmsqd5Lf7RmfPYxRyVAcvkvETcI8hREjvN/8Zulmf61J2UZG3Ac4AQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.10.07</title>
-            <pubDate>Tue, 09 Dec 2025 11:21:41 +0100</pubDate>
+            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
             <sparkle:version>221</sparkle:version>
             <sparkle:shortVersionString>2.10.07</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -38,24 +50,8 @@
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.07.dmg" length="43188601" type="application/octet-stream" sparkle:edSignature="93cZZqwDhP+wu5ZTqzZK8z+oSTYzDlew0UkVJJxksLQmuzQNDVTC9zoQbkmABuzNXhgCZdO4H+uro2+xbS+QBA=="/>
         </item>
         <item>
-            <title>2.10.06</title>
-            <pubDate>Tue, 09 Dec 2025 11:21:41 +0100</pubDate>
-            <sparkle:version>220</sparkle:version>
-            <sparkle:shortVersionString>2.10.06</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2025-12-07</p>
-<p></p>
-<ul>
-<li>Fixed custom separators with spaces (like " - ") being stripped down to just the character (e.g., "-"). Filenames now correctly preserve space-surrounded separators for formats like "2024-01-15 - Invoice.pdf".</li>
-<li>Fixed filename patterns dropping custom literal text. Any static words you add (e.g., "Test") now stay in the assembled filename alongside your extracted fields.</li>
-<li>Fixed template testing failures caused by overly strict validation of AI response audit logs. Processing now correctly succeeds when all required fields are extracted.</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.06.dmg" length="43090620" type="application/octet-stream" sparkle:edSignature="sjsk+jjanqvUfnqw3ICq43dWxqat3djjAD83jn3VAsZINFHFeHylmMpCsXlE5ZoVYrA/og5lXWUfbCo0TgQ5Dg=="/>
-        </item>
-        <item>
             <title>2.0.47</title>
-            <pubDate>Tue, 09 Dec 2025 11:21:40 +0100</pubDate>
+            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
             <sparkle:version>212</sparkle:version>
             <sparkle:shortVersionString>2.0.47</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -76,7 +72,7 @@
         </item>
         <item>
             <title>2.0.46</title>
-            <pubDate>Tue, 09 Dec 2025 11:21:40 +0100</pubDate>
+            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
             <sparkle:version>210</sparkle:version>
             <sparkle:shortVersionString>2.0.46</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -91,7 +87,7 @@
         </item>
         <item>
             <title>2.0.45</title>
-            <pubDate>Tue, 09 Dec 2025 11:21:40 +0100</pubDate>
+            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
             <sparkle:version>209</sparkle:version>
             <sparkle:shortVersionString>2.0.45</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
