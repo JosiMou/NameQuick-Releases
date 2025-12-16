@@ -4,7 +4,7 @@
         <title>NameQuick</title>
         <item>
             <title>2.10.09</title>
-            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
+            <pubDate>Sat, 13 Dec 2025 12:00:00 +0100</pubDate>
             <sparkle:version>223</sparkle:version>
             <sparkle:shortVersionString>2.10.09</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -23,7 +23,7 @@
         </item>
         <item>
             <title>2.10.08</title>
-            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
+            <pubDate>Mon, 09 Dec 2025 12:00:00 +0100</pubDate>
             <sparkle:version>222</sparkle:version>
             <sparkle:shortVersionString>2.10.08</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -36,7 +36,7 @@
         </item>
         <item>
             <title>2.10.07</title>
-            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
+            <pubDate>Sun, 08 Dec 2025 12:00:00 +0100</pubDate>
             <sparkle:version>221</sparkle:version>
             <sparkle:shortVersionString>2.10.07</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -51,7 +51,7 @@
         </item>
         <item>
             <title>2.0.47</title>
-            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
+            <pubDate>Sat, 29 Nov 2025 12:00:00 +0100</pubDate>
             <sparkle:version>212</sparkle:version>
             <sparkle:shortVersionString>2.0.47</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -72,7 +72,7 @@
         </item>
         <item>
             <title>2.0.46</title>
-            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
+            <pubDate>Sat, 29 Nov 2025 11:00:00 +0100</pubDate>
             <sparkle:version>210</sparkle:version>
             <sparkle:shortVersionString>2.0.46</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -87,7 +87,7 @@
         </item>
         <item>
             <title>2.0.45</title>
-            <pubDate>Sat, 13 Dec 2025 21:47:05 +0100</pubDate>
+            <pubDate>Fri, 28 Nov 2025 12:00:00 +0100</pubDate>
             <sparkle:version>209</sparkle:version>
             <sparkle:shortVersionString>2.0.45</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
