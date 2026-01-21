@@ -3,8 +3,41 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.11.05</title>
+            <pubDate>Wed, 21 Jan 2026 19:11:41 +0100</pubDate>
+            <sparkle:version>235</sparkle:version>
+            <sparkle:shortVersionString>2.11.05</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Release date: 2026-01-21</p>
+<p></p>
+<h2>Bug Fixes</h2>
+<p></p>
+<ul>
+<li>**Subscription credits now display correctly.** Fixed an issue where credits showed as 0 for subscription customers despite having available balance.</li>
+<li>**Shift-click selection works reliably.** File table selection range now behaves correctly when shift-clicking.</li>
+</ul>
+<p></p>
+<h2>Improvements</h2>
+<p></p>
+<ul>
+<li>**Fixed memory leaks during inference.** Resolved memory growth when processing many files.</li>
+<li>**More reliable watch folder processing.** </li>
+<li>**Better handling of large PDFs.** When a PDF exceeds AI provider limits, NameQuick automatically falls back to text extraction.</li>
+<li>**Faster background processing.** Auto-processing skips unnecessary UI updates for smoother performance.</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.05.dmg" length="45045459" type="application/octet-stream" sparkle:edSignature="HV5BuqttbRb7ZLmgee5pQNYBfKWkvaGj3KGb8IiAG5bRF6vkfvdfs4ebw9I0yqrXHbWtIS/g5BWADrUE0l2sBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick235-234.delta" sparkle:deltaFrom="234" length="4097446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="poEhdHNrFGJUiAC5QML82oMRuvdBRRv84rYxIlD9hVVV8H/l5RV3XZ6REQJHuDa3NPp6xjtEpm/JDDdUnir1Bg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick235-231.delta" sparkle:deltaFrom="231" length="4098670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QhPRXyG03C68wvcZnLEW4MWGmdPfFrpFa8xnR7F7OVwxxQi7sotBkhDxSaL3rj6ZM4kGWem3JOMz3oyF+qASAQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick235-229.delta" sparkle:deltaFrom="229" length="4929682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kdOdTUlSkKqvkrjvhTqimI6Oj93dPI2Bs6SQQe6JlMWtW6YRfNrnnDYaQ9T3Vdz+NiD+DF8Fs/7N78uLJgHHCQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick235-228.delta" sparkle:deltaFrom="228" length="5835398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fytEkLP6UuPudlW22k53/2RVpXSYqK3d/uTGgLdX5DRgNmPc9ISA/MDj76dGXbBknbrpiW4J1oxbqn5TWjm/BQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick235-223.delta" sparkle:deltaFrom="223" length="7389334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bARCxx1FpSU0W1BQfUI82Vjf761wf7ij8IFIQlDGGPc5+JJdU/8cj7lsdkTpzZeGkYsqYPm10oOIxrkAp1cVDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.11.04</title>
-            <pubDate>Sat, 17 Jan 2026 13:55:40 +0900</pubDate>
+            <pubDate>Wed, 21 Jan 2026 19:11:41 +0100</pubDate>
             <sparkle:version>234</sparkle:version>
             <sparkle:shortVersionString>2.11.04</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -17,17 +50,10 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.04.dmg" length="44673840" type="application/octet-stream" sparkle:edSignature="Hpi4qqzXHr8YvAjx10uZ121Sw9QvoDHIumy7d3nJd0IkLewpMgAS+OOGsBuOD9hrl0uRV4toNYYJheVNV9pCDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick234-231.delta" sparkle:deltaFrom="231" length="26198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mLlHs3P7tN3us8m2moP3kSPVQ7jlJb27mA1r1FIVfetEM0bYtTccLyUynwKbj1exdlC3ZdR1dRlQNbik8C+pBg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick234-229.delta" sparkle:deltaFrom="229" length="3930158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PhMdlo2BbCtiUG/LWzeCE6N3o2PDF+J71ORl2h4zJxYdkL4cRqjQF9orjVdeoSPhTeVmSnnrJCl209BN0DFBBw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick234-228.delta" sparkle:deltaFrom="228" length="4963942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ta0dfVi2IIT313pAxR72vSJNA1X15IsW0/kEk2ZIaIzPw+whe3cT8I2d7c54NJ0u1Gnxn4iMFwjeB05gPn/RBg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick234-223.delta" sparkle:deltaFrom="223" length="6683394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RSduchT05pzjjd/QYA3f7OZl5SxdXVLD3xl06zGIMC+q8nPmjMru+/aYy0xPshA+jrj5yKRpWDaQs5R4DSUyBg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick234-222.delta" sparkle:deltaFrom="222" length="6689054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tEOFxW4qWd4nYHhczbewxaGkQrnIKpNkik3Kk+4vwa/15OgVWgO/CstEEHe7n6MU2y/3j4dH4DoIqfOSDP0sBA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.11.03</title>
-            <pubDate>Sat, 17 Jan 2026 13:55:40 +0900</pubDate>
+            <pubDate>Wed, 21 Jan 2026 19:11:41 +0100</pubDate>
             <sparkle:version>231</sparkle:version>
             <sparkle:shortVersionString>2.11.03</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -52,36 +78,8 @@
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.03.dmg" length="44673836" type="application/octet-stream" sparkle:edSignature="qaYb90IWUPE0qcflYacmS0ebMG9f2R3i6ON02NY8aEb9Jzk1lQ0maFg93CJPmKx1yyZYJTG1O1IIxNT/Sr9ICw=="/>
         </item>
         <item>
-            <title>2.11.01</title>
-            <pubDate>Sat, 17 Jan 2026 13:55:40 +0900</pubDate>
-            <sparkle:version>229</sparkle:version>
-            <sparkle:shortVersionString>2.11.01</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2025-12-24</p>
-<p></p>
-<h2>Completely Redesigned Settings</h2>
-<p></p>
-<p>Settings has been rebuilt from the ground up with native macOS styling. The new design features a clean sidebar with six organized categories—General, Appearance, Notifications, AI, Processing, and About—making it faster to find what you need.</p>
-<p></p>
-<p>**What's new:**</p>
-<ul>
-<li>**Instant Search** – Press ⌘F to search across all settings. Select a result to jump directly to that setting, highlighted and ready to adjust.</li>
-<li>**Keyboard Navigation** – Use ⌘1 through ⌘6 to jump to any category instantly.</li>
-<li>**Refreshed AI Provider Cards** – Each provider displays its official logo with clear connection status indicators.</li>
-</ul>
-<p></p>
-<h2>Also in This Update</h2>
-<p></p>
-<ul>
-<li>**More List Columns** – Six new column options: Last Viewed, Created Date, Modified Date, File Size, Tags, and Comments. Choose up to 3 to display.</li>
-<li>**API Key Validation Now Tests Real Connectivity** – When you enter an API key for OpenAI, Anthropic, Gemini, or Ollama, NameQuick now verifies it actually works by making a test connection. You'll see clear status indicators showing whether your key is valid, invalid, or if the service is temporarily unavailable.</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.01.dmg" length="44448586" type="application/octet-stream" sparkle:edSignature="sHdPxUl/e0vwesNgltqnxjSVAXA6ZOOyex/PfzUVUMfhPfPAFTOdoh+TxjYUejfa0Dq93vi4murRDRk5wOt9CA=="/>
-        </item>
-        <item>
             <title>2.0.47</title>
-            <pubDate>Sat, 17 Jan 2026 13:55:40 +0900</pubDate>
+            <pubDate>Wed, 21 Jan 2026 19:11:40 +0100</pubDate>
             <sparkle:version>212</sparkle:version>
             <sparkle:shortVersionString>2.0.47</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -102,7 +100,7 @@
         </item>
         <item>
             <title>2.0.46</title>
-            <pubDate>Sat, 17 Jan 2026 13:55:40 +0900</pubDate>
+            <pubDate>Wed, 21 Jan 2026 19:11:40 +0100</pubDate>
             <sparkle:version>210</sparkle:version>
             <sparkle:shortVersionString>2.0.46</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -117,7 +115,7 @@
         </item>
         <item>
             <title>2.0.45</title>
-            <pubDate>Sat, 17 Jan 2026 13:55:40 +0900</pubDate>
+            <pubDate>Wed, 21 Jan 2026 19:11:40 +0100</pubDate>
             <sparkle:version>209</sparkle:version>
             <sparkle:shortVersionString>2.0.45</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
