@@ -1,0 +1,25 @@
+<p>Release date: 2026-01-27</p>
+<p></p>
+<h2>New</h2>
+<p></p>
+<ul>
+<li>**Per-field required/optional settings.** Each extraction field now has its own required/optional dropdown, replacing the global toggle. This gives you precise control over which fields must have values for a rename to proceed.</li>
+<li>**In-app update notifications.** A banner now appears when an update is available, with quick access to install or view the changelog.</li>
+</ul>
+<p></p>
+<h2>Improvements</h2>
+<p></p>
+<ul>
+<li>**Redesigned AI provider cards.** Provider cards now use accordion behavior—expanding one collapses others. Selection is integrated directly into each card, and the app auto-selects a valid provider when you save a new API key.</li>
+<li>**More reliable watch folder processing.** Files added during brief monitoring pauses are now caught by a follow-up scan.</li>
+</ul>
+<p></p>
+<h2>Bug Fixes</h2>
+<p></p>
+<ul>
+<li>**First file no longer blocked on startup.** Fixed a race condition where the first file detected after launch could be permanently blocked while license validation completed.</li>
+<li>**Fixed memory leaks during image loading.** Resolved memory growth when viewing many images.</li>
+<li>**Fixed memory leak in file monitoring.** Addressed a leak that could occur during rename operations.</li>
+<li>**Local provider status updates correctly.** The connection indicator now reflects actual status changes in real time.</li>
+<li>**Template field handling is more reliable.** Fixed issues with required field detection, field deletion cleanup, and separator handling.</li>
+</ul>
