@@ -3,8 +3,35 @@
     <channel>
         <title>NameQuick</title>
         <item>
+            <title>2.11.10</title>
+            <pubDate>Wed, 28 Jan 2026 13:51:08 +0100</pubDate>
+            <sparkle:version>242</sparkle:version>
+            <sparkle:shortVersionString>2.11.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Release date: 2026-01-28</p>
+<p></p>
+<h2>Bug Fixes</h2>
+<p></p>
+<ul>
+<li>**BYOK license no longer lost after Keychain hiccups.** Temporary Keychain access issues no longer clear your saved API keys.</li>
+<li>**Offline startup works with newer subscription plans.** No longer requires an internet connection on every launch.</li>
+<li>**Onboarding shows accurate key status.** Setup flow correctly reflects when keys are actually usable.</li>
+<li>**File list updates more reliably.** Changes to tags and metadata now refresh immediately.</li>
+<li>**Fixed additional memory leaks.**</li>
+</ul>
+]]></description>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.10.dmg" length="45466942" type="application/octet-stream" sparkle:edSignature="8L+EH2sjWSs3oJ5iMlsV/q24ADCE14Uzf/KHlNEgBhT6bWiLKO+TcUjbrw81s89uMvSJ4g2z7eJ9LXl1HwhOAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick242-239.delta" sparkle:deltaFrom="239" length="2813102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5RczfxW4ANq8og64B3xEDmJtbiqGV/k6BLH5moGt2DNtTT+pefWzLgCg54BfkNiVGuFyb8KYUlMYMBFsae87BA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick242-237.delta" sparkle:deltaFrom="237" length="4327030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="x9xPW0mzuwgnxBph/tcufw7llTi6yeLPCISwBuV0jZRUM/AVhOEVrv1z3Ve+TYQnKDmliBO08slCHK/S11O2Dw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick242-236.delta" sparkle:deltaFrom="236" length="5098262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OFbWeBukSzH9UbCbBtah+Qp/EBN8L64IdaM2NeQdf58trQGrjCIrHcq0xo5U4c+7wqVIxvCxYQOAw2u1nzMGDw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick242-235.delta" sparkle:deltaFrom="235" length="5360334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3K5NZuKnjDSSovnNVJQV+1uoZoNxBDu3uQkPLj2GBeyL9+PYT/DdidlbvXSKfYNOW2PZ335sGzEil8dlQip3Bg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick242-234.delta" sparkle:deltaFrom="234" length="6120494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ffDMuSdzPSu72JksJ2sWHEt/dELHkyutTJUPAxNCr5ZPFgbJVpuhBu0ewC2glLyKk8RPMaYHe3s1iDCB/X9ZCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.11.09</title>
-            <pubDate>Tue, 27 Jan 2026 18:06:31 +0100</pubDate>
+            <pubDate>Wed, 28 Jan 2026 13:51:08 +0100</pubDate>
             <sparkle:version>239</sparkle:version>
             <sparkle:shortVersionString>2.11.09</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -35,17 +62,10 @@
 </ul>
 ]]></description>
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.09.dmg" length="45487828" type="application/octet-stream" sparkle:edSignature="hbRYLxYyblUcrZfTTA/z2iIv02iaIRvAXPXOabE0oK1bvdJm9lepkPJkUqkNY8PhQGd11pCFZeMuTEaC/A9VCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick239-237.delta" sparkle:deltaFrom="237" length="4206438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zc+Vxknh8WR0v/FpEIMucFYoN2F53yy+VRJ3vKjPOtziW0ucUKabWGuMGa4SgHkiijYQsOowxPwMRr4huBo7AQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick239-236.delta" sparkle:deltaFrom="236" length="5022346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eOjfM1jtkTZUwZ6Fj1he8k2E2cjCFGrnshqS1aPbWHc+pZh4g3DDAIC/nw2yLvhYBrvzZmjftwzvA3PGHDYzDg=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick239-235.delta" sparkle:deltaFrom="235" length="5273566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Pft2v/igmNNnjppc8gTzimv64s2N+VYy9X80prie96rpQoWMvT3iHQZjbL492TLHBdFg03DxDLS7HyFzdAF9AA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick239-234.delta" sparkle:deltaFrom="234" length="6049846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+u/xE0jdceZshHqOJcYqo2elrMeNrafHG2ANVkOkurbFl93b26dvSoAwVIz3ONH2PRC02PisOlzU1u3Nm6poDA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick239-231.delta" sparkle:deltaFrom="231" length="6052642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pNbRWxYGPgyvBHEBPkrBdwGrPOvoXq+nwPyy2yNBUAfi4HC+FVieUdox+kUTl1s4MwjsDSNWCjctgs6zhLjgDA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.11.07</title>
-            <pubDate>Tue, 27 Jan 2026 18:06:30 +0100</pubDate>
+            <pubDate>Wed, 28 Jan 2026 13:51:08 +0100</pubDate>
             <sparkle:version>237</sparkle:version>
             <sparkle:shortVersionString>2.11.07</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -67,32 +87,8 @@
             <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.07.dmg" length="45396714" type="application/octet-stream" sparkle:edSignature="5ZW2KjO0eAjtF1R6D6um5Py2EhnVHOkRkp3czQYPH12Dby1i4te1NCniOBvw4AIB9qFhvdzeYICB30rP4BS3DA=="/>
         </item>
         <item>
-            <title>2.11.06</title>
-            <pubDate>Tue, 27 Jan 2026 18:06:30 +0100</pubDate>
-            <sparkle:version>236</sparkle:version>
-            <sparkle:shortVersionString>2.11.06</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-01-22</p>
-<p></p>
-<h2>Improvements</h2>
-<p></p>
-<ul>
-<li>**Local text-only models now work with text PDFs.** Ollama and LM Studio text-only models can process PDFs that contain extractable text. Clear error messages appear when a vision model is needed for images or scanned PDFs.</li>
-<li>**Quick access to support email.** Help menu and Settings now include direct links to reach support.</li>
-</ul>
-<p></p>
-<h2>Bug Fixes</h2>
-<p></p>
-<ul>
-<li>**SVG files process correctly for subscription users.** Fixed an issue where SVG, AI, and EPS files failed when processed through the subscription path.</li>
-<li>**Rules action editors stay visible.** Tag and comment action editors no longer disappear unexpectedly. Archive folder picker now correctly shows the base folder with relative path.</li>
-</ul>
-]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.06.dmg" length="45084950" type="application/octet-stream" sparkle:edSignature="292s6AjLOZt0sgpPVHQ7sQaZQbk8DrJK2p2TMcnxGyWrXeCGsZ0NzI3DJJ7QFvVzGg4HhmX3r0C775P4RHBBDg=="/>
-        </item>
-        <item>
             <title>2.0.47</title>
-            <pubDate>Tue, 27 Jan 2026 18:06:30 +0100</pubDate>
+            <pubDate>Wed, 28 Jan 2026 13:51:08 +0100</pubDate>
             <sparkle:version>212</sparkle:version>
             <sparkle:shortVersionString>2.0.47</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -113,7 +109,7 @@
         </item>
         <item>
             <title>2.0.46</title>
-            <pubDate>Tue, 27 Jan 2026 18:06:30 +0100</pubDate>
+            <pubDate>Wed, 28 Jan 2026 13:51:08 +0100</pubDate>
             <sparkle:version>210</sparkle:version>
             <sparkle:shortVersionString>2.0.46</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -128,7 +124,7 @@
         </item>
         <item>
             <title>2.0.45</title>
-            <pubDate>Tue, 27 Jan 2026 18:06:30 +0100</pubDate>
+            <pubDate>Wed, 28 Jan 2026 13:51:08 +0100</pubDate>
             <sparkle:version>209</sparkle:version>
             <sparkle:shortVersionString>2.0.45</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
