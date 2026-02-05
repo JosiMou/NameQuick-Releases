@@ -1,8 +1,30 @@
-<p># v2.11.12</p>
+<p>Release date: 2026-02-05</p>
 <p></p>
-<h2>Features</h2>
-<p>-</p>
+<h2>New</h2>
 <p></p>
-<h2>Fixes</h2>
-<p>-</p>
+<ul>
+<li>**OpenRouter is now available as a BYOK provider.** Bring your own OpenRouter API key to access hundreds of models from a single provider.</li>
+<li>**Presets sort alphabetically.** The Presets list (formerly "Custom Prompts") now sorts A–Z by default for easier browsing.</li>
+</ul>
 <p></p>
+<h2>Improvements</h2>
+<p></p>
+<ul>
+<li>**Japanese and CJK filenames no longer get mangled.** Smart rename no longer inserts separators between every character in CJK output.</li>
+<li>**Expired BYOK trials stay usable.** An expired trial no longer hard-blocks the app — you can still browse files and explore before upgrading.</li>
+<li>**Faster, more reliable startup.** The processing queue now waits for licensing to settle before draining, eliminating false "not licensed" errors on launch.</li>
+<li>**Template test-and-apply is more reliable.** Applying a naming template from the preview now respects rename filters and handles security scopes correctly.</li>
+</ul>
+<p></p>
+<h2>Bug Fixes</h2>
+<p></p>
+<ul>
+<li>**Keychain lock no longer stalls processing.** If your Mac's Keychain is locked, NameQuick now shows a clear message and defers work instead of silently failing.</li>
+<li>**Legacy Keychain entries cleaned up on key removal.** Deleting an API key now removes older duplicate entries that could cause ghost authentications.</li>
+<li>**Drag-and-drop recognizes existing files again.** Dropping a file that's already in the library no longer creates a duplicate.</li>
+<li>**Ollama base URL saved correctly.** Custom Ollama endpoints are no longer silently reset.</li>
+<li>**HUD notifications no longer loop.** Fixed a re-entrancy issue that could cause the notification banner to flash repeatedly.</li>
+<li>**License status in About window is accurate.** The About panel now reads from the canonical license source instead of a stale cache.</li>
+<li>**Checkout identity preserved across sessions.** Your customer identity no longer resets when switching between subscription and BYOK flows.</li>
+<li>**Trial status pill loads on resume.** Reopening the app no longer shows a stale credit count.</li>
+</ul>

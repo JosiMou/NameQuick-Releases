@@ -4,20 +4,42 @@
         <title>NameQuick</title>
         <item>
             <title>2.11.12</title>
-            <pubDate>Thu, 05 Feb 2026 22:58:18 +0100</pubDate>
+            <pubDate>Thu, 05 Feb 2026 23:05:26 +0100</pubDate>
             <sparkle:version>245</sparkle:version>
             <sparkle:shortVersionString>2.11.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p># v2.11.12</p>
+            <description><![CDATA[<p>Release date: 2026-02-05</p>
 <p></p>
-<h2>Features</h2>
-<p>-</p>
+<h2>New</h2>
 <p></p>
-<h2>Fixes</h2>
-<p>-</p>
+<ul>
+<li>**OpenRouter is now available as a BYOK provider.** Bring your own OpenRouter API key to access hundreds of models from a single provider.</li>
+<li>**Presets sort alphabetically.** The Presets list (formerly "Custom Prompts") now sorts A–Z by default for easier browsing.</li>
+</ul>
 <p></p>
+<h2>Improvements</h2>
+<p></p>
+<ul>
+<li>**Japanese and CJK filenames no longer get mangled.** Smart rename no longer inserts separators between every character in CJK output.</li>
+<li>**Expired BYOK trials stay usable.** An expired trial no longer hard-blocks the app — you can still browse files and explore before upgrading.</li>
+<li>**Faster, more reliable startup.** The processing queue now waits for licensing to settle before draining, eliminating false "not licensed" errors on launch.</li>
+<li>**Template test-and-apply is more reliable.** Applying a naming template from the preview now respects rename filters and handles security scopes correctly.</li>
+</ul>
+<p></p>
+<h2>Bug Fixes</h2>
+<p></p>
+<ul>
+<li>**Keychain lock no longer stalls processing.** If your Mac's Keychain is locked, NameQuick now shows a clear message and defers work instead of silently failing.</li>
+<li>**Legacy Keychain entries cleaned up on key removal.** Deleting an API key now removes older duplicate entries that could cause ghost authentications.</li>
+<li>**Drag-and-drop recognizes existing files again.** Dropping a file that's already in the library no longer creates a duplicate.</li>
+<li>**Ollama base URL saved correctly.** Custom Ollama endpoints are no longer silently reset.</li>
+<li>**HUD notifications no longer loop.** Fixed a re-entrancy issue that could cause the notification banner to flash repeatedly.</li>
+<li>**License status in About window is accurate.** The About panel now reads from the canonical license source instead of a stale cache.</li>
+<li>**Checkout identity preserved across sessions.** Your customer identity no longer resets when switching between subscription and BYOK flows.</li>
+<li>**Trial status pill loads on resume.** Reopening the app no longer shows a stale credit count.</li>
+</ul>
 ]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.12.dmg" length="46120496" type="application/octet-stream" sparkle:edSignature="7mLAVbDumcNHV9azGJVEh3Ta7fTeBGM8q0CkJj4vYayjX/7msiJ4567sLruaqeIjKPy1DtHiA2s4IcoaujyrDA=="/>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.12.dmg" length="46120508" type="application/octet-stream" sparkle:edSignature="3CAlyBsizeGO4qSPtTTD6GPRXDFA52KHnNzG0r2S8QNEc3aCVSR76ymt0dZ9VqhyPKmx8ZaRBUTmLRSe8WMXCA=="/>
             <sparkle:deltas>
                 <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick245-243.delta" sparkle:deltaFrom="243" length="4882462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uKkMLAaOwSjR7pzGWCvYVui8NoiYQ9diYxR8FIG/IlAYQHBG5bab+BSenPasVfh6FT+7aAdVkjZzAwbQ85DVCg=="/>
                 <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick245-242.delta" sparkle:deltaFrom="242" length="5681430" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6u6pP1CyCKkEe0FOa4/4caHhaGURETe3HxvaHRpHPKzYyk8pImkyfboJwxYCIfvrxd6v2/1Dd96DQqdDXLHeCw=="/>
@@ -28,7 +50,7 @@
         </item>
         <item>
             <title>2.11.11</title>
-            <pubDate>Thu, 05 Feb 2026 22:58:18 +0100</pubDate>
+            <pubDate>Thu, 05 Feb 2026 23:05:26 +0100</pubDate>
             <sparkle:version>243</sparkle:version>
             <sparkle:shortVersionString>2.11.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -44,7 +66,7 @@
         </item>
         <item>
             <title>2.11.10</title>
-            <pubDate>Thu, 05 Feb 2026 22:58:18 +0100</pubDate>
+            <pubDate>Thu, 05 Feb 2026 23:05:25 +0100</pubDate>
             <sparkle:version>242</sparkle:version>
             <sparkle:shortVersionString>2.11.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
@@ -64,7 +86,7 @@
         </item>
         <item>
             <title>2.0.47</title>
-            <pubDate>Thu, 05 Feb 2026 22:58:16 +0100</pubDate>
+            <pubDate>Thu, 05 Feb 2026 23:05:25 +0100</pubDate>
             <sparkle:version>212</sparkle:version>
             <sparkle:shortVersionString>2.0.47</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -85,7 +107,7 @@
         </item>
         <item>
             <title>2.0.46</title>
-            <pubDate>Thu, 05 Feb 2026 22:58:16 +0100</pubDate>
+            <pubDate>Thu, 05 Feb 2026 23:05:25 +0100</pubDate>
             <sparkle:version>210</sparkle:version>
             <sparkle:shortVersionString>2.0.46</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
@@ -100,7 +122,7 @@
         </item>
         <item>
             <title>2.0.45</title>
-            <pubDate>Thu, 05 Feb 2026 22:58:16 +0100</pubDate>
+            <pubDate>Thu, 05 Feb 2026 23:05:25 +0100</pubDate>
             <sparkle:version>209</sparkle:version>
             <sparkle:shortVersionString>2.0.45</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
