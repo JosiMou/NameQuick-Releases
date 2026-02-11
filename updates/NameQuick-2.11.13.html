@@ -1,0 +1,28 @@
+<p>Release date: 2026-02-10</p>
+<p></p>
+<h2>New</h2>
+<p></p>
+<ul>
+<li>**Metadata results are now more consistent across AI providers.** Filename, tags, and description generation now behaves more predictably when you switch between supported providers.</li>
+<li>**The update banner now includes a full "What's New" view.** You can expand details in-app, review highlights, and choose to install now or be reminded later.</li>
+</ul>
+<p></p>
+<h2>Improvements</h2>
+<p></p>
+<ul>
+<li>**Metadata handling is more reliable when AI responses are incomplete.** NameQuick now recovers more often instead of failing, and continues with filename-only output when needed.</li>
+<li>**Template placeholders are more reliable across languages and regions.** Date placeholders are more stable, and field matching now handles accented characters more accurately.</li>
+<li>**Network error handling is faster and more resilient.** Temporary connection failures are detected earlier so stuck AI runs recover faster.</li>
+<li>**PDF processing now defaults to fewer pages.** The default limit moved from 15 pages to 5 to keep processing faster and reduce unnecessary usage.</li>
+</ul>
+<p></p>
+<h2>Bug Fixes</h2>
+<p></p>
+<ul>
+<li>**Fixed credit balances resetting unexpectedly after sync.** Your balance now stays stable during normal account refreshes.</li>
+<li>**Fixed several edge cases where metadata fallback could behave inconsistently.** Recovery behavior is now more predictable when a provider response fails mid-flow.</li>
+<li>**Fixed provider-specific metadata request issues for OpenRouter and Gemini.** Metadata generation now succeeds more reliably in those paths.</li>
+<li>**Fixed free-form naming output that could alter intended punctuation.** Meaningful hyphens are now preserved.</li>
+<li>**Fixed BYOK trial and account identity continuity issues.** Access state and account identity now remain consistent across sessions and account transitions.</li>
+<li>**Fixed update banner state and release-notes parsing issues.** Update details now display more reliably in different feed formats.</li>
+</ul>
