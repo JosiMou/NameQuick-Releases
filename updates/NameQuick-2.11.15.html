@@ -1,0 +1,70 @@
+<p>Release date: 2026-04-01</p>
+<h2 id="new">New</h2>
+<ul>
+<li><strong>A new onboarding flow helps you get to your first working
+setup faster.</strong> First-run guidance is more structured and does a
+better job walking you through permissions, setup, and template
+creation.</li>
+<li><strong>Build custom prompts and templates in chat.</strong> You can
+now create and refine naming setups through a more conversational
+chat-first flow instead of configuring everything manually upfront.</li>
+<li><strong>LM Studio models can be loaded in-app.</strong> Browse,
+load, and manage LM Studio models without leaving NameQuick.</li>
+<li><strong>File dates are available as template fallback
+values.</strong> Use created, modified, or accessed dates when a
+document is missing stronger metadata.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Presets and Rules have a redesigned editing
+experience.</strong> The updated split-view layout, inspector, and
+editor workspace make it easier to browse presets, edit rules, and
+refine naming behavior.</li>
+<li><strong>Creating templates in chat feels more guided and
+reliable.</strong> Activation, onboarding, and follow-up guidance now
+lead you more cleanly from first prompt to saved template.</li>
+<li><strong>AI model lists are now more up to date across
+providers.</strong> OpenAI, Gemini, and Claude now show newer supported
+models, and older saved selections are moved forward automatically when
+needed.</li>
+<li><strong>Template editing is more resilient when fields, patterns,
+and rules change together.</strong> Pattern updates, cleanup rules,
+placeholders, and reorder operations now stay in sync more
+reliably.</li>
+<li><strong>Unexpected AI output is handled more gracefully.</strong>
+NameQuick recovers more often, preserves valid filename output more
+accurately, and explains failures more clearly when a response cannot be
+used.</li>
+<li><strong>The update experience is easier to review in-app.</strong>
+Release notes and update details display more reliably in the banner and
+updater flow.</li>
+<li><strong>Local model and provider flows are more
+predictable.</strong> Selected-model behavior, provider routing, and
+local-model release handoffs now behave more consistently.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed a licensing regression that could show the wrong trial
+or credit state after relaunch.</strong> Customer portal links and
+licensing details now stay in sync more reliably.</li>
+<li><strong>Fixed false filename parse failures for valid bracketed or
+brace-prefixed names.</strong> Outputs like <code>[Draft]</code>,
+<code>[]</code>, or <code>{Draft:Q1}</code> are no longer misclassified
+as broken JSON.</li>
+<li><strong>Fixed onboarding and coachmark handoff bugs that could leave
+guidance stuck or out of sync.</strong> Presets, chat, and setup
+transitions now complete more reliably.</li>
+<li><strong>Fixed stale navigation writes during activation
+flows.</strong> Route handoffs no longer complete on the wrong surface
+when an older activation step fires late.</li>
+<li><strong>Fixed several edge cases in template patching and rule
+editing.</strong> Remove, reorder, duplicate-name, and preserve-mode
+operations now behave more consistently.</li>
+<li><strong>Fixed process and timeout cleanup issues when external tools
+spawn child processes.</strong> Processing is more reliable and less
+likely to leave stuck or interrupted work behind.</li>
+<li><strong>Fixed invalid-output and metadata fallback issues across
+providers.</strong> Valid AI responses are less likely to be rejected,
+and retry behavior is more consistent when a provider fails
+mid-run.</li>
+</ul>

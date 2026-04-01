@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-04-01T14:36:09.742208Z",
+  "generatedAt": "2026-04-01T18:55:50.731101Z",
   "releases": [
+    {
+      "version": "2.11.15",
+      "build": "260",
+      "title": "NameQuick 2.11.15",
+      "publishedAt": "2026-04-01T00:00:00Z",
+      "downloadUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.15.dmg",
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.15.html",
+      "excerpt": "A new onboarding flow helps you get to your first working setup faster. First-run guidance is more structured and does a better job walking you through permissions, setup, and template creation.",
+      "highlights": [
+        "A new onboarding flow helps you get to your first working setup faster. First-run guidance is more structured and does a better job walking you through permissions, setup, and template creation.",
+        "Build custom prompts and templates in chat. You can now create and refine naming setups through a more conversational chat-first flow instead of configuring everything manually upfront.",
+        "LM Studio models can be loaded in-app. Browse, load, and manage LM Studio models without leaving NameQuick.",
+        "File dates are available as template fallback values. Use created, modified, or accessed dates when a document is missing stronger metadata."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.14",
       "build": "258",
@@ -15,7 +31,7 @@
         "LM Studio models can be loaded in-app. Browse, load, and manage LM Studio models without leaving NameQuick.",
         "File dates are available as template fallback values. Use created, modified, or accessed dates when a document is missing stronger metadata."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.13",
