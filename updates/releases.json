@@ -1,6 +1,38 @@
 {
-  "generatedAt": "2026-04-01T18:55:50.731101Z",
+  "generatedAt": "2026-04-10T13:58:05.571300Z",
   "releases": [
+    {
+      "version": "2.11.17",
+      "build": "270",
+      "title": "NameQuick 2.11.17",
+      "publishedAt": "2026-04-10T00:00:00Z",
+      "downloadUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.17.dmg",
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.17.html",
+      "excerpt": "Improved account and license syncing reliability. NameQuick now uses an updated backend path for customer access and license checks.",
+      "highlights": [
+        "Improved account and license syncing reliability. NameQuick now uses an updated backend path for customer access and license checks.",
+        "Existing paid access restores more consistently. Subscription state, customer lookups, and usage syncing now run through the updated licensing flow.",
+        "Improved security around billing and licensing infrastructure. Sensitive billing credentials are now handled entirely server-side.",
+        "Updated release tooling for the new licensing flow. Internal build and support scripts now align with the backend-managed path."
+      ],
+      "isLatest": true
+    },
+    {
+      "version": "2.11.16",
+      "build": "268",
+      "title": "NameQuick 2.11.16",
+      "publishedAt": "2026-04-05T00:00:00Z",
+      "downloadUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.16.dmg",
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.16.html",
+      "excerpt": "License and access state now recover more cleanly after checkout, restore, and relaunch. NameQuick does a better job carrying your activation state forward without requiring extra cleanup from you.",
+      "highlights": [
+        "License and access state now recover more cleanly after checkout, restore, and relaunch. NameQuick does a better job carrying your activation state forward without requiring extra cleanup from you.",
+        "BYOK access feels more reliable across trial and paid states. The app now keeps the right access path and avoids drifting into the wrong upgrade or billing flow.",
+        "Onboarding progress stays in sync more consistently. Reopening the app is less likely to leave setup guidance out of step with where you actually are.",
+        "Quick actions and toolbar status feel steadier during a session. Popovers, action states, and startup UI now behave more predictably."
+      ],
+      "isLatest": false
+    },
     {
       "version": "2.11.15",
       "build": "260",
@@ -15,7 +47,7 @@
         "LM Studio models can be loaded in-app. Browse, load, and manage LM Studio models without leaving NameQuick.",
         "File dates are available as template fallback values. Use created, modified, or accessed dates when a document is missing stronger metadata."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.14",
