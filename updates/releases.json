@@ -1,9 +1,25 @@
 {
-  "generatedAt": "2026-04-10T13:58:05.571300Z",
+  "generatedAt": "2026-04-19T12:33:13.632594Z",
   "releases": [
     {
+      "version": "2.11.18",
+      "build": "275",
+      "title": "NameQuick 2.11.18",
+      "publishedAt": "2026-04-19T00:00:00Z",
+      "downloadUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.18.dmg",
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.18.html",
+      "excerpt": "Managed plan upgrades now feel more direct and clearer. When you run out of credits on a managed plan, NameQuick can guide you through upgrading with clearer billing choices and more localized pricing details.",
+      "highlights": [
+        "Managed plan upgrades now feel more direct and clearer. When you run out of credits on a managed plan, NameQuick can guide you through upgrading with clearer billing choices and more localized pricing details.",
+        "Account, license, and access state stay in sync more reliably. Startup, checkout, restore, and relaunch flows are less likely to leave the app showing the wrong access state.",
+        "BYOK and managed access paths are handled more consistently. NameQuick does a better job keeping trial, paid, and managed states on the right path instead of drifting into the wrong upgrade or billing flow.",
+        "Billing and upgrade screens are easier to understand. Pricing, confirmation, and plan selection around subscription changes now feel more explicit and less guessy."
+      ],
+      "isLatest": true
+    },
+    {
       "version": "2.11.17",
-      "build": "270",
+      "build": "272",
       "title": "NameQuick 2.11.17",
       "publishedAt": "2026-04-10T00:00:00Z",
       "downloadUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.17.dmg",
@@ -15,7 +31,7 @@
         "Improved security around billing and licensing infrastructure. Sensitive billing credentials are now handled entirely server-side.",
         "Updated release tooling for the new licensing flow. Internal build and support scripts now align with the backend-managed path."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.16",

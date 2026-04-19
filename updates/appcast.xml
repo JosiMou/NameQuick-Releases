@@ -3,38 +3,60 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.17</title>
-            <pubDate>Fri, 10 Apr 2026 15:55:28 +0200</pubDate>
-            <sparkle:version>270</sparkle:version>
-            <sparkle:shortVersionString>2.11.17</sparkle:shortVersionString>
+            <title>2.11.18</title>
+            <pubDate>Sun, 19 Apr 2026 14:30:25 +0200</pubDate>
+            <sparkle:version>275</sparkle:version>
+            <sparkle:shortVersionString>2.11.18</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-04-10</p>
+            <description><![CDATA[<p>Release date: 2026-04-19</p>
+<h2 id="new">New</h2>
+<ul>
+<li><strong>Managed plan upgrades now feel more direct and
+clearer.</strong> When you run out of credits on a managed plan,
+NameQuick can guide you through upgrading with clearer billing choices
+and more localized pricing details.</li>
+</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Improved account and license syncing reliability.</strong>
-NameQuick now uses an updated backend path for customer access and
-license checks.</li>
-<li><strong>Existing paid access restores more consistently.</strong>
-Subscription state, customer lookups, and usage syncing now run through
-the updated licensing flow.</li>
+<li><strong>Account, license, and access state stay in sync more
+reliably.</strong> Startup, checkout, restore, and relaunch flows are
+less likely to leave the app showing the wrong access state.</li>
+<li><strong>BYOK and managed access paths are handled more
+consistently.</strong> NameQuick does a better job keeping trial, paid,
+and managed states on the right path instead of drifting into the wrong
+upgrade or billing flow.</li>
+<li><strong>Billing and upgrade screens are easier to
+understand.</strong> Pricing, confirmation, and plan selection around
+subscription changes now feel more explicit and less guessy.</li>
+<li><strong>Onboarding and license guidance feel steadier during
+setup.</strong> Status surfaces, follow-up prompts, and related UI
+handoffs behave more consistently as the app catches up to your real
+account state.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Improved security around billing and licensing
-infrastructure.</strong> Sensitive billing credentials are now handled
-entirely server-side.</li>
-<li><strong>Updated release tooling for the new licensing flow.</strong>
-Internal build and support scripts now align with the backend-managed
-path.</li>
+<li><strong>Fixed cases where checkout or restore could leave access
+looking wrong until the app recovered.</strong> Licensing state now
+converges more reliably after post-purchase handoffs.</li>
+<li><strong>Fixed paid upgrade edge cases around managed
+subscriptions.</strong> Subscription changes are less likely to route
+through the wrong path or show incomplete billing context.</li>
+<li><strong>Fixed launch-time state mismatches between account identity,
+entitlement state, and visible UI.</strong> The app is less likely to
+land on the wrong surface or show stale licensing information on
+open.</li>
+<li><strong>Fixed a set of onboarding and popover timing
+issues.</strong> Guidance is less likely to appear out of step, get
+stuck, or point at the wrong moment during setup.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.17.dmg" length="52039796" type="application/octet-stream" sparkle:edSignature="QDWPIvUaha2ztv+KQ1bN39HGavAlQSW1xX4IWmKxzJMqw8vOXtDlFOD61Z8wK1M4nStK9APerAt6dC1DRUtEBg=="/>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.18.dmg" length="53952367" type="application/octet-stream" sparkle:edSignature="3b7ztYC8Q76Za1JnFxSKUsm3U6rw2G/m0YrfFLeQ2btMLDuLCtKJRwTyufAif74p3+3b8K2JDKKG+vyuZmmOBA=="/>
             <sparkle:deltas>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick270-268.delta" sparkle:deltaFrom="268" length="5247846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xGXLuAMfrAfoA8aPmpD0BxN1NoK88xI0XWSbmASEk2KLw3luw4pj/jraFVBhZSXQqX5FHCkwrnE93TNPKgk9AQ=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick270-260.delta" sparkle:deltaFrom="260" length="8442197" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1S/w3Y8yrmkvyJ2nKxB6NSvNkNMQFI2P6hi+rJ9DGv4gPtQtAiBv/aA2fUDMI8IA7jlxiVkP7nxVRIomc3aGBA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick270-258.delta" sparkle:deltaFrom="258" length="8664591" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oN5BjQxF5ZQKD7kBIolpX+X+FjVCYuwHyWO2LMfhFHBkVoDs/QuIPijKXO6QyA5qRhMLEhkH/35IuURCvSzyDA=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick270-250.delta" sparkle:deltaFrom="250" length="17916436" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="were0Dx37A1iMu+magiwog8ktN7+BXhlIff3WDdey/dLbueZf8jrv92GzlcZiq6KAXU46sZumSXyEa9lXETbAw=="/>
-                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick270-245.delta" sparkle:deltaFrom="245" length="18364322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U9IRuNfdATRnZ5pxigIW/PXUOwbgMkFrNasrdTO7cDcx5j8SzjLGqYEGNH+mHAmi5/RvvKMJOVQYty7HtV+mAA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick275-272.delta" sparkle:deltaFrom="272" length="7863273" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9Bt+Yid7xloxlJxHJVfnbIuP3GvsOXaEZlal9LGyzUDe1/43USPV9XHd+QvQONGjT7M36DYsQ9mZHH+PbwaXAQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick275-268.delta" sparkle:deltaFrom="268" length="11131243" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3OX/ABXx8w5mt+ZtvuCLWezU3tWXBp6eVPWsB93gbR/hDqKxaP6S+EzJfSvC365DQAT5u7wHAJ8vAaWGudldAQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick275-260.delta" sparkle:deltaFrom="260" length="12394206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XHjfXIjNY1yTJPvBxnJCkDjsjkCzwLAeJOxJiYwcITCNF0+XiM3UM7wDnwnsaO5BWOMwCRACW4LJFYbE8j5vCg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick275-258.delta" sparkle:deltaFrom="258" length="12453714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3RTLvrriDADz1mMt68Vk32x+8B6GGGqwxCIQWnINWaOBV0S0Iz0gE0hH1LL/Is/FBfgyxxrP9zVt56AGGlxVAw=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick275-250.delta" sparkle:deltaFrom="250" length="20495269" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7yQqpUKcyqbcl8hd41Da33BKGSgNn3GStFSQurEHjKVoLeKeyDgm5hYXlZbMVNdyzNzl21oYihOo5y7BL7eZBQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
