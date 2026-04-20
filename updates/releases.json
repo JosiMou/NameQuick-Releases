@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-04-19T12:33:13.632594Z",
+  "generatedAt": "2026-04-20T07:00:07.080806Z",
   "releases": [
+    {
+      "version": "2.11.19",
+      "build": "279",
+      "title": "NameQuick 2.11.19",
+      "publishedAt": "2026-04-19T00:00:00Z",
+      "downloadUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.19.dmg",
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.19.html",
+      "excerpt": "Fixed watch-folder cases where real arrivals could be skipped as too old. Files moved in by automation tools are now recognized more consistently.",
+      "highlights": [
+        "Fixed watch-folder cases where real arrivals could be skipped as too old. Files moved in by automation tools are now recognized more consistently.",
+        "Fixed reconciliation edge cases during monitor stop and restart cycles. Deferred scans and replay behavior now converge more reliably.",
+        "Fixed startup database adoption edge cases across app versions. Launch-time state is less likely to fail when older store paths are present.",
+        "Fixed currency consistency gaps between checkout and paywall flows. Pricing and billing context now stay aligned more reliably."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.18",
       "build": "275",
@@ -15,7 +31,7 @@
         "BYOK and managed access paths are handled more consistently. NameQuick does a better job keeping trial, paid, and managed states on the right path instead of drifting into the wrong upgrade or billing flow.",
         "Billing and upgrade screens are easier to understand. Pricing, confirmation, and plan selection around subscription changes now feel more explicit and less guessy."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.17",
