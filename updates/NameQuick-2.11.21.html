@@ -1,0 +1,17 @@
+<p>Release date: 2026-04-23</p>
+<h2 id="fixed">Fixed</h2>
+<ul>
+<li><strong>Fixed a release packaging issue that could make the app look
+damaged after download.</strong> NameQuick now ships a relocatable MLX
+runtime bundle that passes Gatekeeper checks.</li>
+<li><strong>Fixed website downloads that could return a tiny invalid
+disk image.</strong> Download links now resolve to a valid DMG
+payload.</li>
+</ul>
+<h2 id="polished">Polished</h2>
+<ul>
+<li><strong>Added stricter release validation before publish.</strong>
+The release pipeline now checks MLX runtime symlink safety plus
+<code>codesign --strict</code> and Gatekeeper assessment on the exported
+app.</li>
+</ul>

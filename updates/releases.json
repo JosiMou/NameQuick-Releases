@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-04-20T07:00:07.080806Z",
+  "generatedAt": "2026-04-23T09:55:10.295394Z",
   "releases": [
+    {
+      "version": "2.11.21",
+      "build": "285",
+      "title": "NameQuick 2.11.21",
+      "publishedAt": "2026-04-23T00:00:00Z",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.21/NameQuick-2.11.21.dmg",
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.21.html",
+      "excerpt": "Fixed a release packaging issue that could make the app look damaged after download. NameQuick now ships a relocatable MLX runtime bundle that passes Gatekeeper checks.",
+      "highlights": [
+        "Fixed a release packaging issue that could make the app look damaged after download. NameQuick now ships a relocatable MLX runtime bundle that passes Gatekeeper checks.",
+        "Fixed website downloads that could return a tiny invalid disk image. Download links now resolve to a valid DMG payload.",
+        "Added stricter release validation before publish. The release pipeline now checks MLX runtime symlink safety plus codesign --strict and Gatekeeper assessment on the exported app."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.19",
       "build": "279",
@@ -15,7 +30,7 @@
         "Fixed startup database adoption edge cases across app versions. Launch-time state is less likely to fail when older store paths are present.",
         "Fixed currency consistency gaps between checkout and paywall flows. Pricing and billing context now stay aligned more reliably."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.18",
@@ -915,7 +930,7 @@
       "version": "2.0.13",
       "build": null,
       "title": "NameQuick 2.0.13",
-      "publishedAt": "2025-11-26T19:14:10.993260Z",
+      "publishedAt": "2026-04-23T08:28:01.342145Z",
       "downloadUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.13.dmg",
       "releaseNotesUrl": null,
       "excerpt": null,
@@ -926,7 +941,7 @@
       "version": "2.0.12",
       "build": null,
       "title": "NameQuick 2.0.12",
-      "publishedAt": "2025-11-26T19:14:10.967511Z",
+      "publishedAt": "2026-04-23T08:28:01.342127Z",
       "downloadUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.12.dmg",
       "releaseNotesUrl": null,
       "excerpt": null,
