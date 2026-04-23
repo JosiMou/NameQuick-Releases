@@ -6,7 +6,7 @@
       "build": "283",
       "title": "NameQuick 2.11.20",
       "publishedAt": "2026-04-23T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick/releases/download/v2.11.20/NameQuick-2.11.20.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.20/NameQuick-2.11.20.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.20.html",
       "excerpt": "Added MLX local models in NameQuick. Apple silicon Macs can now download, prepare, and manage MLX models directly in the app.",
       "highlights": [

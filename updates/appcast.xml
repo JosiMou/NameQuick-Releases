@@ -46,7 +46,7 @@ to tell what stays installed and what can be removed to save space.</li>
 exhausted.</strong></li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick/releases/download/v2.11.20/NameQuick-2.11.20.dmg" length="239600208" type="application/octet-stream" sparkle:edSignature="ankZMU4Sf1TSMktVQKd7GwBoRHc3dLZcEKw27mVuYhmLqlIKcoZBGQJO4f+qEymLcw0U+Ru+yZs5lTX8TpzjAw=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.20/NameQuick-2.11.20.dmg" length="239600208" type="application/octet-stream" sparkle:edSignature="ankZMU4Sf1TSMktVQKd7GwBoRHc3dLZcEKw27mVuYhmLqlIKcoZBGQJO4f+qEymLcw0U+Ru+yZs5lTX8TpzjAw=="/>
         </item>
     </channel>
 </rss>
