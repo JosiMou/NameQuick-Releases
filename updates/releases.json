@@ -1,22 +1,6 @@
 {
-  "generatedAt": "2026-04-23T08:26:21.451304Z",
+  "generatedAt": "2026-04-20T07:00:07.080806Z",
   "releases": [
-    {
-      "version": "2.11.20",
-      "build": "283",
-      "title": "NameQuick 2.11.20",
-      "publishedAt": "2026-04-23T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.20/NameQuick-2.11.20.dmg",
-      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.20.html",
-      "excerpt": "Added MLX local models in NameQuick. Apple silicon Macs can now download, prepare, and manage MLX models directly in the app.",
-      "highlights": [
-        "Added MLX local models in NameQuick. Apple silicon Macs can now download, prepare, and manage MLX models directly in the app.",
-        "Made MLX setup and storage behavior more reliable. Model readiness, switching, cleanup, and installed-state handling are more consistent.",
-        "Improved scanned PDF language handling. Image-only and scanned PDFs now preserve source-language detection more reliably when the selected provider supports it.",
-        "Cleaned up common currency spacing in default invoice and receipt presets. Generated filenames stay more consistent without manual cleanup."
-      ],
-      "isLatest": true
-    },
     {
       "version": "2.11.19",
       "build": "279",
@@ -31,7 +15,7 @@
         "Fixed startup database adoption edge cases across app versions. Launch-time state is less likely to fail when older store paths are present.",
         "Fixed currency consistency gaps between checkout and paywall flows. Pricing and billing context now stay aligned more reliably."
       ],
-      "isLatest": false
+      "isLatest": true
     },
     {
       "version": "2.11.18",

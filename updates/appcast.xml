@@ -3,50 +3,36 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.20</title>
-            <pubDate>Thu, 23 Apr 2026 10:25:45 +0200</pubDate>
-            <sparkle:version>283</sparkle:version>
-            <sparkle:shortVersionString>2.11.20</sparkle:shortVersionString>
+            <title>2.11.19</title>
+            <pubDate>Mon, 20 Apr 2026 08:57:20 +0200</pubDate>
+            <sparkle:version>279</sparkle:version>
+            <sparkle:shortVersionString>2.11.19</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-04-23</p>
-<h2 id="improved">Improved</h2>
+            <description><![CDATA[<p>Release date: 2026-04-19</p>
+<h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Added MLX local models in NameQuick.</strong> Apple silicon
-Macs can now download, prepare, and manage MLX models directly in the
-app.</li>
-<li><strong>Made MLX setup and storage behavior more reliable.</strong>
-Model readiness, switching, cleanup, and installed-state handling are
-more consistent.</li>
-<li><strong>Improved scanned PDF language handling.</strong> Image-only
-and scanned PDFs now preserve source-language detection more reliably
-when the selected provider supports it.</li>
-<li><strong>Cleaned up common currency spacing in default invoice and
-receipt presets.</strong> Generated filenames stay more consistent
-without manual cleanup.</li>
-</ul>
-<h2 id="fixed">Fixed</h2>
-<ul>
-<li><strong>Fixed MLX runs that could stall during model switches or
-leave stale installed state behind after delete flows.</strong></li>
-<li><strong>Fixed MLX structured extraction edge cases where valid field
-output could be ignored.</strong></li>
-<li><strong>Fixed preset activation getting stuck behind a missing popup
-and failing to count the first preset in some flows.</strong></li>
-<li><strong>Fixed checkout failures caused by picking a currency the
-selected product did not actually support.</strong></li>
-</ul>
-<h2 id="polished">Polished</h2>
-<ul>
-<li><strong>Prepared large images and scanned PDFs more safely before
-sending them.</strong> This reduces oversized requests and makes
-cancellation more responsive.</li>
-<li><strong>Clarified MLX model delete messaging.</strong> It is easier
-to tell what stays installed and what can be removed to save space.</li>
-<li><strong>Clarified BYOK trial and upgrade messaging after a trial is
-exhausted.</strong></li>
+<li><strong>Fixed watch-folder cases where real arrivals could be
+skipped as too old.</strong> Files moved in by automation tools are now
+recognized more consistently.</li>
+<li><strong>Fixed reconciliation edge cases during monitor stop and
+restart cycles.</strong> Deferred scans and replay behavior now converge
+more reliably.</li>
+<li><strong>Fixed startup database adoption edge cases across app
+versions.</strong> Launch-time state is less likely to fail when older
+store paths are present.</li>
+<li><strong>Fixed currency consistency gaps between checkout and paywall
+flows.</strong> Pricing and billing context now stay aligned more
+reliably.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.20/NameQuick-2.11.20.dmg" length="239600208" type="application/octet-stream" sparkle:edSignature="ankZMU4Sf1TSMktVQKd7GwBoRHc3dLZcEKw27mVuYhmLqlIKcoZBGQJO4f+qEymLcw0U+Ru+yZs5lTX8TpzjAw=="/>
+            <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.19.dmg" length="54182325" type="application/octet-stream" sparkle:edSignature="KaCd2uW0BK0z1NHBCs21kw5gC1EED9JxfOIwELgTFn4xlzew3Q8Tt63O2Vj3FjuAK3oqZqnNaA8RNV8tMyKnDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick279-275.delta" sparkle:deltaFrom="275" length="7472413" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uAh3Y3Tkiwz61arrhA1i27LSGl3hv18Gi6MGBXCqFwOERkgud8AhpbopHjBrrutCtByZ7De1UgwG3Z/ri44yAQ=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick279-272.delta" sparkle:deltaFrom="272" length="8913490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ygY/kf2ZmNmoRHZsFSMe1vHB0corWv462Suici8h6lREG/oZ8i5dauA1F/5DmKzxx4syFs7pFMwDkVA3Z1rKAA=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick279-268.delta" sparkle:deltaFrom="268" length="11835900" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZEHVKwoiuhTMI6JozwBZ0uUKcIOyjq6luqiwibXyNXDujgmTimmPHCdaKe16Va9q/74pj7u/onyPDCpPM0C0Dg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick279-260.delta" sparkle:deltaFrom="260" length="13049453" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nI0M8bKQ/orFQfNaELeNYtRk5mX8YIQGl25+CWfDEnNuzkpVNvvxtvRCBULxJDc+eeOuGJzf2jRrRGl6y6BACg=="/>
+                <enclosure url="https://josimou.github.io/NameQuick-Releases/updates/NameQuick279-258.delta" sparkle:deltaFrom="258" length="13110881" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+NYLiD2DbsnQnhg8nAzM3z5sgiqhR9s6nthNTfzu2Wn75JUqL8UM4mRxan1cHOHiaNNIYkt4cRdg+sy53ynwAA=="/>
+            </sparkle:deltas>
         </item>
     </channel>
 </rss>
