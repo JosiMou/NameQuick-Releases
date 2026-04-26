@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-04-23T09:55:10.295394Z",
+  "generatedAt": "2026-04-26T11:05:23.718542Z",
   "releases": [
+    {
+      "version": "2.11.22",
+      "build": "287",
+      "title": "NameQuick 2.11.22",
+      "publishedAt": "2026-04-26T00:00:00Z",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.22/NameQuick-2.11.22.dmg",
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.22.html",
+      "excerpt": "Refreshed the installer artwork. The drag-to-Applications window now uses updated release packaging art.",
+      "highlights": [
+        "Refreshed the installer artwork. The drag-to-Applications window now uses updated release packaging art.",
+        "Made MLX local model readiness easier to control. NameQuick now has clearer Start, Stop, and Keep Ready behavior, and avoids starting the runtime just because you view settings.",
+        "Made custom template and freeform filenames more reliable. Local filename prompts now use a safer flow that extracts file facts first, then builds filenames from those facts.",
+        "Improved Ollama PDF processing. Difficult PDFs can finish the rename first while optional metadata is handled separately when needed."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.21",
       "build": "285",
@@ -14,7 +30,7 @@
         "Fixed website downloads that could return a tiny invalid disk image. Download links now resolve to a valid DMG payload.",
         "Added stricter release validation before publish. The release pipeline now checks MLX runtime symlink safety plus codesign --strict and Gatekeeper assessment on the exported app."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.19",
