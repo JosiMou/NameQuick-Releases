@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-04-28T11:05:08.017133Z",
+  "generatedAt": "2026-05-02T14:13:08.075474Z",
   "releases": [
+    {
+      "version": "2.11.24",
+      "build": "289",
+      "title": "NameQuick 2.11.24",
+      "publishedAt": "2026-05-02T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.24.html",
+      "excerpt": "Added stronger local AI setup and loading. NameQuick can now install and load local models through more of the provider\u2019s own app experience, including LM Studio, with clearer progress while setup is still running.",
+      "highlights": [
+        "Added stronger local AI setup and loading. NameQuick can now install and load local models through more of the provider\u2019s own app experience, including LM Studio, with clearer progress while setup is still running.",
+        "Added recovery guidance when file details are missing. When a rename request needs information that is not visible in the file, NameQuick can now explain what is missing and suggest a practical next step instead of returning a confusing filename.",
+        "Made local provider setup more reliable. Local AI readiness checks now better distinguish app availability, endpoint health, model status, and runtime state so NameQuick can choose the right recovery path.",
+        "Improved local model downloads. LM Studio downloads now show clearer progress and avoid switching to a local command-line fallback when you are using a remote LM Studio server."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.23",
       "build": "288",
@@ -15,7 +31,7 @@
         "Made local model extraction more resilient. NameQuick can retry structured answers when a local model cuts off or repeats itself, while still rejecting malformed data.",
         "Improved update delivery for larger releases. App downloads and updates are now handled in a way that stays reliable as bundled local AI support grows."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.22",
@@ -53,7 +69,7 @@
       "build": "279",
       "title": "NameQuick 2.11.19",
       "publishedAt": "2026-04-19T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.19.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.19.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.19.html",
       "excerpt": "Fixed watch-folder cases where real arrivals could be skipped as too old. Files moved in by automation tools are now recognized more consistently.",
       "highlights": [
@@ -69,7 +85,7 @@
       "build": "275",
       "title": "NameQuick 2.11.18",
       "publishedAt": "2026-04-19T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.18.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.18.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.18.html",
       "excerpt": "Managed plan upgrades now feel more direct and clearer. When you run out of credits on a managed plan, NameQuick can guide you through upgrading with clearer billing choices and more localized pricing details.",
       "highlights": [
@@ -85,7 +101,7 @@
       "build": "272",
       "title": "NameQuick 2.11.17",
       "publishedAt": "2026-04-10T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.17.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.17.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.17.html",
       "excerpt": "Improved account and license syncing reliability. NameQuick now uses an updated backend path for customer access and license checks.",
       "highlights": [
@@ -101,7 +117,7 @@
       "build": "268",
       "title": "NameQuick 2.11.16",
       "publishedAt": "2026-04-05T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.16.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.16.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.16.html",
       "excerpt": "License and access state now recover more cleanly after checkout, restore, and relaunch. NameQuick does a better job carrying your activation state forward without requiring extra cleanup from you.",
       "highlights": [
@@ -117,7 +133,7 @@
       "build": "260",
       "title": "NameQuick 2.11.15",
       "publishedAt": "2026-04-01T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.15.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.15.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.15.html",
       "excerpt": "A new onboarding flow helps you get to your first working setup faster. First-run guidance is more structured and does a better job walking you through permissions, setup, and template creation.",
       "highlights": [
@@ -133,7 +149,7 @@
       "build": "258",
       "title": "NameQuick 2.11.14",
       "publishedAt": "2026-04-01T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.14.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.14.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.14.html",
       "excerpt": "A new onboarding flow helps you get to your first working setup faster. First-run guidance is more structured and does a better job walking you through permissions, setup, and template creation.",
       "highlights": [
@@ -149,7 +165,7 @@
       "build": null,
       "title": "NameQuick 2.11.13",
       "publishedAt": "2026-02-10T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.13.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.13.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.13.html",
       "excerpt": "Metadata results are now more consistent across AI providers. Filename, tags, and description generation now behaves more predictably when you switch between supported providers.",
       "highlights": [
@@ -165,7 +181,7 @@
       "build": null,
       "title": "NameQuick 2.11.12",
       "publishedAt": "2026-02-05T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.12.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.12.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.12.html",
       "excerpt": "OpenRouter is now available as a BYOK provider. Bring your own OpenRouter API key to access hundreds of models from a single provider.",
       "highlights": [
@@ -181,7 +197,7 @@
       "build": null,
       "title": "NameQuick 2.11.11",
       "publishedAt": "2026-01-30T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.11.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.11.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.11.html",
       "excerpt": "BYOK trial email login works reliably. We now recognize trial entitlements even without an active subscription, so your BYOK trial email won\u2019t get rejected.",
       "highlights": [
@@ -194,7 +210,7 @@
       "build": null,
       "title": "NameQuick 2.11.10",
       "publishedAt": "2026-01-28T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.10.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.10.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.10.html",
       "excerpt": "BYOK license no longer lost after Keychain hiccups. Temporary Keychain access issues no longer clear your saved API keys.",
       "highlights": [
@@ -210,7 +226,7 @@
       "build": null,
       "title": "NameQuick 2.11.09",
       "publishedAt": "2026-01-27T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.09.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.09.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.09.html",
       "excerpt": "Per-field required/optional settings. Each extraction field now has its own required/optional dropdown, replacing the global toggle. This gives you precise control over which fields must have values for a rename to proceed.",
       "highlights": [
@@ -226,7 +242,7 @@
       "build": null,
       "title": "NameQuick 2.11.07",
       "publishedAt": "2026-01-24T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.07.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.07.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.07.html",
       "excerpt": "German language support. The app is now fully localized in German. Language follows your system preference. Feedback on the translations is welcome\u2014reach out via email.",
       "highlights": [
@@ -241,7 +257,7 @@
       "build": null,
       "title": "NameQuick 2.11.06",
       "publishedAt": "2026-01-22T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.06.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.06.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.06.html",
       "excerpt": "Local text-only models now work with text PDFs. Ollama and LM Studio text-only models can process PDFs that contain extractable text. Clear error messages appear when a vision model is needed for images or scanned PDFs.",
       "highlights": [
@@ -257,7 +273,7 @@
       "build": null,
       "title": "NameQuick 2.11.05",
       "publishedAt": "2026-01-21T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.05.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.05.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.05.html",
       "excerpt": "Subscription credits now display correctly. Fixed an issue where credits showed as 0 for subscription customers despite having available balance.",
       "highlights": [
@@ -273,7 +289,7 @@
       "build": null,
       "title": "NameQuick 2.11.04",
       "publishedAt": "2026-01-17T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.04.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.04.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.04.html",
       "excerpt": "Subscription credits now display correctly. Fixed an issue where some subscription customers saw 0 credits available despite having an active plan.",
       "highlights": [
@@ -286,7 +302,7 @@
       "build": null,
       "title": "NameQuick 2.11.03",
       "publishedAt": "2026-01-14T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.03.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.03.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.03.html",
       "excerpt": "Local model downloads in Settings \u2013 Local Providers now list recommended Ollama and LM Studio models with hardware guidance and quick download or copy actions.",
       "highlights": [
@@ -302,7 +318,7 @@
       "build": null,
       "title": "NameQuick 2.11.01",
       "publishedAt": "2025-12-24T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.01.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.01.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.01.html",
       "excerpt": "Instant Search \u2013 Press \u2318F to search across all settings. Select a result to jump directly to that setting, highlighted and ready to adjust.",
       "highlights": [
@@ -318,7 +334,7 @@
       "build": null,
       "title": "NameQuick 2.11.00",
       "publishedAt": "2025-12-18T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.11.00.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.11.00.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.00.html",
       "excerpt": "Try NameQuick Free with Your Own API Key \u2013 New users can now try NameQuick free for 14 days using their own OpenAI, Anthropic, Gemini, or Ollama API key. The trial includes a set number of AI-powered renames to help you evaluate the app before committing.",
       "highlights": [
@@ -334,7 +350,7 @@
       "build": null,
       "title": "NameQuick 2.10.09",
       "publishedAt": "2025-12-13T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.10.09.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.10.09.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.09.html",
       "excerpt": "- Fixed an issue where template-based renaming could produce generic filenames like _.pdf instead of extracting meaningful names from your documents. Templates now reliably capture the fields you've defined.",
       "highlights": [
@@ -347,7 +363,7 @@
       "build": null,
       "title": "NameQuick 2.10.08",
       "publishedAt": "2025-12-09T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.10.08.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.10.08.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.08.html",
       "excerpt": "- Fixed a rare issue where subscription credits could stay \u201cstuck\u201d on a device after your billing period renewed or your plan changed.",
       "highlights": [
@@ -361,7 +377,7 @@
       "build": null,
       "title": "NameQuick 2.10.07",
       "publishedAt": "2025-12-08T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.10.07.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.10.07.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.07.html",
       "excerpt": "Added sorting options to the toolbar. You can now sort files by name, date, size, or type in ascending or descending order.",
       "highlights": [
@@ -375,7 +391,7 @@
       "build": null,
       "title": "NameQuick 2.10.06",
       "publishedAt": "2025-12-07T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.10.06.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.10.06.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.06.html",
       "excerpt": "Fixed custom separators with spaces (like \" - \") being stripped down to just the character (e.g., \"-\"). Filenames now correctly preserve space-surrounded separators for formats like \"2024-01-15 - Invoice.pdf\".",
       "highlights": [
@@ -390,7 +406,7 @@
       "build": null,
       "title": "NameQuick 2.10.05",
       "publishedAt": "2025-12-07T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.10.05.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.10.05.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.05.html",
       "excerpt": "Fixed issue where duplicate files could incorrectly receive the same AI-generated name as a previously processed file.",
       "highlights": [
@@ -406,7 +422,7 @@
       "build": null,
       "title": "NameQuick 2.10.04",
       "publishedAt": "2025-12-04T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.10.04.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.10.04.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.04.html",
       "excerpt": "Improved reliability for managed AI processing.",
       "highlights": [
@@ -422,7 +438,7 @@
       "build": null,
       "title": "NameQuick 2.10.03",
       "publishedAt": "2025-12-04T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.10.03.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.10.03.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.03.html",
       "excerpt": "Fixed an issue where auto-processing with Custom Prompts would ignore document content, resulting in poor rename quality.",
       "highlights": [
@@ -435,7 +451,7 @@
       "build": null,
       "title": "NameQuick 2.10.02",
       "publishedAt": "2025-12-03T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.10.02.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.10.02.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.02.html",
       "excerpt": "Fixed a bug where Custom Prompts created in earlier versions weren't visible after updating to v2.10.00 or v2.10.01. Your prompts are automatically restored on launch.",
       "highlights": [
@@ -448,7 +464,7 @@
       "build": null,
       "title": "NameQuick 2.10.01",
       "publishedAt": "2025-12-03T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.10.01.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.10.01.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.01.html",
       "excerpt": "Fixed an issue where some users were shown the onboarding flow again after restarting the app, even though they had already completed it.",
       "highlights": [
@@ -461,7 +477,7 @@
       "build": null,
       "title": "NameQuick 2.10.00",
       "publishedAt": "2026-02-05T22:10:21.765795Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.10.00.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.10.00.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.10.00.html",
       "excerpt": "Visual pattern builder with drag-and-drop chips that show exactly how your filename will look",
       "highlights": [
@@ -477,7 +493,7 @@
       "build": null,
       "title": "NameQuick 2.0.47",
       "publishedAt": "2025-11-29T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.47.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.47.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.47.html",
       "excerpt": "Another small bug fix for subscription users.",
       "highlights": [
@@ -490,7 +506,7 @@
       "build": null,
       "title": "NameQuick 2.0.46",
       "publishedAt": "2025-11-29T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.46.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.46.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.46.html",
       "excerpt": "Small bug fix for subscription users.",
       "highlights": [
@@ -503,7 +519,7 @@
       "build": null,
       "title": "NameQuick 2.0.45",
       "publishedAt": "2026-02-05T22:10:21.764043Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.45.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.45.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.45.html",
       "excerpt": "Fixed a license logging crash when disk space is low by serializing writes on an actor and gating the HUD to foreground state.",
       "highlights": [
@@ -516,7 +532,7 @@
       "build": null,
       "title": "NameQuick 2.0.44",
       "publishedAt": "2025-11-26T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.44.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.44.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.44.html",
       "excerpt": "Credits now properly refresh when your subscription billing cycle renews. Previously, some users saw their old credit balance until they logged out and back in.",
       "highlights": [
@@ -532,7 +548,7 @@
       "build": null,
       "title": "NameQuick 2.0.43",
       "publishedAt": "2025-11-17T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.43.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.43.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.43.html",
       "excerpt": "NameQuick 2.0.43 \u2014",
       "highlights": [
@@ -548,7 +564,7 @@
       "build": null,
       "title": "NameQuick 2.0.42",
       "publishedAt": "2025-11-10T00:00:00Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.42.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.42.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.42.html",
       "excerpt": "NameQuick",
       "highlights": [
@@ -564,7 +580,7 @@
       "build": null,
       "title": "NameQuick 2.0.41",
       "publishedAt": "2025-11-26T19:14:12.615185Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.41.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.41.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.41.html",
       "excerpt": "Small fixes and improvements",
       "highlights": [
@@ -577,7 +593,7 @@
       "build": null,
       "title": "NameQuick 2.0.40",
       "publishedAt": "2025-11-26T19:14:12.577185Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.40.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.40.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.40.html",
       "excerpt": "Fix: resolves a rare freeze on macOS Sonoma where the sidebar repeatedly hid and showed, spiking CPU and stalling the app. NameQuick now opens and stays responsive.",
       "highlights": [
@@ -590,7 +606,7 @@
       "build": null,
       "title": "NameQuick 2.0.39",
       "publishedAt": "2025-11-26T19:14:12.510194Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.39.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.39.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.39.html",
       "excerpt": "Smarter duplicate-name handling: when a target filename already exists, NameQuick now automatically appends a counter (e.g., \u201d (2)\u201c) and completes the rename, instead of showing a\u201dfile already exists\u201d error. This keeps your flow uninterrupted and preserves the original extension.",
       "highlights": [
@@ -606,7 +622,7 @@
       "build": null,
       "title": "NameQuick 2.0.38",
       "publishedAt": "2025-11-26T19:14:12.418901Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.38.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.38.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.38.html",
       "excerpt": "Implemented a bug fix focusing on size limitations experienced by a user",
       "highlights": [
@@ -620,7 +636,7 @@
       "build": null,
       "title": "NameQuick 2.0.37",
       "publishedAt": "2025-11-26T19:14:12.378913Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.37.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.37.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.37.html",
       "excerpt": "Large PDF uploads are now processed reliably without memory spikes. We preprocess PDFs before reading them, keeping memory use low and preventing crashes on very large files.",
       "highlights": [
@@ -635,7 +651,7 @@
       "build": null,
       "title": "NameQuick 2.0.36",
       "publishedAt": "2025-11-26T19:14:12.294161Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.36.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.36.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.36.html",
       "excerpt": "Drag to reorder folders in the sidebar",
       "highlights": [
@@ -651,7 +667,7 @@
       "build": null,
       "title": "NameQuick 2.0.35",
       "publishedAt": "2025-11-26T19:14:12.187364Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.35.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.35.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.35.html",
       "excerpt": "Per\u2011folder subfolder control: include or exclude subfolders for each watch folder from the sidebar context menu.",
       "highlights": [
@@ -666,7 +682,7 @@
       "build": null,
       "title": "NameQuick 2.0.34",
       "publishedAt": "2025-11-26T19:14:12.090570Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.34.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.34.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.34.html",
       "excerpt": "Added a global Clean filenames toggle under Preferences \u2192 General & Permissions \u2192 Defaults. When enabled, NameQuick transliterates German umlauts (\u00e4\u2192ae, \u00f6\u2192oe, \u00fc\u2192ue, \u00c4\u2192Ae, \u00d6\u2192Oe, \u00dc\u2192Ue, \u00df\u2192ss) and keeps only letters, numbers, single spaces, underscores, and dashes across Smart Rename, Templates, and Custom Prompt flows.",
       "highlights": [
@@ -682,7 +698,7 @@
       "build": null,
       "title": "NameQuick 2.0.32",
       "publishedAt": "2025-11-26T19:14:11.999920Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.32.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.32.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.32.html",
       "excerpt": "Drag & Drop and Global Shortcut : Both operations now consistently apply prefixes and suffixes. ### UI Layout Improvements",
       "highlights": [
@@ -696,7 +712,7 @@
       "build": null,
       "title": "NameQuick 2.0.31",
       "publishedAt": "2025-11-26T19:14:11.909856Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.31.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.31.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.31.html",
       "excerpt": "Claude BYOK pacing \u2013 Batch rename jobs automatically throttle requests so you can push more files without tripping Anthropic\u2019s burst limits or seeing 429 errors.",
       "highlights": [
@@ -724,7 +740,7 @@
       "build": null,
       "title": "NameQuick 2.0.29",
       "publishedAt": "2025-11-26T19:14:11.834416Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.29.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.29.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.29.html",
       "excerpt": "License activation no longer crashes. If something goes wrong while activating, you\u2019ll just see the warning message.",
       "highlights": [
@@ -740,7 +756,7 @@
       "build": null,
       "title": "NameQuick 2.0.28",
       "publishedAt": "2025-11-26T19:14:11.757666Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.28.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.28.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.28.html",
       "excerpt": "Custom prompts moved to Processing settings. Find \u201cManage Custom Prompts\u2026\u201d inside Settings \u2192 Processing ### Bug Fixes",
       "highlights": [
@@ -754,7 +770,7 @@
       "build": null,
       "title": "NameQuick 2.0.27",
       "publishedAt": "2025-11-26T19:14:11.708707Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.27.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.27.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.27.html",
       "excerpt": "Quick actions stay visible even before you select files. The floating process bar no longer disappears when you load a batch, making it obvious how to kick off renames and when actions are disabled versus ready to run.",
       "highlights": [
@@ -767,7 +783,7 @@
       "build": null,
       "title": "NameQuick 2.0.26",
       "publishedAt": "2025-11-26T19:14:11.672736Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.26.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.26.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.26.html",
       "excerpt": "Never fall back to BYOK for managed accounts. If we\u2019re momentarily offline from Polar, NameQuick now keeps your Managed AI license active, works from cached access, and automatically returns to the managed Gemini service once reconnected.",
       "highlights": [
@@ -781,7 +797,7 @@
       "build": null,
       "title": "NameQuick 2.0.25",
       "publishedAt": "2025-11-26T19:14:11.607606Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.25.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.25.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.25.html",
       "excerpt": "Adaptive menu bar icon \u2013 The menu bar symbol now respects light and dark appearances, keeping contrast consistent even when the system theme switches mid-session.",
       "highlights": [
@@ -797,7 +813,7 @@
       "build": null,
       "title": "NameQuick 2.0.24",
       "publishedAt": "2025-11-26T19:14:11.553645Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.24.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.24.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.24.html",
       "excerpt": "## Features",
       "highlights": [
@@ -811,7 +827,7 @@
       "build": null,
       "title": "NameQuick 2.0.23",
       "publishedAt": "2025-11-26T19:14:11.530767Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.23.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.23.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.23.html",
       "excerpt": "New queue management popover \u2013 Introducing a dedicated queue popover where you can view all your queued rename files. Remove individual items or clear the entire queue with a single click\u2014everything updates instantly with live badge counts.",
       "highlights": [
@@ -826,7 +842,7 @@
       "build": null,
       "title": "NameQuick 2.0.22",
       "publishedAt": "2025-11-26T19:14:11.466401Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.22.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.22.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.22.html",
       "excerpt": "Redesigned for macOS Tahoe \u2013 Beautiful new user interface optimized for Apple\u2019s latest macOS, with modern visual refinements throughout the app.",
       "highlights": [
@@ -842,7 +858,7 @@
       "build": null,
       "title": "NameQuick 2.0.21",
       "publishedAt": "2025-11-26T19:14:11.385740Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.21.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.21.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.21.html",
       "excerpt": "Before Rename : Rules evaluate files as they enter watch folders, perfect for initial routing and organization",
       "highlights": [
@@ -858,7 +874,7 @@
       "build": null,
       "title": "NameQuick 2.0.20",
       "publishedAt": "2025-11-26T19:14:11.312408Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.20.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.20.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.20.html",
       "excerpt": "## Features",
       "highlights": [
@@ -872,7 +888,7 @@
       "build": null,
       "title": "NameQuick 2.0.19",
       "publishedAt": "2025-11-26T19:14:11.209942Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.19.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.19.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.19.html",
       "excerpt": "v2.0.19 \u2014 Create Your Own",
       "highlights": [
@@ -888,7 +904,7 @@
       "build": null,
       "title": "NameQuick 2.0.18",
       "publishedAt": "2025-11-26T19:14:11.121322Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.18.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.18.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.18.html",
       "excerpt": "All\u2011new onboarding flow with just\u2011in\u2011time prompts and a faster path to your first rename.",
       "highlights": [
@@ -904,7 +920,7 @@
       "build": null,
       "title": "NameQuick 2.0.17",
       "publishedAt": "2025-11-26T19:14:11.088337Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.17.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.17.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.17.html",
       "excerpt": "Email login: Addresses like name+tag@domain.com now work as expected.",
       "highlights": [
@@ -917,7 +933,7 @@
       "build": null,
       "title": "NameQuick 2.0.16",
       "publishedAt": "2025-11-26T19:14:11.064695Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.16.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.16.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.16.html",
       "excerpt": "No more login Keychain prompts when viewing AI settings.",
       "highlights": [
@@ -931,7 +947,7 @@
       "build": null,
       "title": "NameQuick 2.0.15",
       "publishedAt": "2025-11-26T19:14:11.039068Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.15.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.15.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.15.html",
       "excerpt": "Templates (Claude): Reliable structured output with consistent results.",
       "highlights": [
@@ -947,7 +963,7 @@
       "build": null,
       "title": "NameQuick 2.0.14",
       "publishedAt": "2025-11-26T19:14:11.016805Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.14.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.14.dmg",
       "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.0.14.html",
       "excerpt": "New: You can now rename Word, PowerPoint, and Excel files (DOCX, PPTX, XLSX) .",
       "highlights": [
@@ -963,7 +979,7 @@
       "build": null,
       "title": "NameQuick 2.0.13",
       "publishedAt": "2026-04-23T08:28:01.342145Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.13.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.13.dmg",
       "releaseNotesUrl": null,
       "excerpt": null,
       "highlights": [],
@@ -974,7 +990,7 @@
       "build": null,
       "title": "NameQuick 2.0.12",
       "publishedAt": "2026-04-23T08:28:01.342127Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.23/NameQuick-2.0.12.dmg",
+      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.24/NameQuick-2.0.12.dmg",
       "releaseNotesUrl": null,
       "excerpt": null,
       "highlights": [],
