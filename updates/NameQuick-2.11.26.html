@@ -1,0 +1,39 @@
+<p>Release date: 2026-05-04</p>
+<h2 id="new">New</h2>
+<ul>
+<li><strong>Added stronger control for keeping MLX models
+loaded.</strong> When you choose to keep a local MLX model loaded,
+NameQuick now treats that as an app-level promise while the app is
+open.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Made local model wording easier to understand.</strong> MLX
+controls now use familiar language like “Load model,” “Unload model,”
+and “Keep model loaded,” matching how Ollama and LM Studio users already
+think about local models.</li>
+<li><strong>Improved MLX setup and readiness checks.</strong> NameQuick
+now handles the bundled runtime environment more carefully, checks that
+the runtime is actually installed before starting, and keeps setup
+progress from being overwritten mid-install.</li>
+<li><strong>Made the MLX settings control more compact.</strong> The
+keep-loaded switch now takes up less space while staying easy to scan in
+the local AI settings.</li>
+<li><strong>Kept self-managed AI routing more consistent.</strong> BYOK
+processing now preserves the selected provider context more reliably
+during file preparation and rename operations.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed MLX models unloading unexpectedly.</strong> Normal
+cleanup, idle release, and delayed release paths now respect the
+keep-loaded setting instead of stopping the model behind the
+scenes.</li>
+<li><strong>Fixed local MLX startup getting stuck after stale runtime
+state.</strong> NameQuick now refreshes runtime availability more
+carefully so installed models and runtime status stay in sync.</li>
+<li><strong>Fixed settings refresh loops around MLX
+configuration.</strong> Opening and updating the local AI settings
+should be calmer, with fewer repeated state updates while the app checks
+model and runtime readiness.</li>
+</ul>
