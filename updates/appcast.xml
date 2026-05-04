@@ -3,58 +3,58 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.26</title>
-            <pubDate>Mon, 04 May 2026 09:30:28 +0200</pubDate>
-            <sparkle:version>291</sparkle:version>
-            <sparkle:shortVersionString>2.11.26</sparkle:shortVersionString>
+            <title>2.11.27</title>
+            <pubDate>Mon, 04 May 2026 18:15:00 +0200</pubDate>
+            <sparkle:version>292</sparkle:version>
+            <sparkle:shortVersionString>2.11.27</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
             <description><![CDATA[<p>Release date: 2026-05-04</p>
 <h2 id="new">New</h2>
 <ul>
-<li><strong>Added stronger control for keeping MLX models
-loaded.</strong> When you choose to keep a local MLX model loaded,
-NameQuick now treats that as an app-level promise while the app is
-open.</li>
+<li><strong>Added shareable processing reports.</strong> You can now
+copy a clear report from a processing run, making it easier to review
+what happened or share details when asking for help.</li>
+<li><strong>Added clearer processing issue cards.</strong> NameQuick now
+groups processing problems into easier-to-scan cards with clearer labels
+and next steps.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Made local model wording easier to understand.</strong> MLX
-controls now use familiar language like “Load model,” “Unload model,”
-and “Keep model loaded,” matching how Ollama and LM Studio users already
-think about local models.</li>
-<li><strong>Improved MLX setup and readiness checks.</strong> NameQuick
-now handles the bundled runtime environment more carefully, checks that
-the runtime is actually installed before starting, and keeps setup
-progress from being overwritten mid-install.</li>
-<li><strong>Made the MLX settings control more compact.</strong> The
-keep-loaded switch now takes up less space while staying easy to scan in
-the local AI settings.</li>
-<li><strong>Kept self-managed AI routing more consistent.</strong> BYOK
-processing now preserves the selected provider context more reliably
-during file preparation and rename operations.</li>
+<li><strong>Made local AI limits easier to manage.</strong> Advanced
+budget controls for Ollama, LM Studio, and MLX are now tucked behind a
+cleaner disclosure section while keeping your saved settings
+intact.</li>
+<li><strong>Improved local provider guardrails.</strong> NameQuick now
+checks local model limits more consistently before sending work, helping
+prevent oversized requests and keeping provider behavior
+predictable.</li>
+<li><strong>Kept selected AI providers more consistent.</strong> BYOK
+and local provider flows now preserve the provider you chose more
+reliably during file preparation and processing.</li>
+<li><strong>Improved processing history details.</strong> The audit
+trail now records richer outcome details so completed runs are easier to
+understand after the fact.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed MLX models unloading unexpectedly.</strong> Normal
-cleanup, idle release, and delayed release paths now respect the
-keep-loaded setting instead of stopping the model behind the
-scenes.</li>
-<li><strong>Fixed local MLX startup getting stuck after stale runtime
-state.</strong> NameQuick now refreshes runtime availability more
-carefully so installed models and runtime status stay in sync.</li>
-<li><strong>Fixed settings refresh loops around MLX
-configuration.</strong> Opening and updating the local AI settings
-should be calmer, with fewer repeated state updates while the app checks
-model and runtime readiness.</li>
+<li><strong>Fixed missing details in processing feedback.</strong> Issue
+reports now preserve missing-field information more reliably instead of
+dropping useful context.</li>
+<li><strong>Fixed local model budget settings appearing too
+prominently.</strong> Detailed limits now stay available without
+crowding the main local AI settings view.</li>
+<li><strong>Fixed processing feedback surfacing in the wrong
+place.</strong> NameQuick now routes run results, HUD messages, and
+history details through a more consistent presentation flow.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.26/NameQuick-2.11.26.dmg" length="52213227" type="application/octet-stream" sparkle:edSignature="HvZnR9nFOx9OeyJDRjrljn8U/VJquwXEgN139dwBLxVt5t1/uG5XDK8M4wkRDtlgj/V4Zc0/uG22+rE2LKrkAg=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.27/NameQuick-2.11.27.dmg" length="52741316" type="application/octet-stream" sparkle:edSignature="OqCG42XIi7hvwTqfkON2tkYZW32YU8L6qdP4wHwHsUeBHcZQD9m8ZKNtsU/aELymqzxro6sVXmfggTOIPPFDDA=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.26/NameQuick291-279.delta" sparkle:deltaFrom="279" length="14831450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5EokPWv8xm6dueacAMlXAm3b8icQYJBU+RNrrH16fqy4fEl/kslYVRN9cH+DLd72XWB4l5zzchSKzcQjlyxXAw=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.26/NameQuick291-275.delta" sparkle:deltaFrom="275" length="15511136" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nLL1NKEtNPEMkjB/PqRbDUYBEdXpJwxFngJllmQZQwNnT3qUraHmPjQsP+6CnBhKnhp7u5LNjY2o+voyMa8dBg=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.26/NameQuick291-272.delta" sparkle:deltaFrom="272" length="16457466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5MULnSkmZzl8i7+bjOO79XSJ0kDyxdOMGdL2SNYrkRdlf/f5Nv03IWqm5xZcijPV4EG2iULvG12nDP+vzo+aCg=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.26/NameQuick291-268.delta" sparkle:deltaFrom="268" length="18924882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aihWxLeq4pAQqGxKDB0zlf0g6pc7srn+CRj0TjF8zaXpvIF3lyz1aE2cndj2avBB8DY2oAlcxt3/kFQjYLK9Dg=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.26/NameQuick291-260.delta" sparkle:deltaFrom="260" length="19697267" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7rr+46E/kz/fEcjmsESgbAg5S+jv8bV+O9HTi8BrkRlrfwLJzfjH8DYac639VIWcKMCmfCPaB4ZnQjYQRE1uBw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.27/NameQuick292-279.delta" sparkle:deltaFrom="279" length="15838144" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3F6aZLQ8kgUaLedMc89TQw2cdwcJO8N01JXexy4OiXcTHcCpBIOr9MukgvkaQ5dRpqs5Xe6qy08sT6+SBgVkDQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.27/NameQuick292-275.delta" sparkle:deltaFrom="275" length="16469803" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JEhZuIW41oLGx4bRu/XubdreeJaiK/v1I21GeKGMeGatLQDeIurZWyqmFbtGW5aOY4nsXCynIh7J6jfEilW0Ag=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.27/NameQuick292-272.delta" sparkle:deltaFrom="272" length="17443523" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4dgKpNCynoDaDbs+wsUIXe+i+KDYmyhMVkAAQN8WgCH/MNDGOZZqnAIvOBBeDr64bXwRA0x0pUN7E3Tp4ccABQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.27/NameQuick292-268.delta" sparkle:deltaFrom="268" length="19883904" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="B+p0A1wTqHlxGfZWPqs+cRS/SDYkSTO3NDMiV4qyG0AY8x7bZFqJzn7TcAxOS71zRDKtkQnjndJQZXDTx/NpCg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.27/NameQuick292-260.delta" sparkle:deltaFrom="260" length="20677356" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i5ESGGHDGrgtFwjUnskwRzPG8du2iOG+4RGd3/hfgBJ7FCL2i1Gw2JXyvL9lmKg8uRFmD0k/FFS8cKxskS51DQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
