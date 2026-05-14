@@ -3,40 +3,40 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.28</title>
-            <pubDate>Wed, 13 May 2026 20:04:14 +0200</pubDate>
-            <sparkle:version>293</sparkle:version>
-            <sparkle:shortVersionString>2.11.28</sparkle:shortVersionString>
+            <title>2.11.29</title>
+            <pubDate>Thu, 14 May 2026 09:12:11 +0200</pubDate>
+            <sparkle:version>294</sparkle:version>
+            <sparkle:shortVersionString>2.11.29</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-05-13</p>
+            <description><![CDATA[<p>Release date: 2026-05-14</p>
 <h2 id="new">New</h2>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Made saved templates more reliable.</strong> Your templates
-and custom prompts are now more likely to stay available after app
-updates, relaunches, or Finder Quick Action use.</li>
-<li><strong>Improved template syncing with Finder Quick
-Actions.</strong> Templates used from Finder now stay better aligned
-with the ones you saved in the app.</li>
+<li><strong>Made subscription sign-in more reliable.</strong> NameQuick
+now handles more account details from the billing system, so active
+customers are less likely to be asked to start checkout again.</li>
+<li><strong>Improved account checks after checkout.</strong> Returning
+to the app after starting a managed AI trial now handles existing
+account access more carefully.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed the Automation permission row getting stuck.</strong>
-First-run users now see the Grant Access option when Automation
-permission has not been decided yet, and the row updates right after
-they respond.</li>
-<li><strong>Fixed a bug where templates and custom prompts could
-disappear.</strong> Saved naming templates and custom prompts should now
-remain available instead of unexpectedly resetting.</li>
+<li><strong>Fixed a bug where active subscription trials could fail to
+verify.</strong> Customers with an active managed AI trial should now be
+recognized correctly instead of seeing a connection-style verification
+error.</li>
+<li><strong>Fixed a bug that could mix up managed AI and self-managed
+access.</strong> NameQuick now keeps self-managed provider choices
+separate from managed AI subscriptions more consistently.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.28/NameQuick-2.11.28.dmg" length="52654015" type="application/octet-stream" sparkle:edSignature="U3E6ZVoafUj59dLdVhgbjG06hkWleOJx3+ImCvEm7h2hWy8p2TuUG600eJBftRDAZBKSZMpSK+7Sth8raulpBQ=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.29/NameQuick-2.11.29.dmg" length="52697932" type="application/octet-stream" sparkle:edSignature="IDb2v+JdJ5J4Bngz/d5Gi76j/6wH6TYe5D3fP7dRbgKHaPU4OnsATCJIufLVI12lWggUMJtuEObXGmgR5uhHBg=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.28/NameQuick293-279.delta" sparkle:deltaFrom="279" length="28310854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HwEj8gmXhJHIbHamU0f3dKGljtYLKtpSzZsXIekhrkMBkszMJTwyLUtgutPUoVzsH40Qrt8mHtRz5FJxQ1aIAQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.28/NameQuick293-275.delta" sparkle:deltaFrom="275" length="28526312" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wwLHMURG+ojOgqGyuD09IOXSjlIoB87hfRilTrIZXZ7jZKS86v91TDsT5wayW6EOw+KCw9xcpeG3bCltT3ZfBA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.28/NameQuick293-272.delta" sparkle:deltaFrom="272" length="28940623" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1tsuXUTTiJIwPpieeE1aD3+5q/jbuWTC/YVUUtTasmyMGEJci+XbZSVFu9rPF5j2wCDHaxisgLdWqk4f6mdHAQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.28/NameQuick293-268.delta" sparkle:deltaFrom="268" length="30078320" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vvcyhC1WAtvBffCDDxCnHC0nff1bj8dbkKjvpaULmiuB1SF/tyJ14JxBCe14quaW3G3i6pPMBNBXrZgNwXwYCQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.28/NameQuick293-260.delta" sparkle:deltaFrom="260" length="30457274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YW4Ph8iSOrWGPjNlQW//lWugU8rYv536owqMyDb25Ewl+O+3R4NM3gl0o04bujbI7SqDpsEkfRfuQ3u3rFCdCQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.29/NameQuick294-279.delta" sparkle:deltaFrom="279" length="28390891" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nnRaof1Yjkruw7bE9+MsZX0nqAANbJXgG9GZB+GkS6nVVc8UJAWD8UDIDautIuWb0KKDikad6lt363wzTOB5Cw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.29/NameQuick294-275.delta" sparkle:deltaFrom="275" length="28632870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="moeGwKy1kWfOaFByhRAZID0W9Y1h5r8u/UiVLGNnOUQndbW5DuLkLA4Ejbuv9taG0B8WESi3jKOdQvcBdE3fAA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.29/NameQuick294-272.delta" sparkle:deltaFrom="272" length="29021446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rH5YnImDWDGlZ/U+F9+0FSPCKVDQ8g1xGWTVqYk4bmjvs0OkHEzgVwJBdxM5wNFtyD1iZiOAW1JAHNfYpNIwAA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.29/NameQuick294-268.delta" sparkle:deltaFrom="268" length="30152630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="amTpnxuH/clbMHVH8z1SiAOD2aDtZcyydVj4dkgHbGSYjMjcEco4qj4VJLteGJ0jmKe2TirA03DG5sMtWhvRBQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.29/NameQuick294-260.delta" sparkle:deltaFrom="260" length="30513114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="m/iEj/QLv13nxHH0oQJ0j1gk4VXqsPJQ5G0wDnZeKBBllkXnpttKhG+1NCTmXkogfZgmJ6UFb9r9MB6bSd3bAg=="/>
             </sparkle:deltas>
         </item>
     </channel>
