@@ -3,49 +3,34 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.30</title>
-            <pubDate>Thu, 14 May 2026 10:32:15 +0200</pubDate>
-            <sparkle:version>293</sparkle:version>
-            <sparkle:shortVersionString>2.11.30</sparkle:shortVersionString>
+            <title>2.11.32</title>
+            <pubDate>Thu, 14 May 2026 18:45:54 +0200</pubDate>
+            <sparkle:version>296</sparkle:version>
+            <sparkle:shortVersionString>2.11.32</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
             <description><![CDATA[<p>Release date: 2026-05-14</p>
 <h2 id="new">New</h2>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Improved license recovery after reinstalling
-NameQuick.</strong> Self-Managed licenses can now reconnect to the same
-Mac more reliably instead of getting stuck on device activation.</li>
-<li><strong>Made trial activation more reliable.</strong> NameQuick now
-checks existing account access more consistently before asking you to
-start checkout again.</li>
+<li><strong>Improved custom prompts with local AI providers.</strong>
+Filename suggestions from LM Studio and Ollama now follow a more
+reliable step-by-step flow, so custom instructions are less likely to
+leak into the final name.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed Self-Managed trial activation getting stuck.</strong>
-Existing Self-Managed trial users should now be able to activate with
-their email instead of being blocked at the license screen.</li>
-<li><strong>Fixed subscription trials looping back to checkout.</strong>
-Active trial accounts should now unlock from their existing account
-access even when checkout confirmation is delayed.</li>
-<li><strong>Fixed device activation recovery for Self-Managed
-licenses.</strong> Reinstalling NameQuick on the same Mac should no
-longer try to use an extra device slot when the original activation
-already belongs to that Mac.</li>
-<li><strong>Fixed the customer portal link in activation
-recovery.</strong> The recovery action now opens the signed-in customer
-portal instead of sending you to a generic page.</li>
-<li><strong>Improved the message shown when an email is not
-found.</strong> NameQuick now gives clearer next steps for trying
-another email, starting a trial, or contacting support.</li>
+<li><strong>Fixed confusing local AI filename failures.</strong> When a
+local provider cannot return a usable filename, NameQuick now shows a
+clearer problem instead of silently accepting malformed output.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.30/NameQuick-2.11.30.dmg" length="52820343" type="application/octet-stream" sparkle:edSignature="KS5cNr/C93BrylPf4i0IM2JUT+rCjeqP72mO0KuzarOkZWeeE9JtzIHg9ugiueI55mFvQktFU9UJGZbljkaQCg=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.32/NameQuick-2.11.32.dmg" length="52880256" type="application/octet-stream" sparkle:edSignature="5tt4QNm/Ia2V96/g5nCW9bUC3SJTWymWKwJV3L8PhTVAa7PhssnATCuRp+VmGszQUEhDSGs5on8mtcfQJUL8Cg=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.30/NameQuick293-279.delta" sparkle:deltaFrom="279" length="28862279" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="56vMfuUnfXoAHYvgP1KiXFWbWYBvz0oVu7GWINVJwnTrFPFucMbHVFaxtFakVYVQ8FtiCGbnemMYmxQkGJvvDg=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.30/NameQuick293-275.delta" sparkle:deltaFrom="275" length="29104426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bsQMt2e8R/MczzqCrVJG8ZBrMcaUesTgJSeVa8Y9UjL+KfY1eAhbBIPs5jZdFzrd5kBa09ffFSjQ3OoC9ZHuAA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.30/NameQuick293-272.delta" sparkle:deltaFrom="272" length="29495173" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sKJfGKBouLqe6M2z5CAnDHA1tUwqlH2tEc5ObfDZUHJO7qL6qxlZKxG+/lDFgyCV2VJv2NmjcD5+aQNBk0pVCQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.30/NameQuick293-268.delta" sparkle:deltaFrom="268" length="30608835" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="42HQse2x1SQbS6EQJAJIiiWW8ABJpm/P6AjSEvH/AEJq17eQL9OLaUVbkvoK4+JsacXUwwVGW9fShpmXl6P8CA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.30/NameQuick293-260.delta" sparkle:deltaFrom="260" length="30983167" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GfivxL4agAzX65J+H24QC8P0cokNs+3TU4ZK4vuUJT7+MnyJDZv8jL0zSkVHhe694gs4oRmKWhUA0pmPrJkzAg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.32/NameQuick296-279.delta" sparkle:deltaFrom="279" length="29007006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="00ou3w0Z1Tn8kYywl+rFnblYS88NKst/t2oNHR+hk90UFxd3Zh3oxivT1nagAuNr6+OPqrvJuWejLX3c3AfgCA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.32/NameQuick296-275.delta" sparkle:deltaFrom="275" length="29213788" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0YrjRMjPSwIcZwEGwPUYEe0tkQZNw+sAH7Ih47H5hBHVkhPAt6QPhhgxeKtMoxzzxtpKg5rV4aNMW4/uG/9+Cg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.32/NameQuick296-272.delta" sparkle:deltaFrom="272" length="29575685" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rObX0w6cGg3jX2EdD51aVvsUZFphHGNu+gPKP0+X0hzZIUVEujsts6AGzl6BVrf48JarrY5c9vr6A2pNdIYTAw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.32/NameQuick296-268.delta" sparkle:deltaFrom="268" length="30696794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="m9F5kzjJj8T6Ls4P4PVqAkEkRYVokt4g9ufGfmdldrBvNcQtbZEy4lovPskTADN6MC/Aj6xmanE0lwZ1EFrFDg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.32/NameQuick296-260.delta" sparkle:deltaFrom="260" length="31071875" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oYHrwg+GCdi9/HPQfX88Ih5n2Z8hOMFmo0Uhw6R6leU8hIp7FPVpUX8jNKchhw6AYvyMHfPR0HpK71PbTnF4AQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
