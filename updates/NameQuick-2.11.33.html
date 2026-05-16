@@ -1,0 +1,51 @@
+<p>Release date: 2026-05-16</p>
+<h2 id="new">New</h2>
+<ul>
+<li><strong>A clearer AI provider settings experience.</strong> The AI
+settings page now highlights the active provider, available models,
+setup actions, and local processing choices in one place.</li>
+<li><strong>Better recovery help for local AI providers.</strong> When
+LM Studio, Ollama, or MLX needs attention, NameQuick now shows focused
+next steps and support options instead of leaving the problem hidden in
+the status bar.</li>
+<li><strong>Diagnostics export for support.</strong> You can now create
+a support-ready diagnostics report when a processing issue needs a
+closer look.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Made MLX model loading easier to understand.</strong>
+Downloaded MLX models now ask you to load the model, while runtime
+installation remains a separate setup step.</li>
+<li><strong>Improved local model download cards.</strong> Model download
+and install states are easier to scan, with quieter technical details
+and clearer actions.</li>
+<li><strong>Improved custom prompts with local AI providers.</strong> LM
+Studio and Ollama now follow a more reliable response format, so custom
+instructions are less likely to appear in final filenames.</li>
+<li><strong>Made local provider limits clearer.</strong> NameQuick now
+explains when a local model cannot handle a file instead of showing
+unrelated credit or usage messaging.</li>
+<li><strong>Reduced visual noise in the AI provider list.</strong>
+Status labels and action buttons now focus on what needs your
+attention.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed MLX showing the wrong action for downloaded
+models.</strong> Downloaded MLX models now show <code>Load model</code>
+instead of <code>Start server</code>.</li>
+<li><strong>Fixed confusing MLX setup states.</strong> NameQuick now
+keeps MLX download, runtime install, loading, and ready states separate,
+so the settings screen no longer suggests reinstalling a runtime when a
+model only needs to load.</li>
+<li><strong>Fixed local AI issues appearing as credit problems.</strong>
+MLX, LM Studio, and Ollama failures now stay tied to the selected local
+provider.</li>
+<li><strong>Fixed settings window flashes on first open.</strong>
+Settings should open more smoothly without a brief misplaced background
+or scroll area.</li>
+<li><strong>Fixed filename recovery for bad local AI responses.</strong>
+NameQuick now catches more unusable filename suggestions and guides you
+to rerun with clearer instructions.</li>
+</ul>
