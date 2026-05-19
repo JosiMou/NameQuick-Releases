@@ -3,70 +3,45 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.33</title>
-            <pubDate>Sat, 16 May 2026 17:50:44 +0200</pubDate>
-            <sparkle:version>297</sparkle:version>
-            <sparkle:shortVersionString>2.11.33</sparkle:shortVersionString>
+            <title>2.11.34</title>
+            <pubDate>Tue, 19 May 2026 19:12:48 +0200</pubDate>
+            <sparkle:version>298</sparkle:version>
+            <sparkle:shortVersionString>2.11.34</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-05-16</p>
+            <description><![CDATA[<p>Release date: 2026-05-19</p>
 <h2 id="new">New</h2>
-<ul>
-<li><strong>A clearer AI provider settings experience.</strong> The AI
-settings page now highlights the active provider, available models,
-setup actions, and local processing choices in one place.</li>
-<li><strong>Better recovery help for local AI providers.</strong> When
-LM Studio, Ollama, or MLX needs attention, NameQuick now shows focused
-next steps and support options instead of leaving the problem hidden in
-the status bar.</li>
-<li><strong>Diagnostics export for support.</strong> You can now create
-a support-ready diagnostics report when a processing issue needs a
-closer look.</li>
-</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Made MLX model loading easier to understand.</strong>
-Downloaded MLX models now ask you to load the model, while runtime
-installation remains a separate setup step.</li>
-<li><strong>Improved local model download cards.</strong> Model download
-and install states are easier to scan, with quieter technical details
-and clearer actions.</li>
-<li><strong>Improved custom prompts with local AI providers.</strong> LM
-Studio and Ollama now follow a more reliable response format, so custom
-instructions are less likely to appear in final filenames.</li>
-<li><strong>Made local provider limits clearer.</strong> NameQuick now
-explains when a local model cannot handle a file instead of showing
-unrelated credit or usage messaging.</li>
-<li><strong>Reduced visual noise in the AI provider list.</strong>
-Status labels and action buttons now focus on what needs your
-attention.</li>
+<li><strong>Made credit updates more reliable for paid plans.</strong>
+NameQuick now handles subscription credit renewals more consistently,
+especially when account details arrive in stages.</li>
+<li><strong>Improved credit status during account setup.</strong> Trial
+and paid-plan setup now keep showing the right setup state while
+NameQuick finishes checking your account.</li>
+<li><strong>Made saved templates more reliable.</strong> Templates and
+custom prompts are better protected during settings resets, so saved
+naming workflows should remain available.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed MLX showing the wrong action for downloaded
-models.</strong> Downloaded MLX models now show <code>Load model</code>
-instead of <code>Start server</code>.</li>
-<li><strong>Fixed confusing MLX setup states.</strong> NameQuick now
-keeps MLX download, runtime install, loading, and ready states separate,
-so the settings screen no longer suggests reinstalling a runtime when a
-model only needs to load.</li>
-<li><strong>Fixed local AI issues appearing as credit problems.</strong>
-MLX, LM Studio, and Ollama failures now stay tied to the selected local
-provider.</li>
-<li><strong>Fixed settings window flashes on first open.</strong>
-Settings should open more smoothly without a brief misplaced background
-or scroll area.</li>
-<li><strong>Fixed filename recovery for bad local AI responses.</strong>
-NameQuick now catches more unusable filename suggestions and guides you
-to rerun with clearer instructions.</li>
+<li><strong>Fixed trial setup showing the wrong credit state.</strong>
+Trial activation should now stay in the correct setup flow instead of
+briefly showing unrelated credit or license messaging.</li>
+<li><strong>Fixed paid credits sometimes appearing unavailable after
+renewal.</strong> NameQuick now keeps checking the right account
+information before deciding whether credits can be used.</li>
+<li><strong>Fixed templates and custom prompts disappearing after a
+reset.</strong> Saved naming templates and custom prompts should now
+remain available instead of unexpectedly resetting.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.33/NameQuick-2.11.33.dmg" length="53142410" type="application/octet-stream" sparkle:edSignature="AUf2FKF/eBYq4mub2tF/29/00YCxRJSjUHShjN6K7nkiH/83ENfYceTeYISpUV7SoKl40h6jjoGZMgdVr+sOCQ=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.34/NameQuick-2.11.34.dmg" length="53602929" type="application/octet-stream" sparkle:edSignature="4MwN6c3MqKXCkv5lDZFDYJYhEU0EClckymTN8uGaxYRlQxzjY15bSFyNvU4yr14EH9U/6UbJ/IkDkF6AD8ccDQ=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.33/NameQuick297-279.delta" sparkle:deltaFrom="279" length="29095998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zqU8gmGJjWqr4OZCeavlE7pckD2hFDr45lyYEmgVTMM2/q5DtKGkUMcdG/m8Np6UTj0C2DXNvynmqvNSzGC0Dg=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.33/NameQuick297-275.delta" sparkle:deltaFrom="275" length="29341738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="K98V1UHOv03FCK1a+uGGS8ijjU04+7aftPW8F0WtNz15QYMS23XVzTA/jZxc5Q7KwYS15DO6nFEtW2HGb5rXCQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.33/NameQuick297-272.delta" sparkle:deltaFrom="272" length="29692734" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kSVPq9Qx9zbGja62sk6G4wglT6ogJzezbkOCAfWs1jTn7d80ZP2WZ5DKdj/Wv5gpU2sLnWq5OoemRM5yE//KAw=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.33/NameQuick297-268.delta" sparkle:deltaFrom="268" length="30813371" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WE7asLyqUZg9ESNH7QPihBL5G994YN/D4yY4iGNoBgIvEYwbX6qmIzEnBVaTxZl3CE0NBN0YbAlFprl7V73IDA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.33/NameQuick297-260.delta" sparkle:deltaFrom="260" length="31167471" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JRWJRMjLzjmXMMMe6MJ/09ytDIOsto5thbHd2wdYVsAI2mp6goF1BVolW54i6aA/FjNNY9tZvqRqcQBSfQr1BQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.34/NameQuick298-279.delta" sparkle:deltaFrom="279" length="30219970" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6JqtmddFJgBEBBoTrXvsHqpLVuxf5hHIfC7X+EhZE7OmINC1GA22nhX6+1y84+isvhs4kwlqF9Ax3sXBMdQQAQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.34/NameQuick298-275.delta" sparkle:deltaFrom="275" length="30443474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7TN2n2Lc01htkWmnSjVZTdRWBo4ili5NQ+rYwfBwPogSxdTvjyY2+O83ykn+qRNlYb9BE4xra2D42SDGjYWrCg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.34/NameQuick298-272.delta" sparkle:deltaFrom="272" length="30744184" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="28QBUJXV2kUxvXz3Nlj2F3tviX2/EOnj2LxdBeUYmNn4TibdJUXQOV2VHVEIczK9ZP2QKo+YJyTZ23g4F0NjCQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.34/NameQuick298-268.delta" sparkle:deltaFrom="268" length="31717546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0G3Mr/Q6y+XQPQdKJuOSrtZ3/V1kx558xALvl6ejiMv3DAAxgCjitldS3QYHLmca46BA2+U+gSs5Idra9UGWAQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.34/NameQuick298-260.delta" sparkle:deltaFrom="260" length="32077505" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JYVhSyfsB5HypdWWVTVwRyvSYkM/FeJHXw9vF+T85ThefbobHafMcKd+JZ2XMBmm+h7dFFEieSJuF+pdhq+5Bg=="/>
             </sparkle:deltas>
         </item>
     </channel>
