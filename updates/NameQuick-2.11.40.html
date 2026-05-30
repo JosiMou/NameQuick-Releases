@@ -1,0 +1,30 @@
+<p>Release date: 2026-05-30</p>
+<h2 id="new">New</h2>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>More reliable Self-Managed license recovery.</strong>
+NameQuick now handles older Self-Managed licenses more consistently
+after restarting, reinstalling, or signing in again on the same
+Mac.</li>
+<li><strong>Clearer device-limit recovery.</strong> When a license needs
+a device slot freed up, NameQuick now keeps the right recovery state
+visible instead of getting stuck on a loading screen.</li>
+<li><strong>Safer subscription credit display.</strong> Subscription
+credits now appear only after NameQuick has confirmed the active
+subscription details, keeping syncing states clear while billing data
+loads.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed Self-Managed licenses getting stuck on
+launch.</strong> Older licenses should no longer hang during startup
+while NameQuick checks activation status.</li>
+<li><strong>Fixed same-device activation recovery.</strong> NameQuick
+now more reliably recognizes valid activation evidence from the same Mac
+instead of incorrectly reporting that no device slots are
+available.</li>
+<li><strong>Fixed license repair after account changes.</strong>
+Returning from license management now retries the right recovery path
+and keeps the app state accurate if the device slot still needs
+attention.</li>
+</ul>
