@@ -1,0 +1,26 @@
+<p>Release date: 2026-06-04</p>
+<h2 id="highlights">Highlights</h2>
+<ul>
+<li><strong>Trial credits now behave correctly for Self-Managed
+batches.</strong> You can start a selected batch while trial credits
+remain, even when more files are selected than credits left.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Local Gemma custom prompts are steadier on CPU-only
+Macs.</strong> NameQuick now avoids a heavier local-model path when
+custom prompts run without GPU acceleration.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed trial credit batches opening the unlock sheet too
+early.</strong> Self-Managed trial users can now start processing while
+credits remain. NameQuick stops cleanly when trial credits run out
+instead of asking to unlock before the first rename starts.</li>
+<li><strong>Fixed trial-credit exhaustion during a batch.</strong> When
+the remaining trial balance reaches zero, NameQuick blocks the next
+model request before it runs.</li>
+<li><strong>Fixed Setapp packaging polish.</strong> Setapp builds now
+use the intended app icon and keep the app bundle presentation aligned
+with the main app.</li>
+</ul>

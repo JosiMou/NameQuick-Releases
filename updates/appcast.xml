@@ -3,249 +3,46 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.41</title>
-            <pubDate>Tue, 02 Jun 2026 10:09:42 +0200</pubDate>
-            <sparkle:version>304</sparkle:version>
-            <sparkle:shortVersionString>2.11.41</sparkle:shortVersionString>
+            <title>2.11.42</title>
+            <pubDate>Thu, 04 Jun 2026 16:59:43 +0200</pubDate>
+            <sparkle:version>305</sparkle:version>
+            <sparkle:shortVersionString>2.11.42</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-06-02</p>
+            <description><![CDATA[<p>Release date: 2026-06-04</p>
 <h2 id="highlights">Highlights</h2>
 <ul>
-<li><strong>Quick Process now handles one-off folders and
-files.</strong> Drop a folder or a few files, choose what to rename, and
-run a temporary batch without setting up a Watch Folder.</li>
-<li><strong>New rename mode menu.</strong> Choose Rename automatically
-or Review before renaming from the main toolbar More menu before
-starting the next batch.</li>
-<li><strong>Audit view became History and is much more useful.</strong>
-Past renames now appear in a searchable timeline with batch grouping,
-file details, issue counts, and clearer undo or redo actions.</li>
-<li><strong>Rules are easier to build.</strong> The new guided rule
-composer turns rule setup into a step-by-step sentence with searchable
-rule management.</li>
-<li><strong>Reasoning effort controls for cloud AI providers.</strong>
-OpenAI, Gemini, and Claude reasoning-capable models now expose a
-reasoning effort setting, giving you more control over speed, depth, and
-token use.</li>
-<li><strong>Rename failures are easier to recover from.</strong> Quick
-Process and History now show clearer per-file status, failure reasons,
-and recovery actions when something needs attention.</li>
-<li><strong>Bring-your-own-key setup is clearer.</strong> OpenAI and
-Claude API key issues now appear closer to the rename workflow, with
-clearer next steps when a provider needs attention.</li>
-</ul>
-<h2 id="new">New</h2>
-<ul>
-<li><strong>Quick Process now supports one-off folder renames.</strong>
-Drop a folder onto NameQuick, review the files it finds, choose the
-rename mode, and process the batch without creating a permanent Watch
-Folder.</li>
-<li><strong>A new Quick Process drawer keeps temporary batches in one
-place.</strong> Dropped files now appear in a focused bottom drawer
-where you can select specific rows, switch between Automatic and Review
-mode, start the rename, watch progress, and finish the batch from the
-same surface.</li>
-<li><strong>New rename mode menu in the main toolbar.</strong> Choose
-between Rename automatically and Review before renaming from the More
-menu, so you can decide how the next rename should behave right from the
-file list.</li>
-<li><strong>Per-file Quick Process results.</strong> Each file in a
-temporary batch now shows its own state, including queued, naming,
-proposed, renamed, skipped, or failed, so a mixed batch no longer feels
-like one opaque all-or-nothing operation.</li>
-<li><strong>Review mode inside Quick Process.</strong> Temporary batches
-can now produce proposed names first, letting you approve, edit, reject,
-retry, or apply selected proposals before anything is renamed.</li>
-<li><strong>Audit view became History with a fuller rename
-timeline.</strong> History now groups past rename work by time and
-batch, shows file counts and issue counts, and gives each renamed file a
-clearer place to inspect what happened.</li>
-<li><strong>Detailed file history.</strong> History now includes a
-detail panel for individual files with the original name, the suggested
-name, the final result, file status, available undo or redo actions, and
-clearer failure information when something needs attention.</li>
-<li><strong>Search and filters for rename history.</strong> History can
-now be searched and filtered, making it easier to find a specific file,
-a failed rename, or a recent batch without scrolling through the whole
-timeline.</li>
-<li><strong>A guided rule composer.</strong> Rules now have a
-sentence-style editor with separate steps for when the rule runs, which
-files it matches, and what actions it performs.</li>
-<li><strong>Rule search.</strong> The Rules screen now includes search,
-so larger rule lists are easier to scan and maintain.</li>
-<li><strong>More rule actions and conditions in the editor.</strong> The
-composer now exposes quick presets plus custom conditions for filename,
-file type, size, dates, and path, along with actions such as moving,
-tagging, adding comments, setting colors, dates, archiving, or moving
-files to Trash.</li>
-<li><strong>Activation can return you to the chat that created a
-template.</strong> When a setup or unlock flow starts from a template
-conversation, NameQuick can now bring you back to that conversation
-afterward so you do not lose context.</li>
+<li><strong>Trial credits now behave correctly for Self-Managed
+batches.</strong> You can start a selected batch while trial credits
+remain, even when more files are selected than credits left.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Quick Process is clearer before a rename starts.</strong>
-Dropped files start unselected, so you explicitly choose what to rename,
-with Select all and Clear selection available when you want a faster
-batch flow.</li>
-<li><strong>Folder drops are easier to understand.</strong> NameQuick
-now better explains when a dropped folder has no supported files,
-instead of silently hiding the panel or showing a vague error.</li>
-<li><strong>Quick Process now gives better recovery choices.</strong>
-Failed rows can offer actions such as retrying, editing manually,
-switching provider settings, revealing the file, or copying failure
-details for support.</li>
-<li><strong>Batch progress is easier to read.</strong> Quick Process now
-summarizes renamed, proposed, failed, and selected files while the batch
-is running or waiting for review.</li>
-<li><strong>Temporary renames keep your main library cleaner.</strong>
-One-off Quick Process batches rename files in place without importing
-them into the managed file library.</li>
-<li><strong>Rename history is now more durable.</strong> Recent rename
-activity is saved more reliably and remains available after quitting and
-reopening NameQuick.</li>
-<li><strong>Review-mode changes are saved into history more
-consistently.</strong> Renames applied from review now appear as proper
-batches, making undo, redo, and later inspection easier.</li>
-<li><strong>History now knows where a rename came from.</strong> Quick
-Process, Watch Folders, manual renames, and review-mode actions are
-tracked more clearly, so the timeline better reflects how each file was
-processed.</li>
-<li><strong>Failure explanations are more helpful.</strong> NameQuick
-now gives clearer reasons when a rename cannot finish, including
-unsupported files, missing permissions, provider problems, duplicate
-filenames, missing files, and other common recovery paths.</li>
-<li><strong>OpenAI and Claude setup is easier to find.</strong> When
-your selected provider needs an API key, NameQuick now shows the setup
-field and provider status in the active provider area instead of making
-you switch away and back.</li>
-<li><strong>Issues are easier to trace back to the affected
-files.</strong> Processing problems now connect more cleanly to the
-related history item, file row, and support details.</li>
-<li><strong>Screenshot comments are preserved more reliably.</strong>
-Comments attached to files now survive imports, metadata updates, and
-rename-related refreshes more consistently.</li>
-<li><strong>Smart Rename follows custom prompts more
-consistently.</strong> NameQuick now gives AI models clearer structured
-instructions, improving results when a template or custom prompt has
-specific naming requirements.</li>
-<li><strong>Cloud model reasoning settings are clearer.</strong>
-Reasoning effort is available where supported by OpenAI, Gemini, and
-Claude, while unsupported models keep the simpler model-only
-settings.</li>
-<li><strong>Rejecting review rows feels faster.</strong> Review
-interactions now update row state immediately, reducing delays when
-rejecting or skipping proposed names.</li>
-<li><strong>File table rename details are steadier.</strong> Rename
-detail drawers and inspectors now stay attached to the selected row more
-reliably during navigation, resizing, and route changes.</li>
-<li><strong>Character-level name differences are easier to
-inspect.</strong> Rename details can now highlight filename changes more
-clearly, making small edits, suffixes, and formatting differences easier
-to review.</li>
-<li><strong>Thumbnails and file rows load more smoothly.</strong> Larger
-file lists should feel steadier while previews load and while rename
-status changes.</li>
-<li><strong>Onboarding guidance is less jumpy.</strong> Setup tips and
-coachmarks now wait for the right screen before appearing, reducing
-missed or misplaced guidance during activation and onboarding.</li>
-<li><strong>Quick action controls are more consistent.</strong> Quick
-Process, the main file table, and shared action bars now use more of the
-same controls and visual treatment.</li>
-<li><strong>Toolbar controls are less crowded.</strong> Renaming mode,
-sort order, sort direction, and appearance now live together in the More
-menu, keeping the toolbar cleaner while still showing the current choice
-with checkmarks.</li>
-<li><strong>Screenshot menus and rename actions are cleaner.</strong>
-Menus and undo affordances have been tightened so the common file
-actions are easier to parse.</li>
-<li><strong>Rules are easier to manage at scale.</strong> The Rules
-screen now has a stronger list/detail layout, better filtering controls,
-sorting, and a clearer setting for whether all matching rules should
-run.</li>
-<li><strong>Settings window polish.</strong> Settings now uses cleaner
-window chrome, avoiding the previous warm strip in the titlebar
-area.</li>
-<li><strong>License unlock guidance points to the right action.</strong>
-Urgent unlock states now route clicks to the appropriate unlock CTA more
-directly.</li>
+<li><strong>Local Gemma custom prompts are steadier on CPU-only
+Macs.</strong> NameQuick now avoids a heavier local-model path when
+custom prompts run without GPU acceleration.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed Quick Process dismissal after failures.</strong> The
-drawer should now stay available when a batch needs attention and
-dismiss reliably when the user is done.</li>
-<li><strong>Fixed Quick Process recovery after a settled
-failure.</strong> Failed temporary batches should no longer get stuck in
-a confusing in-between state after processing stops.</li>
-<li><strong>Fixed selected-file processing in Quick Process.</strong>
-Rows that were not selected now remain visible as skipped while selected
-files continue through the batch.</li>
-<li><strong>Fixed Quick Process selection shortcuts.</strong> Selection
-shortcuts now belong to the Quick Process drawer while it is open,
-instead of also affecting the main file table.</li>
-<li><strong>Fixed dropped batches with no supported files.</strong>
-NameQuick now shows a clear explanation when a drop contains unsupported
-files or nothing renameable.</li>
-<li><strong>Fixed per-row retry and edit races in Quick
-Process.</strong> Late updates from an older attempt should no longer
-overwrite the newer row state after retrying, editing, or applying a
-proposal.</li>
-<li><strong>Fixed review-row reject lag.</strong> Rejecting a proposed
-filename should now feel immediate and keep the visible row state in
-sync.</li>
-<li><strong>Fixed history rows disappearing after relaunch.</strong>
-Rename history should remain available across app restarts instead of
-only existing during the current session.</li>
-<li><strong>Fixed duplicate and misplaced rows in History.</strong>
-File-centric history navigation now deduplicates rows more reliably and
-keeps detail selection aligned with the file you clicked.</li>
-<li><strong>Fixed History detail flicker during resize.</strong> The
-detail inspector now transitions more smoothly and should no longer jump
-or detach while resizing the window.</li>
-<li><strong>Fixed rename detail presentation from file tables.</strong>
-Rename details are now routed through the active view state, reducing
-cases where the wrong detail panel opened or the panel disappeared
-unexpectedly.</li>
-<li><strong>Fixed screenshot comments getting lost during
-updates.</strong> Comments should no longer disappear when files are
-refreshed, renamed, or reloaded from saved data.</li>
-<li><strong>Fixed metadata comments missing from saved
-projections.</strong> Comments now persist through the saved file
-records that power later app launches and history views.</li>
-<li><strong>Fixed unclear failures in temporary batches.</strong> Quick
-Process now maps early file rejection reasons back onto the right file
-rows instead of showing a generic unexpected error.</li>
-<li><strong>Fixed provider and permission failures being hard to act
-on.</strong> Rename failures now choose more specific user-facing
-explanations and recovery actions.</li>
-<li><strong>Fixed OpenAI quota and rate-limit failures being too easy to
-miss.</strong> When your OpenAI key runs into a usage limit, NameQuick
-now shows the problem in the processing HUD with clearer recovery
-guidance.</li>
-<li><strong>Fixed missing setup guidance for OpenAI and Claude.</strong>
-If the active provider has no API key yet, NameQuick now makes that
-clear before model choices or renaming actions distract from the
-required setup.</li>
-<li><strong>Fixed Gemini reasoning requests failing.</strong> Gemini
-requests that use thinking now use the correct provider endpoint and
-request shape.</li>
-<li><strong>Fixed bring-your-own-key requests failing for OpenAI and
-Claude.</strong> Reasoning-capable models now use the right request
-settings for each provider.</li>
-<li><strong>Fixed onboarding route handoffs.</strong> Activation and
-onboarding transitions now complete more consistently when moving
-between setup screens and the main app.</li>
-<li><strong>Fixed template activation context getting lost after
-unlock.</strong> Unlocking from an activation flow should now preserve
-the path back to the relevant template chat.</li>
-<li><strong>Fixed a licensing CTA dead end.</strong> Clicking an urgent
-unlock state now opens the intended action instead of leaving the user
-on the same surface.</li>
+<li><strong>Fixed trial credit batches opening the unlock sheet too
+early.</strong> Self-Managed trial users can now start processing while
+credits remain. NameQuick stops cleanly when trial credits run out
+instead of asking to unlock before the first rename starts.</li>
+<li><strong>Fixed trial-credit exhaustion during a batch.</strong> When
+the remaining trial balance reaches zero, NameQuick blocks the next
+model request before it runs.</li>
+<li><strong>Fixed Setapp packaging polish.</strong> Setapp builds now
+use the intended app icon and keep the app bundle presentation aligned
+with the main app.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.41/NameQuick-2.11.41.dmg" length="55762075" type="application/octet-stream" sparkle:edSignature="euIxKy3xj/vmHjLx3Q0rPhnT6QdrOQ4DXc66zguCzjIZP+73riEknuG/VjMxIB75sImG2XMJaykJifaF/Km5DA=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.42/NameQuick-2.11.42.dmg" length="56168529" type="application/octet-stream" sparkle:edSignature="VI3MvCVsYyd3+tIATx6B1EfkwtL+1lUF9pDgn4AmqdmtROz2Qfmgcb9LhHsYB0TzcRexf9zL5JXWkEQd62UGCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.42/NameQuick305-279.delta" sparkle:deltaFrom="279" length="34105721" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lfIdOlCaMGv/tx3eFhL8lEo9MNjhMwdVaLi+EapQt691q/Ji43tfxcBFFJkf9JsfXqMVB6hIKiiuA9W0LUzVDg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.42/NameQuick305-275.delta" sparkle:deltaFrom="275" length="34330436" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N6PkV9lN9nIp5NPpeILPmAUpbQOmJRdnWz6WdHldsjmGhQ67oHb25yI2Ec7iSVriuiyWc+JcDAS9bABa5kVxDA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.42/NameQuick305-272.delta" sparkle:deltaFrom="272" length="34565738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Jh3CgtYXU+LJk4GsvCwXdORnxd+c2pWco7EVkdSiqkfeXyF8CxSOxLgr7LH8iAT6geZS2oqOmYfoJuoqidqYBQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.42/NameQuick305-268.delta" sparkle:deltaFrom="268" length="35544011" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mKRIo/t9oETtI4+grUFPQNTGM7YDLL7rCTGBEJVVMZKbEJwhQRvyJwjTdY6qs31J+OIhBOb/XpXj4cpMRiIJBA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.42/NameQuick305-260.delta" sparkle:deltaFrom="260" length="35791810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nuvOpwRTfG65K8+XeKKclQiS5InhDem8RmAK35Q1mOwQ9Up8mAlW/utIg0raCDQFCHGYU+nJw2PXVIryh8F/AA=="/>
+            </sparkle:deltas>
         </item>
     </channel>
 </rss>
