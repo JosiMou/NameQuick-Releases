@@ -1,0 +1,62 @@
+<p>Release date: 2026-06-08</p>
+<p>This update focuses heavily on Rules. It improves rule setup,
+testing, and applying saved rules to existing files, with many fixes for
+edge cases that could make rules feel confusing or unreliable.</p>
+<h2 id="new">New</h2>
+<ul>
+<li><strong>Apply saved rules to files that are already in watched
+folders.</strong> After saving a rule, NameQuick can now offer to run it
+on matching existing files, so you do not have to wait for new files to
+arrive before a rule takes effect.</li>
+<li><strong>Choose whether a move rule renames a file or moves it into a
+folder.</strong> The rules editor now makes this choice explicit, which
+helps destinations such as <code>Reports.pages</code> or
+<code>2026.backups</code> behave the way you expect.</li>
+<li><strong>Test rules on demand.</strong> The rules editor now has a
+clear Test button with readable states, so you can check a rule against
+sample files when you are ready instead of relying on silent background
+testing.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>More reliable move rules.</strong> Folder moves, nested
+destinations, counters, and files that are already in the right folder
+are handled more consistently.</li>
+<li><strong>Clearer rule results after saving.</strong> NameQuick now
+reports when a rule was applied, when no files needed changes, and when
+some files could not be updated.</li>
+<li><strong>Better Automation permission guidance.</strong> If NameQuick
+cannot write Finder tags, comments, or dates during automatic rule
+processing, it can show a calm one-time reminder with a shortcut to
+Settings.</li>
+<li><strong>More polished German localization for rules.</strong> The
+rules composer, rule summaries, and live sentence previews now use more
+complete German translations and more natural word order.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed rules that could move files repeatedly into the same
+folder.</strong> Files already inside a destination such as
+<code>Processed</code> should now stay there instead of being nested
+deeper on later scans.</li>
+<li><strong>Fixed moved files being renamed again.</strong> Files moved
+by a rule should no longer be picked up as new arrivals and unexpectedly
+processed a second time.</li>
+<li><strong>Fixed unsafe rule matches.</strong> Rules with missing
+conditions, unrecognized saved actions, invalid date checks, or
+image-only metadata checks now fail more safely instead of matching too
+broadly.</li>
+<li><strong>Fixed unsaved rule edits being lost.</strong> Toggling a
+rule or filtering the rules list should no longer discard changes in the
+open editor.</li>
+<li><strong>Fixed Finder tag and date failures being reported as
+success.</strong> When macOS blocks metadata changes, NameQuick now
+keeps the rule result honest and points you toward the permission that
+needs attention.</li>
+<li><strong>Fixed subscription management links.</strong> Account and
+cancellation flows now use customer-specific Polar portal sessions
+instead of stale portal links.</li>
+<li><strong>Fixed filename validation for original extensions.</strong>
+Names that keep the original file extension are now checked more
+accurately before being accepted.</li>
+</ul>

@@ -3,89 +3,81 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.43</title>
-            <pubDate>Mon, 08 Jun 2026 08:06:19 +0200</pubDate>
-            <sparkle:version>306</sparkle:version>
-            <sparkle:shortVersionString>2.11.43</sparkle:shortVersionString>
+            <title>2.11.44</title>
+            <pubDate>Mon, 08 Jun 2026 19:29:12 +0200</pubDate>
+            <sparkle:version>307</sparkle:version>
+            <sparkle:shortVersionString>2.11.44</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-06-07</p>
+            <description><![CDATA[<p>Release date: 2026-06-08</p>
+<p>This update focuses heavily on Rules. It improves rule setup,
+testing, and applying saved rules to existing files, with many fixes for
+edge cases that could make rules feel confusing or unreliable.</p>
 <h2 id="new">New</h2>
 <ul>
-<li><strong>Search inside file contents.</strong> NameQuick can now find
-text inside PDFs, images, scanned documents, and supported document and
-text files, so files can show up even when the matching words are not in
-the file name.</li>
+<li><strong>Apply saved rules to files that are already in watched
+folders.</strong> After saving a rule, NameQuick can now offer to run it
+on matching existing files, so you do not have to wait for new files to
+arrive before a rule takes effect.</li>
+<li><strong>Choose whether a move rule renames a file or moves it into a
+folder.</strong> The rules editor now makes this choice explicit, which
+helps destinations such as <code>Reports.pages</code> or
+<code>2026.backups</code> behave the way you expect.</li>
+<li><strong>Test rules on demand.</strong> The rules editor now has a
+clear Test button with readable states, so you can check a rule against
+sample files when you are ready instead of relying on silent background
+testing.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Clearer content search progress.</strong> Rebuilding,
-updating, and cleaning the content index now show visible status in
-Settings and the main window, so you can tell when NameQuick is still
-checking files.</li>
-<li><strong>Newer local Gemma 4 models.</strong> NameQuick now
-recommends newer Gemma 4 local models that are designed to use less
-memory, making local processing a better fit for more Macs.</li>
-<li><strong>More reliable local model setup.</strong> NameQuick is
-better at choosing and preparing local models for your Mac, including
-clearer handling for Gemma, MLX, LM Studio, and Ollama workflows.</li>
-<li><strong>Clearer local Gemma upgrades.</strong> NameQuick can now
-guide you from older local Gemma models to the newer recommended setup
-without changing your current selection until the replacement is
-installed.</li>
-<li><strong>Steadier local model downloads.</strong> Local model
-download cards now keep their progress, size, speed, and status more
-stable while a model is installing, especially near the end of an Ollama
-download.</li>
-<li><strong>Clearer local model labels.</strong> Older local model rows
-now avoid contradictory badges, so it is easier to tell which model is
-recommended and which one is being replaced.</li>
-<li><strong>More dependable templates and custom prompts.</strong> Saved
-templates and custom prompts are handled more consistently when files
-and document inputs are used in naming workflows.</li>
-<li><strong>Smoother content match browsing.</strong> Content matches
-now stay focused while you review results, with less panel reset
-behavior and no unnecessary loading loop while search results are
-already known.</li>
-<li><strong>More useful rule previews.</strong> Rule setup is better at
-finding sample files from watched folders, so testing a rule should show
-real examples more reliably.</li>
+<li><strong>More reliable move rules.</strong> Folder moves, nested
+destinations, counters, and files that are already in the right folder
+are handled more consistently.</li>
+<li><strong>Clearer rule results after saving.</strong> NameQuick now
+reports when a rule was applied, when no files needed changes, and when
+some files could not be updated.</li>
+<li><strong>Better Automation permission guidance.</strong> If NameQuick
+cannot write Finder tags, comments, or dates during automatic rule
+processing, it can show a calm one-time reminder with a shortcut to
+Settings.</li>
+<li><strong>More polished German localization for rules.</strong> The
+rules composer, rule summaries, and live sentence previews now use more
+complete German translations and more natural word order.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed content search rebuilds that appeared to do
-nothing.</strong> Rebuild and clear actions now report progress and
-completion more reliably instead of silently leaving the index
-unchanged.</li>
-<li><strong>Fixed stale content search results after folder
-changes.</strong> Removing a folder, restoring files, or changing files
-inside a watched folder now updates the content index so old matches are
-cleaned up and new text can be found.</li>
-<li><strong>Fixed content indexing during active file writes.</strong>
-NameQuick now waits for changed files to settle before reading their
-contents, reducing failed or partial search results when another app is
-still saving.</li>
-<li><strong>Fixed content search result flicker.</strong> Opening and
-switching content matches should no longer reset the side panel or
-selected match unexpectedly.</li>
-<li><strong>Fixed local processing controls that could appear in the
-wrong place.</strong> Local processing settings are now presented more
-consistently with the current provider setup.</li>
-<li><strong>Fixed folder move rules.</strong> Move destinations such as
-<code>Processed</code> are now handled as folders, so matching files can
-be moved into the intended folder instead of being treated like a
-filename.</li>
-<li><strong>Fixed saved move rules during file discovery.</strong> Saved
-move rules are now applied before a discovered batch is submitted, so
-files can land in the expected folder during automatic processing.</li>
+<li><strong>Fixed rules that could move files repeatedly into the same
+folder.</strong> Files already inside a destination such as
+<code>Processed</code> should now stay there instead of being nested
+deeper on later scans.</li>
+<li><strong>Fixed moved files being renamed again.</strong> Files moved
+by a rule should no longer be picked up as new arrivals and unexpectedly
+processed a second time.</li>
+<li><strong>Fixed unsafe rule matches.</strong> Rules with missing
+conditions, unrecognized saved actions, invalid date checks, or
+image-only metadata checks now fail more safely instead of matching too
+broadly.</li>
+<li><strong>Fixed unsaved rule edits being lost.</strong> Toggling a
+rule or filtering the rules list should no longer discard changes in the
+open editor.</li>
+<li><strong>Fixed Finder tag and date failures being reported as
+success.</strong> When macOS blocks metadata changes, NameQuick now
+keeps the rule result honest and points you toward the permission that
+needs attention.</li>
+<li><strong>Fixed subscription management links.</strong> Account and
+cancellation flows now use customer-specific Polar portal sessions
+instead of stale portal links.</li>
+<li><strong>Fixed filename validation for original extensions.</strong>
+Names that keep the original file extension are now checked more
+accurately before being accepted.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.43/NameQuick-2.11.43.dmg" length="56612757" type="application/octet-stream" sparkle:edSignature="mBDVUXEHvm4uLxRlHG9MTVXzdzLQSpDQ6zcu3KklHHTydVMXyN9CrGnkk9JboEeDy7jxvkn4Gg/BmNW0N0lYBw=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.44/NameQuick-2.11.44.dmg" length="56554561" type="application/octet-stream" sparkle:edSignature="E5No7tDQJUETnWXyVADOkN82t9LPx/NkW8cSdFRQ60/CSK2p61EkUfNe/PRJ1rbnuQyNyX7a8uOg9nhCam/JBw=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.43/NameQuick306-279.delta" sparkle:deltaFrom="279" length="34844396" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="26Nb8dNajXwLRs4cxYim7obz2YSjDI7KIFnSIWme4qcoL7ckCl7LYvPpE2WaQbybfyzM1cSsWk3Yl22BqC1rBw=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.43/NameQuick306-275.delta" sparkle:deltaFrom="275" length="35035159" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4AZCrNHNYqFb27ufKcpRvE3Mnetv+H3UwkNeHSSuem3Kc5WtsEyXbP77CyZdbbIPSJ0k//klKoxOTHOqnSQUCw=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.43/NameQuick306-272.delta" sparkle:deltaFrom="272" length="35320845" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HHpAb/eo8QmFFM7gkCp0GAGaHWP/z0htEu+Z6BNrEHULtbRoN4hSIcDckk/5BSksCafWx8wIzwOUQPiNbIk4Cw=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.43/NameQuick306-268.delta" sparkle:deltaFrom="268" length="36260857" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OufRUQo3guMW1kc+MGIbPWK1NpwEVnvvRpPgwIzfj97rX+qN6+R2SBSzM1023hQO9j2bJgKTv/m5EbDxYE60DA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.43/NameQuick306-260.delta" sparkle:deltaFrom="260" length="36510497" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qW94BUI+2pKlHs5ArTgUGouFcUFniCXz090EC3Vxm6G6noxUQFrcU1zNFAp4b7YzFknrtwX3P656oR3QyDNeCw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.44/NameQuick307-279.delta" sparkle:deltaFrom="279" length="34650850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3ZAuWSBLsgk7TdCwVbQivwqz8TVF9IEb4tWEH/ZD0ZXZTA2FRf/scLFX21GFGjMI0+H+Asz/X/oi47giDnpsBw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.44/NameQuick307-275.delta" sparkle:deltaFrom="275" length="34852374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IFFuc4h+XpmDawgGLkC63y5Oocf0P28WdVjgRbKrZQF2C6d8elilbwMCThU1kzx1u164YrrAiwSDnS+b/a0DBQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.44/NameQuick307-272.delta" sparkle:deltaFrom="272" length="35099034" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BwM5ckWRO0aEJBbg0RPPqui/pRWRqK5ybQ3VUBoJ5O5lcX/IswOL7bWg9TzSi4RXhJIIF4Rs8SaOm1gHAdafCg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.44/NameQuick307-268.delta" sparkle:deltaFrom="268" length="36041872" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uGsxywHh8j9n1paHW2Smjjd6oSB+hQAQQk0XRGgfLAc9GweMlZL+3c7GKwpu1gYgRxRZi0J6SKOq2EVBwJCZDw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.44/NameQuick307-260.delta" sparkle:deltaFrom="260" length="36309304" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VsPOjAM7XKZ7CoxV3ZO2gBbEm5m5YK5zxKAkeRKLPoBN091CqeTbldYQTUeQveaY/3XudJPneA/APv1XN+qdBQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
