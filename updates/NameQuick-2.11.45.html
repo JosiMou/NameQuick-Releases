@@ -1,0 +1,136 @@
+<p>Release date: 2026-06-16</p>
+<p>This update improves local Smart Rename, custom prompts, rules, Quick
+Process, local AI providers, review workflows, library reliability, and
+licensing.</p>
+<h2 id="new">New</h2>
+<ul>
+<li><strong>New rule templates for common document workflows.</strong>
+NameQuick now includes more starting points for everyday document
+organization, making it faster to create useful rules without building
+every condition from scratch.</li>
+<li><strong>Apple-native document support for AI renaming.</strong>
+Pages, Numbers, Keynote, and RTFD files can now be read for naming
+workflows instead of being treated like unsupported files.</li>
+<li><strong>More capable local Smart Rename.</strong> Local AI naming
+now keeps the generated name grounded in the file’s actual text and
+sends uncertain details to review instead of guessing.</li>
+<li><strong>Smarter custom prompt authoring.</strong> Custom prompts now
+preserve more of the naming plan you wrote, so repeated workflows behave
+more consistently across different files.</li>
+<li><strong>Rules can skip files before AI work.</strong> Rules can now
+stop files that should not be processed before AI extraction begins,
+helping batches finish with clearer skipped-file results.</li>
+<li><strong>A more useful Review area.</strong> Review now has clearer
+attention states, a dock badge, and better routing for items that need a
+decision before a rename can finish.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Clearer review for files that need details.</strong> Rows
+with missing fields now guide you through a focused fill-the-blanks
+form, so you can complete the name without editing the whole filename by
+hand.</li>
+<li><strong>Better review recovery after restart.</strong> Proposed
+names and their source details are restored more reliably, so you can
+pick up a review batch without losing why a suggestion was made.</li>
+<li><strong>More transparent review evidence.</strong> NameQuick now
+shows more of the source detail behind template and custom-prompt
+suggestions, so review decisions are easier to trust.</li>
+<li><strong>More dependable custom prompts.</strong> When a custom
+prompt leaves out required details, repeats a field, or returns
+something NameQuick cannot verify, the file is kept in review instead of
+being renamed from an uncertain result.</li>
+<li><strong>More complete Quick Process preset support.</strong> Quick
+Process now shows saved templates alongside Smart Rename and custom
+prompts, so you can use the same saved naming workflows from the
+floating drawer.</li>
+<li><strong>Clearer run controls.</strong> Auto-rename and review-first
+choices now live with the run button, making it easier to choose how a
+batch should proceed before starting.</li>
+<li><strong>More reliable local AI providers.</strong> MLX, Ollama, and
+LM Studio runs handle model loading, unavailable-model states,
+structured responses, and longer local reasoning runs more
+predictably.</li>
+<li><strong>Smarter local model recommendations.</strong> NameQuick now
+suggests local models that better fit your Mac, warns before larger
+RAM-heavy choices, and blocks MLX models on unsupported Macs.</li>
+<li><strong>Automatic cleanup for older local model picks.</strong> When
+NameQuick updates its recommended local models, older matching choices
+can be replaced with the newer option more clearly.</li>
+<li><strong>OpenAI BYOK now starts with GPT-5.5.</strong> New OpenAI
+self-managed setups default to a stronger model for naming work.</li>
+<li><strong>Faster browsing and indexing for larger libraries.</strong>
+Folder indexing, scan progress, and background browsing updates are
+smoother, especially when watched folders contain many files.</li>
+<li><strong>More reliable watched folders.</strong> Folder access
+recovery, existing-file prompts, and background indexing behave more
+consistently when folders move, reconnect, or need permission
+again.</li>
+<li><strong>More dependable rename history.</strong> The History panel
+is more reliable and responsive when reviewing recent batches or undoing
+renamed files.</li>
+<li><strong>Cleaner browsing and selection.</strong> Grid and table
+updates are lighter, selection counts are clearer, and large file lists
+should feel steadier while work is running.</li>
+<li><strong>A simpler main sidebar.</strong> The library now focuses on
+the active places and review states that matter most, with clearer
+folder health and drop targets.</li>
+<li><strong>More consistent naming language.</strong> Custom prompts now
+follow your selected output language more reliably, so generated
+filenames better match the language you chose.</li>
+<li><strong>Stronger licensing and credit recovery.</strong> NameQuick
+handles offline checks, subscription changes, and self-managed key
+storage more carefully before allowing paid or trial usage.</li>
+<li><strong>Better trial and upgrade messaging.</strong> Trial limits,
+plan upgrades, and self-managed setup flows now give clearer next steps
+when access changes.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed the Build name flow for incomplete rows.</strong>
+Filling required fields should now create a proposed name instead of
+leaving the button looking inactive.</li>
+<li><strong>Fixed Quick Process getting stuck after a rename.</strong>
+After a file is renamed, you can run Quick Process again from the same
+drawer instead of closing and starting over.</li>
+<li><strong>Fixed Quick Process template selections falling back to
+Smart Rename.</strong> Saved templates should now stay selected and use
+the right template-based naming flow.</li>
+<li><strong>Fixed skipped files looking like failures.</strong> Files
+skipped by rules are now reported as skipped instead of being mixed into
+failed results.</li>
+<li><strong>Fixed rule actions for moving and tagging files.</strong>
+Rules now let you choose a destination folder directly and add Finder
+tags from the rule editor instead of typing paths or replacing
+placeholder tags.</li>
+<li><strong>Fixed browse list flicker during background
+updates.</strong> File lists should stay steadier while NameQuick
+refreshes folder data in the background.</li>
+<li><strong>Fixed tag search crashes in large libraries.</strong>
+Searches involving Finder tags should no longer crash after library
+updates or older data migrations.</li>
+<li><strong>Fixed watched-folder indexing getting out of sync.</strong>
+NameQuick is better at reconciling renamed, moved, or newly available
+files so folder counts and file lists converge correctly.</li>
+<li><strong>Fixed managed template and custom-prompt routing.</strong>
+Managed renames should no longer accidentally switch template or
+custom-prompt files to a local provider.</li>
+<li><strong>Fixed batches appearing finished before the last work is
+complete.</strong> Auto-processing now waits for the actual rename work
+to settle before reporting completion.</li>
+<li><strong>Fixed unclear local-provider and quota messages.</strong>
+Provider and usage problems now surface with clearer feedback instead of
+generic failure states.</li>
+<li><strong>Fixed stale local-provider actions after relaunch.</strong>
+Local model setup controls should reflect the current provider state
+more reliably after reopening NameQuick.</li>
+<li><strong>Fixed content indexing recovery after missing or unreadable
+files.</strong> NameQuick is better at keeping search and folder
+indexing honest when files move, disappear, or cannot be read.</li>
+<li><strong>Fixed ambiguous date handling in local naming.</strong>
+Dates are interpreted more consistently when the document language gives
+NameQuick enough context.</li>
+<li><strong>Fixed paid-trial exhaustion display.</strong> When a managed
+trial runs out, the app now describes the state more accurately instead
+of showing misleading availability.</li>
+</ul>
