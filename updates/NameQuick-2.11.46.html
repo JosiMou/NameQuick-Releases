@@ -1,0 +1,65 @@
+<p>Release date: 2026-06-21</p>
+<p>This update makes review-first workflows safer, improves rules
+history and undo, strengthens watch-folder importing, and makes local
+AI, templates, and licensing more reliable.</p>
+<h2 id="new">New</h2>
+<ul>
+<li><strong>Review hold for automatic renames.</strong> A new setting
+can send watched-folder and automatic rename suggestions to Review
+before files are changed, so hands-off workflows can still have a check
+step.</li>
+<li><strong>Move-back actions for rule-organized files.</strong> Recent
+Renames now shows files moved, trashed, or archived by rules, with Move
+back or Put back actions where reversal is supported.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Safer first-run renaming.</strong> Fresh installs now start
+in Review mode, so new users see proposed filenames before NameQuick
+writes changes to disk.</li>
+<li><strong>More predictable watched-folder setup.</strong> NameQuick
+handles existing files during watch-folder setup more reliably, with
+clearer baselines for future arrivals.</li>
+<li><strong>Faster large-folder importing.</strong> NameQuick scans and
+imports big folders with less memory use and less window freezing,
+especially when folders contain many existing files.</li>
+<li><strong>More dependable templates and custom prompts.</strong>
+Imported templates keep their names, rules, and test behavior more
+consistently, and older saved templates recover more predictably.</li>
+<li><strong>Stronger local AI readiness.</strong> Local MLX setup now
+reports incompatible or failed model states more clearly and can guide
+users toward repair instead of silently failing.</li>
+<li><strong>Clearer licensing and self-managed setup recovery.</strong>
+Checkout and upgrade flows now show clearer messages when a completed
+purchase cannot be matched to the right account.</li>
+<li><strong>Smoother selection and search feedback.</strong> File
+selections, footer counts, action buttons, and content-search status
+stay in sync more reliably while files and indexes update.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed repeat-rename undo.</strong> Undo now returns a file
+to the immediate previous name instead of jumping back to an older name
+or inventing a duplicate “restored” filename.</li>
+<li><strong>Fixed missing history for template and custom-prompt test
+renames.</strong> Files renamed from those authoring flows now appear in
+Recent Renames and can be undone.</li>
+<li><strong>Fixed dotted identifiers in filenames.</strong> Case
+numbers, versions, and other values with interior dots should no longer
+be truncated or gain duplicate extensions.</li>
+<li><strong>Fixed rule moves and trash actions leaving stale library
+rows.</strong> Moving back or putting back a rule-organized file now
+keeps the library row aligned with the real file.</li>
+<li><strong>Fixed silent empty folder adds.</strong> When adding
+existing files finds no supported files, NameQuick now tells you instead
+of appearing to do nothing.</li>
+<li><strong>Fixed duplicate watch-folder backfill processing.</strong>
+Existing files in watched folders should no longer be queued twice or
+skipped incorrectly when catalog rows need repair.</li>
+<li><strong>Fixed Quick Process history gaps.</strong> Quick Process
+renames are recorded more reliably before completion, improving recovery
+if the app closes at the wrong moment.</li>
+<li><strong>Fixed Finder metadata setting confusion.</strong> Turning on
+AI-generated file descriptions now enables the required Finder metadata
+setting instead of looking unavailable.</li>
+</ul>
