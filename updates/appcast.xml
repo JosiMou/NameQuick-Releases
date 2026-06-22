@@ -3,58 +3,52 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.48</title>
-            <pubDate>Mon, 22 Jun 2026 09:28:05 +0200</pubDate>
-            <sparkle:version>311</sparkle:version>
-            <sparkle:shortVersionString>2.11.48</sparkle:shortVersionString>
+            <title>2.11.49</title>
+            <pubDate>Mon, 22 Jun 2026 16:41:50 +0200</pubDate>
+            <sparkle:version>312</sparkle:version>
+            <sparkle:shortVersionString>2.11.49</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
             <description><![CDATA[<p>Release date: 2026-06-22</p>
-<p>This update adds more practical starter templates and rules, improves
-template onboarding, and makes queued processing clearer when setup is
-needed before work can continue.</p>
-<h2 id="new">New</h2>
-<ul>
-<li><strong>More practical template presets.</strong> New starters for
-bank statements, invoices, receipts, admin forms, travel bookings,
-insurance documents, and contracts make it faster to build repeatable
-naming workflows.</li>
-<li><strong>More focused rule templates.</strong> Rule starters now
-cover common document routing needs like statements, invoices, receipts,
-admin documents, insurance files, travel bookings, and contracts.</li>
-</ul>
+<p>This update refreshes Managed plan details, makes queued processing
+more reliable around setup and access checks, and improves
+account-access guidance when a license is missing the expected
+entitlement.</p>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Better template onboarding.</strong> The template lesson now
-shows the full preset catalog, so you can start from the workflow that
-matches your files instead of choosing from a shortened list.</li>
-<li><strong>Cleaner starter filenames.</strong> Built-in template
-presets now use more focused fields and consistent separators, making
-generated names easier to scan and sort.</li>
-<li><strong>Smarter rule-writing prompts.</strong> Chat starters for
-rules now suggest practical post-rename automations, such as moving
-invoices, receipts, admin documents, and contracts into the right
-folders.</li>
-<li><strong>Clearer queued-job status.</strong> Background processing
-now distinguishes setup problems, such as missing API keys or local
-models, from ordinary failures so you can see what needs attention.</li>
+<li><strong>Updated Managed credit tiers.</strong> In-app Managed plan
+details now align with the current 500, 2,000, 5,000, and 10,000 credit
+options, so plan and trial screens match the current subscription
+ladder.</li>
+<li><strong>Clearer self-managed wording.</strong> Trial, upgrade, and
+account surfaces now use simpler wording around self-managed access and
+Managed subscriptions.</li>
+<li><strong>Better queued-processing recovery.</strong> Temporary broker
+or provider rejections now stay retryable instead of looking like final
+processing failures.</li>
+<li><strong>Clearer setup and access stops.</strong> Jobs that need
+setup, license access, or policy attention are separated from ordinary
+retryable work so the queue reports the right next step.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed queued processing around setup problems.</strong> Jobs
-that need provider setup, license access, or fresh credits now pause
-more predictably instead of turning into unclear failures.</li>
-<li><strong>Fixed review handling for queued renames.</strong> NameQuick
-keeps queued rename work better aligned with review and access checks
-before processing continues.</li>
+<li><strong>Fixed false completions in queued processing.</strong>
+NameQuick no longer treats blocked queued work as finished when provider
+access or retry state still needs attention.</li>
+<li><strong>Fixed terminal policy skips.</strong> Policy-skipped jobs
+now stop cleanly instead of being retried as if the issue were
+temporary.</li>
+<li><strong>Fixed missing-entitlement guidance.</strong> Account checks
+now show the right next step when a customer record does not include the
+expected self-managed entitlement.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick-2.11.48.dmg" length="62092710" type="application/octet-stream" sparkle:edSignature="QDiWANWDTWPQ38LYv81XBK5qrNeHVxIXJMYpUHIIeLDuoP4GZcN+uZqigajkNBn6bnUhKY9SjlQpcSVm9CMJCA=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick-2.11.49.dmg" length="62117921" type="application/octet-stream" sparkle:edSignature="OqY2Z8ynB/bIZ/kuHUJ+hDJO9ArQI92vip3JotuER9cO9+S0kjHywISb0A0FUSljgqQW9QHURBrmTk/OgFlUDg=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick311-279.delta" sparkle:deltaFrom="279" length="43966034" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="31SDYP/z+y+ikTEhCOU0KQ4REpkhfNA+ji1dRtqWOY+YVUcl0MulcQOlImVNvxPpZtVeeRlTdcRHBkv/La6aBg=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick311-275.delta" sparkle:deltaFrom="275" length="44086852" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+oaOrvB3nTOWZ9uLDwo2s/esWN6xn8a7WbpCOywnZcByvYZ3Qy8F1GVnvCYqFKTV0NgJxPeQXZ3T0MRjdC1xCA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick311-272.delta" sparkle:deltaFrom="272" length="44261092" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YoXt4P4IKr0AqqXJr3s+hgN8Hoyblid7+91bSxbuohoAlUR0PHob5au6HgJf6bLubsr1daOCLqUhFxQxHvrrAg=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick311-268.delta" sparkle:deltaFrom="268" length="45049121" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0792z/pPEeGu/nccisickYYdqK0hzk8IeDclwSdVjC8lxJPj75qNRknnOev6WzP0/CPsIybmUc15MD/ZKh6MBA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick311-260.delta" sparkle:deltaFrom="260" length="45261465" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DonP/1GHSmX15YvQURABubTd01CkcpnvX0CUsNM2On4DXK1SEgc8bfojuSWrj8cG3OocJZ3zZdtDJ8WumPkkCw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick312-279.delta" sparkle:deltaFrom="279" length="44008402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0owvgz/Q2jyqGdeRkvCEP9ZZwMY34pUc/jDGzfbhRiZddxqKYNu01sGPSU6R+MoVg/p8/46+01DeF1gPqdG+Aw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick312-275.delta" sparkle:deltaFrom="275" length="44153223" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aisXTkn31plyplcjdRHc6ORs59cnzJOLt2F1MmdHpca9P28ptuNfCovywtWV1MSUWWRzhie3mts67sD2mCakCA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick312-272.delta" sparkle:deltaFrom="272" length="44311850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0XUq3Ps6eAC5LC5+HkhAiXut59inVtrCx/5xZgUCeR2XRitdeX3J91KoPnHYPDipu1ZH/EGwwH+dddkgdQtzBQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick312-268.delta" sparkle:deltaFrom="268" length="45135258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nMQhOBuBT2C+DmYq3hpnizyp1nE37Lu0APqMTc8fegOxE+ZmvuQ/syOGTNL3HYf2zhfz/mI8B5iNfrfdW4iZCg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick312-260.delta" sparkle:deltaFrom="260" length="45303039" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RknaXMKRdReUERGsZoDY2jQu7nbs4RR4Ed3FyG5sm49u4Lz6HO+mjhEH7a2QdyI0guecfIwSYbELTyfMzZ0EAg=="/>
             </sparkle:deltas>
         </item>
     </channel>
