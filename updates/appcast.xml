@@ -3,12 +3,12 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.47</title>
-            <pubDate>Mon, 22 Jun 2026 00:14:31 +0200</pubDate>
-            <sparkle:version>310</sparkle:version>
-            <sparkle:shortVersionString>2.11.47</sparkle:shortVersionString>
+            <title>2.11.48</title>
+            <pubDate>Mon, 22 Jun 2026 09:28:05 +0200</pubDate>
+            <sparkle:version>311</sparkle:version>
+            <sparkle:shortVersionString>2.11.48</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-06-21</p>
+            <description><![CDATA[<p>Release date: 2026-06-22</p>
 <p>This update adds more practical starter templates and rules, improves
 template onboarding, and makes queued processing clearer when setup is
 needed before work can continue.</p>
@@ -48,13 +48,13 @@ keeps queued rename work better aligned with review and access checks
 before processing continues.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.47/NameQuick-2.11.47.dmg" length="62092823" type="application/octet-stream" sparkle:edSignature="fG/12jF3lzTz9DAiWItoaHZVb2ukBha+Tg4NXv7t2axkG3MCN/rn3a5JSF91HdYOuCxSSuiDWGQ4RPcCSSu3Cg=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick-2.11.48.dmg" length="62092710" type="application/octet-stream" sparkle:edSignature="QDiWANWDTWPQ38LYv81XBK5qrNeHVxIXJMYpUHIIeLDuoP4GZcN+uZqigajkNBn6bnUhKY9SjlQpcSVm9CMJCA=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.47/NameQuick310-279.delta" sparkle:deltaFrom="279" length="43965856" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qdpltdY51NthD+/1Tp0JvMlTCFLTKXKjkp+Ce84FQYEeomnxHi2akm1wvm+RyrS2IhAdRbqtkR+e+BOv2mGjBA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.47/NameQuick310-275.delta" sparkle:deltaFrom="275" length="44087204" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="B7mlHcQny8NFHlR0N/ZiKYuW2ZDRUA7zm/RxDJWRm0NNadEAl4ypE2X5Y1BgEZvwVh2Q7b1CMW/GLt8QbUaKBw=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.47/NameQuick310-272.delta" sparkle:deltaFrom="272" length="44260087" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ir3NgfWUMoEyLWRyur26hvZL2xUh9CUhutKgKouGZ2++T0K9ujgJIQjXNlb2BwqAHVkbwahbKrexNbw3pAEbBw=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.47/NameQuick310-268.delta" sparkle:deltaFrom="268" length="45049198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gP5ReZWSD+fUyq7g7x5/nosIJhRrSs8WiDcj21cv2A6YHIUVi+EWZM+VVK8eFQYFXtjIl9aVjusBmqRCIOiuBA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.47/NameQuick310-260.delta" sparkle:deltaFrom="260" length="45262175" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c7iKasmmNZlp2xsmgnIKfj2RrIPD4008xH/5xYqZ8toW5+VHPxRHJZaKnonFlHCZuYfIy1zZGixD5JFe6RRcBw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick311-279.delta" sparkle:deltaFrom="279" length="43966034" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="31SDYP/z+y+ikTEhCOU0KQ4REpkhfNA+ji1dRtqWOY+YVUcl0MulcQOlImVNvxPpZtVeeRlTdcRHBkv/La6aBg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick311-275.delta" sparkle:deltaFrom="275" length="44086852" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+oaOrvB3nTOWZ9uLDwo2s/esWN6xn8a7WbpCOywnZcByvYZ3Qy8F1GVnvCYqFKTV0NgJxPeQXZ3T0MRjdC1xCA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick311-272.delta" sparkle:deltaFrom="272" length="44261092" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YoXt4P4IKr0AqqXJr3s+hgN8Hoyblid7+91bSxbuohoAlUR0PHob5au6HgJf6bLubsr1daOCLqUhFxQxHvrrAg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick311-268.delta" sparkle:deltaFrom="268" length="45049121" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0792z/pPEeGu/nccisickYYdqK0hzk8IeDclwSdVjC8lxJPj75qNRknnOev6WzP0/CPsIybmUc15MD/ZKh6MBA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.48/NameQuick311-260.delta" sparkle:deltaFrom="260" length="45261465" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DonP/1GHSmX15YvQURABubTd01CkcpnvX0CUsNM2On4DXK1SEgc8bfojuSWrj8cG3OocJZ3zZdtDJ8WumPkkCw=="/>
             </sparkle:deltas>
         </item>
     </channel>
