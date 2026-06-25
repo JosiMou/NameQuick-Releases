@@ -1,0 +1,47 @@
+<p>Release date: 2026-06-25</p>
+<p>This update adds camera metadata fields for photo naming, improves
+local MLX model setup, cleans up plan management in Settings, and fixes
+several processing-status issues.</p>
+<h2 id="new">New</h2>
+<ul>
+<li><strong>Camera metadata for templates, custom prompts, and
+rules.</strong> You can now use Date Taken, Camera Make, and Camera
+Model from image metadata when building photo-focused naming
+workflows.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Faster, clearer MLX model installs.</strong> MLX model
+downloads now show more accurate progress, speed, and ETA, download
+large model files in parallel, and check available disk space before
+starting.</li>
+<li><strong>MLX models are ready sooner after install.</strong> When you
+install the selected MLX model from Settings, NameQuick can warm it in
+the background so the first rename does not have to wait as long.</li>
+<li><strong>Clearer plan management in Settings.</strong> About now
+shows fewer irrelevant license controls, uses clearer upgrade wording,
+and offers a Self-Managed choice from the managed plan flow when that
+switch is available.</li>
+<li><strong>Safer custom prompt run controls.</strong> Custom prompts
+stay review-first until the Skip Review option has been earned, keeping
+automation controls out of the way until they are relevant.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed stuck processing indicators.</strong> The action bar,
+processing footer, and menu bar spinner should no longer stay busy after
+a cancelled or completed job has already stopped.</li>
+<li><strong>Fixed manual processing mode mismatches in watched
+folders.</strong> Manual runs now use the mode shown in the toolbar
+instead of silently switching to a folder’s automatic watch-folder
+mode.</li>
+<li><strong>Fixed disabled run buttons for valid selections.</strong>
+NameQuick now keeps folder membership counts in sync so the Play button
+stays available when selected files are actually in scope.</li>
+<li><strong>Fixed Change Plan in Settings.</strong> Upgrade and
+plan-change sheets now present correctly from the Settings window
+instead of doing nothing.</li>
+<li><strong>Fixed MLX download stalls.</strong> Large MLX model
+downloads should no longer appear frozen partway through a file, and
+connection stalls fail with a clearer retry path.</li>
+</ul>

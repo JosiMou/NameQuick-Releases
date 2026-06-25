@@ -3,52 +3,66 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.49</title>
-            <pubDate>Mon, 22 Jun 2026 16:41:50 +0200</pubDate>
-            <sparkle:version>312</sparkle:version>
-            <sparkle:shortVersionString>2.11.49</sparkle:shortVersionString>
+            <title>2.11.50</title>
+            <pubDate>Thu, 25 Jun 2026 18:58:36 +0200</pubDate>
+            <sparkle:version>313</sparkle:version>
+            <sparkle:shortVersionString>2.11.50</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-06-22</p>
-<p>This update refreshes Managed plan details, makes queued processing
-more reliable around setup and access checks, and improves
-account-access guidance when a license is missing the expected
-entitlement.</p>
+            <description><![CDATA[<p>Release date: 2026-06-25</p>
+<p>This update adds camera metadata fields for photo naming, improves
+local MLX model setup, cleans up plan management in Settings, and fixes
+several processing-status issues.</p>
+<h2 id="new">New</h2>
+<ul>
+<li><strong>Camera metadata for templates, custom prompts, and
+rules.</strong> You can now use Date Taken, Camera Make, and Camera
+Model from image metadata when building photo-focused naming
+workflows.</li>
+</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Updated Managed credit tiers.</strong> In-app Managed plan
-details now align with the current 500, 2,000, 5,000, and 10,000 credit
-options, so plan and trial screens match the current subscription
-ladder.</li>
-<li><strong>Clearer self-managed wording.</strong> Trial, upgrade, and
-account surfaces now use simpler wording around self-managed access and
-Managed subscriptions.</li>
-<li><strong>Better queued-processing recovery.</strong> Temporary broker
-or provider rejections now stay retryable instead of looking like final
-processing failures.</li>
-<li><strong>Clearer setup and access stops.</strong> Jobs that need
-setup, license access, or policy attention are separated from ordinary
-retryable work so the queue reports the right next step.</li>
+<li><strong>Faster, clearer MLX model installs.</strong> MLX model
+downloads now show more accurate progress, speed, and ETA, download
+large model files in parallel, and check available disk space before
+starting.</li>
+<li><strong>MLX models are ready sooner after install.</strong> When you
+install the selected MLX model from Settings, NameQuick can warm it in
+the background so the first rename does not have to wait as long.</li>
+<li><strong>Clearer plan management in Settings.</strong> About now
+shows fewer irrelevant license controls, uses clearer upgrade wording,
+and offers a Self-Managed choice from the managed plan flow when that
+switch is available.</li>
+<li><strong>Safer custom prompt run controls.</strong> Custom prompts
+stay review-first until the Skip Review option has been earned, keeping
+automation controls out of the way until they are relevant.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed false completions in queued processing.</strong>
-NameQuick no longer treats blocked queued work as finished when provider
-access or retry state still needs attention.</li>
-<li><strong>Fixed terminal policy skips.</strong> Policy-skipped jobs
-now stop cleanly instead of being retried as if the issue were
-temporary.</li>
-<li><strong>Fixed missing-entitlement guidance.</strong> Account checks
-now show the right next step when a customer record does not include the
-expected self-managed entitlement.</li>
+<li><strong>Fixed stuck processing indicators.</strong> The action bar,
+processing footer, and menu bar spinner should no longer stay busy after
+a cancelled or completed job has already stopped.</li>
+<li><strong>Fixed manual processing mode mismatches in watched
+folders.</strong> Manual runs now use the mode shown in the toolbar
+instead of silently switching to a folder’s automatic watch-folder
+mode.</li>
+<li><strong>Fixed disabled run buttons for valid selections.</strong>
+NameQuick now keeps folder membership counts in sync so the Play button
+stays available when selected files are actually in scope.</li>
+<li><strong>Fixed Change Plan in Settings.</strong> Upgrade and
+plan-change sheets now present correctly from the Settings window
+instead of doing nothing.</li>
+<li><strong>Fixed MLX download stalls.</strong> Large MLX model
+downloads should no longer appear frozen partway through a file, and
+connection stalls fail with a clearer retry path.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick-2.11.49.dmg" length="62117921" type="application/octet-stream" sparkle:edSignature="OqY2Z8ynB/bIZ/kuHUJ+hDJO9ArQI92vip3JotuER9cO9+S0kjHywISb0A0FUSljgqQW9QHURBrmTk/OgFlUDg=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.50/NameQuick-2.11.50.dmg" length="62267887" type="application/octet-stream" sparkle:edSignature="Mi96Ldnw0IgS9+KBU9ZkiI7xqEUnx+QhOUl/F9GKDTagvFrwLj8QhIXHDw7dO5uaB81H5hY5GaljOJWsnnlOAQ=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick312-279.delta" sparkle:deltaFrom="279" length="44008402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0owvgz/Q2jyqGdeRkvCEP9ZZwMY34pUc/jDGzfbhRiZddxqKYNu01sGPSU6R+MoVg/p8/46+01DeF1gPqdG+Aw=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick312-275.delta" sparkle:deltaFrom="275" length="44153223" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aisXTkn31plyplcjdRHc6ORs59cnzJOLt2F1MmdHpca9P28ptuNfCovywtWV1MSUWWRzhie3mts67sD2mCakCA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick312-272.delta" sparkle:deltaFrom="272" length="44311850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0XUq3Ps6eAC5LC5+HkhAiXut59inVtrCx/5xZgUCeR2XRitdeX3J91KoPnHYPDipu1ZH/EGwwH+dddkgdQtzBQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick312-268.delta" sparkle:deltaFrom="268" length="45135258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nMQhOBuBT2C+DmYq3hpnizyp1nE37Lu0APqMTc8fegOxE+ZmvuQ/syOGTNL3HYf2zhfz/mI8B5iNfrfdW4iZCg=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.49/NameQuick312-260.delta" sparkle:deltaFrom="260" length="45303039" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RknaXMKRdReUERGsZoDY2jQu7nbs4RR4Ed3FyG5sm49u4Lz6HO+mjhEH7a2QdyI0guecfIwSYbELTyfMzZ0EAg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.50/NameQuick313-279.delta" sparkle:deltaFrom="279" length="43824904" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Qrt6HEwaM93WsoNKUs5GxA0JXW5Lnr6qPEwKiX3KSwJFhCTOIrC+KshLURTkBnD/zXK6jgoi0cevGGvC4XHLAA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.50/NameQuick313-275.delta" sparkle:deltaFrom="275" length="43929841" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p2Sn4xgQhcc7hwkoGPNvmBZmVRq1HzxsBevCSc15JphFfUEjNAweJRocRSTM43Fd+Xexo1aKoROUErPW0IoxDg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.50/NameQuick313-272.delta" sparkle:deltaFrom="272" length="44098953" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6GqdTsm/o1ft784acS/n+/dz5IQVgl63dBjDKot25Oc2cAfKXUWzV71CvtJVKoo3u7qMJqeRVyE012xCqcpfAw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.50/NameQuick313-268.delta" sparkle:deltaFrom="268" length="44900442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A+60HsSUEUpHcHSz1rqgY+uom9ujgJyqN/VjV/foCL8rcYKm2+1XNzbzu9+qeavyzXmnVGj5LvvoU0Jl2x8NAQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.50/NameQuick313-260.delta" sparkle:deltaFrom="260" length="45077146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VZeHOmWKvJ2laGBAn0kBfyY+8SpRPCPLYeaCNRrFbkHYUlFnv0uDRpu2FeqcWU6BPtUtn1dhEPvoNJdvL/YxAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
