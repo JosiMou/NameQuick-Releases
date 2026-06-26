@@ -1,0 +1,27 @@
+<p>Release date: 2026-06-26</p>
+<p>This update makes Watch Folders more reliable after folder changes
+and makes MLX and Keychain setup recovery clearer.</p>
+<h2 id="new">New</h2>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Clearer MLX runtime setup.</strong> When a selected MLX
+model is ready but the runtime still needs installation, Settings now
+shows an inline setup prompt with an Install MLX runtime action.</li>
+<li><strong>Clearer empty Watch Folder state.</strong> The sidebar now
+says No folders when no watched folders are configured, and file
+locations are easier for help and accessibility tools to identify.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed stale Watch Folder files appearing in All
+Files.</strong> Removing, resetting, or repairing Watch Folders now
+keeps the library, search index, and selection counts aligned so old
+tracked items do not keep showing up.</li>
+<li><strong>Fixed Watch Folder views falling back to the wrong
+scope.</strong> Folder-based views now stay limited to the active
+watched folders instead of accidentally showing the broader library
+after stale selections.</li>
+<li><strong>Fixed Keychain retry buttons for locked keychains.</strong>
+Retry now opens the macOS unlock prompt instead of repeating a check
+that could never unlock the keychain.</li>
+</ul>
