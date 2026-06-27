@@ -1,0 +1,25 @@
+<p>Release date: 2026-06-27</p>
+<p>This update improves upgrade flows and recovery when automatic folder
+processing is interrupted.</p>
+<h2 id="new">New</h2>
+<h2 id="improvements">Improvements</h2>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed paid upgrades from trials getting stuck.</strong>
+Upgrading from a trial to a paid Managed plan now completes more
+reliably and refreshes credits sooner.</li>
+<li><strong>Fixed Self-Managed upgrade sheets closing
+unexpectedly.</strong> Upgrading from a Self-Managed trial now keeps the
+upgrade sheet open when your trial state refreshes.</li>
+<li><strong>Fixed onboarding license-step loops.</strong> The onboarding
+flow no longer keeps reopening the same license step while license
+status updates are settling.</li>
+<li><strong>Fixed interrupted Watch Folder scans.</strong> NameQuick now
+recovers abandoned folder catalog scans after restart and clears stalled
+processing state more safely, so automatic folder work and content
+search can recover instead of staying stuck.</li>
+<li><strong>Fixed repeat retries for files that need review.</strong>
+Unsupported, unreadable, or too-large files are now treated as file
+issues to review instead of being retried as temporary processing
+failures.</li>
+</ul>

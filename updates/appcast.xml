@@ -3,46 +3,44 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.51</title>
-            <pubDate>Fri, 26 Jun 2026 15:12:32 +0200</pubDate>
-            <sparkle:version>314</sparkle:version>
-            <sparkle:shortVersionString>2.11.51</sparkle:shortVersionString>
+            <title>2.11.52</title>
+            <pubDate>Sat, 27 Jun 2026 20:02:32 +0200</pubDate>
+            <sparkle:version>315</sparkle:version>
+            <sparkle:shortVersionString>2.11.52</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-06-26</p>
-<p>This update makes Watch Folders more reliable after folder changes
-and makes MLX and Keychain setup recovery clearer.</p>
+            <description><![CDATA[<p>Release date: 2026-06-27</p>
+<p>This update improves upgrade flows and recovery when automatic folder
+processing is interrupted.</p>
 <h2 id="new">New</h2>
 <h2 id="improvements">Improvements</h2>
-<ul>
-<li><strong>Clearer MLX runtime setup.</strong> When a selected MLX
-model is ready but the runtime still needs installation, Settings now
-shows an inline setup prompt with an Install MLX runtime action.</li>
-<li><strong>Clearer empty Watch Folder state.</strong> The sidebar now
-says No folders when no watched folders are configured, and file
-locations are easier for help and accessibility tools to identify.</li>
-</ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed stale Watch Folder files appearing in All
-Files.</strong> Removing, resetting, or repairing Watch Folders now
-keeps the library, search index, and selection counts aligned so old
-tracked items do not keep showing up.</li>
-<li><strong>Fixed Watch Folder views falling back to the wrong
-scope.</strong> Folder-based views now stay limited to the active
-watched folders instead of accidentally showing the broader library
-after stale selections.</li>
-<li><strong>Fixed Keychain retry buttons for locked keychains.</strong>
-Retry now opens the macOS unlock prompt instead of repeating a check
-that could never unlock the keychain.</li>
+<li><strong>Fixed paid upgrades from trials getting stuck.</strong>
+Upgrading from a trial to a paid Managed plan now completes more
+reliably and refreshes credits sooner.</li>
+<li><strong>Fixed Self-Managed upgrade sheets closing
+unexpectedly.</strong> Upgrading from a Self-Managed trial now keeps the
+upgrade sheet open when your trial state refreshes.</li>
+<li><strong>Fixed onboarding license-step loops.</strong> The onboarding
+flow no longer keeps reopening the same license step while license
+status updates are settling.</li>
+<li><strong>Fixed interrupted Watch Folder scans.</strong> NameQuick now
+recovers abandoned folder catalog scans after restart and clears stalled
+processing state more safely, so automatic folder work and content
+search can recover instead of staying stuck.</li>
+<li><strong>Fixed repeat retries for files that need review.</strong>
+Unsupported, unreadable, or too-large files are now treated as file
+issues to review instead of being retried as temporary processing
+failures.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.51/NameQuick-2.11.51.dmg" length="62359144" type="application/octet-stream" sparkle:edSignature="E9g43Vh3hEpTDWN+AQo4M6/9SWlcw6s5DJGP+Gmn0zAUJ/kDXa8PtbMzJ+K2vjszV0CmDBvD6YJwsauh7YEoBg=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.52/NameQuick-2.11.52.dmg" length="62414177" type="application/octet-stream" sparkle:edSignature="PRFNhPWZ86gmopRoqcIxwHVvzYn03ZW25icZ0CFY/hbrcrqLni74U2p3100pb79aaW3p6+7ddh0q6la6aHl9DQ=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.51/NameQuick314-279.delta" sparkle:deltaFrom="279" length="43906517" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TI9t8hZThGIuftTD16ZiOASWvCpd8s4PtoXPkISSFLlP6THMs/tAValTxHOnFLyP+HrZiv42x94CR/iFuJjdAQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.51/NameQuick314-275.delta" sparkle:deltaFrom="275" length="44022908" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="o8zNjEFZfVXYvoZ01ua/g+hgsLQse5EuTkc4DjZI9n0k7hVoTLfwWiGvzyQ/yOVQ7OoqWawYY1y2UNCpDFkeDQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.51/NameQuick314-272.delta" sparkle:deltaFrom="272" length="44176553" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Xow5Fn7mJeYDnVQbDIRv8/MOzqUi/U5EiTFE289j8ljncAM1Gy7KFshgk99879z5ivZNGPBdHEhqqBaefWmPAg=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.51/NameQuick314-268.delta" sparkle:deltaFrom="268" length="44968332" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AjUsxvdAVoJEKfALOjdGkBpQ0szWdPmDuHtK3MbL9U3M0LVMidCCtvFz81TulzPhqTDywGt2hICisnWwCkwrBA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.51/NameQuick314-260.delta" sparkle:deltaFrom="260" length="45145483" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8nb3uZCsj8ZrhF5uHlLyQa55brYSgd18lpZnZinfa96SWljsEwwuHhkmCqTitb7xqtGXf7r15z4a/xawE/OFCA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.52/NameQuick315-279.delta" sparkle:deltaFrom="279" length="43933252" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+RNUUpcDjCQs1w7mF3YCzYCL8i9wobG9zBPLS62lDJpN8kAfe1kdvTrbXpfWMkwg+9HvzKPy90LXnlyJTjAPCA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.52/NameQuick315-275.delta" sparkle:deltaFrom="275" length="44053191" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DNy4ngbpl9TUuaNV6Sz8K+vwqDKDjgHNXQemjJlADd98iwghudeGnUPvykcNM5/xMs+Ovd15OMQe7qFUtyHJCg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.52/NameQuick315-272.delta" sparkle:deltaFrom="272" length="44209115" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="j/jdq8gtH6tqSmVv8nL/cbfKGXvFp18q6HMwsLX57khCsv7P1vAEtrkrImrhqr1zczL3JIhZlvJya0HkY26JDQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.52/NameQuick315-268.delta" sparkle:deltaFrom="268" length="44997319" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fLli8+zFzKfsNfIcRlZNEwQUOSAJV10ZAX2B059KF0/l1I0/GlCeGevVrWGIUZ3cMuHQK7c9LaeyqJUsDhtyBw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.52/NameQuick315-260.delta" sparkle:deltaFrom="260" length="45187639" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZjGlS45L9gL/Y+HneIDpWe9qRPADdfZJhLFqgRa9vsq1CEr7BMX1UN/7v7+tvfjnZ3qfDFjxqfATlZhRj1kYAg=="/>
             </sparkle:deltas>
         </item>
     </channel>
