@@ -1,0 +1,22 @@
+<p>Release date: 2026-06-28</p>
+<p>This update improves checkout recovery and activation reliability for
+Self-Managed trials.</p>
+<h2 id="new">New</h2>
+<h2 id="improvements">Improvements</h2>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed Self-Managed trial activation getting stuck after
+checkout.</strong> NameQuick now recovers more reliably when checkout
+finishes but license confirmation takes longer than expected.</li>
+<li><strong>Fixed unclear recovery when activation cannot be
+confirmed.</strong> Settings now points you back to the right activation
+step instead of making a paid-but-stuck purchase look like a missing
+license key.</li>
+<li><strong>Fixed abandoned checkout sessions staying in
+progress.</strong> NameQuick now resolves canceled or unverifiable
+activation attempts more cleanly, so the app does not keep waiting on a
+checkout that is no longer active.</li>
+<li><strong>Fixed repeat activation retries after restart.</strong>
+Pending Self-Managed trial activation now resumes with better boundaries
+and stops stale retry loops when the license cannot be verified.</li>
+</ul>
