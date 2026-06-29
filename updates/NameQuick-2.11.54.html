@@ -1,0 +1,34 @@
+<p>Release date: 2026-06-29</p>
+<p>This update improves payment recovery for Managed subscriptions and
+makes template setup clearer.</p>
+<h2 id="new">New</h2>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Clearer payment recovery for Managed subscriptions.</strong>
+If a Managed payment does not go through, NameQuick now shows an
+update-payment path in the app and Settings instead of sending you
+through a generic upgrade screen.</li>
+<li><strong>More responsive license refresh.</strong> The Refresh button
+in Settings now shows when NameQuick is checking your license, so it is
+clearer that your request is in progress.</li>
+<li><strong>Easier template setup.</strong> The template editor now
+makes it clearer that fields find data, while the filename builder
+controls what gets included in the final name.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed failed Managed payments being treated like active
+access.</strong> NameQuick now blocks Managed features until billing is
+fixed, while keeping your account recoverable.</li>
+<li><strong>Fixed Unlock Full showing success before payment was
+confirmed.</strong> NameQuick now waits for the Managed payment to
+settle before ending the trial or showing full access.</li>
+<li><strong>Fixed failed Managed payments falling back to the wrong plan
+state.</strong> If your account also has Self-Managed trial benefits,
+NameQuick now guides you to fix billing for the Managed plan instead of
+showing a misleading trial or missing-license state.</li>
+<li><strong>Fixed payment recovery getting stuck after updating
+billing.</strong> NameQuick now rechecks your license when you return
+from the customer portal and offers a manual check-again option if the
+payment update needs a moment to settle.</li>
+</ul>
