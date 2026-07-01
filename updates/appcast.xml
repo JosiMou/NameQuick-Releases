@@ -3,53 +3,73 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.54</title>
-            <pubDate>Mon, 29 Jun 2026 23:42:47 +0200</pubDate>
-            <sparkle:version>317</sparkle:version>
-            <sparkle:shortVersionString>2.11.54</sparkle:shortVersionString>
+            <title>2.11.55</title>
+            <pubDate>Wed, 01 Jul 2026 23:57:15 +0200</pubDate>
+            <sparkle:version>318</sparkle:version>
+            <sparkle:shortVersionString>2.11.55</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-06-29</p>
-<p>This update improves payment recovery for Managed subscriptions and
-makes template setup clearer.</p>
+            <description><![CDATA[<p>Release date: 2026-07-01</p>
+<p>This update makes first-run renaming easier to try, improves Quick
+Process and sidebar moves, and fixes several cases where processing
+could get stuck or retry when it should ask for review.</p>
 <h2 id="new">New</h2>
+<ul>
+<li><strong>Drop-to-rename first run.</strong> New installs now put file
+dropping and rename previews front and center, so you can try NameQuick
+by dropping files before setting up folders or automations.</li>
+<li><strong>Undo support for sidebar folder moves.</strong> Files moved
+by dropping them onto sidebar folders now appear in Recent Renames and
+can be moved back from the same history flow.</li>
+</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Clearer payment recovery for Managed subscriptions.</strong>
-If a Managed payment does not go through, NameQuick now shows an
-update-payment path in the app and Settings instead of sending you
-through a generic upgrade screen.</li>
-<li><strong>More responsive license refresh.</strong> The Refresh button
-in Settings now shows when NameQuick is checking your license, so it is
-clearer that your request is in progress.</li>
-<li><strong>Easier template setup.</strong> The template editor now
-makes it clearer that fields find data, while the filename builder
-controls what gets included in the final name.</li>
+<li><strong>Clearer All Files empty state.</strong> The empty library
+view now shows a clearer drop card, a Choose Files action, and quick
+paths to add a watch folder or open Presets.</li>
+<li><strong>Safer Quick Process drops.</strong> Quick Process now makes
+it clearer when a staged batch is being worked on from disk only, and
+warns before replacing an existing batch with a new drop.</li>
+<li><strong>Simpler onboarding.</strong> New users now move through
+setup with passive tips instead of a forced activation tour or extra
+completion toggles.</li>
+<li><strong>More dependable notifications.</strong> System notifications
+now request permission at the right time, group related updates more
+consistently, and open the relevant file, model settings, or Review
+screen when you click an action.</li>
+<li><strong>Better BYOK setup checks.</strong> Saved provider keys are
+checked during onboarding, so returning Self-Managed users can continue
+without reopening Settings.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed failed Managed payments being treated like active
-access.</strong> NameQuick now blocks Managed features until billing is
-fixed, while keeping your account recoverable.</li>
-<li><strong>Fixed Unlock Full showing success before payment was
-confirmed.</strong> NameQuick now waits for the Managed payment to
-settle before ending the trial or showing full access.</li>
-<li><strong>Fixed failed Managed payments falling back to the wrong plan
-state.</strong> If your account also has Self-Managed trial benefits,
-NameQuick now guides you to fix billing for the Managed plan instead of
-showing a misleading trial or missing-license state.</li>
-<li><strong>Fixed payment recovery getting stuck after updating
-billing.</strong> NameQuick now rechecks your license when you return
-from the customer portal and offers a manual check-again option if the
-payment update needs a moment to settle.</li>
+<li><strong>Fixed some files getting stuck on “Renaming…”.</strong>
+Unreadable, protected, or duplicate files now resolve to Review or retry
+cleanly instead of leaving a batch in progress.</li>
+<li><strong>Fixed Self-Managed checkout setup getting stuck after
+payment.</strong> NameQuick now recognizes the current Self-Managed
+purchase benefits while keeping older licenses supported.</li>
+<li><strong>Fixed spreadsheet custom prompts missing available
+details.</strong> NameQuick now reads more sheet context before
+generating names, so spreadsheet-based prompts have the details they
+need.</li>
+<li><strong>Fixed review-worthy prompt failures retrying
+automatically.</strong> Missing or unusable extracted details now stop
+in Review with evidence instead of repeating the same failed run.</li>
+<li><strong>Fixed sidebar moves during active processing.</strong>
+Folder drops are now blocked while a rename batch is active, avoiding
+file moves that can race with ongoing work.</li>
+<li><strong>Fixed auto-rename notifications opening the wrong
+place.</strong> Show in Finder now targets the renamed file when a smart
+rename finishes.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.54/NameQuick-2.11.54.dmg" length="62495268" type="application/octet-stream" sparkle:edSignature="3JQl5okcyHmGQ63m3FJJwZ6k+2BscERl3ydwVDkIsbwUW7pTADWl6gFnSqGoHDnDtz5uf/mYFeNtOXJkrzXWDg=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick-2.11.55.dmg" length="61892926" type="application/octet-stream" sparkle:edSignature="da+MKX77OHFcw9E7N4KwffU/qVL0Al9QVYZItNSsSrL950CThrFma/JGQ0rHO//jyq8xa3M0xi2FKf/Az483BA=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.54/NameQuick317-279.delta" sparkle:deltaFrom="279" length="44578776" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tvW7pPcZ6rs489/bmMYx3hVhmPK1C87g59Dw2YDhwxAfsfKpr7fWYq9GtiiYC1OrgTf6BE93yB3FDxPIlaNxCw=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.54/NameQuick317-275.delta" sparkle:deltaFrom="275" length="44682972" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tgBfQ5Ob3T2iD4ZdAeX+2cJO25ybnCJdWZQy9i2plg9vf7UytyCnVPh2v4jPtdmelBTPfD7td+PZJQTwLclKCQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.54/NameQuick317-272.delta" sparkle:deltaFrom="272" length="44844256" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YvecMTddIjOyzHAnvR1GPks6cKdXnkVuZHR2LXG+KYZnJonBdhemOJ/Pve4xXnLTs2gBY+8EmWFTQ8ZMlDbyDQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.54/NameQuick317-268.delta" sparkle:deltaFrom="268" length="45590133" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aFyXjwYx2YJcfpQu9JG9q+wKRnNaf/cgMgm++dS+DMQSZxgTQW3gNEtNNhi+s0E2BPZV+jn6zw4TdJgSqzJJCg=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.54/NameQuick317-260.delta" sparkle:deltaFrom="260" length="45773158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Y+a50ORCMvW7J72BGHbve7f/q0YCYItk7qqF9EMRTnmvwJoHPLd2OZ8HHFdBqluNB6Wh00yvkONc38eIgoMbDg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick318-279.delta" sparkle:deltaFrom="279" length="44001747" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="taO8yXuuwVrHfSmbIL4C1pPIuy8uzYNuIDSKsbrzBQ/5NyIAIkmcFrNRcXKbjVhlZfw7fbFaZXDKxCQfwVt7AQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick318-275.delta" sparkle:deltaFrom="275" length="44122248" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q4YFwRQzsdOIHNYDXpf587H69p/fnTihER+R8TtQ350VenE7HRCl8Z2T53GeyuGPhHXfIbpNPy9VZDcpWIQtBA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick318-272.delta" sparkle:deltaFrom="272" length="44278989" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OYP60f+/NzyjHrHYfqWmgxsWqsDlPt9fAwXJuheMOqPvAesq9HmPoBCBRT4u9vzzVBm1yvijK5h0W3vcWC3wBQ=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick318-268.delta" sparkle:deltaFrom="268" length="45013210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d7cTDhnzfa0y3xeksUOoIwChbJV3xBgGEiAB/mV/a6L0F8JcUSWLCKENPariUNupiCHYBAbnH153m5gfIff1Bg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick318-260.delta" sparkle:deltaFrom="260" length="45157719" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5MqOV+3CLoaHNzgscty3PZm8J21dXdGJpF+B7dGtJnDqQq2rIo7g5UBFZezxivw47Fpi6i+GPcTk28Ed8i3RDA=="/>
             </sparkle:deltas>
         </item>
     </channel>
