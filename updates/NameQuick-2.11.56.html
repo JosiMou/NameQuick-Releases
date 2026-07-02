@@ -1,0 +1,51 @@
+<p>Release date: 2026-07-02</p>
+<p>This update makes Quick Process corrections more reusable, improves
+local model recovery, and fixes several cases where rename and setup
+flows could show stale or confusing state.</p>
+<h2 id="new">New</h2>
+<ul>
+<li><strong>Turn a Quick Process correction into a preset.</strong> When
+you fix a proposed name, NameQuick can suggest a naming recipe for the
+rest of the batch, apply it, and save it as a preset for future
+files.</li>
+<li><strong>Sample files in the first-run library.</strong> Fresh
+installs now show a small demo when there are no files yet, so you can
+see how rename previews work before adding your own batch.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Clearer Quick Process results.</strong> The drawer now shows
+before-and-after name changes, a success line when a batch finishes, and
+an Undo all action for finished Quick Process renames.</li>
+<li><strong>Smarter default Smart Rename style.</strong> The default
+naming prompt now adapts better to different file types, producing more
+consistent names before you make custom templates.</li>
+<li><strong>Better local model setup and switching.</strong> MLX, LM
+Studio, and other local provider screens now explain readiness, model
+loading, and repair paths more clearly before a run starts.</li>
+<li><strong>More helpful blocked-queue recovery.</strong> Stalled
+processing queues now show direct recovery actions or a dismiss option
+instead of leaving jobs sitting without a clear next step.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed Managed AI showing the wrong setup warnings.</strong>
+Managed mode no longer asks for local-model or API-key fixes that do not
+apply to Managed runs.</li>
+<li><strong>Fixed broken MLX runtime installs leading to a dead
+end.</strong> NameQuick now offers a Repair action when the local MLX
+runtime needs to be rebuilt.</li>
+<li><strong>Fixed provider setup getting stuck during
+onboarding.</strong> Setup now offers a recovery path when saved
+provider checks need attention before templates or custom prompts can
+run.</li>
+<li><strong>Fixed rename previews flickering during batch runs.</strong>
+Proposed names should no longer replay or flip between old and new
+values while a batch settles.</li>
+<li><strong>Fixed Quick Process drawer bleed-through.</strong> The
+floating drawer now keeps background controls from showing through while
+it is open.</li>
+<li><strong>Fixed BYOK trial processing loops.</strong> Queued work no
+longer repeatedly pauses and resumes while Self-Managed trial access is
+being checked.</li>
+</ul>

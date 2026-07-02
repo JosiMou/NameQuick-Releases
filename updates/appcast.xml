@@ -3,73 +3,70 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.55</title>
-            <pubDate>Wed, 01 Jul 2026 23:57:15 +0200</pubDate>
-            <sparkle:version>318</sparkle:version>
-            <sparkle:shortVersionString>2.11.55</sparkle:shortVersionString>
+            <title>2.11.56</title>
+            <pubDate>Thu, 02 Jul 2026 21:19:35 +0200</pubDate>
+            <sparkle:version>319</sparkle:version>
+            <sparkle:shortVersionString>2.11.56</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-07-01</p>
-<p>This update makes first-run renaming easier to try, improves Quick
-Process and sidebar moves, and fixes several cases where processing
-could get stuck or retry when it should ask for review.</p>
+            <description><![CDATA[<p>Release date: 2026-07-02</p>
+<p>This update makes Quick Process corrections more reusable, improves
+local model recovery, and fixes several cases where rename and setup
+flows could show stale or confusing state.</p>
 <h2 id="new">New</h2>
 <ul>
-<li><strong>Drop-to-rename first run.</strong> New installs now put file
-dropping and rename previews front and center, so you can try NameQuick
-by dropping files before setting up folders or automations.</li>
-<li><strong>Undo support for sidebar folder moves.</strong> Files moved
-by dropping them onto sidebar folders now appear in Recent Renames and
-can be moved back from the same history flow.</li>
+<li><strong>Turn a Quick Process correction into a preset.</strong> When
+you fix a proposed name, NameQuick can suggest a naming recipe for the
+rest of the batch, apply it, and save it as a preset for future
+files.</li>
+<li><strong>Sample files in the first-run library.</strong> Fresh
+installs now show a small demo when there are no files yet, so you can
+see how rename previews work before adding your own batch.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Clearer All Files empty state.</strong> The empty library
-view now shows a clearer drop card, a Choose Files action, and quick
-paths to add a watch folder or open Presets.</li>
-<li><strong>Safer Quick Process drops.</strong> Quick Process now makes
-it clearer when a staged batch is being worked on from disk only, and
-warns before replacing an existing batch with a new drop.</li>
-<li><strong>Simpler onboarding.</strong> New users now move through
-setup with passive tips instead of a forced activation tour or extra
-completion toggles.</li>
-<li><strong>More dependable notifications.</strong> System notifications
-now request permission at the right time, group related updates more
-consistently, and open the relevant file, model settings, or Review
-screen when you click an action.</li>
-<li><strong>Better BYOK setup checks.</strong> Saved provider keys are
-checked during onboarding, so returning Self-Managed users can continue
-without reopening Settings.</li>
+<li><strong>Clearer Quick Process results.</strong> The drawer now shows
+before-and-after name changes, a success line when a batch finishes, and
+an Undo all action for finished Quick Process renames.</li>
+<li><strong>Smarter default Smart Rename style.</strong> The default
+naming prompt now adapts better to different file types, producing more
+consistent names before you make custom templates.</li>
+<li><strong>Better local model setup and switching.</strong> MLX, LM
+Studio, and other local provider screens now explain readiness, model
+loading, and repair paths more clearly before a run starts.</li>
+<li><strong>More helpful blocked-queue recovery.</strong> Stalled
+processing queues now show direct recovery actions or a dismiss option
+instead of leaving jobs sitting without a clear next step.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed some files getting stuck on “Renaming…”.</strong>
-Unreadable, protected, or duplicate files now resolve to Review or retry
-cleanly instead of leaving a batch in progress.</li>
-<li><strong>Fixed Self-Managed checkout setup getting stuck after
-payment.</strong> NameQuick now recognizes the current Self-Managed
-purchase benefits while keeping older licenses supported.</li>
-<li><strong>Fixed spreadsheet custom prompts missing available
-details.</strong> NameQuick now reads more sheet context before
-generating names, so spreadsheet-based prompts have the details they
-need.</li>
-<li><strong>Fixed review-worthy prompt failures retrying
-automatically.</strong> Missing or unusable extracted details now stop
-in Review with evidence instead of repeating the same failed run.</li>
-<li><strong>Fixed sidebar moves during active processing.</strong>
-Folder drops are now blocked while a rename batch is active, avoiding
-file moves that can race with ongoing work.</li>
-<li><strong>Fixed auto-rename notifications opening the wrong
-place.</strong> Show in Finder now targets the renamed file when a smart
-rename finishes.</li>
+<li><strong>Fixed Managed AI showing the wrong setup warnings.</strong>
+Managed mode no longer asks for local-model or API-key fixes that do not
+apply to Managed runs.</li>
+<li><strong>Fixed broken MLX runtime installs leading to a dead
+end.</strong> NameQuick now offers a Repair action when the local MLX
+runtime needs to be rebuilt.</li>
+<li><strong>Fixed provider setup getting stuck during
+onboarding.</strong> Setup now offers a recovery path when saved
+provider checks need attention before templates or custom prompts can
+run.</li>
+<li><strong>Fixed rename previews flickering during batch runs.</strong>
+Proposed names should no longer replay or flip between old and new
+values while a batch settles.</li>
+<li><strong>Fixed Quick Process drawer bleed-through.</strong> The
+floating drawer now keeps background controls from showing through while
+it is open.</li>
+<li><strong>Fixed BYOK trial processing loops.</strong> Queued work no
+longer repeatedly pauses and resumes while Self-Managed trial access is
+being checked.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick-2.11.55.dmg" length="61892926" type="application/octet-stream" sparkle:edSignature="da+MKX77OHFcw9E7N4KwffU/qVL0Al9QVYZItNSsSrL950CThrFma/JGQ0rHO//jyq8xa3M0xi2FKf/Az483BA=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.56/NameQuick-2.11.56.dmg" length="62577400" type="application/octet-stream" sparkle:edSignature="ymRaUOBknOCR286V+C8EwTgh0NfCJocrxENGSuaGIlWdDske3sPwDYbH8R8AOm1vdvQvmTq5q7iUxiVNgz9vDA=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick318-279.delta" sparkle:deltaFrom="279" length="44001747" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="taO8yXuuwVrHfSmbIL4C1pPIuy8uzYNuIDSKsbrzBQ/5NyIAIkmcFrNRcXKbjVhlZfw7fbFaZXDKxCQfwVt7AQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick318-275.delta" sparkle:deltaFrom="275" length="44122248" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q4YFwRQzsdOIHNYDXpf587H69p/fnTihER+R8TtQ350VenE7HRCl8Z2T53GeyuGPhHXfIbpNPy9VZDcpWIQtBA=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick318-272.delta" sparkle:deltaFrom="272" length="44278989" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OYP60f+/NzyjHrHYfqWmgxsWqsDlPt9fAwXJuheMOqPvAesq9HmPoBCBRT4u9vzzVBm1yvijK5h0W3vcWC3wBQ=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick318-268.delta" sparkle:deltaFrom="268" length="45013210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d7cTDhnzfa0y3xeksUOoIwChbJV3xBgGEiAB/mV/a6L0F8JcUSWLCKENPariUNupiCHYBAbnH153m5gfIff1Bg=="/>
-                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.55/NameQuick318-260.delta" sparkle:deltaFrom="260" length="45157719" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5MqOV+3CLoaHNzgscty3PZm8J21dXdGJpF+B7dGtJnDqQq2rIo7g5UBFZezxivw47Fpi6i+GPcTk28Ed8i3RDA=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.56/NameQuick319-279.delta" sparkle:deltaFrom="279" length="44740277" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tyFPr2JofCJlVpgGAYr2ToF/fpFWsCF/II2akMVibTQT5nT/fXJ9+XFsh9hK45gTaKv7TCN3/LxpO14D6GrmAg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.56/NameQuick319-275.delta" sparkle:deltaFrom="275" length="44882419" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UghdvvAhErd9Xyd/10Liwq/Sb1nzedPvBUgj5M4WePa4IyKH/cnijsmc/AZ48NFlhCXS7LM90dD/+wUkOBlABg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.56/NameQuick319-272.delta" sparkle:deltaFrom="272" length="45034755" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="A2bTOXs6veZuPM3pWh4emVaCLrZBx6S8q0ezd4QMDJBr6tzUcCJC4IYXatwQ/9v1/sda9IfgrS1BZkwDR2e0Aw=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.56/NameQuick319-268.delta" sparkle:deltaFrom="268" length="45743508" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L/eVS/bZ1jwqOHvlHG4zR3oK1NDae71nsZlfMrK0qO+xzM82A2FqNYftFUb8cO3ILUf6r/OltZqkbee1WxYkCg=="/>
+                <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.56/NameQuick319-260.delta" sparkle:deltaFrom="260" length="45933491" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RAk4vLRFI8P1W8EUBiw9KuXUR3CAD+7ngHY5RbU3vIGmiznpGpICLKmhtpKhPv+bNbxwZw80BSCIk14GefiPBA=="/>
             </sparkle:deltas>
         </item>
     </channel>
