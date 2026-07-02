@@ -1,3 +1,4 @@
 updates/*.dmg
 updates/*.delta
 updates/*.zip
+!updates/NameQuick.dmg
