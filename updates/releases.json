@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-07-02T19:27:20.461733Z",
+  "generatedAt": "2026-07-03T19:54:16.057478Z",
   "releases": [
+    {
+      "version": "2.11.57",
+      "build": "320",
+      "title": "NameQuick 2.11.57",
+      "publishedAt": "2026-07-03T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.57.html",
+      "excerpt": "Stop and clear a stuck queue. A new Stop and Clear Queue action lets you stop processing and clear queued work while keeping your files in your library and on disk.",
+      "highlights": [
+        "Stop and clear a stuck queue. A new Stop and Clear Queue action lets you stop processing and clear queued work while keeping your files in your library and on disk.",
+        "Clearer Managed trial unlocks. When a trial has ended and unlocking Managed AI will charge now, NameQuick now confirms the charge before continuing.",
+        "Clearer preset scope. The processing menu now explains when a preset applies to files you rename yourself and when watched folders use their own auto-rename preset.",
+        "Cleaner Quick Process review rows. If a proposed name already matches the current file name, NameQuick now marks it as already named and hides unnecessary apply actions."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.56",
       "build": "319",
@@ -15,7 +31,7 @@
         "Clearer Quick Process results. The drawer now shows before-and-after name changes, a success line when a batch finishes, and an Undo all action for finished Quick Process renames.",
         "Smarter default Smart Rename style. The default naming prompt now adapts better to different file types, producing more consistent names before you make custom templates."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.55",
@@ -1446,28 +1462,6 @@
         "Word (.docx): Smart, clean names for your documents \u2014 fast previews included.",
         "PowerPoint (.pptx): Uses slide text to suggest clear context-aware names."
       ],
-      "isLatest": false
-    },
-    {
-      "version": "2.0.13",
-      "build": null,
-      "title": "NameQuick 2.0.13",
-      "publishedAt": "2026-04-23T08:28:01.342145Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.56/NameQuick-2.0.13.dmg",
-      "releaseNotesUrl": null,
-      "excerpt": null,
-      "highlights": [],
-      "isLatest": false
-    },
-    {
-      "version": "2.0.12",
-      "build": null,
-      "title": "NameQuick 2.0.12",
-      "publishedAt": "2026-04-23T08:28:01.342127Z",
-      "downloadUrl": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.56/NameQuick-2.0.12.dmg",
-      "releaseNotesUrl": null,
-      "excerpt": null,
-      "highlights": [],
       "isLatest": false
     },
     {
