@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-07-03T19:54:16.057478Z",
+  "generatedAt": "2026-07-06T18:29:08.965854Z",
   "releases": [
+    {
+      "version": "2.11.58",
+      "build": "321",
+      "title": "NameQuick 2.11.58",
+      "publishedAt": "2026-07-06T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.58.html",
+      "excerpt": "Optional beta updates. You can now opt into beta versions from update settings when you want earlier access to upcoming fixes and features.",
+      "highlights": [
+        "Optional beta updates. You can now opt into beta versions from update settings when you want earlier access to upcoming fixes and features.",
+        "Simpler AI setup. First-run AI setup now walks through one decision at a time, keeps local model setup clearer, and makes background downloads easier to follow.",
+        "Clearer local and cloud AI choices. NameQuick now explains local and cloud AI trade-offs more plainly and opens the right provider setup screen when setup needs attention.",
+        "Clearer AI settings. The AI settings page now shows your current setup, model choices, and advanced options in one calmer layout, with more accurate OpenRouter key checks."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.57",
       "build": "320",
@@ -15,7 +31,7 @@
         "Clearer preset scope. The processing menu now explains when a preset applies to files you rename yourself and when watched folders use their own auto-rename preset.",
         "Cleaner Quick Process review rows. If a proposed name already matches the current file name, NameQuick now marks it as already named and hides unnecessary apply actions."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.56",
