@@ -1,8 +1,8 @@
 {
   "runtimeVersion": "1.7.1-namequick.2",
   "contractSchemaVersion": 2,
-  "archiveURL": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.58/NameQuick-MLXRuntime-1.7.1.zip",
-  "archiveSHA256": "3072b96f49a9053bd2d7317cc752a87b0ab953ff689db789342b05f6d84996de",
-  "archiveSignature": "tYOfXU5fjJ+RBBUAMOpsqwIRDA0nOVSJAv/ixfpaMEINuXZWBkNzb5VuiTQc7Fmq4CmETmOod4RITe9+GB7sDg==",
-  "sizeBytes": 404977797
+  "archiveURL": "https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.57/NameQuick-MLXRuntime-1.7.1-namequick.2.zip",
+  "archiveSHA256": "15ec0dd498e4e9f3c9bdb1bd561b662a423ea1b379a1b8790029f17c3510bb1c",
+  "archiveSignature": "UlkGcY+p2Omy269etRynoK8Qz1k1m6NoAoWSrAxUCbCCVgVuQLjVn2n5LtfWKlSFSOJ4lAdR+hLpIQr4Y1slDg==",
+  "sizeBytes": 405296682
 }
