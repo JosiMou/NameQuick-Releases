@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-07-06T18:29:08.965854Z",
+  "generatedAt": "2026-07-16T16:37:47.478985Z",
   "releases": [
+    {
+      "version": "2.11.59",
+      "build": "322",
+      "title": "NameQuick 2.11.59",
+      "publishedAt": "2026-07-16T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.59.html",
+      "excerpt": "Quick Rename now works in the main window. Add or drop more files into the current batch without replacing staged work, choose whether to review names before applying them, and inspect proposed changes alongside the file list.",
+      "highlights": [
+        "Quick Rename now works in the main window. Add or drop more files into the current batch without replacing staged work, choose whether to review names before applying them, and inspect proposed changes alongside the file list.",
+        "Review is now a decision workbench. A persistent queue groups items needing attention, opens focused evidence and actions, supports saving individual missing details, and can dismiss the visible queue without changing files.",
+        "New Photos starter template. Create photo names from Date Taken and an AI-generated subject when capture metadata is available.",
+        "History is easier to scan. The full-width audit trail now emphasizes previous and new names, destinations, and undo receipts on one continuous timeline, while actionable recovery stays in Review."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.58",
       "build": "321",
@@ -15,7 +31,7 @@
         "Clearer local and cloud AI choices. NameQuick now explains local and cloud AI trade-offs more plainly and opens the right provider setup screen when setup needs attention.",
         "Clearer AI settings. The AI settings page now shows your current setup, model choices, and advanced options in one calmer layout, with more accurate OpenRouter key checks."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.57",

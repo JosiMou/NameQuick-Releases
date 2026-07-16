@@ -1,0 +1,81 @@
+<p>Release date: 2026-07-16</p>
+<p>This update adds an integrated Quick Rename workspace and a
+redesigned Review experience, with a clearer History timeline and
+reliability improvements across local AI, templates, Watch Folders,
+processing, and licensing.</p>
+<h2 id="new">New</h2>
+<ul>
+<li><strong>Quick Rename now works in the main window.</strong> Add or
+drop more files into the current batch without replacing staged work,
+choose whether to review names before applying them, and inspect
+proposed changes alongside the file list.</li>
+<li><strong>Review is now a decision workbench.</strong> A persistent
+queue groups items needing attention, opens focused evidence and
+actions, supports saving individual missing details, and can dismiss the
+visible queue without changing files.</li>
+<li><strong>New Photos starter template.</strong> Create photo names
+from Date Taken and an AI-generated subject when capture metadata is
+available.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>History is easier to scan.</strong> The full-width audit
+trail now emphasizes previous and new names, destinations, and undo
+receipts on one continuous timeline, while actionable recovery stays in
+Review.</li>
+<li><strong>Cleaner native toolbar and navigation.</strong> Search,
+view, inspector, license, and file controls now use the macOS toolbar,
+while route changes and sidebar selection settle more smoothly.</li>
+<li><strong>Faster multi-file selection.</strong> Shift-click checkboxes
+to select ranges, extend a selection with the keyboard, or drag across
+tiles in grid view. Row actions stay out of the way until you
+hover.</li>
+<li><strong>More dependable local custom prompts.</strong> Local runs
+preserve more requested naming parts, allow the selected model enough
+output space, use the original filename as supporting evidence, and send
+truncated or uncertain results to Review.</li>
+<li><strong>Clearer local-model guidance.</strong> NameQuick now
+explains when a smaller local model may be less reliable for a task and
+keeps that guidance available without blocking your work.</li>
+<li><strong>More complete rules editing.</strong> Conditional rules in
+templates can use every supported action directly, with clearer action
+labels in the editor.</li>
+<li><strong>Better batch recovery.</strong> Provider outages pause
+remaining files instead of failing the queue, and file-specific
+preparation problems no longer make NameQuick treat the whole provider
+as unavailable.</li>
+<li><strong>Smoother large batches.</strong> File lists, Review rows,
+progress controls, and Quick Rename transitions now update with less
+jumping or stale information.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed incompatible MLX runtimes appearing
+installed.</strong> NameQuick now verifies a downloaded runtime before
+replacing the working copy, so a broken package fails clearly instead of
+entering a repeated repair loop.</li>
+<li><strong>Fixed uncertain Smart Rename output becoming a
+filename.</strong> Missing evidence, conflicting AI output, or
+uncertainty text now sends a suggestion to Review instead of applying a
+placeholder or stale name.</li>
+<li><strong>Fixed optional template fields receiving old fallback
+values.</strong> Optional fields now stay empty when no value is found
+instead of silently inserting a saved default.</li>
+<li><strong>Fixed removed Watch Folders continuing to scan.</strong>
+Removing a watched folder now cancels its active catalog scan and clears
+the related progress state.</li>
+<li><strong>Fixed moved or missing files showing false processing
+failures.</strong> NameQuick now follows tracked relocations and skips
+files that genuinely disappeared instead of reporting misleading
+file-not-found errors.</li>
+<li><strong>Fixed licensing controls leading to dead ends.</strong>
+Status checks open details before upgrade actions, active-license
+revalidation keeps queued work waiting, and Self-Managed repair states
+provide a clear sign-out or license-entry path.</li>
+<li><strong>Fixed the Permissions menu opening the wrong settings
+page.</strong> Choosing Permissions… from the app menu now always opens
+General settings, where system permissions live.</li>
+<li><strong>Fixed repeated upgrade prompts.</strong> When a plan or
+trial is out of credits, NameQuick shows one clear upgrade prompt and
+keeps waiting files queued.</li>
+</ul>
