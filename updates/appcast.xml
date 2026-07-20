@@ -3,94 +3,54 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.59</title>
-            <pubDate>Thu, 16 Jul 2026 18:37:21 +0200</pubDate>
-            <sparkle:version>322</sparkle:version>
-            <sparkle:shortVersionString>2.11.59</sparkle:shortVersionString>
+            <title>2.11.60</title>
+            <pubDate>Mon, 20 Jul 2026 14:36:31 +0200</pubDate>
+            <sparkle:version>323</sparkle:version>
+            <sparkle:shortVersionString>2.11.60</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-07-16</p>
-<p>This update adds an integrated Quick Rename workspace and a
-redesigned Review experience, with a clearer History timeline and
-reliability improvements across local AI, templates, Watch Folders,
-processing, and licensing.</p>
+            <description><![CDATA[<p>Release date: 2026-07-20</p>
+<p>This update introduces Connected Inboxes, so invoice and document
+PDFs can move from approved email senders into NameQuick automatically.
+It also adds a lifetime Stats dashboard and makes the file library
+easier to scan and filter.</p>
 <h2 id="new">New</h2>
 <ul>
-<li><strong>Quick Rename now works in the main window.</strong> Add or
-drop more files into the current batch without replacing staged work,
-choose whether to review names before applying them, and inspect
-proposed changes alongside the file list.</li>
-<li><strong>Review is now a decision workbench.</strong> A persistent
-queue groups items needing attention, opens focused evidence and
-actions, supports saving individual missing details, and can dismiss the
-visible queue without changing files.</li>
-<li><strong>New Photos starter template.</strong> Create photo names
-from Date Taken and an AI-generated subject when capture metadata is
-available.</li>
+<li><strong>Turn incoming email attachments into organized
+files.</strong> Connect an inbox, choose which senders to trust, and
+route their PDFs into a watched folder where NameQuick can rename them
+automatically. You can review new senders, pause an inbox, change its
+destination, and see what was filed.</li>
+<li><strong>See what NameQuick has done for you.</strong> The new Stats
+dashboard shows your lifetime renames, estimated time saved, recent
+activity, and how your files were renamed.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>History is easier to scan.</strong> The full-width audit
-trail now emphasizes previous and new names, destinations, and undo
-receipts on one continuous timeline, while actionable recovery stays in
-Review.</li>
-<li><strong>Cleaner native toolbar and navigation.</strong> Search,
-view, inspector, license, and file controls now use the macOS toolbar,
-while route changes and sidebar selection settle more smoothly.</li>
-<li><strong>Faster multi-file selection.</strong> Shift-click checkboxes
-to select ranges, extend a selection with the keyboard, or drag across
-tiles in grid view. Row actions stay out of the way until you
-hover.</li>
-<li><strong>More dependable local custom prompts.</strong> Local runs
-preserve more requested naming parts, allow the selected model enough
-output space, use the original filename as supporting evidence, and send
-truncated or uncertain results to Review.</li>
-<li><strong>Clearer local-model guidance.</strong> NameQuick now
-explains when a smaller local model may be less reliable for a task and
-keeps that guidance available without blocking your work.</li>
-<li><strong>More complete rules editing.</strong> Conditional rules in
-templates can use every supported action directly, with clearer action
-labels in the editor.</li>
-<li><strong>Better batch recovery.</strong> Provider outages pause
-remaining files instead of failing the queue, and file-specific
-preparation problems no longer make NameQuick treat the whole provider
-as unavailable.</li>
-<li><strong>Smoother large batches.</strong> File lists, Review rows,
-progress controls, and Quick Rename transitions now update with less
-jumping or stale information.</li>
+<li><strong>Clearer file status at a glance.</strong> The file list and
+grid now distinguish files that are waiting, processing, ready to apply,
+renamed, or need attention, so proposed changes are easier to tell apart
+from completed renames.</li>
+<li><strong>The same status filters in every folder.</strong> Use All,
+Renamed, and Untouched while browsing any watched folder, not only All
+Files.</li>
+<li><strong>A simpler start from an empty library.</strong> Choose files
+or add a watched folder directly from the empty state, with less visual
+clutter between you and the next action.</li>
+<li><strong>More useful details when something goes wrong.</strong>
+Failed and unreadable files keep their relevant context and open focused
+details, making the next step easier to understand.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed incompatible MLX runtimes appearing
-installed.</strong> NameQuick now verifies a downloaded runtime before
-replacing the working copy, so a broken package fails clearly instead of
-entering a repeated repair loop.</li>
-<li><strong>Fixed uncertain Smart Rename output becoming a
-filename.</strong> Missing evidence, conflicting AI output, or
-uncertainty text now sends a suggestion to Review instead of applying a
-placeholder or stale name.</li>
-<li><strong>Fixed optional template fields receiving old fallback
-values.</strong> Optional fields now stay empty when no value is found
-instead of silently inserting a saved default.</li>
-<li><strong>Fixed removed Watch Folders continuing to scan.</strong>
-Removing a watched folder now cancels its active catalog scan and clears
-the related progress state.</li>
-<li><strong>Fixed moved or missing files showing false processing
-failures.</strong> NameQuick now follows tracked relocations and skips
-files that genuinely disappeared instead of reporting misleading
-file-not-found errors.</li>
-<li><strong>Fixed licensing controls leading to dead ends.</strong>
-Status checks open details before upgrade actions, active-license
-revalidation keeps queued work waiting, and Self-Managed repair states
-provide a clear sign-out or license-entry path.</li>
-<li><strong>Fixed the Permissions menu opening the wrong settings
-page.</strong> Choosing Permissions… from the app menu now always opens
-General settings, where system permissions live.</li>
-<li><strong>Fixed repeated upgrade prompts.</strong> When a plan or
-trial is out of credits, NameQuick shows one clear upgrade prompt and
-keeps waiting files queued.</li>
+<li><strong>Fixed checkout opening in the wrong language.</strong>
+Checkout now follows the language selected in NameQuick and falls back
+to English when that language is unavailable.</li>
+<li><strong>Fixed rename suggestions looking already applied.</strong>
+Files with a proposed name now show Ready to apply until the rename
+actually completes.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.59/NameQuick-2.11.59.dmg" length="71865704" type="application/octet-stream" sparkle:edSignature="zrciWWfmcMZbKegWp3QuhL1pJIOar4CDQDOgkksl02TezmVwvZ0Srs33/iEtlvQz0ggMD/NfgnZUyQUe+mLdDw=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.60/NameQuick-2.11.60.dmg" length="80519824" type="application/octet-stream" sparkle:edSignature="mks1l9r9icSSwGSkTqciqejnlnv8q1txC2umxpq8L8ZqauzKMKjG4aVvfSb/dk8vw+hevkyqXUdIw5Il1xTfAQ=="/>
         </item>
     </channel>
 </rss>
