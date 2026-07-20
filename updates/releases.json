@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-07-20T12:37:01.342101Z",
+  "generatedAt": "2026-07-20T21:00:46.539386Z",
   "releases": [
+    {
+      "version": "2.11.61",
+      "build": "324",
+      "title": "NameQuick 2.11.61",
+      "publishedAt": "2026-07-20T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.61.html",
+      "excerpt": "Turn incoming email attachments into organized files. Connect an inbox, choose which senders to trust, and route their PDFs into a watched folder where NameQuick can rename them automatically. You can review new senders, pause an inbox, change its destination, and see what was filed.",
+      "highlights": [
+        "Turn incoming email attachments into organized files. Connect an inbox, choose which senders to trust, and route their PDFs into a watched folder where NameQuick can rename them automatically. You can review new senders, pause an inbox, change its destination, and see what was filed.",
+        "See what NameQuick has done for you. The new Stats dashboard shows your lifetime renames, estimated time saved, recent activity, and how your files were renamed.",
+        "Clearer file status at a glance. The file list and grid now distinguish files that are waiting, processing, ready to apply, renamed, or need attention, so proposed changes are easier to tell apart from completed renames.",
+        "The same status filters in every folder. Use All, Renamed, and Untouched while browsing any watched folder, not only All Files."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.60",
       "build": "323",
@@ -15,7 +31,7 @@
         "Clearer file status at a glance. The file list and grid now distinguish files that are waiting, processing, ready to apply, renamed, or need attention, so proposed changes are easier to tell apart from completed renames.",
         "The same status filters in every folder. Use All, Renamed, and Untouched while browsing any watched folder, not only All Files."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.59",

@@ -3,10 +3,10 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.60</title>
-            <pubDate>Mon, 20 Jul 2026 14:36:31 +0200</pubDate>
-            <sparkle:version>323</sparkle:version>
-            <sparkle:shortVersionString>2.11.60</sparkle:shortVersionString>
+            <title>2.11.61</title>
+            <pubDate>Mon, 20 Jul 2026 23:00:17 +0200</pubDate>
+            <sparkle:version>324</sparkle:version>
+            <sparkle:shortVersionString>2.11.61</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
             <description><![CDATA[<p>Release date: 2026-07-20</p>
 <p>This update introduces Connected Inboxes, so invoice and document
@@ -50,7 +50,7 @@ Files with a proposed name now show Ready to apply until the rename
 actually completes.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.60/NameQuick-2.11.60.dmg" length="80519824" type="application/octet-stream" sparkle:edSignature="mks1l9r9icSSwGSkTqciqejnlnv8q1txC2umxpq8L8ZqauzKMKjG4aVvfSb/dk8vw+hevkyqXUdIw5Il1xTfAQ=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.61/NameQuick-2.11.61.dmg" length="82650998" type="application/octet-stream" sparkle:edSignature="v4uwJCv/E4+mtCtZ7afOYW6Cb8qxUPHVL44R1cPqyKlPkMZYEGPeT3o88geWW38h0G5Eg362NR00r1Z0/23xDg=="/>
         </item>
     </channel>
 </rss>
