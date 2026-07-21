@@ -3,54 +3,31 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.61</title>
-            <pubDate>Mon, 20 Jul 2026 23:00:17 +0200</pubDate>
-            <sparkle:version>324</sparkle:version>
-            <sparkle:shortVersionString>2.11.61</sparkle:shortVersionString>
+            <title>2.11.62</title>
+            <pubDate>Tue, 21 Jul 2026 12:08:27 +0200</pubDate>
+            <sparkle:version>325</sparkle:version>
+            <sparkle:shortVersionString>2.11.62</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-07-20</p>
-<p>This update introduces Connected Inboxes, so invoice and document
-PDFs can move from approved email senders into NameQuick automatically.
-It also adds a lifetime Stats dashboard and makes the file library
-easier to scan and filter.</p>
+            <description><![CDATA[<p>Release date: 2026-07-21</p>
 <h2 id="new">New</h2>
-<ul>
-<li><strong>Turn incoming email attachments into organized
-files.</strong> Connect an inbox, choose which senders to trust, and
-route their PDFs into a watched folder where NameQuick can rename them
-automatically. You can review new senders, pause an inbox, change its
-destination, and see what was filed.</li>
-<li><strong>See what NameQuick has done for you.</strong> The new Stats
-dashboard shows your lifetime renames, estimated time saved, recent
-activity, and how your files were renamed.</li>
-</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Clearer file status at a glance.</strong> The file list and
-grid now distinguish files that are waiting, processing, ready to apply,
-renamed, or need attention, so proposed changes are easier to tell apart
-from completed renames.</li>
-<li><strong>The same status filters in every folder.</strong> Use All,
-Renamed, and Untouched while browsing any watched folder, not only All
-Files.</li>
-<li><strong>A simpler start from an empty library.</strong> Choose files
-or add a watched folder directly from the empty state, with less visual
-clutter between you and the next action.</li>
-<li><strong>More useful details when something goes wrong.</strong>
-Failed and unreadable files keep their relevant context and open focused
-details, making the next step easier to understand.</li>
+<li><strong>Clearer duplicate cleanup results.</strong> No-duplicates
+and completed-cleanup screens now present results and next actions more
+consistently, while partial cleanups still show the files that need
+attention.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed checkout opening in the wrong language.</strong>
-Checkout now follows the language selected in NameQuick and falls back
-to English when that language is unavailable.</li>
-<li><strong>Fixed rename suggestions looking already applied.</strong>
-Files with a proposed name now show Ready to apply until the rename
-actually completes.</li>
+<li><strong>Fixed incorrect totals for similar images.</strong>
+Duplicate Detection now includes reviewed similar-image groups in its
+group and reclaimable-space totals.</li>
+<li><strong>Fixed missing image dimensions in comparisons.</strong>
+Image comparisons now show each file’s actual pixel dimensions and only
+highlight a difference when both values are available.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.61/NameQuick-2.11.61.dmg" length="82650998" type="application/octet-stream" sparkle:edSignature="v4uwJCv/E4+mtCtZ7afOYW6Cb8qxUPHVL44R1cPqyKlPkMZYEGPeT3o88geWW38h0G5Eg362NR00r1Z0/23xDg=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.62/NameQuick-2.11.62.dmg" length="82832218" type="application/octet-stream" sparkle:edSignature="jyx+nNyaJSqMi3iZnatRDmGIgU1YiGRj7LNucQk9VgFVjjKELZmxt/eT5X6jftT93YrITxMDYr3bZj4XbdILBg=="/>
         </item>
     </channel>
 </rss>

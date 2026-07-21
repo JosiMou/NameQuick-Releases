@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-07-20T21:00:46.539386Z",
+  "generatedAt": "2026-07-21T10:08:55.281726Z",
   "releases": [
+    {
+      "version": "2.11.62",
+      "build": "325",
+      "title": "NameQuick 2.11.62",
+      "publishedAt": "2026-07-21T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.62.html",
+      "excerpt": "Clearer duplicate cleanup results. No-duplicates and completed-cleanup screens now present results and next actions more consistently, while partial cleanups still show the files that need attention.",
+      "highlights": [
+        "Clearer duplicate cleanup results. No-duplicates and completed-cleanup screens now present results and next actions more consistently, while partial cleanups still show the files that need attention.",
+        "Fixed incorrect totals for similar images. Duplicate Detection now includes reviewed similar-image groups in its group and reclaimable-space totals.",
+        "Fixed missing image dimensions in comparisons. Image comparisons now show each file\u2019s actual pixel dimensions and only highlight a difference when both values are available."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.61",
       "build": "324",
@@ -15,7 +30,7 @@
         "Clearer file status at a glance. The file list and grid now distinguish files that are waiting, processing, ready to apply, renamed, or need attention, so proposed changes are easier to tell apart from completed renames.",
         "The same status filters in every folder. Use All, Renamed, and Untouched while browsing any watched folder, not only All Files."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.60",
