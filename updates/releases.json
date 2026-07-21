@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-07-21T10:08:55.281726Z",
+  "generatedAt": "2026-07-21T22:27:40.577091Z",
   "releases": [
+    {
+      "version": "2.11.63",
+      "build": "326",
+      "title": "NameQuick 2.11.63",
+      "publishedAt": "2026-07-21T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.63.html",
+      "excerpt": "Clearer progress while NameQuick checks your access. A consistent setup screen now keeps you informed while NameQuick validates your license or finishes activating a purchase.",
+      "highlights": [
+        "Clearer progress while NameQuick checks your access. A consistent setup screen now keeps you informed while NameQuick validates your license or finishes activating a purchase.",
+        "Fixed managed-license checks getting stuck at launch. NameQuick now opens normally when access is valid, preserves eligible offline access, or shows recovery options when validation cannot complete.",
+        "Fixed the access screen briefly reappearing after unlock. NameQuick now keeps the setup progress visible until the main window is ready."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.62",
       "build": "325",
@@ -14,7 +29,7 @@
         "Fixed incorrect totals for similar images. Duplicate Detection now includes reviewed similar-image groups in its group and reclaimable-space totals.",
         "Fixed missing image dimensions in comparisons. Image comparisons now show each file\u2019s actual pixel dimensions and only highlight a difference when both values are available."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.61",
