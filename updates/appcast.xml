@@ -3,31 +3,22 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.63</title>
-            <pubDate>Wed, 22 Jul 2026 00:27:09 +0200</pubDate>
-            <sparkle:version>326</sparkle:version>
-            <sparkle:shortVersionString>2.11.63</sparkle:shortVersionString>
+            <title>2.11.64</title>
+            <pubDate>Wed, 22 Jul 2026 14:04:03 +0200</pubDate>
+            <sparkle:version>327</sparkle:version>
+            <sparkle:shortVersionString>2.11.64</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-07-21</p>
+            <description><![CDATA[<p>Release date: 2026-07-22</p>
 <h2 id="new">New</h2>
 <h2 id="improvements">Improvements</h2>
-<ul>
-<li><strong>Clearer progress while NameQuick checks your
-access.</strong> A consistent setup screen now keeps you informed while
-NameQuick validates your license or finishes activating a purchase.</li>
-</ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed managed-license checks getting stuck at
-launch.</strong> NameQuick now opens normally when access is valid,
-preserves eligible offline access, or shows recovery options when
-validation cannot complete.</li>
-<li><strong>Fixed the access screen briefly reappearing after
-unlock.</strong> NameQuick now keeps the setup progress visible until
-the main window is ready.</li>
+<li><strong>Fixed NameQuick becoming unresponsive after setup.</strong>
+The main workspace and toolbar now open reliably when onboarding
+finishes.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.63/NameQuick-2.11.63.dmg" length="82922176" type="application/octet-stream" sparkle:edSignature="9/IztgHT+t5+/GBLNPTJXITmKTZMMs/qU2WNkEg67FGU5z4DM34k0Fy1nqpGoXM5YWZepy1Ay+Y7eukch3wEBA=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.64/NameQuick-2.11.64.dmg" length="82932800" type="application/octet-stream" sparkle:edSignature="La4bLCELX3nUtSri+rjNSC1rZhMaBGGETSlk+oKn2BXDgua8td1CtqKWmJdqop0Sh7sJcf658TefDbO8Ea9hBQ=="/>
         </item>
     </channel>
 </rss>
