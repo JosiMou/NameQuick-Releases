@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-07-22T12:04:35.922377Z",
+  "generatedAt": "2026-07-23T08:07:23.757561Z",
   "releases": [
+    {
+      "version": "2.11.65",
+      "build": "328",
+      "title": "NameQuick 2.11.65",
+      "publishedAt": "2026-07-23T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.65.html",
+      "excerpt": "Clearer recovery when local AI cannot start. If the MLX runtime is installed but cannot launch, NameQuick now explains the problem and offers a Repair action instead of incorrectly saying the Mac is unsupported.",
+      "highlights": [
+        "Clearer recovery when local AI cannot start. If the MLX runtime is installed but cannot launch, NameQuick now explains the problem and offers a Repair action instead of incorrectly saying the Mac is unsupported.",
+        "Faster feedback when local AI setup is blocked. Processing now stops promptly and keeps an actionable error in Review when a required local provider or runtime is unavailable, instead of waiting before failing.",
+        "A better-positioned access check at launch. License and activation progress now stays centered in the startup window.",
+        "Fixed files failing while local AI was still loading at launch. Files added shortly after opening NameQuick are no longer incorrectly rejected before the saved model state finishes loading."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.64",
       "build": "327",
@@ -12,7 +28,7 @@
       "highlights": [
         "Fixed NameQuick becoming unresponsive after setup. The main workspace and toolbar now open reliably when onboarding finishes."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.63",
