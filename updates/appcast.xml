@@ -3,66 +3,53 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.68</title>
-            <pubDate>Tue, 28 Jul 2026 18:25:21 +0200</pubDate>
-            <sparkle:version>331</sparkle:version>
-            <sparkle:shortVersionString>2.11.68</sparkle:shortVersionString>
+            <title>2.11.69</title>
+            <pubDate>Tue, 28 Jul 2026 21:51:57 +0200</pubDate>
+            <sparkle:version>332</sparkle:version>
+            <sparkle:shortVersionString>2.11.69</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
             <description><![CDATA[<p>Release date: 2026-07-28</p>
 <h2 id="new">New</h2>
 <ul>
-<li><strong>Introducing Quick Organize for messy folders.</strong>
-Select a batch of files and NameQuick reads them, groups them into
-suggested folders, and proposes clear filenames. You can review and
-adjust the complete plan before approving any changes. Quick Organize is
-available with Managed AI and supported cloud AI providers.</li>
+<li><strong>Organize: sort a folder and name every file in one
+pass.</strong> Select files or a folder and NameQuick sorts everything
+into clear folders and gives each file a clear name from your naming
+setup. You see the estimated cost before it runs and approve the plan
+before anything moves, names appear live while it works, and any file
+NameQuick cannot place confidently goes to Review instead of being
+guessed.</li>
+<li><strong>Choose what names Organize uses.</strong> In Settings →
+Processing, pick Smart Rename, a saved prompt, or one of your naming
+templates.</li>
+<li><strong>Organize runs on cloud AI.</strong> Use your subscription or
+your own API key. Local models are not supported for Organize yet;
+renaming still works with a local model.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Choose how Quick Organize names your files.</strong> Use
-Smart Rename, your default prompt, a selected prompt, or a naming
-template from the Organize settings.</li>
-<li><strong>A clearer plan while files are being organized.</strong>
-Folder and filename suggestions now appear as they become ready, with
-separate sections for files still being sorted and files that need your
-review.</li>
-<li><strong>Better folder suggestions for mixed batches.</strong> Quick
-Organize now favors practical, distinct folders instead of splitting
-files across overlapping or nearly identical categories.</li>
-<li><strong>Better managed AI filename suggestions.</strong> Managed
-renaming now does a better job of preserving useful document details
-such as invoice numbers, dates, and distinguishing terms.</li>
-<li><strong>Faster managed renaming for smaller documents.</strong>
-Small files can now be processed directly instead of always waiting for
-a separate upload.</li>
-<li><strong>Clearer credit use during Quick Organize.</strong> Managed
-plans now show sorting and renaming credits separately and keep enough
-approved credits available for each part of the plan.</li>
-<li><strong>More reliable local AI setup on slower Macs.</strong>
-NameQuick now gives the local engine more time to start and retries
-temporary verification timeouts without downloading it again.</li>
-<li><strong>Safer repairs for local AI.</strong> NameQuick keeps the
-current local engine available until its replacement has been
-successfully checked.</li>
+<li><strong>Honest credit receipts.</strong> After a run, NameQuick
+shows exactly what it used against what you approved, like “Used 24 of
+40 approved.”</li>
+<li><strong>See what an estimate is made of.</strong> Hover an estimate
+to get the breakdown behind the number.</li>
+<li><strong>No limit on how big a run can be.</strong> The cap on files
+per run is gone. You approve the cost up front, so you decide the size
+of the run.</li>
+<li><strong>Faster naming.</strong> Files are named in parallel and
+results appear as they are ready, so batches finish sooner and you can
+watch progress instead of waiting.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed large Quick Organize plans becoming
-unresponsive.</strong> Expanding destination groups and reviewing many
-files should now remain responsive as suggestions arrive.</li>
-<li><strong>Fixed blocked Quick Organize plans continuing
-unexpectedly.</strong> A declined or unavailable cloud-AI run now stays
-blocked instead of becoming ready to apply.</li>
-<li><strong>Fixed recovery actions pointing to the wrong plan.</strong>
-License and credit messages now take you to the option that matches your
-current AI setup.</li>
-<li><strong>Fixed local AI installations being incorrectly
-rejected.</strong> Temporary startup delays are no longer reported as an
-incompatible Mac, and NameQuick now gives you a clear option to try the
-installation again when verification cannot finish.</li>
+<li><strong>Fixed an issue where sorting could fail to suggest
+folders.</strong> Some document batches ended a run without a folder
+plan. Organize now produces suggestions reliably for these batches.</li>
+<li><strong>Fixed declined plans leaving files marked ready to
+move.</strong> When you decline a plan or a run cannot finish, nothing
+is left queued as approved.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.68/NameQuick-2.11.68.dmg" length="83008359" type="application/octet-stream" sparkle:edSignature="EsE+ps/CO2F9c+nHjUP64cNXvmneg7OqsaRD7rUfzHFP0GrZErgTVSPea/Jg7dcq2NioJSvhqAmr0jBcjlG1Dw=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.69/NameQuick-2.11.69.dmg" length="83032540" type="application/octet-stream" sparkle:edSignature="GxtvegsOcp1WcWpeGy7PbfjYkgDuGEbwYZuJNvCdqTtx+u0wZCJIH2DoRhKvmTSE5FxZx6ua5ejRlJ7OUEUnBg=="/>
         </item>
     </channel>
 </rss>

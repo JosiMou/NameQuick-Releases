@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-07-28T16:25:50.296581Z",
+  "generatedAt": "2026-07-28T19:52:26.499982Z",
   "releases": [
+    {
+      "version": "2.11.69",
+      "build": "332",
+      "title": "NameQuick 2.11.69",
+      "publishedAt": "2026-07-28T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.69.html",
+      "excerpt": "Organize: sort a folder and name every file in one pass. Select files or a folder and NameQuick sorts everything into clear folders and gives each file a clear name from your naming setup. You see the estimated cost before it runs and approve the plan before anything moves, names appear live while it works, and any file NameQuick cannot place confidently goes to Review instead of being guessed.",
+      "highlights": [
+        "Organize: sort a folder and name every file in one pass. Select files or a folder and NameQuick sorts everything into clear folders and gives each file a clear name from your naming setup. You see the estimated cost before it runs and approve the plan before anything moves, names appear live while it works, and any file NameQuick cannot place confidently goes to Review instead of being guessed.",
+        "Choose what names Organize uses. In Settings \u2192 Processing, pick Smart Rename, a saved prompt, or one of your naming templates.",
+        "Organize runs on cloud AI. Use your subscription or your own API key. Local models are not supported for Organize yet; renaming still works with a local model.",
+        "Honest credit receipts. After a run, NameQuick shows exactly what it used against what you approved, like \u201cUsed 24 of 40 approved.\u201d"
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.68",
       "build": "331",
@@ -15,7 +31,7 @@
         "A clearer plan while files are being organized. Folder and filename suggestions now appear as they become ready, with separate sections for files still being sorted and files that need your review.",
         "Better folder suggestions for mixed batches. Quick Organize now favors practical, distinct folders instead of splitting files across overlapping or nearly identical categories."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.67",
