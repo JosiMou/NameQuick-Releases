@@ -3,42 +3,66 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.65</title>
-            <pubDate>Thu, 23 Jul 2026 10:06:49 +0200</pubDate>
-            <sparkle:version>328</sparkle:version>
-            <sparkle:shortVersionString>2.11.65</sparkle:shortVersionString>
+            <title>2.11.67</title>
+            <pubDate>Tue, 28 Jul 2026 17:05:49 +0200</pubDate>
+            <sparkle:version>330</sparkle:version>
+            <sparkle:shortVersionString>2.11.67</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-07-23</p>
+            <description><![CDATA[<p>Release date: 2026-07-28</p>
 <h2 id="new">New</h2>
+<ul>
+<li><strong>Introducing Quick Organize for messy folders.</strong>
+Select a batch of files and NameQuick reads them, groups them into
+suggested folders, and proposes clear filenames. You can review and
+adjust the complete plan before approving any changes. Quick Organize is
+available with Managed AI and supported cloud AI providers.</li>
+</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Clearer recovery when local AI cannot start.</strong> If the
-MLX runtime is installed but cannot launch, NameQuick now explains the
-problem and offers a Repair action instead of incorrectly saying the Mac
-is unsupported.</li>
-<li><strong>Faster feedback when local AI setup is blocked.</strong>
-Processing now stops promptly and keeps an actionable error in Review
-when a required local provider or runtime is unavailable, instead of
-waiting before failing.</li>
-<li><strong>A better-positioned access check at launch.</strong> License
-and activation progress now stays centered in the startup window.</li>
+<li><strong>Choose how Quick Organize names your files.</strong> Use
+Smart Rename, your default prompt, a selected prompt, or a naming
+template from the Organize settings.</li>
+<li><strong>A clearer plan while files are being organized.</strong>
+Folder and filename suggestions now appear as they become ready, with
+separate sections for files still being sorted and files that need your
+review.</li>
+<li><strong>Better folder suggestions for mixed batches.</strong> Quick
+Organize now favors practical, distinct folders instead of splitting
+files across overlapping or nearly identical categories.</li>
+<li><strong>Better managed AI filename suggestions.</strong> Managed
+renaming now does a better job of preserving useful document details
+such as invoice numbers, dates, and distinguishing terms.</li>
+<li><strong>Faster managed renaming for smaller documents.</strong>
+Small files can now be processed directly instead of always waiting for
+a separate upload.</li>
+<li><strong>Clearer credit use during Quick Organize.</strong> Managed
+plans now show sorting and renaming credits separately and keep enough
+approved credits available for each part of the plan.</li>
+<li><strong>More reliable local AI setup on slower Macs.</strong>
+NameQuick now gives the local engine more time to start and retries
+temporary verification timeouts without downloading it again.</li>
+<li><strong>Safer repairs for local AI.</strong> NameQuick keeps the
+current local engine available until its replacement has been
+successfully checked.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed files failing while local AI was still loading at
-launch.</strong> Files added shortly after opening NameQuick are no
-longer incorrectly rejected before the saved model state finishes
-loading.</li>
-<li><strong>Fixed Review showing a badge without a matching
-item.</strong> The Dock badge and Review now use the same list of
-actionable problems, and processing failures remain available for
-follow-up.</li>
-<li><strong>Fixed Presets becoming unresponsive during template
-editing.</strong> Creating, selecting, editing, and saving templates
-should now remain responsive.</li>
+<li><strong>Fixed large Quick Organize plans becoming
+unresponsive.</strong> Expanding destination groups and reviewing many
+files should now remain responsive as suggestions arrive.</li>
+<li><strong>Fixed blocked Quick Organize plans continuing
+unexpectedly.</strong> A declined or unavailable cloud-AI run now stays
+blocked instead of becoming ready to apply.</li>
+<li><strong>Fixed recovery actions pointing to the wrong plan.</strong>
+License and credit messages now take you to the option that matches your
+current AI setup.</li>
+<li><strong>Fixed local AI installations being incorrectly
+rejected.</strong> Temporary startup delays are no longer reported as an
+incompatible Mac, and NameQuick now gives you a clear option to try the
+installation again when verification cannot finish.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.65/NameQuick-2.11.65.dmg" length="82948434" type="application/octet-stream" sparkle:edSignature="09cUb5hraV9VfhCVpEoIh6XdwkFOxslNGgKAo+ROLu8ZgzqNb9CPPwafS+PLDdBZE0ssx2ooNywguzRq6/mbDg=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.67/NameQuick-2.11.67.dmg" length="83010137" type="application/octet-stream" sparkle:edSignature="QSA/ieA91Gz+1953owPrkb1dxrPn+EUaaWBO9Thg0fohZyiaWxpyZ+czTuz/krs+tAxJWUSzocuuOI4W0b2rAg=="/>
         </item>
     </channel>
 </rss>

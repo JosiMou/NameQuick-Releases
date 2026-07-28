@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-07-23T08:07:23.757561Z",
+  "generatedAt": "2026-07-28T15:06:20.412282Z",
   "releases": [
+    {
+      "version": "2.11.67",
+      "build": "330",
+      "title": "NameQuick 2.11.67",
+      "publishedAt": "2026-07-28T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.67.html",
+      "excerpt": "Introducing Quick Organize for messy folders. Select a batch of files and NameQuick reads them, groups them into suggested folders, and proposes clear filenames. You can review and adjust the complete plan before approving any changes. Quick Organize is available with Managed AI and supported cloud AI providers.",
+      "highlights": [
+        "Introducing Quick Organize for messy folders. Select a batch of files and NameQuick reads them, groups them into suggested folders, and proposes clear filenames. You can review and adjust the complete plan before approving any changes. Quick Organize is available with Managed AI and supported cloud AI providers.",
+        "Choose how Quick Organize names your files. Use Smart Rename, your default prompt, a selected prompt, or a naming template from the Organize settings.",
+        "A clearer plan while files are being organized. Folder and filename suggestions now appear as they become ready, with separate sections for files still being sorted and files that need your review.",
+        "Better folder suggestions for mixed batches. Quick Organize now favors practical, distinct folders instead of splitting files across overlapping or nearly identical categories."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.65",
       "build": "328",
@@ -15,7 +31,7 @@
         "A better-positioned access check at launch. License and activation progress now stays centered in the startup window.",
         "Fixed files failing while local AI was still loading at launch. Files added shortly after opening NameQuick are no longer incorrectly rejected before the saved model state finishes loading."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.64",
