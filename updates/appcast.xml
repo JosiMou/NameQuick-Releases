@@ -3,10 +3,10 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.67</title>
-            <pubDate>Tue, 28 Jul 2026 17:05:49 +0200</pubDate>
-            <sparkle:version>330</sparkle:version>
-            <sparkle:shortVersionString>2.11.67</sparkle:shortVersionString>
+            <title>2.11.68</title>
+            <pubDate>Tue, 28 Jul 2026 18:25:21 +0200</pubDate>
+            <sparkle:version>331</sparkle:version>
+            <sparkle:shortVersionString>2.11.68</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
             <description><![CDATA[<p>Release date: 2026-07-28</p>
 <h2 id="new">New</h2>
@@ -62,7 +62,7 @@ incompatible Mac, and NameQuick now gives you a clear option to try the
 installation again when verification cannot finish.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.67/NameQuick-2.11.67.dmg" length="83010137" type="application/octet-stream" sparkle:edSignature="QSA/ieA91Gz+1953owPrkb1dxrPn+EUaaWBO9Thg0fohZyiaWxpyZ+czTuz/krs+tAxJWUSzocuuOI4W0b2rAg=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.68/NameQuick-2.11.68.dmg" length="83008359" type="application/octet-stream" sparkle:edSignature="EsE+ps/CO2F9c+nHjUP64cNXvmneg7OqsaRD7rUfzHFP0GrZErgTVSPea/Jg7dcq2NioJSvhqAmr0jBcjlG1Dw=="/>
         </item>
     </channel>
 </rss>
