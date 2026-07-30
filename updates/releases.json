@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-07-28T19:52:26.499982Z",
+  "generatedAt": "2026-07-30T14:14:52.979333Z",
   "releases": [
+    {
+      "version": "2.11.70",
+      "build": "333",
+      "title": "NameQuick 2.11.70",
+      "publishedAt": "2026-07-30T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.70.html",
+      "excerpt": "Get a better starting point for photo batches. When you reject a proposed name for a batch of images in Quick Rename, NameQuick can suggest running the batch again with your Photos naming template. The new suggestions return to Review, and your saved default stays unchanged.",
+      "highlights": [
+        "Get a better starting point for photo batches. When you reject a proposed name for a batch of images in Quick Rename, NameQuick can suggest running the batch again with your Photos naming template. The new suggestions return to Review, and your saved default stays unchanged.",
+        "Use less memory when MLX is idle. The built-in MLX model now unloads after five minutes by default and loads again for your next rename. Choose five minutes, fifteen minutes, one hour, or while NameQuick is open in AI settings.",
+        "More accurate Review progress. Review keeps showing filing progress until approved files finish, and its counts now match the files visible under the selected filter.",
+        "Fixed Quick Rename controls becoming hidden. The action row now stays pinned at the bottom when file lists or recovery messages fill the workspace, and its controls remain visible on macOS 26."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.69",
       "build": "332",
@@ -15,7 +31,7 @@
         "Organize runs on cloud AI. Use your subscription or your own API key. Local models are not supported for Organize yet; renaming still works with a local model.",
         "Honest credit receipts. After a run, NameQuick shows exactly what it used against what you approved, like \u201cUsed 24 of 40 approved.\u201d"
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.68",

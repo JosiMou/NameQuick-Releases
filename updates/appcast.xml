@@ -3,53 +3,50 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.69</title>
-            <pubDate>Tue, 28 Jul 2026 21:51:57 +0200</pubDate>
-            <sparkle:version>332</sparkle:version>
-            <sparkle:shortVersionString>2.11.69</sparkle:shortVersionString>
+            <title>2.11.70</title>
+            <pubDate>Thu, 30 Jul 2026 16:14:24 +0200</pubDate>
+            <sparkle:version>333</sparkle:version>
+            <sparkle:shortVersionString>2.11.70</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-07-28</p>
+            <description><![CDATA[<p>Release date: 2026-07-30</p>
 <h2 id="new">New</h2>
 <ul>
-<li><strong>Organize: sort a folder and name every file in one
-pass.</strong> Select files or a folder and NameQuick sorts everything
-into clear folders and gives each file a clear name from your naming
-setup. You see the estimated cost before it runs and approve the plan
-before anything moves, names appear live while it works, and any file
-NameQuick cannot place confidently goes to Review instead of being
-guessed.</li>
-<li><strong>Choose what names Organize uses.</strong> In Settings →
-Processing, pick Smart Rename, a saved prompt, or one of your naming
-templates.</li>
-<li><strong>Organize runs on cloud AI.</strong> Use your subscription or
-your own API key. Local models are not supported for Organize yet;
-renaming still works with a local model.</li>
+<li><strong>Get a better starting point for photo batches.</strong> When
+you reject a proposed name for a batch of images in Quick Rename,
+NameQuick can suggest running the batch again with your Photos naming
+template. The new suggestions return to Review, and your saved default
+stays unchanged.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Honest credit receipts.</strong> After a run, NameQuick
-shows exactly what it used against what you approved, like “Used 24 of
-40 approved.”</li>
-<li><strong>See what an estimate is made of.</strong> Hover an estimate
-to get the breakdown behind the number.</li>
-<li><strong>No limit on how big a run can be.</strong> The cap on files
-per run is gone. You approve the cost up front, so you decide the size
-of the run.</li>
-<li><strong>Faster naming.</strong> Files are named in parallel and
-results appear as they are ready, so batches finish sooner and you can
-watch progress instead of waiting.</li>
+<li><strong>Use less memory when MLX is idle.</strong> The built-in MLX
+model now unloads after five minutes by default and loads again for your
+next rename. Choose five minutes, fifteen minutes, one hour, or while
+NameQuick is open in AI settings.</li>
+<li><strong>More accurate Review progress.</strong> Review keeps showing
+filing progress until approved files finish, and its counts now match
+the files visible under the selected filter.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed an issue where sorting could fail to suggest
-folders.</strong> Some document batches ended a run without a folder
-plan. Organize now produces suggestions reliably for these batches.</li>
-<li><strong>Fixed declined plans leaving files marked ready to
-move.</strong> When you decline a plan or a run cannot finish, nothing
-is left queued as approved.</li>
+<li><strong>Fixed Quick Rename controls becoming hidden.</strong> The
+action row now stays pinned at the bottom when file lists or recovery
+messages fill the workspace, and its controls remain visible on macOS
+26.</li>
+<li><strong>Fixed unclear out-of-credit errors when using your own API
+key.</strong> NameQuick now identifies exhausted provider balances,
+links you to the relevant billing page, and leaves unstarted files
+waiting instead of failing the rest of the batch one by one.</li>
+<li><strong>Fixed Organize problems disappearing from Review after
+folder changes.</strong> Problem items already shown in Review now
+remain visible after folder rescans so you can resolve them.</li>
+<li><strong>Fixed outdated Organize plans failing without an
+explanation.</strong> Review now tells you when an earlier run already
+moved a file or when the original is no longer available, with support
+details available when needed.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.69/NameQuick-2.11.69.dmg" length="83032540" type="application/octet-stream" sparkle:edSignature="GxtvegsOcp1WcWpeGy7PbfjYkgDuGEbwYZuJNvCdqTtx+u0wZCJIH2DoRhKvmTSE5FxZx6ua5ejRlJ7OUEUnBg=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.70/NameQuick-2.11.70.dmg" length="83162547" type="application/octet-stream" sparkle:edSignature="z7FCTj41TrlypKx/Cl1uVSFUj063IRnAwjlpNf5Erbs+H4hFmYvocaelJfVuwOnZ/uTTg2PWXgdSvcg75aLJBQ=="/>
         </item>
     </channel>
 </rss>
