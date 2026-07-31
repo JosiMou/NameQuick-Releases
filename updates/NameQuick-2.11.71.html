@@ -1,0 +1,19 @@
+<p>Release date: 2026-07-31</p>
+<h2 id="new">New</h2>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>More reliable MLX model downloads.</strong> Long downloads
+stay active while NameQuick is running, temporary service errors retry
+automatically, and failures now explain whether storage, network access,
+or the selected model needs attention.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed MLX getting stuck after a model failed to
+load.</strong> Check again now attempts to load the model instead of
+returning to the same blocked state, with a reinstall option when
+needed.</li>
+<li><strong>Fixed readable API keys being reported as locked.</strong>
+NameQuick now checks the selected provider key directly, preventing
+false keychain warnings from pausing otherwise ready batches.</li>
+</ul>

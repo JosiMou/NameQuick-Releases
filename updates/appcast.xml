@@ -3,50 +3,32 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.70</title>
-            <pubDate>Thu, 30 Jul 2026 16:14:24 +0200</pubDate>
-            <sparkle:version>333</sparkle:version>
-            <sparkle:shortVersionString>2.11.70</sparkle:shortVersionString>
+            <title>2.11.71</title>
+            <pubDate>Fri, 31 Jul 2026 14:00:20 +0200</pubDate>
+            <sparkle:version>334</sparkle:version>
+            <sparkle:shortVersionString>2.11.71</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-07-30</p>
+            <description><![CDATA[<p>Release date: 2026-07-31</p>
 <h2 id="new">New</h2>
-<ul>
-<li><strong>Get a better starting point for photo batches.</strong> When
-you reject a proposed name for a batch of images in Quick Rename,
-NameQuick can suggest running the batch again with your Photos naming
-template. The new suggestions return to Review, and your saved default
-stays unchanged.</li>
-</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Use less memory when MLX is idle.</strong> The built-in MLX
-model now unloads after five minutes by default and loads again for your
-next rename. Choose five minutes, fifteen minutes, one hour, or while
-NameQuick is open in AI settings.</li>
-<li><strong>More accurate Review progress.</strong> Review keeps showing
-filing progress until approved files finish, and its counts now match
-the files visible under the selected filter.</li>
+<li><strong>More reliable MLX model downloads.</strong> Long downloads
+stay active while NameQuick is running, temporary service errors retry
+automatically, and failures now explain whether storage, network access,
+or the selected model needs attention.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed Quick Rename controls becoming hidden.</strong> The
-action row now stays pinned at the bottom when file lists or recovery
-messages fill the workspace, and its controls remain visible on macOS
-26.</li>
-<li><strong>Fixed unclear out-of-credit errors when using your own API
-key.</strong> NameQuick now identifies exhausted provider balances,
-links you to the relevant billing page, and leaves unstarted files
-waiting instead of failing the rest of the batch one by one.</li>
-<li><strong>Fixed Organize problems disappearing from Review after
-folder changes.</strong> Problem items already shown in Review now
-remain visible after folder rescans so you can resolve them.</li>
-<li><strong>Fixed outdated Organize plans failing without an
-explanation.</strong> Review now tells you when an earlier run already
-moved a file or when the original is no longer available, with support
-details available when needed.</li>
+<li><strong>Fixed MLX getting stuck after a model failed to
+load.</strong> Check again now attempts to load the model instead of
+returning to the same blocked state, with a reinstall option when
+needed.</li>
+<li><strong>Fixed readable API keys being reported as locked.</strong>
+NameQuick now checks the selected provider key directly, preventing
+false keychain warnings from pausing otherwise ready batches.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.70/NameQuick-2.11.70.dmg" length="83162547" type="application/octet-stream" sparkle:edSignature="z7FCTj41TrlypKx/Cl1uVSFUj063IRnAwjlpNf5Erbs+H4hFmYvocaelJfVuwOnZ/uTTg2PWXgdSvcg75aLJBQ=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.71/NameQuick-2.11.71.dmg" length="83185440" type="application/octet-stream" sparkle:edSignature="AeMxh2VWtHfYQ8M+4JBQ0loXB7EpjX0rEP0cucqecV4EiRuSAc0S+8nT42ySIB21CbZdJ82fidbcYKX4PkttAw=="/>
         </item>
     </channel>
 </rss>

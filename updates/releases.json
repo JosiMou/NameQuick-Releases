@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-07-30T14:14:52.979333Z",
+  "generatedAt": "2026-07-31T12:00:49.712680Z",
   "releases": [
+    {
+      "version": "2.11.71",
+      "build": "334",
+      "title": "NameQuick 2.11.71",
+      "publishedAt": "2026-07-31T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.71.html",
+      "excerpt": "More reliable MLX model downloads. Long downloads stay active while NameQuick is running, temporary service errors retry automatically, and failures now explain whether storage, network access, or the selected model needs attention.",
+      "highlights": [
+        "More reliable MLX model downloads. Long downloads stay active while NameQuick is running, temporary service errors retry automatically, and failures now explain whether storage, network access, or the selected model needs attention.",
+        "Fixed MLX getting stuck after a model failed to load. Check again now attempts to load the model instead of returning to the same blocked state, with a reinstall option when needed.",
+        "Fixed readable API keys being reported as locked. NameQuick now checks the selected provider key directly, preventing false keychain warnings from pausing otherwise ready batches."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.70",
       "build": "333",
@@ -15,7 +30,7 @@
         "More accurate Review progress. Review keeps showing filing progress until approved files finish, and its counts now match the files visible under the selected filter.",
         "Fixed Quick Rename controls becoming hidden. The action row now stays pinned at the bottom when file lists or recovery messages fill the workspace, and its controls remain visible on macOS 26."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.69",
