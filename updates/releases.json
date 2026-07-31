@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-07-31T12:00:49.712680Z",
+  "generatedAt": "2026-07-31T20:12:54.102915Z",
   "releases": [
+    {
+      "version": "2.11.72",
+      "build": "335",
+      "title": "NameQuick 2.11.72",
+      "publishedAt": "2026-07-31T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.72.html",
+      "excerpt": "See when a rule only partly applies. If a rename succeeds but a matched rule cannot complete every action, NameQuick now marks the file as Partly applied and explains what needs attention.",
+      "highlights": [
+        "See when a rule only partly applies. If a rename succeeds but a matched rule cannot complete every action, NameQuick now marks the file as Partly applied and explains what needs attention.",
+        "Fixed rules being skipped after some renames. Finder tags, comments, color labels, and file dates now apply when you approve a file in Review or use Quick Rename. Reviewed files with edited names also move to the rule\u2019s destination folder.",
+        "Fixed valid dates and identifiers being mistaken for file paths. Document values that contain a slash, such as dates or business identifiers, no longer block the rename.",
+        "Fixed downloaded local models becoming impossible to remove. Models on your Mac remain manageable in AI settings after you switch providers, and you can remove the active model after confirming that another AI will be needed for renaming."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.71",
       "build": "334",
@@ -14,7 +30,7 @@
         "Fixed MLX getting stuck after a model failed to load. Check again now attempts to load the model instead of returning to the same blocked state, with a reinstall option when needed.",
         "Fixed readable API keys being reported as locked. NameQuick now checks the selected provider key directly, preventing false keychain warnings from pausing otherwise ready batches."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.70",
