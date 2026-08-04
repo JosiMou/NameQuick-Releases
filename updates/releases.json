@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-07-31T20:12:54.102915Z",
+  "generatedAt": "2026-08-04T06:42:36.836272Z",
   "releases": [
+    {
+      "version": "2.11.73",
+      "build": "336",
+      "title": "NameQuick 2.11.73",
+      "publishedAt": "2026-08-04T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.73.html",
+      "excerpt": "Introducing cloud-storage Watch Folders. Add folders directly from connected iCloud Drive, Dropbox, Google Drive, OneDrive, or Box locations. NameQuick shows each available service by name, so you can start in the right place without browsing through system folders.",
+      "highlights": [
+        "Introducing cloud-storage Watch Folders. Add folders directly from connected iCloud Drive, Dropbox, Google Drive, OneDrive, or Box locations. NameQuick shows each available service by name, so you can start in the right place without browsing through system folders.",
+        "Choose what happens to files already in a large Watch Folder. NameQuick counts supported files without downloading them, then lets you rename everything, limit the first pass to files changed in the last 30 days, 90 days, or 12 months, or start with new files only. Expected downloads and Managed AI credit use, when applicable, are shown before you decide.",
+        "Cloud files stay online until they are needed. Adding and indexing a cloud folder no longer downloads every online-only file. NameQuick keeps placeholders visible and downloads content when it processes a file for renaming.",
+        "Duplicate Detection now identifies online-only files it has not checked. NameQuick keeps these files visible and lets you choose when to download and scan them instead of treating an unchecked cloud folder as duplicate-free."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.72",
       "build": "335",
@@ -15,7 +31,7 @@
         "Fixed valid dates and identifiers being mistaken for file paths. Document values that contain a slash, such as dates or business identifiers, no longer block the rename.",
         "Fixed downloaded local models becoming impossible to remove. Models on your Mac remain manageable in AI settings after you switch providers, and you can remove the active model after confirming that another AI will be needed for renaming."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.71",
