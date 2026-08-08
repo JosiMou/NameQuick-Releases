@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-04T06:42:36.836272Z",
+  "generatedAt": "2026-08-08T16:54:08.620798Z",
   "releases": [
+    {
+      "version": "2.11.74",
+      "build": "337",
+      "title": "NameQuick 2.11.74",
+      "publishedAt": "2026-08-08T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.74.html",
+      "excerpt": "Cloud API keys are checked before you rely on them. Adding a key now runs a quick test request, so a key without credit or billing set up tells you right away what to fix instead of failing on every rename later.",
+      "highlights": [
+        "Cloud API keys are checked before you rely on them. Adding a key now runs a quick test request, so a key without credit or billing set up tells you right away what to fix instead of failing on every rename later.",
+        "Clearer status for automatically adjusted names. When NameQuick adds a counter or shortens a name to avoid a conflict, the file now appears as successfully Adjusted in the list, grid, and inspector instead of incorrectly asking for review.",
+        "Fixed purchases being reported as failed while you were still checking out. Taking your time in the browser no longer causes NameQuick to give up on the purchase or trial. The app now waits for checkout to finish before it starts counting.",
+        "Fixed upgrades failing without any message. If activation cannot complete after a purchase, NameQuick now says so clearly and gives you a way to try again."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.73",
       "build": "336",
@@ -15,7 +31,7 @@
         "Cloud files stay online until they are needed. Adding and indexing a cloud folder no longer downloads every online-only file. NameQuick keeps placeholders visible and downloads content when it processes a file for renaming.",
         "Duplicate Detection now identifies online-only files it has not checked. NameQuick keeps these files visible and lets you choose when to download and scan them instead of treating an unchecked cloud folder as duplicate-free."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.72",
