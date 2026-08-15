@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-08T16:54:08.620798Z",
+  "generatedAt": "2026-08-15T13:23:26.653208Z",
   "releases": [
+    {
+      "version": "2.11.75",
+      "build": "338",
+      "title": "NameQuick 2.11.75",
+      "publishedAt": "2026-08-15T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.75.html",
+      "excerpt": "Review unavailable files in one place. NameQuick now gathers files it can no longer find into a focused list, where you can check them again or remove their library entries without deleting anything from your Mac.",
+      "highlights": [
+        "Review unavailable files in one place. NameQuick now gathers files it can no longer find into a focused list, where you can check them again or remove their library entries without deleting anything from your Mac.",
+        "Watch Folder problems no longer fail silently. If file indexing cannot start, NameQuick now explains that Watch Folders are not being checked and lets you try again or copy details for support.",
+        "Clearer status labels across the app. Queued files now use the same wording in the list and inspector, and finished suggestions are clearly marked Ready to apply.",
+        "Fixed completed renames being processed again. NameQuick now recognizes files it already renamed even when iCloud Drive or another synced location reports the change later or after reopening the app."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.74",
       "build": "337",
@@ -15,7 +31,7 @@
         "Fixed purchases being reported as failed while you were still checking out. Taking your time in the browser no longer causes NameQuick to give up on the purchase or trial. The app now waits for checkout to finish before it starts counting.",
         "Fixed upgrades failing without any message. If activation cannot complete after a purchase, NameQuick now says so clearly and gives you a way to try again."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.73",

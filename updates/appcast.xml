@@ -3,61 +3,41 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.74</title>
-            <pubDate>Sat, 08 Aug 2026 18:53:37 +0200</pubDate>
-            <sparkle:version>337</sparkle:version>
-            <sparkle:shortVersionString>2.11.74</sparkle:shortVersionString>
+            <title>2.11.75</title>
+            <pubDate>Sat, 15 Aug 2026 15:22:56 +0200</pubDate>
+            <sparkle:version>338</sparkle:version>
+            <sparkle:shortVersionString>2.11.75</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-08-08</p>
+            <description><![CDATA[<p>Release date: 2026-08-15</p>
 <h2 id="new">New</h2>
+<ul>
+<li><strong>Review unavailable files in one place.</strong> NameQuick
+now gathers files it can no longer find into a focused list, where you
+can check them again or remove their library entries without deleting
+anything from your Mac.</li>
+</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Cloud API keys are checked before you rely on them.</strong>
-Adding a key now runs a quick test request, so a key without credit or
-billing set up tells you right away what to fix instead of failing on
-every rename later.</li>
-<li><strong>Clearer status for automatically adjusted names.</strong>
-When NameQuick adds a counter or shortens a name to avoid a conflict,
-the file now appears as successfully Adjusted in the list, grid, and
-inspector instead of incorrectly asking for review.</li>
+<li><strong>Watch Folder problems no longer fail silently.</strong> If
+file indexing cannot start, NameQuick now explains that Watch Folders
+are not being checked and lets you try again or copy details for
+support.</li>
+<li><strong>Clearer status labels across the app.</strong> Queued files
+now use the same wording in the list and inspector, and finished
+suggestions are clearly marked Ready to apply.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed purchases being reported as failed while you were
-still checking out.</strong> Taking your time in the browser no longer
-causes NameQuick to give up on the purchase or trial. The app now waits
-for checkout to finish before it starts counting.</li>
-<li><strong>Fixed upgrades failing without any message.</strong> If
-activation cannot complete after a purchase, NameQuick now says so
-clearly and gives you a way to try again.</li>
-<li><strong>Fixed a stopped local AI server failing your whole
-batch.</strong> When LM Studio or Ollama stops responding partway
-through, remaining files now wait and continue once the provider is
-back, and messages tell you whether the server is offline, the model is
-not loaded, or the model is missing.</li>
-<li><strong>Fixed Stop allowing the rest of a batch to
-continue.</strong> Stopping Smart Rename now cancels the current run and
-prevents remaining queued files from starting.</li>
-<li><strong>Fixed brief Managed AI interruptions failing files
-immediately.</strong> NameQuick now retries temporary service errors and
-offers Rerun if the service is still unavailable.</li>
-<li><strong>Fixed the first pass of a Watch Folder using the toolbar’s
-naming option.</strong> Files already in a newly added folder now use
-the preset selected for that folder.</li>
-<li><strong>Fixed cloud Watch Folders getting stuck after a partial
-scan.</strong> NameQuick now keeps indexing the files it can read while
-protecting files in temporarily unavailable locations, so one
-unavailable path no longer freezes the whole folder.</li>
-<li><strong>Fixed cloud-file renames showing a name that was not
-actually applied.</strong> NameQuick now verifies the result on disk and
-keeps the file list and History aligned if a storage provider delays or
-reverses a rename.</li>
-<li><strong>Fixed repeated notification permission prompts.</strong>
-NameQuick no longer asks again after you decline, and Settings shows
-declined notifications as a choice rather than an error.</li>
+<li><strong>Fixed completed renames being processed again.</strong>
+NameQuick now recognizes files it already renamed even when iCloud Drive
+or another synced location reports the change later or after reopening
+the app.</li>
+<li><strong>Fixed template separators reverting.</strong> Spaces and
+other separators selected between template fields now stay saved and are
+used when filenames are generated.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.74/NameQuick-2.11.74.dmg" length="84138122" type="application/octet-stream" sparkle:edSignature="C88nYJz5fhaRY7vlkogHYMQQebjtNBfZDMS+hRQFQel6T+n3IJm04AAni7HRV1JNK5+oG3utDg0Wp34i63c9AA=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.75/NameQuick-2.11.75.dmg" length="84285769" type="application/octet-stream" sparkle:edSignature="NNBSnSfWpWeT6Myh0PpYfX3f8+tBXwsAq8o8oesUPT9S1eBjRR/OZ1fDjCZgodjmz/MsYjX6G7V/50JHrgwgDA=="/>
         </item>
     </channel>
 </rss>
