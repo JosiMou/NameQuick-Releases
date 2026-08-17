@@ -3,41 +3,25 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.75</title>
-            <pubDate>Sat, 15 Aug 2026 15:22:56 +0200</pubDate>
-            <sparkle:version>338</sparkle:version>
-            <sparkle:shortVersionString>2.11.75</sparkle:shortVersionString>
+            <title>2.11.76</title>
+            <pubDate>Mon, 17 Aug 2026 21:12:39 +0200</pubDate>
+            <sparkle:version>339</sparkle:version>
+            <sparkle:shortVersionString>2.11.76</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-08-15</p>
+            <description><![CDATA[<p>Release date: 2026-08-17</p>
 <h2 id="new">New</h2>
-<ul>
-<li><strong>Review unavailable files in one place.</strong> NameQuick
-now gathers files it can no longer find into a focused list, where you
-can check them again or remove their library entries without deleting
-anything from your Mac.</li>
-</ul>
 <h2 id="improvements">Improvements</h2>
-<ul>
-<li><strong>Watch Folder problems no longer fail silently.</strong> If
-file indexing cannot start, NameQuick now explains that Watch Folders
-are not being checked and lets you try again or copy details for
-support.</li>
-<li><strong>Clearer status labels across the app.</strong> Queued files
-now use the same wording in the list and inspector, and finished
-suggestions are clearly marked Ready to apply.</li>
-</ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed completed renames being processed again.</strong>
-NameQuick now recognizes files it already renamed even when iCloud Drive
-or another synced location reports the change later or after reopening
-the app.</li>
-<li><strong>Fixed template separators reverting.</strong> Spaces and
-other separators selected between template fields now stay saved and are
-used when filenames are generated.</li>
+<li><strong>Fixed Managed plan prices switching to dollars.</strong>
+Plan prices and checkout now consistently use the correct EUR or USD
+currency for your existing subscription or region.</li>
+<li><strong>Fixed delayed cloud updates renaming files a second
+time.</strong> Late updates from Google Drive and other synced folders
+no longer replace the name created by your Watch Folder preset.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.75/NameQuick-2.11.75.dmg" length="84285769" type="application/octet-stream" sparkle:edSignature="NNBSnSfWpWeT6Myh0PpYfX3f8+tBXwsAq8o8oesUPT9S1eBjRR/OZ1fDjCZgodjmz/MsYjX6G7V/50JHrgwgDA=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.76/NameQuick-2.11.76.dmg" length="84306898" type="application/octet-stream" sparkle:edSignature="4FCKHV/q5BCOUVhncL7lJLuRoiEEAtFUTP+hcVAMvcweySVYk4mjkSpR3liGwtGA+542VuEIPFE5Wtt83Dz3DA=="/>
         </item>
     </channel>
 </rss>

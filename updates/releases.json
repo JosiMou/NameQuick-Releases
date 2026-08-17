@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-08-15T13:23:26.653208Z",
+  "generatedAt": "2026-08-17T19:14:49.785607Z",
   "releases": [
+    {
+      "version": "2.11.76",
+      "build": "339",
+      "title": "NameQuick 2.11.76",
+      "publishedAt": "2026-08-17T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.76.html",
+      "excerpt": "Fixed Managed plan prices switching to dollars. Plan prices and checkout now consistently use the correct EUR or USD currency for your existing subscription or region.",
+      "highlights": [
+        "Fixed Managed plan prices switching to dollars. Plan prices and checkout now consistently use the correct EUR or USD currency for your existing subscription or region.",
+        "Fixed delayed cloud updates renaming files a second time. Late updates from Google Drive and other synced folders no longer replace the name created by your Watch Folder preset."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.75",
       "build": "338",
@@ -15,7 +29,7 @@
         "Clearer status labels across the app. Queued files now use the same wording in the list and inspector, and finished suggestions are clearly marked Ready to apply.",
         "Fixed completed renames being processed again. NameQuick now recognizes files it already renamed even when iCloud Drive or another synced location reports the change later or after reopening the app."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.74",
