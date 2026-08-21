@@ -3,25 +3,45 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.76</title>
-            <pubDate>Mon, 17 Aug 2026 21:12:39 +0200</pubDate>
-            <sparkle:version>339</sparkle:version>
-            <sparkle:shortVersionString>2.11.76</sparkle:shortVersionString>
+            <title>2.11.77</title>
+            <pubDate>Fri, 21 Aug 2026 11:03:48 +0200</pubDate>
+            <sparkle:version>340</sparkle:version>
+            <sparkle:shortVersionString>2.11.77</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>Release date: 2026-08-17</p>
+            <description><![CDATA[<p>Release date: 2026-08-21</p>
 <h2 id="new">New</h2>
 <h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Safer Watch Folders on network drives.</strong> NameQuick
+now pauses scanning when a network share disconnects, keeps its library
+entries intact, and resumes checking the folder when the share
+returns.</li>
+<li><strong>Smoother processing for PDF batches.</strong> NameQuick now
+prepares PDFs for AI in the background and uses less memory, keeping the
+app responsive when you add many PDFs at once or process them through a
+Watch Folder.</li>
+<li><strong>Less automatic network traffic for NAS folders.</strong>
+NameQuick now avoids reading entire files from SMB and AFP storage
+during background indexing and startup maintenance, while keeping those
+files visible in your library.</li>
+</ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed Managed plan prices switching to dollars.</strong>
-Plan prices and checkout now consistently use the correct EUR or USD
-currency for your existing subscription or region.</li>
-<li><strong>Fixed delayed cloud updates renaming files a second
-time.</strong> Late updates from Google Drive and other synced folders
-no longer replace the name created by your Watch Folder preset.</li>
+<li><strong>Fixed PDF pages being resized or clipped on macOS
+26.</strong> NameQuick now preserves each page’s original dimensions
+when preparing PDFs for AI, including landscape and other non-standard
+page sizes.</li>
+<li><strong>Fixed NAS files being processed again after
+reconnecting.</strong> Remounting an SMB share no longer makes every
+file appear changed, reapply rules across the folder, or repeat
+completed NameQuick renames.</li>
+<li><strong>Fixed misleading errors for disconnected drives.</strong>
+When a disk or network share is unavailable, NameQuick now tells you to
+reconnect it instead of suggesting that the files were moved or
+deleted.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.76/NameQuick-2.11.76.dmg" length="84306898" type="application/octet-stream" sparkle:edSignature="4FCKHV/q5BCOUVhncL7lJLuRoiEEAtFUTP+hcVAMvcweySVYk4mjkSpR3liGwtGA+542VuEIPFE5Wtt83Dz3DA=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.77/NameQuick-2.11.77.dmg" length="84260051" type="application/octet-stream" sparkle:edSignature="9j2jf+ZpfLppcEdO1TDubO5yig0QQOL5GhVaPOmMEfaI0r8kzVv7ePlXGGqsYqFc/tP/soqQahB+VoAFR54WDg=="/>
         </item>
     </channel>
 </rss>

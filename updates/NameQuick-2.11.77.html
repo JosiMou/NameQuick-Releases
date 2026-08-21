@@ -1,0 +1,32 @@
+<p>Release date: 2026-08-21</p>
+<h2 id="new">New</h2>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Safer Watch Folders on network drives.</strong> NameQuick
+now pauses scanning when a network share disconnects, keeps its library
+entries intact, and resumes checking the folder when the share
+returns.</li>
+<li><strong>Smoother processing for PDF batches.</strong> NameQuick now
+prepares PDFs for AI in the background and uses less memory, keeping the
+app responsive when you add many PDFs at once or process them through a
+Watch Folder.</li>
+<li><strong>Less automatic network traffic for NAS folders.</strong>
+NameQuick now avoids reading entire files from SMB and AFP storage
+during background indexing and startup maintenance, while keeping those
+files visible in your library.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed PDF pages being resized or clipped on macOS
+26.</strong> NameQuick now preserves each page’s original dimensions
+when preparing PDFs for AI, including landscape and other non-standard
+page sizes.</li>
+<li><strong>Fixed NAS files being processed again after
+reconnecting.</strong> Remounting an SMB share no longer makes every
+file appear changed, reapply rules across the folder, or repeat
+completed NameQuick renames.</li>
+<li><strong>Fixed misleading errors for disconnected drives.</strong>
+When a disk or network share is unavailable, NameQuick now tells you to
+reconnect it instead of suggesting that the files were moved or
+deleted.</li>
+</ul>

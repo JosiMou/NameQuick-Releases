@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-17T19:14:49.785607Z",
+  "generatedAt": "2026-08-21T09:04:24.252358Z",
   "releases": [
+    {
+      "version": "2.11.77",
+      "build": "340",
+      "title": "NameQuick 2.11.77",
+      "publishedAt": "2026-08-21T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.77.html",
+      "excerpt": "Safer Watch Folders on network drives. NameQuick now pauses scanning when a network share disconnects, keeps its library entries intact, and resumes checking the folder when the share returns.",
+      "highlights": [
+        "Safer Watch Folders on network drives. NameQuick now pauses scanning when a network share disconnects, keeps its library entries intact, and resumes checking the folder when the share returns.",
+        "Smoother processing for PDF batches. NameQuick now prepares PDFs for AI in the background and uses less memory, keeping the app responsive when you add many PDFs at once or process them through a Watch Folder.",
+        "Less automatic network traffic for NAS folders. NameQuick now avoids reading entire files from SMB and AFP storage during background indexing and startup maintenance, while keeping those files visible in your library.",
+        "Fixed PDF pages being resized or clipped on macOS 26. NameQuick now preserves each page\u2019s original dimensions when preparing PDFs for AI, including landscape and other non-standard page sizes."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.76",
       "build": "339",
@@ -13,7 +29,7 @@
         "Fixed Managed plan prices switching to dollars. Plan prices and checkout now consistently use the correct EUR or USD currency for your existing subscription or region.",
         "Fixed delayed cloud updates renaming files a second time. Late updates from Google Drive and other synced folders no longer replace the name created by your Watch Folder preset."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.75",
