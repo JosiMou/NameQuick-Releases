@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-08-21T09:04:24.252358Z",
+  "generatedAt": "2026-08-21T17:58:12.831279Z",
   "releases": [
+    {
+      "version": "2.11.78",
+      "build": "341",
+      "title": "NameQuick 2.11.78",
+      "publishedAt": "2026-08-21T00:00:00Z",
+      "downloadUrl": null,
+      "releaseNotesUrl": "https://josimou.github.io/NameQuick-Releases/updates/NameQuick-2.11.78.html",
+      "excerpt": "More resilient Watch Folders after network shares reconnect. If macOS remounts the same share under a different name, NameQuick now reconnects the Watch Folder and keeps its library entries and automation in place.",
+      "highlights": [
+        "More resilient Watch Folders after network shares reconnect. If macOS remounts the same share under a different name, NameQuick now reconnects the Watch Folder and keeps its library entries and automation in place.",
+        "Fixed Watch Folders applying the wrong naming instructions. Files processed again now keep the folder\u2019s assigned Smart Rename or custom prompt setting instead of falling back to a different naming setup.",
+        "Fixed repeated processing after NameQuick renames files on network shares. Watch Folders now recognize completed renames even when SMB cannot provide the usual file identity details."
+      ],
+      "isLatest": true
+    },
     {
       "version": "2.11.77",
       "build": "340",
@@ -15,7 +30,7 @@
         "Less automatic network traffic for NAS folders. NameQuick now avoids reading entire files from SMB and AFP storage during background indexing and startup maintenance, while keeping those files visible in your library.",
         "Fixed PDF pages being resized or clipped on macOS 26. NameQuick now preserves each page\u2019s original dimensions when preparing PDFs for AI, including landscape and other non-standard page sizes."
       ],
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "2.11.76",

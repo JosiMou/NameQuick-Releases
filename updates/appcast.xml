@@ -3,45 +3,32 @@
     <channel>
         <title>NameQuick</title>
         <item>
-            <title>2.11.77</title>
-            <pubDate>Fri, 21 Aug 2026 11:03:48 +0200</pubDate>
-            <sparkle:version>340</sparkle:version>
-            <sparkle:shortVersionString>2.11.77</sparkle:shortVersionString>
+            <title>2.11.78</title>
+            <pubDate>Fri, 21 Aug 2026 19:57:42 +0200</pubDate>
+            <sparkle:version>341</sparkle:version>
+            <sparkle:shortVersionString>2.11.78</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
             <description><![CDATA[<p>Release date: 2026-08-21</p>
 <h2 id="new">New</h2>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Safer Watch Folders on network drives.</strong> NameQuick
-now pauses scanning when a network share disconnects, keeps its library
-entries intact, and resumes checking the folder when the share
-returns.</li>
-<li><strong>Smoother processing for PDF batches.</strong> NameQuick now
-prepares PDFs for AI in the background and uses less memory, keeping the
-app responsive when you add many PDFs at once or process them through a
-Watch Folder.</li>
-<li><strong>Less automatic network traffic for NAS folders.</strong>
-NameQuick now avoids reading entire files from SMB and AFP storage
-during background indexing and startup maintenance, while keeping those
-files visible in your library.</li>
+<li><strong>More resilient Watch Folders after network shares
+reconnect.</strong> If macOS remounts the same share under a different
+name, NameQuick now reconnects the Watch Folder and keeps its library
+entries and automation in place.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Fixed PDF pages being resized or clipped on macOS
-26.</strong> NameQuick now preserves each page’s original dimensions
-when preparing PDFs for AI, including landscape and other non-standard
-page sizes.</li>
-<li><strong>Fixed NAS files being processed again after
-reconnecting.</strong> Remounting an SMB share no longer makes every
-file appear changed, reapply rules across the folder, or repeat
-completed NameQuick renames.</li>
-<li><strong>Fixed misleading errors for disconnected drives.</strong>
-When a disk or network share is unavailable, NameQuick now tells you to
-reconnect it instead of suggesting that the files were moved or
-deleted.</li>
+<li><strong>Fixed Watch Folders applying the wrong naming
+instructions.</strong> Files processed again now keep the folder’s
+assigned Smart Rename or custom prompt setting instead of falling back
+to a different naming setup.</li>
+<li><strong>Fixed repeated processing after NameQuick renames files on
+network shares.</strong> Watch Folders now recognize completed renames
+even when SMB cannot provide the usual file identity details.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.77/NameQuick-2.11.77.dmg" length="84260051" type="application/octet-stream" sparkle:edSignature="9j2jf+ZpfLppcEdO1TDubO5yig0QQOL5GhVaPOmMEfaI0r8kzVv7ePlXGGqsYqFc/tP/soqQahB+VoAFR54WDg=="/>
+            <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v2.11.78/NameQuick-2.11.78.dmg" length="84326178" type="application/octet-stream" sparkle:edSignature="wIDvk0OP89d6kceZponA6rSy91bKH7zYHyxHanSJwlKpZm62g7mIj9TaE0fwCvMiOqFNTmAPfo3N+Kule/S6CA=="/>
         </item>
     </channel>
 </rss>

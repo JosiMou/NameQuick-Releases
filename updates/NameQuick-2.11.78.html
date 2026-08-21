@@ -1,0 +1,19 @@
+<p>Release date: 2026-08-21</p>
+<h2 id="new">New</h2>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>More resilient Watch Folders after network shares
+reconnect.</strong> If macOS remounts the same share under a different
+name, NameQuick now reconnects the Watch Folder and keeps its library
+entries and automation in place.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Fixed Watch Folders applying the wrong naming
+instructions.</strong> Files processed again now keep the folder’s
+assigned Smart Rename or custom prompt setting instead of falling back
+to a different naming setup.</li>
+<li><strong>Fixed repeated processing after NameQuick renames files on
+network shares.</strong> Watch Folders now recognize completed renames
+even when SMB cannot provide the usual file identity details.</li>
+</ul>
