@@ -3,10 +3,10 @@
     <channel>
         <title>NameQuick</title>
 <item>
-    <title>3.0.51</title>
+    <title>3.0.52</title>
     <pubDate>Sat, 31 Oct 2026 13:23:07 +0100</pubDate>
-    <sparkle:version>451</sparkle:version>
-    <sparkle:shortVersionString>3.0.51</sparkle:shortVersionString>
+    <sparkle:version>452</sparkle:version>
+    <sparkle:shortVersionString>3.0.52</sparkle:shortVersionString>
     <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
     <sparkle:minimumAutoupdateVersion>400</sparkle:minimumAutoupdateVersion>
     <sparkle:phasedRolloutInterval>2592000</sparkle:phasedRolloutInterval>
@@ -223,7 +223,7 @@ Versão</strong>.</p>
 </ul>
 <h2>旧アプリに戻すには</h2>
 <p>NameQuick 2は引き続きnamequick.appからダウンロードできます。NameQuick 3の上にインストールすると、ライセンスまたはアカウント、プリセット、ルールが以前のままの状態で開きます。事前に認証を解除する必要はありません。NameQuick 3でこのMacの認証を解除した場合は、NameQuick 2でライセンスキーを再度入力する必要があります。NameQuick 3で行った変更はNameQuick 2には反映されません。NameQuick 2でライセンスが別のMacで使用中と表示された場合は、support@namequick.appまでご連絡ください。NameQuick 2がこのアップデートを再び案内したら、<strong>「Skip This Version」</strong>を選んでください（NameQuick 2は日本語に対応していないため、このボタンは英語で表示されます）。</p>]]></description>
-    <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v3.0.51/NameQuick-3.0.51.tar.gz" length="79457892" type="application/octet-stream" sparkle:edSignature="13KpvpGGE+jNlzLv0rZZow83CRYrrj+MB7SHxB1/hTVpiK58U4HP5zjopEzHaYgXZWj51TwtLqv5LeNMVInYAw=="/>
+    <enclosure url="https://github.com/JosiMou/NameQuick-Releases/releases/download/v3.0.52/NameQuick-3.0.52.tar.gz" length="79438987" type="application/octet-stream" sparkle:edSignature="LDGhGRFixufJniUGrggHT/Lf9rP97nVXNjblTMp7TY9SjULM60Mw83GjIs9DUVvwwOMXWCesEy29a5vZd7ZVDA=="/>
 </item>
         <item>
             <title>2.11.78</title>
